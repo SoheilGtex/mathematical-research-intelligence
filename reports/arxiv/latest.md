@@ -4,8 +4,8 @@ Automated research snapshot based on arXiv metadata.
 
 ## Research Coverage
 
-- Unique papers: **19**
-- Cross-category papers: **1**
+- Unique papers: **20**
+- Cross-category papers: **0**
 - Research categories: **4**
 
 ## Category Distribution
@@ -21,16 +21,16 @@ Automated research snapshot based on arXiv metadata.
 
 | Published | Paper | Categories |
 |---|---|---|
-| 2026-10-15 | [The rank problem for metric spaces](https://arxiv.org/abs/2610.22351) | math.LO |
-| 2026-10-15 | [Differential equations as difference-differential equations](https://arxiv.org/abs/2610.22317) | math.LO, math.RA |
-| 2026-10-15 | [Real-Arithmetic Sketched Eigensolvers for Symmetric Matrices](https://arxiv.org/abs/2610.22261) | math.NA |
-| 2026-10-15 | [The ReLU Matrix Decomposition: NP-Hardness, Ill-Posedness, and ReLU-Rank](https://arxiv.org/abs/2610.22255) | math.NA |
-| 2026-10-15 | [Evolution algebras: a survey of results and a list of open problems](https://arxiv.org/abs/2610.22248) | math.RA |
-| 2026-10-15 | [An infinite completely normal basis theorem](https://arxiv.org/abs/2610.22247) | math.RA |
-| 2026-10-15 | [A quantitative form of the planar Falconer distance theorem](https://arxiv.org/abs/2610.22222) | math.CA |
-| 2026-10-15 | [Classification of bipartite observables III: simplicity, mixtures and quantum error correction](https://arxiv.org/abs/2610.22205) | math.LO |
-| 2026-10-15 | [Change the Number, Change the Answer: Assessing Rating Scale Sensitivity in LLM-Based Text Scoring](https://arxiv.org/abs/2610.22187) | math.NA |
-| 2026-10-15 | [An undecidable problem in dynamics](https://arxiv.org/abs/2610.22123) | math.LO |
+| 2026-10-16 | [A generalised and modular proof-theoretic semantics for sequent systems](https://arxiv.org/abs/2610.23822) | math.LO |
+| 2026-10-16 | [On extremal problems related to the Krzyż conjecture](https://arxiv.org/abs/2610.23817) | math.CA |
+| 2026-10-16 | [Constructions and reductions on the Hornich-Hlawka inequality and its generalizations](https://arxiv.org/abs/2610.23785) | math.CA |
+| 2026-10-16 | [Error analysis of a backward L2 method on graded meshes for linear and semilinear subdiffusion equations](https://arxiv.org/abs/2610.23780) | math.NA |
+| 2026-10-16 | [Toward Spectral Deferred Correction Methods for Stochastic Differential Equations](https://arxiv.org/abs/2610.23693) | math.NA |
+| 2026-10-16 | [The semiring of spectral duality skeletons: cancellation, characters and factorization](https://arxiv.org/abs/2610.23684) | math.RA |
+| 2026-10-16 | [Asymptotic gradient regularity for degenerate or singular fully nonlinear parabolic equations](https://arxiv.org/abs/2610.23683) | math.CA |
+| 2026-10-16 | [Sharp $L^6$ Fourier moments and (3,$δ$)-energy estimates for fractal measures on the truncated cone in $\\R^3$](https://arxiv.org/abs/2610.23679) | math.CA |
+| 2026-10-16 | [On the asymptotic growth of the norm of the partial sum operator on $\\mathscr H^1$](https://arxiv.org/abs/2610.23666) | math.CA |
+| 2026-10-16 | [A Mixed Elliptic--Hyperbolic Monge--Ampère Problem: Modeling and a Least-Squares Solver](https://arxiv.org/abs/2610.23544) | math.NA |
 
 ## Methodology
 
