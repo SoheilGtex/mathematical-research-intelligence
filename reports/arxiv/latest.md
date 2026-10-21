@@ -4,8 +4,8 @@ Automated research snapshot based on arXiv metadata.
 
 ## Research Coverage
 
-- Unique papers: **20**
-- Cross-category papers: **0**
+- Unique papers: **19**
+- Cross-category papers: **1**
 - Research categories: **4**
 
 ## Category Distribution
@@ -21,16 +21,16 @@ Automated research snapshot based on arXiv metadata.
 
 | Published | Paper | Categories |
 |---|---|---|
-| 2026-10-19 | [Muckenhoupt weights for the Hardy-Littlewood maximal operator on hyperbolic spaces](https://arxiv.org/abs/2610.26818) | math.CA |
-| 2026-10-19 | [Tight lower bounds for Lipschitz geodesically convex optimization on hyperbolic space](https://arxiv.org/abs/2610.26815) | math.NA |
-| 2026-10-19 | [An Efficient Open-Source Framework for Thermohygromechanical Phase-Field Simulation of Drying Damage Refractory Castables](https://arxiv.org/abs/2610.26752) | math.NA |
-| 2026-10-19 | [A boundary integral method for computing electron repulsion integrals in heterogeneous dielectric environments](https://arxiv.org/abs/2610.26745) | math.NA |
-| 2026-10-19 | [Polar Switch: Fast Muon Orthogonalization with Polynomial Circuits](https://arxiv.org/abs/2610.26742) | math.NA |
-| 2026-10-19 | [The Riemann zeta function at the zeros of real-rooted trigonometric polynomials](https://arxiv.org/abs/2610.26705) | math.CA |
-| 2026-10-19 | [The two-step spectral locus of the octonionic structure operator](https://arxiv.org/abs/2610.26613) | math.RA |
-| 2026-10-19 | [A robust finite element method for incompressible magnetohydrodynamics using Whitney forms](https://arxiv.org/abs/2610.26606) | math.NA |
-| 2026-10-19 | [Limits of Besov Norms on Quantum Euclidean Spaces](https://arxiv.org/abs/2610.26463) | math.CA |
-| 2026-10-19 | [Sublinear Michaux-Villemaire over $(\\mathbb{N}, +, k^\\mathbb{N})$](https://arxiv.org/abs/2610.26409) | math.LO |
+| 2026-10-20 | [A Statistical Imaging Framework for Inverse Obstacle Scattering and Its Resolution Analysis](https://arxiv.org/abs/2610.28553) | math.NA |
+| 2026-10-20 | [Strong Convergence of Fully Discrete Tamed Euler Approximations for Time-Changed Stochastic Delay Differential Equations](https://arxiv.org/abs/2610.28552) | math.NA |
+| 2026-10-20 | [New Newton-type inequality and a unified perspective on Maclaurin's inequality via the inclusion relations of cones](https://arxiv.org/abs/2610.28544) | math.CA |
+| 2026-10-20 | [Photonic band structure by direct second-kind free-space boundary integral equations](https://arxiv.org/abs/2610.28494) | math.NA |
+| 2026-10-20 | [Counting Bessel zeros and applications](https://arxiv.org/abs/2610.28477) | math.CA, math.LO |
+| 2026-10-20 | [Linear Axiomatization of Linear Differential Equations](https://arxiv.org/abs/2610.28460) | math.LO |
+| 2026-10-20 | [Sharp Bounds for Nodal Sets of Steklov Eigenfunctions on Smooth Surfaces](https://arxiv.org/abs/2610.28391) | math.CA |
+| 2026-10-20 | [Fast and scalable multi-GPU sliced FFT solvers for asymptotically compatible discretizations of 3D nonlocal diffusion problems](https://arxiv.org/abs/2610.28372) | math.NA |
+| 2026-10-20 | [First-Order Mean Field Games with Time-Measurable and $C ^{1,1}$ Hamiltonians: Analysis and Approximation](https://arxiv.org/abs/2610.28335) | math.NA |
+| 2026-10-20 | [Spherical harmonics and infinitesimal projective transformations](https://arxiv.org/abs/2610.28320) | math.CA |
 
 ## Methodology
 
