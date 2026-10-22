@@ -10,7 +10,7 @@
     "unique_ids": true,
     "valid_publication_dates": true
   },
-  "cross_listed_papers": 1,
+  "cross_listed_papers": 0,
   "issues": {
     "duplicate_ids": [],
     "invalid_date_ids": [],
@@ -18,10 +18,10 @@
     "missing_abstract_ids": []
   },
   "publication_window": {
-    "earliest": "2026-10-19",
-    "latest": "2026-10-20"
+    "earliest": "2026-10-20",
+    "latest": "2026-10-21"
   },
   "schema_version": 1,
   "source": "arxiv",
-  "total_papers": 19
+  "total_papers": 20
 }
