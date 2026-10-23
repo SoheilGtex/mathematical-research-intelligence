@@ -4,8 +4,8 @@ Automated research snapshot based on arXiv metadata.
 
 ## Research Coverage
 
-- Unique papers: **20**
-- Cross-category papers: **0**
+- Unique papers: **18**
+- Cross-category papers: **2**
 - Research categories: **4**
 
 ## Category Distribution
@@ -21,16 +21,16 @@ Automated research snapshot based on arXiv metadata.
 
 | Published | Paper | Categories |
 |---|---|---|
-| 2026-10-21 | [Scaling H2 Factorization to Billion-Unknown Three-Dimensional Problems](https://arxiv.org/abs/2610.30131) | math.NA |
-| 2026-10-21 | [A linear, second-order, unconditionally energy-stable scalar-auxiliary-variable scheme for the CHQ viscoelastic phase-separation model](https://arxiv.org/abs/2610.30077) | math.NA |
-| 2026-10-21 | [When Windowed Anderson Acceleration Converges Faster](https://arxiv.org/abs/2610.30073) | math.NA |
-| 2026-10-21 | [Unitary similarity for dual complex matrices and dual quaternion matrices](https://arxiv.org/abs/2610.30060) | math.RA |
-| 2026-10-21 | [Multiplying matrices via polynomials: exposition and barriers](https://arxiv.org/abs/2610.30054) | math.RA |
-| 2026-10-21 | [A PDE-theory-guided neural operator and the long-time relaxation of the two-dimensional anisotropic Boussinesq system](https://arxiv.org/abs/2610.29938) | math.NA |
-| 2026-10-21 | [Tractable Inference with Kolmogorov-Arnold Networks](https://arxiv.org/abs/2610.29909) | math.NA |
-| 2026-10-21 | [A bounded Borel set in the plane none of whose orthogonal projections is Borel](https://arxiv.org/abs/2610.29809) | math.CA |
-| 2026-10-21 | [Duality in Harmonic Analysis and beyond](https://arxiv.org/abs/2610.29803) | math.CA |
-| 2026-10-21 | [Logic vs doctrines, a mirror symmetry](https://arxiv.org/abs/2610.29771) | math.LO |
+| 2026-10-22 | [Phase Transition from Random Features to Fully Trainable Networks](https://arxiv.org/abs/2610.31663) | math.NA |
+| 2026-10-22 | [Groups satisfying the minimal condition on centralizers are complete co-analytic](https://arxiv.org/abs/2610.31601) | math.LO |
+| 2026-10-22 | [Properties of theories whose algebras are free](https://arxiv.org/abs/2610.31599) | math.LO, math.RA |
+| 2026-10-22 | [Searching for the power rangers](https://arxiv.org/abs/2610.31548) | math.LO |
+| 2026-10-22 | [Convex Bernstein limits and sharp recovery on expanding intervals](https://arxiv.org/abs/2610.31546) | math.CA, math.NA |
+| 2026-10-22 | [A sharpened $L^8_t L^4_x$-Strichartz estimate for even initial data](https://arxiv.org/abs/2610.31543) | math.CA |
+| 2026-10-22 | [A spectral multiplier theorem for fractional Hardy operators](https://arxiv.org/abs/2610.31532) | math.CA |
+| 2026-10-22 | [Structure-preserving reduced-order models of thin panels in supersonic and hypersonic flow](https://arxiv.org/abs/2610.31504) | math.NA |
+| 2026-10-22 | [Mixed-Precision Coalesced Matrix-Free Multigrid with Vertex-Patch Smoothing](https://arxiv.org/abs/2610.31496) | math.NA |
+| 2026-10-22 | [Conservative Finite Element Methods for Kirchhoff-Type Equations](https://arxiv.org/abs/2610.31487) | math.NA |
 
 ## Methodology
 
