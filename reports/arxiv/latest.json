@@ -1,14 +1,201 @@
 {
   "papers": [
     {
-      "arxiv_id": "2610.31663",
+      "arxiv_id": "2610.32922",
+      "categories": [
+        "math.CA"
+      ],
+      "published": "2026-10-23T17:21:39Z",
+      "summary": "We give a direct proof of the equivalence between the Muckenhoupt $\\mathcal{A}_2$ and the Helson--Szegő conditions on the unit circle $T$. A positive weight $w$ belongs to $\\mathcal{A}_2(T)$ if and only if $\\log w=u+Hv$, where $u,v$ are real bounded functions, $\\|v\\|_\\infty<\\fracπ{2}$, and $H$ denotes the periodic Hilbert transform. The classical proof combines the Helson--Szegő theorem with the Hunt--Muckenhoupt--Wheeden characterization of weighted boundedness of the Hilbert transform. Our proof derives the Helson--Szegő representation directly from the Muckenhoupt $\\mathcal{A}_2$ condition, without using boundedness of $H$ on $L^2(w)$.",
+      "title": "A direct proof of the equivalence of the A2 and the Helson--Szego conditions",
+      "url": "https://arxiv.org/abs/2610.32922",
+      "version": 1
+    },
+    {
+      "arxiv_id": "2610.32897",
+      "categories": [
+        "math.RA"
+      ],
+      "published": "2026-10-23T17:01:32Z",
+      "summary": "The cyclicity index is used to study the periodic behavior of powers of tropical matrices. It is determined by the structure of the critical subgraph of a matrix, which consists of the cycles with the largest average weight. In this paper bijective linear transformations of tropical matrices that preserve an individual value $k\\neq 2$ of this invariant are studied.",
+      "title": "Linear transformations of tropical matrices preserving individual values of the cyclicity index",
+      "url": "https://arxiv.org/abs/2610.32897",
+      "version": 1
+    },
+    {
+      "arxiv_id": "2610.32873",
+      "categories": [
+        "math.CA"
+      ],
+      "published": "2026-10-23T16:44:18Z",
+      "summary": "We disprove the cap-sufficiency proposal in Wright's Problem 16 for $1<p<(\\sqrt{13}-1)/2$ and for $p>3$. For each fixed exponent in these ranges, one smooth strictly convex domain has finite original directional cap integral, while the lacunary maximal operator of complete arclength fails restricted weak type. We also give a geometric sufficient condition for strong $L^p$ boundedness, for every finite $1<p<\\infty$, on an arbitrary given bounded convex domain. It requires one logarithmic integral of a curvature lower envelope, without a differentiability assumption on the boundary or a restriction on the number of curvature zeros. Both results concern unnormalised true arclength, one fixed interior origin and all integer dyadic dilations.",
+      "title": "Lacunary maximal operators on convex boundaries",
+      "url": "https://arxiv.org/abs/2610.32873",
+      "version": 1
+    },
+    {
+      "arxiv_id": "2610.32810",
       "categories": [
         "math.NA"
       ],
-      "published": "2026-10-22T17:59:29Z",
-      "summary": "Constructing accurate and computationally tractable approximation spaces is a fundamental task in scientific computing. Partially trainable neural networks bridge fixed random features and fully adaptive representations. This paper quantifies a phase transition pattern in approximation bounds and observes analogous behavior in training errors: a rapid but smooth initial improvement followed by diminishing returns, with a sharper transition under greater initialization mismatch. Under polynomial spectral decay with exponent $α>1$ and leverage compatibility, we establish a squared $L_2$ approximation rate $\\mathcal{O}((κ_P\\log(m/δ)/m)^α)$ for two-layer networks of width $m$ and trainable proportion $P$, where $κ_P=(P/κ_1^*+(1-P)/κ_0^*)^{-1}$. The bound holds uniformly over the unit ball of a reproducing kernel Hilbert space (RKHS) with probability at least $1-δ$. The constants $κ_0^*$ and $κ_1^*$ quantify the fixed and trainable groups' sampling mismatches relative to the target RKHS. For spherical biased-ReLU features in dimension $d$, we verify these assumptions with $α=(d+2)/(d-1)$ and $κ_0^*=4\\sqrt{2}τ(d+1)/d$ for initialization scale $τ\\ge1$, and $κ_1^*=1$ under ridge leverage sampling. For $d=5$ and $τ=10$, a trainable proportion of approximately $4.1\\%$ captures $90\\%$ of the reduction in the approximation bound from $P=0$ to $P=1$. A structured three-layer example illustrates how a few trainable first-layer neurons exploit fixed downstream blocks through nonlinear composition. Numerical experiments across diverse settings, including networks with up to 15 layers, exhibit similar phase transitions in training errors.",
-      "title": "Phase Transition from Random Features to Fully Trainable Networks",
-      "url": "https://arxiv.org/abs/2610.31663",
+      "published": "2026-10-23T15:46:41Z",
+      "summary": "A linear monodimensional lattice Boltzmann scheme with three velocities tackling the advection equation is investigated. We prove that it is second-order accurate and provide necessary and sufficient stability conditions through an explicit formula involving the two relaxation parameters. Relying on existing results for finite difference schemes, we prove convergence for smooth initial data with initialization of the non-conserved moments at equilibrium. Several numerical simulations illustrate these theoretical findings.",
+      "title": "Numerical analysis of a Lax-Wendroff type lattice Boltzmann scheme for the advection equation",
+      "url": "https://arxiv.org/abs/2610.32810",
+      "version": 1
+    },
+    {
+      "arxiv_id": "2610.32808",
+      "categories": [
+        "math.CA"
+      ],
+      "published": "2026-10-23T15:45:49Z",
+      "summary": "We prove sharp bounds for the upper and lower intermediate dimensions of orthogonal and radial projections of compactly supported measures. Both dimension functions are preserved almost everywhere when the quasi-Assouad dimension does not exceed the target dimension. We obtain exceptional-set estimates using the entire source dimension function, with sharpness for explicit families. We also construct a fixed measure whose projected dimension functions vary on open direction sets, even when all source dimensions lie below the target dimension.",
+      "title": "Sharp Projection Bounds for Intermediate Dimensions of Measures",
+      "url": "https://arxiv.org/abs/2610.32808",
+      "version": 1
+    },
+    {
+      "arxiv_id": "2610.32801",
+      "categories": [
+        "math.NA"
+      ],
+      "published": "2026-10-23T15:40:23Z",
+      "summary": "We learn schedules for a continuous penalty relaxation of MAX-CUT by backpropagating through an unrolled classical solver. A state-blind schedule generalizes to instances substantially larger than those used for training. A state-adaptive bilinear schedule also generalizes out of distribution, outperforming its untrained baseline across 15 seeds ($t=4.1$). By contrast, an additive ablation with identical inputs and output heads is statistically indistinguishable from the bilinear model in distribution but performs worse than its own baseline out of distribution ($t=-11.7$). This separation appears without regularization and persists across a $30$ round weight-decay sweep: the bilinear advantage remains significant at every tested value, whereas the additive model never recovers. The results in this setting isolate how solver state enters the schedule, rather than state adaptivity alone, as the architectural distinction associated with out-of-distribution transfer.",
+      "title": "Multiplicative vs. Additive State Coupling in Learned Optimizer Schedules",
+      "url": "https://arxiv.org/abs/2610.32801",
+      "version": 1
+    },
+    {
+      "arxiv_id": "2610.32769",
+      "categories": [
+        "math.CA"
+      ],
+      "published": "2026-10-23T15:10:08Z",
+      "summary": "The $S$-function method for rational second order ODEs $y''=\\varphi(x,y,y')$ uses $S=I_y/I_z$, attached to a first integral $I$, which satisfies a Riccati equation along the flow; it was designed for Liouvillian $I$. We study the case of rational $S$ with non-Liouvillian $I$. From any rational $g(x,y,z)$ with $g_z\\neq0$ and any linear equation $A_2w''+A_1w'+A_0w=0$ with polynomial coefficients, the substitution $w'/w=g(x,y,y')$ yields a rational 2ODE whose first integral is built from two independent solutions, and $S=g_y/g_z$: the Wronskian cancels, so $S$ does not see the linear equation, and one rational $S$ is shared by equations with and without Liouvillian first integrals. Conversely, given $(\\varphi,S)$, membership in this class reduces to a rational first integral of an explicit planar vector field plus a Möbius-invariant Riccati test in $x$, which recovers the linear equation. A transfer theorem shows that $I$ is Liouvillian if and only if this equation has a Liouvillian solution, so Liouvillianity is decidable on the class by Kovacic's algorithm: a three-variable problem with no a priori degree bound is reduced to two classical ones. On nine pull-back equations of degree up to $15$, given without information on their construction, the procedure recovers the Airy equation and the Bessel equation of order zero.",
+      "title": "Rational $S$-functions for second order ODEs with non-Liouvillian first integrals",
+      "url": "https://arxiv.org/abs/2610.32769",
+      "version": 1
+    },
+    {
+      "arxiv_id": "2610.32764",
+      "categories": [
+        "math.NA"
+      ],
+      "published": "2026-10-23T15:06:06Z",
+      "summary": "We examine the use of neural networks in conjunction with the Born approximation for solving the inverse scattering problem for a penetrable medium in the frequency domain. The goal is a fast method for determining the refractive index of a scatterer from multistatic far-field measurements at one frequency. We present a new neural network model that seeks to improve on our previous results in by sharpening the reconstructed images. In addition, we present two other networks motivated by the corrected Born method that avoid the need to invert the regularized Born operator. These latter algorithms will be important for future three dimensional applications when the inverse Born approximation is difficult to compute, or when near-field measurements are used. Computational results illustrate that the new corrections to the Born approximation can provide an accurate and flexible approach to the inverse scattering problem.",
+      "title": "Neural network enhancement of the Born approximation",
+      "url": "https://arxiv.org/abs/2610.32764",
+      "version": 1
+    },
+    {
+      "arxiv_id": "2610.32705",
+      "categories": [
+        "math.NA"
+      ],
+      "published": "2026-10-23T14:28:46Z",
+      "summary": "Simplified spectral models predict dimension-dependent superlinear convergence for gradient methods, but the corresponding behavior of actual iterations remains only partially understood. Historical methods introduce an additional difficulty: the gradients defining the step sizes differ from those receiving them. We study this offset for cyclic reuse of historical Ritz step sizes on strictly convex quadratics. Within the existing limited memory steepest descent with retards (LMSDR) family, a rolling cyclic Ritz (RCR) rule reuses $m$ historical Ritz values $\\ell$ times per cycle, ending with a complete sweep. At $q=m+1$ active distinct eigenvalues, an exact delayed recurrence gives almost-everywhere doubly exponential convergence with an explicit rate and exceptional weights. Nonempty open basins also exist for $m+1<q\\le2m$ and $\\ell\\ge4$. Rebuilding the history from each cycle-start gradient costs $m$ additional updates and gives sampled cyclic Ritz reuse (SCR) a cycle-end map determined by the current weights. Under uniform sampling bounds, SCR converges doubly exponentially almost everywhere when $(2\\ell-1)^m>\\binom{q-1}{m}$. Increasing $\\ell$ admits larger $q$ for fixed $m$. The guarantee extends to history-dependent choices from finite sampling menus under a bound on the number of admissible sampling sequences. Geometrically spaced decisions retain the SCR condition and rate range. Every update is counted, including sampling; a numerical illustration compares finite-tolerance update counts.",
+      "title": "Superlinear Convergence of Cyclic Gradient Methods with Historical Ritz Step Sizes",
+      "url": "https://arxiv.org/abs/2610.32705",
+      "version": 1
+    },
+    {
+      "arxiv_id": "2610.32699",
+      "categories": [
+        "math.NA"
+      ],
+      "published": "2026-10-23T14:24:22Z",
+      "summary": "We show that independent random points support exact quadrature rules with positive weights. For any $n$-dimensional space $V$ of integrable functions a constant multiple of $n\\log n$ points sampled from a suitable density yields, with high probability, positive weights which integrate the functions in the space exactly. The weights stay close to the natural importance sampling weights according to the Lewis density with respect to $V$. They are the result of a weight adaptation procedure which requires an explicit $L_1$-norm discretization result that is proved on the way. As an application, we study numerical integration in reproducing kernel Hilbert spaces. Combining the random rules with a subsampling step, we show that positive quadrature rules with constantly oversampled nodes achieve the best possible worst-case error bound in terms of the singular numbers of the embedding into $L_2$.",
+      "title": "Random nodes with positive weights: Richter-Tchakaloff rules and optimal positive quadrature",
+      "url": "https://arxiv.org/abs/2610.32699",
+      "version": 1
+    },
+    {
+      "arxiv_id": "2610.32655",
+      "categories": [
+        "math.CA"
+      ],
+      "published": "2026-10-23T14:02:03Z",
+      "summary": "Decoupling inequalities for the parabola are obtained for weights in physical space. The decoupling iteration relies on a fractal bilinear Kakeya estimate. We record applications to exponential sums.",
+      "title": "Weighted decoupling inequalities via fractal bilinear Kakeya estimates",
+      "url": "https://arxiv.org/abs/2610.32655",
+      "version": 1
+    },
+    {
+      "arxiv_id": "2610.32615",
+      "categories": [
+        "math.RA"
+      ],
+      "published": "2026-10-23T13:34:25Z",
+      "summary": "For $d,n\\in\\mathbb{Z}_{\\geq1}$ and $p\\in[1,\\infty)\\setminus\\{2\\}$, we characterize all linear maps $s\\colon\\ell_d^p\\to\\ell_n^p$ for which there is $E\\subseteq X_d$ such that $\\|s(ξ)\\|_p=\\|ξ|_E\\|_p$ for every $ξ\\in\\ell_d^p$. We call these maps \\emph{restricted isometries}. Our Lamperti-type theorem gives a unique description of each such operator using a set transformation, a positive amplitude function, and a unimodular phase function. In particular, it includes noninjective and nonsurjective operators, even when the dimensions differ. We further characterize restricted isometries between finite $\\ell^p$-spaces with arbitrary positive atomic weights. Applications include formulas counting set transformations and uniform restricted isometries, as well as a geometric description of all restricted isometries with fixed column supports.",
+      "title": "Restricted isometries in finite-dimensional $\\ell^p$-spaces",
+      "url": "https://arxiv.org/abs/2610.32615",
+      "version": 1
+    },
+    {
+      "arxiv_id": "2610.32550",
+      "categories": [
+        "math.RA"
+      ],
+      "published": "2026-10-23T12:31:20Z",
+      "summary": "A biderivation of an algebra is a bilinear map which is a derivation in each argument. We describe all biderivations of finite-dimensional complex null-filiform and filiform Zinbiel algebras. For the n-dimensional null-filiform algebra, every biderivation is determined by an arbitrary value at its generating pair; the space of biderivations has dimension n and consists entirely of symmetric maps. For the three standard filiform families, we give explicit bases and determine their symmetric and skew-symmetric parts. We also treat all filiform algebras of dimensions at most four, including the exceptional families not covered by the classification in dimensions at least five. A three-dimensional algebra admits a three-dimensional space of skew-symmetric biderivations, two of which have values outside its annihilator. Up to isomorphism, it is the unique complex filiform Zinbiel algebra with this property. The proofs use generators, annihilator-valued maps, a truncated polynomial model, and conformal endomorphisms of bilinear forms.",
+      "title": "Biderivations of Null-Filiform and Filiform Zinbiel Algebras",
+      "url": "https://arxiv.org/abs/2610.32550",
+      "version": 1
+    },
+    {
+      "arxiv_id": "2610.32544",
+      "categories": [
+        "math.RA"
+      ],
+      "published": "2026-10-23T12:22:37Z",
+      "summary": "We give a length-two counterexample to the unrestricted product comparison in Bergman's Question 3.1, positive criteria for quasi-injective common modules, and a semidirect-product version of Question 3.2. For semiprimary right self-injective rings, the countable hull construction yields a cyclic two-layer witness, its Baer class, and an opposite-side extension obstruction. We apply this construction over the square-zero ring of the counterexample. The hull quotient of a countable sum of injectives is the endomorphism space modulo finite-rank maps, and computes the full socle-radical defect of a countable product of the regular module. This gives a second counterexample with free cyclic family factors. The original length-two product embeds its defect in the same quotient through an explicit intersection, and all associated extension classes arise from one specified Baer class. The general Faith conjecture remains unresolved.",
+      "title": "Finite stabilization, socle extensions, and Faith's conjecture",
+      "url": "https://arxiv.org/abs/2610.32544",
+      "version": 1
+    },
+    {
+      "arxiv_id": "2610.32522",
+      "categories": [
+        "math.LO"
+      ],
+      "published": "2026-10-23T11:56:01Z",
+      "summary": "The Medvedev lattice is a tool used to classify the complexity of effective closed sets. In this article, we are interested in the complexity of using this tool. In particular, we study the complexity of deciding whether two effective closed sets have the same degree, when one is fixed and the other is given as input. This problem is naturally~$Σ^0_3$, and among other results, we show that for all degrees except the maximal one, the problem reaches its maximal complexity. It turns out that the argument is not uniform and depends on the self-similarity of the fixed degree, a notion that we introduce in this article. The complexity of having maximal degree is particularly difficult to establish, but we obtain a lower bound that almost matches the upper bound. We also show that deciding whether an effective closed set has a degree incomparable with a fixed degree $d$ is $Π^0_3$-complete whenever $\\mathbf{0}_s <_s d <_s \\mathbf{1}_s$.",
+      "title": "On the complexity of Medvedev reducibility",
+      "url": "https://arxiv.org/abs/2610.32522",
+      "version": 1
+    },
+    {
+      "arxiv_id": "2610.32394",
+      "categories": [
+        "math.RA"
+      ],
+      "published": "2026-10-23T09:20:22Z",
+      "summary": "We show that random tuples of matrices over a finite field are uniform dimension expanders for every expansion coefficient below the optimal one, using elementary counting arguments. The same holds for the optimal coefficient along a set of dimensions of density 1. By contrast, along Fibonacci dimensions random pairs of matrices fail to be optimal dimension expanders with probability bounded away from zero.",
+      "title": "Optimality of finite field dimension expanders",
+      "url": "https://arxiv.org/abs/2610.32394",
+      "version": 1
+    },
+    {
+      "arxiv_id": "2610.32366",
+      "categories": [
+        "math.LO"
+      ],
+      "published": "2026-10-23T08:56:52Z",
+      "summary": "We show that each of the infinitely many extensions of the basic inquisitive logic has the Craig interpolation property, and deduce from this that each of these extensions also has the Beth definability property. These results stand in contrast to existing characterizations of interpolation within lattices of extensions, in which the distribution of logics with interpolation is sparse.",
+      "title": "Interpolation in the Inquisitive Hierarchy",
+      "url": "https://arxiv.org/abs/2610.32366",
+      "version": 1
+    },
+    {
+      "arxiv_id": "2610.32038",
+      "categories": [
+        "math.LO"
+      ],
+      "published": "2026-10-23T01:29:39Z",
+      "summary": "We study the structure of amenable subrelations of treeable measure-class-preserving equivalence relations, applying the Radon--Nikodym topography perspective initiated in our companion paper [TTD25]. For a nowhere smooth amenable subrelation, we show that the ends selected by each class in Adams's end selection theorem are precisely those which are nonvanishing along that class. From this, we derive a number of structure results about nowhere smooth amenable subrelations of treeable equivalence relations. For example, we show that every nowhere smooth amenable subrelation is contained in an essentially unique maximal amenable subrelation. This yields an anti-treeability criterion, which we use to show that every nonamenable locally compact second countable group with noncompact amenable radical is not treeable, and that every nonamenable nonunimodular treeable group has a compact open subgroup.",
+      "title": "Amenable subrelations of treeable equivalence relations and applications to anti-treeability",
+      "url": "https://arxiv.org/abs/2610.32038",
       "version": 1
     },
     {
@@ -25,179 +212,12 @@
     {
       "arxiv_id": "2610.31599",
       "categories": [
-        "math.LO",
-        "math.RA"
+        "math.LO"
       ],
       "published": "2026-10-22T17:31:49Z",
       "summary": "A hard theorem of Givant classifies the finitary algebraic theories for which every algebra is free. From it, one easily deduces that all such theories are minimal (adding any further equations makes them trivial) and have a well-defined notion of dimension (free algebras on sets of different cardinality are never isomorphic). We prove both these properties directly, without the aid of Givant's theorem.",
       "title": "Properties of theories whose algebras are free",
       "url": "https://arxiv.org/abs/2610.31599",
-      "version": 1
-    },
-    {
-      "arxiv_id": "2610.31548",
-      "categories": [
-        "math.LO"
-      ],
-      "published": "2026-10-22T16:53:58Z",
-      "summary": "We develop a method for studying centralizers of generic elements in some large Polish groups. We identify a condition which enables us to show that the range of each power map is comeager; a strengthening of this condition allows us to prove that a generic element embeds in a flow (a continuous, one-parameter subgroup). This approach enables us to answer the question that motivated this work : we prove that a generic isometry of the Urysohn space (or the Urysohn sphere) embeds in a flow. We also obtain information on the centralizer of a generic isometry; we show that it contains an infinite-dimensional torus and that torsion elements are dense in it. To illustrate the flexibility of our method, we apply it to two other Polish groups. The first is the group of measure-preserving automorphisms of a standard probability space, and we recover results of King and of de la Rue and de Sam Lazaro. Finally we apply our technique to the group of nonsingular automorphisms of a standard probability space, and we deduce that a generic nonsingular automorphism embeds in a flow, answering a question of Danilenko and Silva.",
-      "title": "Searching for the power rangers",
-      "url": "https://arxiv.org/abs/2610.31548",
-      "version": 1
-    },
-    {
-      "arxiv_id": "2610.31546",
-      "categories": [
-        "math.CA",
-        "math.NA"
-      ],
-      "published": "2026-10-22T16:53:14Z",
-      "summary": "We determine when approximation by convex polynomials on expanding intervals converges to best approximation on the real line by convex entire functions of exponential type at most $σ>0$. For intervals of radius $(n-γ_n)/σ$, where $0\\leγ_n<n$ and $γ_n=o(n)$, one margin sequence gives this limit for every convex function of polynomial growth if and only if $γ_n/[n^{1/3}(\\log n)^{2/3}]\\to\\infty$. When this condition fails, a fixed uniformly strictly convex entire function has approximation errors with unbounded limsup. We apply the limit theorem to prove existence of the convex Bernstein constant for $|x|^λ$ for every $λ\\ge1$, and identify it with an attained entire-function minimum. We also give a sufficient margin for growth bounded by $\\exp(a|x|^α)$, $0<α<1$. For arbitrary subexponential growth on the real line, each target with finite entire-function error admits a suitable margin, whereas no single margin is sufficient for the whole class. Further results concern attainment, right continuity with respect to the exponential type, weighted growth conditions, and the endpoints of fixed-fraction approximation intervals.",
-      "title": "Convex Bernstein limits and sharp recovery on expanding intervals",
-      "url": "https://arxiv.org/abs/2610.31546",
-      "version": 1
-    },
-    {
-      "arxiv_id": "2610.31543",
-      "categories": [
-        "math.CA"
-      ],
-      "published": "2026-10-22T16:51:04Z",
-      "summary": "It is well known that $u_0 \\in L^2(\\mathbb{R}) \\setminus \\{0\\}$ is an extremizer for the $L^8_t L^4_x$-Strichartz estimate if and only if it is a Gaussian. We show that every extremizing sequence of even functions $\\{ u_n \\} \\subset L^2(\\mathbb{R}) \\setminus \\{0\\}$ approaches a centered Gaussian in an appropriate sense. This result follows from a certain inequality for coordinate-wise even $L^2$ functions on $\\mathbb{R}^4$ conjectured by Gonçalves (2019) which we prove in this paper with the optimal constant.",
-      "title": "A sharpened $L^8_t L^4_x$-Strichartz estimate for even initial data",
-      "url": "https://arxiv.org/abs/2610.31543",
-      "version": 1
-    },
-    {
-      "arxiv_id": "2610.31532",
-      "categories": [
-        "math.CA"
-      ],
-      "published": "2026-10-22T16:40:13Z",
-      "summary": "We consider the fractional Laplacian with added critical or subcritical Hardy potential, called Hardy operator. We prove a Hörmander spectral multiplier theorem, i.e., the boundedness of sufficiently smooth multipliers of these Hardy operators on Lebesgue spaces. The range of admissible Lebesgue exponents is optimal, but the smoothness assumption is probably not. The proof combines the Helffer--Sjöstrand formula with a quantitative Jaffard lemma for operator-valued matrices.",
-      "title": "A spectral multiplier theorem for fractional Hardy operators",
-      "url": "https://arxiv.org/abs/2610.31532",
-      "version": 1
-    },
-    {
-      "arxiv_id": "2610.31504",
-      "categories": [
-        "math.NA"
-      ],
-      "published": "2026-10-22T16:19:57Z",
-      "summary": "We build structure-preserving reduced-order models for both challenge problems of the AePW-4 High-Speed Working Group. They are a clamped thin panel at Mach 1.92 (RC-19) and a cantilever plate at Mach 5.85 (HyMAX). The published data for each case hold no time-resolved response and no repeated runs. The physics must therefore be carried by the form of the model. One construction gives two models per problem. A Ritz-Galerkin reference model describes the plate. A learned model keeps the reference model's exact potential, fits the remaining generalized forces, and trains only a dissipation that cannot add energy. Its energy balance holds for any weights by construction. On the trained model the worst relative residual is 2.2e-15. On RC-19, shock relations predict a pressure ratio of 1.521 across the panel. Pressure-sensitive paint measured the same value. Thirty runs of the learned model place the mean dominant frequency within 1.0% of the measured 236 Hz. At one periodic and one chaotic condition, the learned model reproduces the response regime of a published reduced-order model in all sixteen runs. It does so without that model's 113 Hz spectral peak, which the measurements do not show. Measured displacements can also correct the chaotic response through one more force that respects the energy balance. We tested this on synthetic data at the experiment's 5 kHz sampling rate. The state error is 1.25% of the panel thickness without noise and 3.5% with 10 micrometers of noise. On HyMAX the learned model follows the reference model's trailing-edge displacement for 65 ms with a relative error of 3.7%. These results show that a model whose structure carries the physics can match measured flutter behavior when the available data cannot train it.",
-      "title": "Structure-preserving reduced-order models of thin panels in supersonic and hypersonic flow",
-      "url": "https://arxiv.org/abs/2610.31504",
-      "version": 1
-    },
-    {
-      "arxiv_id": "2610.31496",
-      "categories": [
-        "math.NA"
-      ],
-      "published": "2026-10-22T16:14:42Z",
-      "summary": "I present a geometric multigrid solver for the Poisson equation with continuous cubic elements in three dimensions, smoothed by a multiplicative vertex-patch Schwarz method with exact local solves. All fields are kept in persistent cell-wise storage, where every cell holds its own copy of each shared degree of freedom. The patch smoother yields a continuous solution without any exchange between cells. On the GPU, the patch update is computed in registers, one cell per thread, and the cells of a patch exchange data by warp shuffles, so shared memory is avoided almost entirely. Despite the low occupancy that this design implies, the arithmetic of the patch update runs close to the FP32 peak. Fast diagonalization, merged transforms, and a reflection symmetry of the patch then reduce the arithmetic until a sweep moves its data at $87\\%$ of the bandwidth of a plain device copy. The hierarchy therefore runs in single precision inside a double-precision outer iteration. Rounding the unassembled residual destroys the cancellation between opposite-sign copies of shared degrees of freedom; exchanging the copies between cells in double precision performs this cancellation before rounding, without changing the dual vector they represent. With this \\emph{rebalancing}, the cycle converges as in double precision and independently of the mesh size, the error converges at the optimal rate down to the precision of the solve, and the solver reaches over $400$ million degrees of freedom per second on a single NVIDIA A100 GPU.",
-      "title": "Mixed-Precision Coalesced Matrix-Free Multigrid with Vertex-Patch Smoothing",
-      "url": "https://arxiv.org/abs/2610.31496",
-      "version": 1
-    },
-    {
-      "arxiv_id": "2610.31487",
-      "categories": [
-        "math.NA"
-      ],
-      "published": "2026-10-22T16:08:37Z",
-      "summary": "We construct and analyse a fully discrete scheme for a Kirchhoff-type nonlinear integro-differential equation in two spatial dimensions with time-dependent coefficients. The scheme combines a symmetric three-layer time discretization of Crank--Nicolson type with a conforming finite element method of arbitrary polynomial degree $p$ and a Picard iteration for the nonlinearity. We prove that the Picard iteration is well defined and, that the iterates converge to the Ritz projection of the exact solution measured in fractional-power norms of the discrete Laplacian. Running the same energy argument in the unshifted norms, and under the same hypotheses, we then obtain the optimal order $\\mathcal{O} ( h^{p+1} + τ^2 )$ in $L^2$ and $\\mathcal{O} ( h^{p} + τ^2 )$ in $H^1$ for the full error. For the homogeneous problem with constant coefficients, the exact solution of the scheme moreover preserves a discrete energy identically. Numerical experiments with manufactured solutions reproduce the predicted second order in time and the full spatial order $h^{p+1}$ in the $L^2$-norm.",
-      "title": "Conservative Finite Element Methods for Kirchhoff-Type Equations",
-      "url": "https://arxiv.org/abs/2610.31487",
-      "version": 1
-    },
-    {
-      "arxiv_id": "2610.31485",
-      "categories": [
-        "math.RA"
-      ],
-      "published": "2026-10-22T16:08:26Z",
-      "summary": "We introduce a family of five-dimensional non-flexible quadratic real algebras $\\{\\mathcal A_γ\\}_{0\\leqγ\\leq1}$ with canonical basis $1,i,j,k,\\ell$, in which $γ$ changes the multiplication but not their norm, and study how this change affects geometry and dynamics. The algebras are pairwise non-isomorphic, $\\mathcal A_0$ contains Hamilton's quaternion algebra, and $\\mathcal A_1$ is the Pentarnion algebra. The alternating part of the trilinear form $\\langle u\\times_γv,w\\rangle$ induced by the multiplication of $\\mathcal{A}_γ$ defines a three-dimensional subspace $H_γ\\subset\\operatorname{span}_{\\mathbb R}\\{i,j,k,\\ell\\}$, tilted by the angle $\\arctan(γ/\\sqrt3)$, whose rotation group $G_γ\\cong\\mathrm{SO}(3)$ contains the automorphism group of $\\mathcal A_γ$. For $γ_1\\neγ_2$ the groups $G_{γ_1}$ and $G_{γ_2}$ generate $\\mathrm{SO}(V)\\cong\\mathrm{SO}(4)$. For the six ways of ordering and bracketing the product of $i,p,p$ in $\\mathcal A_γ$, two map the unit circle in ${\\rm span}\\{j,k\\}$ to a point and, for $γ>0$, four map it to ellipses. As an application, we derive a Hamiltonian model of a classical spin on $H_γ$ whose multiplication-induced quadratic energy is isotropic for $γ=0$ and anisotropic for $γ>0$. It conserves spin length and, for fixed $γ$, energy, and satisfies an exact work identity when $γ$ varies in time. Numerical experiments with periodically varying $γ$ indicate both regular and irregular spin dynamics.",
-      "title": "From Quaternions to Pentarnions I: Algebra, geometry, and a spin model",
-      "url": "https://arxiv.org/abs/2610.31485",
-      "version": 1
-    },
-    {
-      "arxiv_id": "2610.31389",
-      "categories": [
-        "math.CA"
-      ],
-      "published": "2026-10-22T14:53:41Z",
-      "summary": "We establish the stability of the optimal non-endpoint Fourier restriction range under smooth flat perturbations of curved-root surfaces in $\\mathbb R^3$. Specifically, we consider graphs of $$φ(x_1,x_2)=(x_2-x_1^m)^n+R(x_1,x_2),$$ where $m,n\\ge2$ are integers and $R$ is smooth and flat at the origin. On a sufficiently small neighborhood depending on the perturbation, we prove the local $L^p(\\mathbb R^3)\\to L^2(S,dσ)$ restriction estimate for $1\\le p<p_c$, where $$p_c=\\frac{q_c}{q_c-1}, \\qquad q_c=\\max\\left\\{2+\\frac{2mn}{m+1},2n\\right\\}.$$ If the nonnegative localizing density is positive at the origin, an adapted-box example shows that the estimate fails for $p>p_c$. Thus arbitrary smooth flat perturbations preserve the optimal restriction range away from the critical endpoint. For $n\\ge3$, the main local estimate combines planar curve decoupling with a one-dimensional finite-type extension estimate, whose principal scale factors cancel exactly. For $n=2$, we prove a uniform $C^4$ perturbation estimate using a weighted convolution bound and an anisotropic Whitney decomposition. Anisotropic rescaling and summation complete the proof.",
-      "title": "Stability of Fourier Restriction for a Class of Finite Type Surfaces in $\\mathbb R^3$",
-      "url": "https://arxiv.org/abs/2610.31389",
-      "version": 1
-    },
-    {
-      "arxiv_id": "2610.31368",
-      "categories": [
-        "math.CA"
-      ],
-      "published": "2026-10-22T14:41:51Z",
-      "summary": "We derive integral representations for the $n$-th derivative with respect to the order of Bessel functions of the first, second and third kinds, as well as the modified Bessel function and the Macdonald function. Based on these integral representations, we have developed a highly-efficient algorithm for the numerical evaluation of these derivatives with respect to the order, applicable to any complex argument and any real order.",
-      "title": "Integral representations of high-order derivatives of Bessel functions with respect to the order",
-      "url": "https://arxiv.org/abs/2610.31368",
-      "version": 1
-    },
-    {
-      "arxiv_id": "2610.31358",
-      "categories": [
-        "math.RA"
-      ],
-      "published": "2026-10-22T14:38:21Z",
-      "summary": "Let $\\mathbb L/\\mathbb K$ be a finite Abelian Galois extension with a fixed decomposition $\\mathrm{Gal}(\\mathbb L/\\mathbb K)=\\langleσ_1\\rangle\\times\\cdots\\times\\langleσ_m\\rangle$. We show that the quotient of the multivariate skew polynomial ring $\\mathbb L[x_1,\\ldots,x_m;σ_1,\\ldots,σ_m]$ by suitable central polynomials $H_1(x_1),\\ldots,H_m(x_m)$ is isomorphic to a product of $t$ copies of $\\mathrm{End}_{\\mathbb K}(\\mathbb L)$, so that one skew polynomial represents all blocks of a sum-rank metric space. The sum-rank weight of an element equals the rank of an associated Dickson matrix and of a generalized Moore matrix. Using this, we define sum-rank Reed--Muller-type codes and show that their dimension and minimum distance are given by the formulas for affine Cartesian codes with side lengths $\\mathrm{deg}\\,H_1,\\ldots,\\mathrm{deg}\\,H_m$; the same holds for codes supported on lower sets. The family contains as special cases linearized Reed--Solomon codes, Gabidulin codes, rank-metric Reed--Muller codes, and affine Cartesian codes. Over finite fields, every linearized Reed--Muller code of Berardini and Caruso is, after a monomial change of variables, a monomial code in our framework. This gives the dimension of all these codes, and their exact minimum distance in every degree whenever the support is a lower set.",
-      "title": "Sum-rank analogues of Reed--Muller codes over Abelian Galois extensions",
-      "url": "https://arxiv.org/abs/2610.31358",
-      "version": 1
-    },
-    {
-      "arxiv_id": "2610.31179",
-      "categories": [
-        "math.RA"
-      ],
-      "published": "2026-10-22T12:32:03Z",
-      "summary": "We describe all degenerations of complex $4$-dimensional Jordan algebras and of complex $5$-dimensional nilpotent Jordan algebras. The proofs do not use other papers on degenerations, and all degenerations and non-degenerations were formally verified in the proof assistant Lean~4. The graph of primary degenerations of $4$-dimensional Jordan algebras has $73$ vertices and $160$ edges. The variety of $5$-dimensional nilpotent Jordan algebras is stratified into $63$ normal forms, five of which are one- or two-parameter families; together with two special members of a family this gives $65$ objects, and the graph of primary degenerations has $154$ edges. In particular, we describe all irreducible components of the corresponding varieties: the variety of $4$-dimensional Jordan algebras has $10$ irreducible components, and the variety of $5$-dimensional nilpotent Jordan algebras has dimension $22$ and $5$ irreducible components.",
-      "title": "Degenerations of Jordan algebras",
-      "url": "https://arxiv.org/abs/2610.31179",
-      "version": 1
-    },
-    {
-      "arxiv_id": "2610.31052",
-      "categories": [
-        "math.LO"
-      ],
-      "published": "2026-10-22T10:32:13Z",
-      "summary": "Rosendal proved that any $K_σ$ equivalence relation is Borel reducible to $\\ell_\\infty$. We prove that for every $F_σ$ equivalence relation $F$ on a Polish space, there is an $F_σ$ real linear subspace $H$ of $\\ell_2$ such that the coset relation $x\\mathrel{E_H}y$ if and only if $x-y\\in H$ has no Baire-measurable reduction to $F$. In particular, there is no $F_σ$ equivalence relation universal under Borel reducibility for all $F_σ$ equivalence relations. This answers a question of Rosendal.",
-      "title": "There is no universal $F_σ$ equivalence relation",
-      "url": "https://arxiv.org/abs/2610.31052",
-      "version": 1
-    },
-    {
-      "arxiv_id": "2610.31040",
-      "categories": [
-        "math.LO"
-      ],
-      "published": "2026-10-22T10:17:46Z",
-      "summary": "After defining the concept of inevitability for statements with the modal logic of forcing, we raise the question of which statements are inevitable under $\\mathsf{ZFC}$ and under large cardinal hypotheses. We show that $\\mathsf{SOA}$ (defined as $\\mathsf{ZFC}^-$ + $\\mathsf V=\\mathsf{HC}$) plus the $\\boldsymbolΣ^1_2$-perfect set property is $\\mathsf{ZFC}$-inevitable, and that Projective Determinacy is inevitable in the theory of $\\mathsf{ZFC}$ with a proper class of Woodin cardinals. We then discuss the possible conceptual significance of these results for the foundations of set theory.",
-      "title": "Set-theoretic inevitability",
-      "url": "https://arxiv.org/abs/2610.31040",
-      "version": 1
-    },
-    {
-      "arxiv_id": "2610.30921",
-      "categories": [
-        "math.RA"
-      ],
-      "published": "2026-10-22T08:41:33Z",
-      "summary": "Let $K/F$ be a cyclic Galois field extension of degree $n$ with $\\mathrm{Gal}(K/F)=\\langleσ\\rangle$. The nonassociative Petit algebras $K[t;σ]/K[t;σ](t^m-a)$ have recently emerged as important tools in coding theory and cryptography, where the applications only require distinct algebras up to isomorphism. Algebras that are isomorphic via a monomial isomorphism of degree one are called equivalent. We present a novel and precise parametrization of the $F$-equivalence classes of these algebras in the key case that $F$ contains a primitive $n$th root of unity and $n\\mid m$. We evaluate the parametrization explicitly when $F$ is a nonarchimedean local field, which has applications to the number field case recently used to construct a nonassociative variant of Learning with Errors.",
-      "title": "A parametrization of nonassociative Petit algebras $K[t;σ]/K[t:σ](t^m-a)$ up to equivalence",
-      "url": "https://arxiv.org/abs/2610.30921",
       "version": 1
     }
   ],

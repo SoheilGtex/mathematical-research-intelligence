@@ -4,8 +4,8 @@ Automated research snapshot based on arXiv metadata.
 
 ## Research Coverage
 
-- Unique papers: **18**
-- Cross-category papers: **2**
+- Unique papers: **20**
+- Cross-category papers: **0**
 - Research categories: **4**
 
 ## Category Distribution
@@ -21,16 +21,16 @@ Automated research snapshot based on arXiv metadata.
 
 | Published | Paper | Categories |
 |---|---|---|
-| 2026-10-22 | [Phase Transition from Random Features to Fully Trainable Networks](https://arxiv.org/abs/2610.31663) | math.NA |
-| 2026-10-22 | [Groups satisfying the minimal condition on centralizers are complete co-analytic](https://arxiv.org/abs/2610.31601) | math.LO |
-| 2026-10-22 | [Properties of theories whose algebras are free](https://arxiv.org/abs/2610.31599) | math.LO, math.RA |
-| 2026-10-22 | [Searching for the power rangers](https://arxiv.org/abs/2610.31548) | math.LO |
-| 2026-10-22 | [Convex Bernstein limits and sharp recovery on expanding intervals](https://arxiv.org/abs/2610.31546) | math.CA, math.NA |
-| 2026-10-22 | [A sharpened $L^8_t L^4_x$-Strichartz estimate for even initial data](https://arxiv.org/abs/2610.31543) | math.CA |
-| 2026-10-22 | [A spectral multiplier theorem for fractional Hardy operators](https://arxiv.org/abs/2610.31532) | math.CA |
-| 2026-10-22 | [Structure-preserving reduced-order models of thin panels in supersonic and hypersonic flow](https://arxiv.org/abs/2610.31504) | math.NA |
-| 2026-10-22 | [Mixed-Precision Coalesced Matrix-Free Multigrid with Vertex-Patch Smoothing](https://arxiv.org/abs/2610.31496) | math.NA |
-| 2026-10-22 | [Conservative Finite Element Methods for Kirchhoff-Type Equations](https://arxiv.org/abs/2610.31487) | math.NA |
+| 2026-10-23 | [A direct proof of the equivalence of the A2 and the Helson--Szego conditions](https://arxiv.org/abs/2610.32922) | math.CA |
+| 2026-10-23 | [Linear transformations of tropical matrices preserving individual values of the cyclicity index](https://arxiv.org/abs/2610.32897) | math.RA |
+| 2026-10-23 | [Lacunary maximal operators on convex boundaries](https://arxiv.org/abs/2610.32873) | math.CA |
+| 2026-10-23 | [Numerical analysis of a Lax-Wendroff type lattice Boltzmann scheme for the advection equation](https://arxiv.org/abs/2610.32810) | math.NA |
+| 2026-10-23 | [Sharp Projection Bounds for Intermediate Dimensions of Measures](https://arxiv.org/abs/2610.32808) | math.CA |
+| 2026-10-23 | [Multiplicative vs. Additive State Coupling in Learned Optimizer Schedules](https://arxiv.org/abs/2610.32801) | math.NA |
+| 2026-10-23 | [Rational $S$-functions for second order ODEs with non-Liouvillian first integrals](https://arxiv.org/abs/2610.32769) | math.CA |
+| 2026-10-23 | [Neural network enhancement of the Born approximation](https://arxiv.org/abs/2610.32764) | math.NA |
+| 2026-10-23 | [Superlinear Convergence of Cyclic Gradient Methods with Historical Ritz Step Sizes](https://arxiv.org/abs/2610.32705) | math.NA |
+| 2026-10-23 | [Random nodes with positive weights: Richter-Tchakaloff rules and optimal positive quadrature](https://arxiv.org/abs/2610.32699) | math.NA |
 
 ## Methodology
 
