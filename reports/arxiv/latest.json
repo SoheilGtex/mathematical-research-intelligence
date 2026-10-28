@@ -1,223 +1,223 @@
 {
   "papers": [
     {
-      "arxiv_id": "2610.35834",
+      "arxiv_id": "2610.37644",
       "categories": [
         "math.CA"
       ],
-      "published": "2026-10-26T17:52:03Z",
-      "summary": "Given a positive, non-increasing sequence $a$ with sum $1$, we consider the family $\\mathcal{C}_a$ of closed subsets of $[0,1]$ whose complementary open intervals have lengths given by the terms of $a$. We study which functions $θ\\mapsto\\overline{\\dim}_{\\,θ}E$ arise as the upper intermediate dimensions of sets $E\\in\\mathcal{C}_a$. Under a natural condition on the decay of $a$, we show that these are exactly the functions in the class introduced by Banaji and Rutar that take the value $\\overline{\\dim}_{\\rm B}C_a$ at $θ=1$ and are bounded above by the upper intermediate dimensions of the decreasing Cantor set $C_a$. We also show that the lower bound given by the countable set $D_a$ is rigid: if it is attained at one value of $θ$, then it is attained at all larger values.",
-      "title": "Attainable forms of intermediate dimensions of complementary sets",
-      "url": "https://arxiv.org/abs/2610.35834",
+      "published": "2026-10-27T17:55:35Z",
+      "summary": "Mappings contracting perimeters of triangles are Banach contractions whenever every point of the underlying metric space is an accumulation point. Consequently, applying the perimeter-contraction theorem on a complete metric space without isolated points yields an existence result already covered by Banach's fixed point theorem. This observation applies, in particular, to operators associated with differential and integral equations acting on standard nontrivial function spaces, such as spaces of continuous functions $C[a,b]$, Lebesgue spaces $L_p$, and Sobolev spaces $W^{k,p}$, equipped with their usual norm metrics. Thus, applications extending beyond Banach's theorem for the same operator and metric require a complete invariant domain containing some number of isolated points. Such a domain may be a closed subset of a standard function space, despite the absence of isolated points in the ambient space. The main goal of this paper is to illustrate applications of the fixed point theorem for mappings contracting perimeters of triangles in settings where the associated operators are not Banach contractions. The differential-equation examples admit interpretations as stylized models combining continuous evolution, nonlocal measurement, and quantized feedback. The integer and difference-equation examples illustrate the effects of rounding on equilibria and periodic responses.",
+      "title": "Applications of the fixed point theorem for mappings contracting perimeters of triangles: ODEs, PDEs, integer and difference equations",
+      "url": "https://arxiv.org/abs/2610.37644",
       "version": 1
     },
     {
-      "arxiv_id": "2610.35809",
+      "arxiv_id": "2610.37549",
       "categories": [
         "math.CA"
       ],
-      "published": "2026-10-26T17:41:43Z",
-      "summary": "We announce a structure theory for measures on $\\mathbb{R}^n\\times\\mathbb{R}$ equipped with the parabolic distance. Our results include a parabolic rectifiable Reifenberg theorem for arbitrary Radon measures, qualitative and quantitative characterizations of regular parabolic rectifiability by Jones square functions, and sharp results for $L^p$ beta numbers. The results hold in every parabolic dimension and extend the theories of Edelen--Naber--Valtorta, Azzam--Tolsa and David--Semmes to space-time. The stated theorems and corollaries, together with their proofs, are formalized in Lean~4 with Mathlib.",
-      "title": "Parabolic Rectifiable Reifenberg for Measures",
-      "url": "https://arxiv.org/abs/2610.35809",
+      "published": "2026-10-27T17:00:00Z",
+      "summary": "We prove an uncertainty principle for subsets of $\\mathbb R$ under weak branching assumptions. We impose a nonlinearity condition on the phase; without it our uncertainty principle fails e.g. for arithmetic progressions. The key ingredient in the proof is Shmerkin's nonlinear projection theorem. This paper is a part of a work in progress, but it is released earlier than the rest of that paper since it is also used in a paper of Cohen-Li-Tao. It also has an overlap with our recent paper [arXiv:2609.30261]; see the end of the introduction for more details.",
+      "title": "Nonlinear uncertainty principle",
+      "url": "https://arxiv.org/abs/2610.37549",
       "version": 1
     },
     {
-      "arxiv_id": "2610.35808",
+      "arxiv_id": "2610.37532",
+      "categories": [
+        "math.LO"
+      ],
+      "published": "2026-10-27T16:52:24Z",
+      "summary": "We prove Szemerédi-Trotter-type incidence bounds for algebraic relations in any field $F$ admitting a valuation with finite residue field. This includes $\\mathbb F_q(t)$, $\\mathbb F_q((t))$, and all finitely generated extensions of finite fields. Bays and Martin show that any algebraic $K_{d,s}$-free relation $E\\subseteq F^k\\times F^\\ell$ admits a power-saving in the classical Zarankiewicz bound of Kővári, Sós, and Turán. Answering a question of the authors, we show that this power-saving is uniform in $F$: There is some $ε>0$ depending only on $d$ and the complexity of $E$ (and not on $F$) such that for $A\\subseteq F^k$ and $B\\subseteq F^\\ell$, the number of edges $|E(A,B)|$ is at most $O(|A|^{1-ε}|B|^{1-\\frac{1-ε}{d}}+|A|+|B|)$. For the case where $A$ is a set of points and $B$ is a set of lines in $F^2$ and $E$ is the incidence relation, we prove the explicit bound $O(|P|^{\\frac{8}{9}}|L|^{\\frac{5}{9}}+|P|+|L|)$. As the central ingredient of the proof, we introduce the model-theoretic notion of distality relative to a definable set. We begin developing this notion and prove that the theory of algebraically closed valued fields is distal relative to the residue field. An application of a result of Chernikov, Peterzil, and Starchenko, based on work of Chernikov, Galvin, and Starchenko, yields our incidence bounds.",
+      "title": "Relative distality and incidence bounds in positive characteristic",
+      "url": "https://arxiv.org/abs/2610.37532",
+      "version": 1
+    },
+    {
+      "arxiv_id": "2610.37490",
+      "categories": [
+        "math.RA"
+      ],
+      "published": "2026-10-27T16:16:56Z",
+      "summary": "If $F$ is a number field and $F = F_0 \\subset F_1 \\subset F_2\\subset \\cdots$ is a tower of Galois extensions with $\\mathrm{Gal}(F_n/F)$ cyclic of order $p^n$, K. Iwasawa gave a closed formula for the growth of the $p$-part of the class number of $F_n$ whenever $n$ is large enough. We present a new proof of this formula, obtained by reinterpreting its summands in terms of Sylvester matrix rank functions on the Iwasawa algebra $Λ$ without resorting to the classification of finitely-generated $Λ$-modules up to pseudo-isomorphism.",
+      "title": "Rank functions, $\\mathbb{Z}_p$-extensions and class numbers",
+      "url": "https://arxiv.org/abs/2610.37490",
+      "version": 1
+    },
+    {
+      "arxiv_id": "2610.37485",
       "categories": [
         "math.NA"
       ],
-      "published": "2026-10-26T17:40:39Z",
-      "summary": "We establish operator universality at the spectral edge of general Wigner matrices by showing that their suitably rescaled Lanczos tridiagonalizations, constructed from deterministic initial vectors, converge to the stochastic Airy operator with Dirichlet boundary condition. The result requires control of the entire tridiagonal structure on the scale relevant to the limiting differential operator. The Lanczos coefficients for non-Gaussian Wigner matrices are strongly dependent. We analyze their fluctuations by combining multi-resolvent local laws with quantitative control of Krylov subspaces and a comparison of the resulting Jacobi coefficients with those of the Gaussian ensembles. This approach identifies the limiting Brownian potential directly from the original matrix entries, without invoking Dyson Brownian motion in the step of Green function comparison. The resolvent limit yields joint convergence of edge eigenvalues, embedded eigenfunctions, and spectral measures. For Gaussian, Laguerre and circular $β$-ensembles we construct sharp couplings to the stochastic Airy, Bessel and Sine operators, preserving the finite-matrix laws. For fixed $β> 0$, their squared Hilbert-Schmidt inverse errors have almost-sure orders $n^{-1/3}, n^{-1}$ and $n^{-1}$, respectively, with $a > 0$ in the hard-edge upper bound. We also identify the positive leading order coefficient for the circular ensemble, whose second derivative jumps at $β= 2$.",
-      "title": "Operator limits of random matrices: Edge universality and sharp approximations",
-      "url": "https://arxiv.org/abs/2610.35808",
+      "published": "2026-10-27T16:11:54Z",
+      "summary": "Parametric PDEs in science and engineering are often posed on irregular meshes with geometries that may contain holes or complex boundaries, yet popular operator-surrogate architectures such as the Fourier Neural Operator (FNO) rely on structured geometries for fast computational kernels. We introduce Adaptive Modal Operator Refinement (AMOR), which replaces FNO's Fourier-based spectral convolutions with reduced-basis blocks and supports both data-driven and prescribed input/output bases through a common encode/decode interface. AMOR thus applies unmodified to arbitrary meshes and, because its spectral parameterization has no tensor-product dependence on the spatial dimension, it scales favorably to three dimensions, where FNO's spectral weights grow as $m^3$ with the number of spectral modes $m$. We prove that AMOR is a universal approximator of continuous operators. On two-dimensional structured-grid benchmarks, AMOR is competitive with FNO overall and surpasses PCANet: it outperforms FNO on nonlinear diffusion and Helmholtz problems, while a static snapshot basis keeps it from matching FNO's accuracy on the time-dependent Kolmogorov flow problem. On three-dimensional problems it matches or exceeds FNO's accuracy at lower inference cost on linear elastostatics while trailing FNO on a turbulent lid-driven-cavity flow and scales favorably to problems demanding high capacity. On irregular meshes, where FNO is not directly applicable, AMOR reduces the relative $L^2$ error over the FNO extension Geo-FNO by $31\\%$ (airfoil) and $42\\%$ (elasticity). Finally, AMOR maintains strong performance across three physically distinct, experimentally motivated loading regimes on a topologically nontrivial three-dimensional aircraft-rib mesh, demonstrating its applicability to realistic engineering problems without modification.",
+      "title": "AMOR: Adaptive Modal Operator Refinement for Operator Learning on Arbitrary Meshes and Irregular 3D Geometries",
+      "url": "https://arxiv.org/abs/2610.37485",
       "version": 1
     },
     {
-      "arxiv_id": "2610.35783",
+      "arxiv_id": "2610.37477",
       "categories": [
         "math.CA"
       ],
-      "published": "2026-10-26T17:23:36Z",
-      "summary": "In this paper, we establish a sufficient condition for weak Hurwitz stability of extended Turán expressions for the Stirling--Whitney--Riordan polynomials. The proof uses polynomial transformations that preserve zeros in a real interval and in the unit disk. As an application, we prove that the extended Turán expressions for the Bell polynomials are weakly Hurwitz stable. We also prove the corresponding result for the reflected Laguerre polynomials using polynomial approximations. These results settle two conjectures of Chasse, Grabarek, and Visontai.",
-      "title": "Weak Hurwitz stability of extended Turán expressions for Stirling--Whitney--Riordan and Laguerre polynomials",
-      "url": "https://arxiv.org/abs/2610.35783",
+      "published": "2026-10-27T16:06:51Z",
+      "summary": "This article primarily investigates the Assouad dimension of graphs of continuous functions. Initially, the Assouad spectrum of the graph of a Hölder and count-Hölder continuous function has been derived. It has been shown that the Assouad dimension of the graph of a continuous function $f:[a,b]\\to \\mathbb{R}$ with the count-Hölder condition is at least \\( 1 + \\sup \\left\\{ \\overline{\\dim}_{\\mathrm{B}}L_f(y) : y \\in \\mathscr{R}_f[a,b]\\right\\} \\) where $\\overline{\\dim}_{\\mathrm{B}}$ denotes the upper box dimension, $L_f(y)$ is the level set of $f$ at level $y$, and $\\mathscr{R}_f[a,b]$ is the range of $f$ on $[a,b]$. As a consequence, non-trivial lower bounds are obtained for the Assouad dimension of the graphs of classical functions such as the Weierstrass and Takagi functions. We have also employed a unified projection solely in the direction of the $y$-axis to establish lower and upper bounds for the Assouad dimension. On this basis, we have shown that the lower bound is sharp in terms of level sets, namely the upper box dimension cannot be replaced by the Assouad dimension. This provides a partial positive answer to Question 17.11.1 posed by Fraser in~\\cite{Fraser2021}, and to Question 2.2 posed by Yu in~\\cite{Yu2020}. Building on this result, the analysis has been further extended to a broader class of Weierstrass-type functions and some self-affine functions like fractal interpolation functions. Moreover, we have discussed certain circumstances under which the Assouad dimension can reach 2 with several examples constructed. A supplementary explanation of why Brownian motion has the full Assouad dimension has also been provided based on the preceding work of Howroyd and Yu \\cite{Howroyd2019}.",
+      "title": "The Assouad Dimension of Graphs: An Affirmative Answer to Fraser's Question",
+      "url": "https://arxiv.org/abs/2610.37477",
       "version": 1
     },
     {
-      "arxiv_id": "2610.35781",
+      "arxiv_id": "2610.37425",
       "categories": [
         "math.NA"
       ],
-      "published": "2026-10-26T17:22:02Z",
-      "summary": "We prove accelerated mixing for a Metropolis-adjusted kinetic Langevin sampler: the OBABO splitting with friction $2\\sqrt m$, adjusted with Neal's non-reversibly updated uniform, which is redrawn after every epoch of $E$ steps. For targets $e^{-U}$ on $\\mathbb{R}^d$ with $mI\\preceq\\nabla^2U\\preceq LI$ and an $L_H$-Lipschitz Hessian, started from a Gaussian at an approximate minimizer, the chain reaches total variation accuracy $\\varepsilon$ after $\\tilde O\\big(\\sqrt{κd}+\\sqrt{L_H}(d/m)^{3/4}\\big)$ gradient evaluations, where $κ=L/m$ and $\\tilde O$ hides logarithmic factors. The $\\sqrtκ$ term is necessary, already on Gaussian targets. The proof discretizes Lu's entropic hypocoercivity by means of an entropy inequality for free transport, so that the relative entropy of the unadjusted chain decays at a rate of order $\\sqrt m$ up to a discretization bias. With the non-reversibly updated uniform, the leading energy errors of velocity Verlet telescope along a path. A coupling argument combines the two. On Bayesian logistic regression posteriors for two standard data sets, which satisfy these assumptions, the gradient cost of the chain with the non-reversibly updated uniform grows roughly like the square root of the condition number at the posterior mode, and that of standard adjusted OBABO roughly like its $3/4$ power.",
-      "title": "Persistence Pays: Square-root condition-number dependence for Metropolis-adjusted kinetic Langevin Monte Carlo with a non-reversibly updated accept/reject uniform",
-      "url": "https://arxiv.org/abs/2610.35781",
+      "published": "2026-10-27T15:37:30Z",
+      "summary": "We develop a phase-type (PH) representation of strong stability preserving (SSP) Runge--Kutta (RK) methods. This representation provides a probabilistic interpretation of the RK coefficients and translates the chain order conditions into absorption-time moment identities. Using moment ratio bounds for PH distributions, we prove the conjectured optimal SSP coefficients for general implicit RK methods of orders two and three. The equality characterizations also establish uniqueness of the optimal RK tableaux.",
+      "title": "Phase-type representations for Strong Stability Preserving Runge--Kutta methods",
+      "url": "https://arxiv.org/abs/2610.37425",
       "version": 1
     },
     {
-      "arxiv_id": "2610.35779",
+      "arxiv_id": "2610.37387",
       "categories": [
-        "math.RA"
+        "math.NA"
       ],
-      "published": "2026-10-26T17:18:17Z",
-      "summary": "A permutation $σ\\in\\mathbb{S}_n$ of objects $\\{1,\\ldots,n\\}$ is called \\emph{late-growing} if its partial sums never exceed the respective partial sums of the `average' permutation (with the arithmetic mean $n^{-1}\\cdot\\sum_{i=1}^n i = (n+1)/2$ of $1,\\ldots,n$ on average at each entry $σ(i)$): $\\sum_{i=1}^k σ(i) \\leqslant k\\cdot (n+1)/2$ for all positive $k\\leqslant n$. We prove that for $n=2p-1$ odd, the set $Φ_p\\subseteq \\mathbb{S}_{2p-1}$ of late-growing permutations is partitioned into parity-even vs odd elements, $Φ_p = Φ_p^{+} \\sqcup Φ_p^{-}$, in an almost symmetric way: $| Φ_p^{+} | - | Φ_p^{-} | = (-1)^{p+1}$. The proof is constructive: by viewing the permutations $σ\\inΦ_p$ as constrained walks on the integral lattice $\\mathbb{Z}$, we describe two filters that pair all but one element in $Φ_p^{+}$ versus $Φ_p^{-}$; the remaining walk $σ^*$ with monotonically growing step amplitudes determines the dominant parity subset.",
-      "title": "The counts of parity-odd vs even late-growing permutations in the group $\\mathbb{S}_{2p-1}$ differ by $(-1)^p$",
-      "url": "https://arxiv.org/abs/2610.35779",
+      "published": "2026-10-27T15:12:04Z",
+      "summary": "We develop an $\\mathcal{H}_2$ model reduction framework for polynomial bilinear systems with quadratic outputs. We define the associated $\\mathcal{H}_2$ norm and show its consistency with the established norm in the original (non-polynomial) BQO case. We derive first-order necessary conditions for $\\mathcal{H}_2$ optimal model reduction of these polynomial systems and use them to construct an efficient iterative algorithm for computing reduced BQO models that approximately satisfy these conditions. Numerical results on two examples demonstrate the accuracy and effectiveness of the proposed reduction approach.",
+      "title": "Truncated $\\mathcal{H}_2$ Optimal Model Order Reduction for Bilinear Quadratic Output Systems",
+      "url": "https://arxiv.org/abs/2610.37387",
       "version": 1
     },
     {
-      "arxiv_id": "2610.35770",
+      "arxiv_id": "2610.37359",
       "categories": [
-        "math.LO"
+        "math.NA"
       ],
-      "published": "2026-10-26T17:13:05Z",
-      "summary": "The validity problem for first-order logic is a well-known undecidable problem. The undecidability also holds even for $\\mathsf{FO}3$ and (equational formulas of) the calculus of relations. In this paper we tighten these undecidability results to the following: (1) $\\mathsf{FO}3$ with just one binary relation is undecidable even without equality; and (2) the calculus of relations with just one character and with only composition, union, and complement is undecidable. Additionally we prove that the finite validity problem is also undecidable for the above two classes.",
-      "title": "The Undecidability of FO3 and the Calculus of Relations with Just One Binary Relation",
-      "url": "https://arxiv.org/abs/2610.35770",
+      "published": "2026-10-27T14:56:16Z",
+      "summary": "We develop a multifidelity black-box variational inference (MF-BBVI) approach for PDE-constrained Bayesian inverse problems in which forward solves are expensive and PDE gradients are unavailable. The method is built on score-function estimators for the evidence lower bound (ELBO), which avoid differentiation through the PDE model but are known to suffer from high variance. To address this high variance, we employ multifidelity approximate control-variate estimators that combine a small number of high-fidelity samples with a larger number of low-fidelity samples to reduce estimator variance and the number of high-fidelity evaluations required for optimization. We further develop a PDE-derivative-free second-order optimization strategy based on both gradient and Hessian score-function estimators. For low-fidelity model generation, we propose an on-the-fly strategy that builds and adaptively updates a reduced-order model (ROM) as the variational distribution evolves throughout the optimization. We investigate strategies for adapting the ROM and estimating the approximate control-variate gains, examining tradeoffs between estimator bias, variance reduction, and computational cost. The resulting approach facilitates derivative-free variational inference for large-scale inverse problems through a reduction in overall computational cost. We demonstrate the method on four numerical examples: a linear benchmark with an exact posterior and three PDE-constrained inverse problems.",
+      "title": "Multifidelity variational inference for derivative-free PDE-constrained inverse problems",
+      "url": "https://arxiv.org/abs/2610.37359",
       "version": 1
     },
     {
-      "arxiv_id": "2610.35760",
+      "arxiv_id": "2610.37264",
+      "categories": [
+        "math.NA"
+      ],
+      "published": "2026-10-27T13:58:57Z",
+      "summary": "This paper develops reliable a posteriori error estimates for finite element approximation of an evolution equation with a positive-type memory kernels on bounded convex polygonal or polyhedral domains, including both smooth and weakly singular kernels. For the weakly singular kernel $t^{α-1}/Γ(α),\\; 0<α<1,$ the model captures the transition from parabolic diffusion to wave propagation, recovering the corresponding limiting equations as $α\\to0^+$ and $α\\to1^-$, respectively, with the memory term governing the intermediate dynamics. The spatial discretization employs time-dependent finite element spaces, while the backward Euler method combined with numerical quadrature is used for time integration. A unified \\emph{a posteriori} analysis is established for both semidiscrete and fully discrete approximations. Elliptic reconstruction yields optimal spatial error estimates, while a memory-lag estimate preserves the essential cancellation in the convolution term, yielding a first-order temporal estimator whose kernel dependence is characterized by its integral. The resulting estimators are robust, with constants independent of the final time, spatial mesh size, and time step. Their kernel dependence involves only computable quantities, avoiding exponential growth in time. Moreover, for the weakly singular kernel, the $α$-dependent factors remain uniformly bounded for $α\\in(0,1).$ Numerical experiments on a convex domain validate the theoretical results, and a space-time adaptive algorithm is also demonstrated on an L-shaped domain featuring a corner singularity and two temporal layers.",
+      "title": "A Posteriori Error Analysis of Finite Element Approximation to an Evolution Equation with a Positive-Type Memory Term",
+      "url": "https://arxiv.org/abs/2610.37264",
+      "version": 1
+    },
+    {
+      "arxiv_id": "2610.37250",
       "categories": [
         "math.CA"
       ],
-      "published": "2026-10-26T17:05:47Z",
-      "summary": "We establish the endpoint gradient estimate for centered homothetic maximal averages in every dimension $d\\ge2$ over each fixed convex body with $C^{1,θ}$ boundary, $0<θ\\le1$. In particular, the centered ball maximal operator satisfies the $W^{1,1}$ gradient bound in every dimension. Neither strict convexity nor a lower bound on the support gap is required. The geometric argument combines concentration in gradient values with nonhomogeneous calibrated rows and a summable radial correction. It extends the scalar refinement, direction-history construction and global assembly of the planar centered-disk proof of OpenAI. A separate transfer theorem gives sharp singular-derivative identities for bounded compact probability kernels once local BV output is known, and gradient continuity under an additional spatial-tail condition. Quantitative contact and translation estimates yield further profile and kernel examples. The estimates retain the fixed body's regularity data; the endpoint for arbitrary $C^1$ and nonsmooth convex bodies remains open here.",
-      "title": "Endpoint gradient bounds for centered convex maximal operators and probability kernels",
-      "url": "https://arxiv.org/abs/2610.35760",
+      "published": "2026-10-27T13:49:59Z",
+      "summary": "We establish sharp $L^p$ maximal estimates for averages over smooth nondegenerate curves in $\\mathbb R^n$ for $p>n$. More precisely, we show that for any nondegenerate curve $γ$ in $\\mathbb R^n$ and the associated maximal operator \\begin{equation} M f(x):=\\sup_{t>0} \\Big|\\int_{-1}^1f(x-tγ(s))χ(s)\\,\\mathrm{d}s\\Big|, \\end{equation} the estimate \\begin{equation} \\| Mf\\|_{L^p(\\mathbb R^n)}\\lesssim_{γ,p,n} \\|f\\|_{L^p(\\mathbb R^n)} \\end{equation} holds for all $p>n$. A new ingredient is a weighted Kakeya-type estimate.",
+      "title": "Sharp helical maximal estimates in all dimensions",
+      "url": "https://arxiv.org/abs/2610.37250",
       "version": 1
     },
     {
-      "arxiv_id": "2610.35712",
-      "categories": [
-        "math.NA"
-      ],
-      "published": "2026-10-26T16:33:42Z",
-      "summary": "This work proposes a new Multi-Fidelity Particle Flow Filter (MFPFF) based on a linear control variate framework and multilevel Monte Carlo methods. Conventional particle filters often suffer from weight collapse and particle degeneracy in high-dimensional spaces. Particle flow filters address this by smoothly transporting prior particles toward the posterior distribution, thereby avoiding the need for resampling. This work constructs multi-fidelity particle flow filters by augmenting a small number of expensive high-fidelity particles (full-order model runs) with a large number of inexpensive low-resolution particles (reduced-order surrogates constructed via intrusive Galerkin projection). These surrogates act as control variates to enhance the statistical estimate of the full-order posterior, yielding enhanced analysis accuracy at comparable computational cost. The work focuses on two particle flows based on log homotopy, the stochastic Gromov flow and deterministic Exact flow. Numerical experiments with the Korteweg-De Vries (KdV) and Quasi-Geostrophic (QG) test problems demonstrate that the proposed MFPFF achieves accuracy comparable to high-fidelity simulations while significantly reducing computational expense.",
-      "title": "Multi-Fidelity Particle Flow Filters based on Log Homotopy",
-      "url": "https://arxiv.org/abs/2610.35712",
-      "version": 1
-    },
-    {
-      "arxiv_id": "2610.35691",
-      "categories": [
-        "math.NA"
-      ],
-      "published": "2026-10-26T16:21:04Z",
-      "summary": "We present a method for computing a specific type of matrix decomposition that combines a structured framework with data-driven adaptation. This framework allows for an efficient and stable representation of signals or images using frames by identifying sets of vectors that naturally capture the essential features of the given data. The resulting decomposition enables the development of regularization techniques that enhance the quality of reconstruction by preserving important signal characteristics while suppressing noise. We develop an optimization-based algorithm to compute the decomposition and establish convergence properties of the resulting iterates. Numerical experiments on synthetic data and tomographic image reconstruction illustrate the behavior of the proposed method and its performance compared to conventional spectral regularization methods.",
-      "title": "Computing Data-Aware Diagonal Frame Decompositions",
-      "url": "https://arxiv.org/abs/2610.35691",
-      "version": 1
-    },
-    {
-      "arxiv_id": "2610.35664",
-      "categories": [
-        "math.NA"
-      ],
-      "published": "2026-10-26T16:09:23Z",
-      "summary": "Solutions to elliptic boundary value problems on three-dimensional nonsmooth domains exhibit singular behavior near edges and vertices. Using layer potential theory, we investigate boundary integral equations for the Laplace equation and characterize the leading singular exponents of the surface density on conical domains. For two canonical geometries, we derive explicit formulas for the two families of edge singular exponents on a dihedral wedge, and characterize the modewise vertex singular exponents on an axisymmetric circular cone through the zeros of associated Legendre functions and their derivatives. Building on these two prototypes and the dilation-invariance property, we formulate the associated operator pencil for general conical domains and develop a nonlinear eigenvalue solver. This solver employs the Nyström method with graded meshes, logarithmically corrected trapezoidal rules, and Brent's method to compute these singular exponents accurately and efficiently. Numerical examples for trihedral cones, regular m-hedral cones, and droplet-type cones verify the effectiveness of our approach and illustrate the interactions between edge and vertex singularities.",
-      "title": "Singularity Analysis of Laplace Boundary Integral Equations on Three-Dimensional Domains with Corners",
-      "url": "https://arxiv.org/abs/2610.35664",
-      "version": 1
-    },
-    {
-      "arxiv_id": "2610.35645",
+      "arxiv_id": "2610.37155",
       "categories": [
         "math.RA"
       ],
-      "published": "2026-10-26T15:53:32Z",
-      "summary": "We prove two universality theorems for neural networks consisting of a single neuron. First we prove a strong form of the Bovdi--Geche universality conjecture on neurons over finite fields, where the activation function is a certain modification of the discrete logarithm, using the Weil bound on multiplicative character sums over finite fields. Then we show a generalisation of Aizenberg's universality theorem for complex binary neurons with a weight vector independent of the target function, positively answering another question in the literature. The proof of the latter uses an equidistribution theorem for the dilates of certain maps into tori.",
-      "title": "Proofs of strong forms of the Bovdi--Geche universality conjecture and a complex analogue",
-      "url": "https://arxiv.org/abs/2610.35645",
+      "published": "2026-10-27T12:52:14Z",
+      "summary": "In this paper, we give an affirmative answer to the open question posed by G.Birkhoff and R.S.Pierce in 1956 concerning the existence of a compatible lattice order on the complex field $\\mathbb{C}$. Using valuation rings theory, basis extension in infinite-dimensional vector spaces and extension of field embeddings to algebraic extensions, we obtain that for every real $t>1$ transcendental over $\\mathbb{Q}$, the compatible lattice order can be chosen such that $0\\prec1$, $0\\vee i=t$, and $1\\wedge t=0$. Consequently, $\\mathbb{C}$ admits at least $2^{\\aleph_0}$ distinct compatible lattice orders, each extending the usual order on $\\mathbb{Q}$.",
+      "title": "The existence of the compatible lattice order on the complex field $\\mathbb{C}$",
+      "url": "https://arxiv.org/abs/2610.37155",
       "version": 1
     },
     {
-      "arxiv_id": "2610.35612",
+      "arxiv_id": "2610.37150",
       "categories": [
         "math.RA"
       ],
-      "published": "2026-10-26T15:32:37Z",
-      "summary": "We settle Tam's star-shapedness conjecture for numerical ranges associated with compact adjoint orbits of complex reductive Lie algebras, including its original formulation in terms of the inner product $B_θ$. Let $\\mathfrak{g}$ be a complex semisimple Lie algebra, and let $K$ be a connected compact Lie group whose Lie algebra is a compact real form of $\\mathfrak{g}$. For any $x\\in\\mathfrak{g}$ and any complex linear functional $f\\in\\mathfrak{g}^*$, we prove that $\\{ f( \\operatorname{Ad} (k) x): k \\in K \\}$ is star-shaped about zero. In the reductive case, the star center is given by the value of $f$ on the central component of $x$, which coincides with the $B_θ$-pairing of the central components in Tam's original formulation. Our proof is uniform for all complex semisimple Lie algebras. Indeed, using the adjoint Casimir operator, we show that all coordinate functions of the orbit map share a common Laplace eigenvalue; we then use a nodal-hypersurface argument to prove star-shapedness for complex-valued functions in a single eigenspace. The geometric argument relies on a two-sided hypersurface-separation property, which holds whenever the first real cohomology group vanishes. In particular, we do not need simple connectivity or real analyticity. More generally, for finite-dimensional representations of compact connected semisimple Lie groups, we establish star-shapedness whenever the nonfixed component of the orbit vector belongs to a single positive Casimir eigenspace.",
-      "title": "On Tam's star-shapedness conjecture for numerical ranges of compact adjoint orbits",
-      "url": "https://arxiv.org/abs/2610.35612",
+      "published": "2026-10-27T12:49:21Z",
+      "summary": "The commuting graph of a noncommutative ring has its noncentral elements as vertices, with two distinct vertices adjacent when they commute. Akbari, Ghandehari, Hadian and Mohammadian conjectured that a full matrix ring over a finite field is determined, among rings with identity, by its commuting graph. In this paper, we prove the conjecture for every even matrix size.",
+      "title": "Finite Matrix Rings of Even Size Are Determined by Their Commuting Graphs",
+      "url": "https://arxiv.org/abs/2610.37150",
       "version": 1
     },
     {
-      "arxiv_id": "2610.35537",
-      "categories": [
-        "math.RA"
-      ],
-      "published": "2026-10-26T14:50:49Z",
-      "summary": "In this article, we prove that every split simple Chevalley Lie algebra over a finite field of characteristic $p\\neq 2$ of classical types $B_n$, $C_n$, and $D_n$, and exceptional types $G_2$, $F_4$, $E_6$, $E_7$, and $E_8$, is $2$-generated. Combined with the result of Cantor, Jezernik, and Zozaya for the classical type $A_n$ [Two-generation of traceless matrices over finite fields, Linear Algebra Appl. (2025)], this establishes $2$-generation for all split simple Chevalley Lie algebras over finite fields of characteristic $p\\neq 2$.",
-      "title": "2-generation of Chevalley Lie algebras over finite fields",
-      "url": "https://arxiv.org/abs/2610.35537",
-      "version": 1
-    },
-    {
-      "arxiv_id": "2610.35502",
+      "arxiv_id": "2610.37113",
       "categories": [
         "math.CA"
       ],
-      "published": "2026-10-26T14:29:19Z",
-      "summary": "We overview recent results quantifying the Besicovitch projection theorem, focusing on the theory of quantitative rectifiability and connection to Vitushkin's conjecture.",
-      "title": "Survey on Favard length and rectifiability",
-      "url": "https://arxiv.org/abs/2610.35502",
+      "published": "2026-10-27T12:10:20Z",
+      "summary": "We characterize Gaussian fluctuations of Fourier-Hermite functionals of stationary Gaussian fields on locally compact Abelian groups via spectral delocalization: conditional on the total spectral sum being near the probed frequency, no partial sum concentrates. Under suitable assumptions, this reduces Gaussian convergence to small-ball estimates for convolution powers of the spectral measure, without model-specific contraction estimates. On $\\mathbb T^d$, the criterion yields CLTs at every fixed frequency for band-limited fields and random trigonometric polynomials, and extends the known failure of Gaussian convergence for planar arithmetic random waves from the fourth chaos to all even orders $q\\ge4$. On $\\mathbb R^d$ and $\\mathbb Z^d$, we establish a Breuer-Major theorem for Fourier functionals at every frequency with nonzero limiting variance. Cyclical long-memory models exhibit frequency-dependent Gaussian convergence. We also establish CLTs and variance asymptotics for singular continuous spectral measures, including those of stationary Gaussian solutions of linear PDEs. At zero frequency, weak Ahlfors regularity of the spectral support and an $L^2$ density suffice for second-chaos CLTs, covering fractal sets, the Airy surface of Gaussian sea waves, and smooth compact manifolds. For a class of smooth hypersurfaces, we obtain the same variance rates and CLTs known for classical nonlinear functionals of Berry's random wave model. Finally, for random waves with spherical spectral densities bounded above and below, we classify Gaussian convergence at every frequency $\\|z\\|\\le q$: it fails only for the planar second chaos when $0<\\|z\\|<2$.",
+      "title": "Spectral delocalization and central limit theorems for Fourier functionals of stationary Gaussian fields",
+      "url": "https://arxiv.org/abs/2610.37113",
       "version": 1
     },
     {
-      "arxiv_id": "2610.35466",
+      "arxiv_id": "2610.37108",
+      "categories": [
+        "math.LO"
+      ],
+      "published": "2026-10-27T12:06:50Z",
+      "summary": "We study algebras for the $\\mathbf{BM}$-, $\\mathbf{BI}$-, and $\\mathbf{BMI}$-fragments of combinatory logic, where $\\mathbf{B} xyz \\to_{w} x\\left(yz\\right)$, $\\mathbf{M} x \\to_{w} xx$ and $\\mathbf{I} x \\to_{w} x$. We prove that every finite $\\mathbf{BM}$-algebra $\\mathcal{A}$ contains an element $Y$ satisfying $Yx = x\\left(Yx\\right)$ for all $x\\in A$. Moreover, a single closed $\\mathbf{BM}$-term represents such an element in every finite $\\mathbf{BM}$-algebra. On the other hand, we show that there exists an infinite $\\mathbf{BMI}$-algebra with no such element. Consequently, the variety of $\\mathbf{BM}$-algebras is not generated by finite $\\mathbf{BM}$-algebras. We also characterise finite $\\mathbf{BI}$-algebras as finite semigroups with two distinguished left units $B$ and $I$, and finite $\\mathbf{BMI}$-algebras as finite idempotent semigroups with three distinguished left units $B$, $M$ and $I$.",
+      "title": "Finite $\\mathbf{BM}$-algebras and fixed-point combinators",
+      "url": "https://arxiv.org/abs/2610.37108",
+      "version": 1
+    },
+    {
+      "arxiv_id": "2610.37061",
       "categories": [
         "math.RA"
       ],
-      "published": "2026-10-26T13:59:45Z",
-      "summary": "We prove that a quiver potential over a field of characteristic zero is finitely determined if and only if the trace space of its Jacobian algebra is finite dimensional. In particular, Jacobi-finite potentials are finitely determined. We further prove that rigid potentials are finitely determined and, over an algebraically closed field, unique up to right equivalence on a fixed quiver. For finitely determined weighted-homogeneous potentials, we give an explicit bound on the jet order sufficient for finite determinacy in terms of the arrow weights, the weight of the potential, and the highest nonzero weight of the trace space of its Jacobian algebra. We also establish new invariance results for weighted-homogeneous potentials under right equivalence.",
-      "title": "Finite determinacy and rigidity of quiver potentials",
-      "url": "https://arxiv.org/abs/2610.35466",
+      "published": "2026-10-27T11:28:49Z",
+      "summary": "All traditional encryption schemes share a fundamental operational vulnerability: encrypted data must be decrypted before it can be used. Fully homomorphic encryption eliminates this vulnerability by enabling computation directly on encrypted data, but existing FHE schemes impose substantial practical constraints that limit deployment. This paper presents a formal security analysis of the Gribov-Kahrobaei-Shpilrain (GKS) private-key FHE scheme. GKS requires no bootstrapping or de-linearization, produces bit-exact decryption, supports native encrypted search, and scales to unbounded depth.",
+      "title": "GKS Fully Homomorphic Encryption: Security Analysis",
+      "url": "https://arxiv.org/abs/2610.37061",
       "version": 1
     },
     {
-      "arxiv_id": "2610.35409",
+      "arxiv_id": "2610.37027",
       "categories": [
-        "math.LO"
+        "math.RA"
       ],
-      "published": "2026-10-26T13:21:47Z",
-      "summary": "We prove the Modular Existential Closedness conjecture for the modular $j$-function extended from the upper half-plane to $\\mathbb{C} \\setminus \\mathbb{R}$ by Schwarz reflection. Specifically, we show that any system of equations involving the field operations and $j$ has solutions in the complex numbers unless it is overdetermined. Such a system is overdetermined if, roughly, there are more independent equations than variables, possibly after applying the transformation rules of the $j$-function under the linear fractional action of $\\rm{PGL}_2(\\mathbb{Q})$ on $\\mathbb{C} \\setminus \\mathbb{R}$. In general, we do not expect overdetermined systems of equations to have solutions due to the algebraic and transcendental properties of the $j$-function captured by the modular analogue of Schanuel's conjecture. In geometric terms, Modular Existential Closedness states that given a broad and free irreducible algebraic variety $V \\subseteq \\mathbb{C}^n \\times \\mathbb{C}^n$ -- where broadness and freeness are geometric conditions guaranteeing that the system is not overdetermined -- there is a point of the form $(τ_1, \\ldots, τ_n, j(τ_1), \\ldots, j(τ_n)) \\in V$ with $τ_i \\in \\mathbb{C} \\setminus \\mathbb{R}$. The proof uses Ratner's theorems on the closure and equidistribution of the orbits of unipotent flows in powers of $\\rm{PGL}_2(\\mathbb{R})$ to describe the asymptotic behaviour of the orbits of certain analytic maps. This is then applied to approximate a relatively simple system of equations using the original system and the action of $\\rm{PGL}_2(\\mathbb{Z})$. The construction of the limiting system makes use of the Ax--Schanuel theorem and guarantees an isolated solution. Rouché's theorem then establishes the existence of solutions for the original system of equations.",
-      "title": "Modular Existential Closedness",
-      "url": "https://arxiv.org/abs/2610.35409",
+      "published": "2026-10-27T11:03:42Z",
+      "summary": "We study $δ$-derivations of the finite-dimensional perfect Lie algebra $\\mathfrak{saff}_{n+1}=\\mathfrak{sl}_{n+1}(\\mathbb{C})\\ltimes\\mathbb{C}^{n+1}$, where $\\mathbb{C}^{n+1}$ is the natural $\\mathfrak{sl}_{n+1}(\\mathbb{C})$-module. For $n>1$ and $δ\\ne1$, we prove that every nonzero $δ$-derivation occurs at $δ=\\frac12$ and is a scalar multiple of the identity. For $n=1$, we explicitly describe the four-dimensional space of $(-2)$-derivations.",
+      "title": "On δ-derivations of \\mathfrak{saff}_{n+1}",
+      "url": "https://arxiv.org/abs/2610.37027",
       "version": 1
     },
     {
-      "arxiv_id": "2610.35025",
+      "arxiv_id": "2610.36982",
       "categories": [
         "math.LO"
       ],
-      "published": "2026-10-26T08:36:31Z",
-      "summary": "We determine the Borel-reducibility comparison of each pair of $\\mathbfΠ^0_3$ benchmark equivalence relations in Gao's monograph. The additional comparisons we prove are $E_\\infty\\leq_B c_0$, $E_\\infty\\nleq_B\\ell_p$ for $2<p<\\infty$, $\\ell_p\\nleq_B{\\equiv_m}$ for $2<p<\\infty$, $c_0\\nleq_B{\\equiv_m}$, $c_0\\nleq_B\\ell_\\infty^+$ and $\\equiv_m\\nleq_B\\ell_\\infty^+$. Together with the previous positive direction, these give $\\ell_p\\leq_B{\\equiv_m}$ if and only if $p\\leq2$. These answer several questions in Gao's monograph and Kanovei' monograph. We also prove that unitary equivalence of all bounded linear operators is not Borel reducible to $\\equiv_m$. This answers a question of Ding and Gao. Equivalently, unitary equivalence of arbitrary representations of $F_\\infty$ is strictly more complicated than that of arbitrary representations of $\\mathbb Z$. This answers a question of Thomas.",
-      "title": "Comparisons of benchmark equivalence relations",
-      "url": "https://arxiv.org/abs/2610.35025",
+      "published": "2026-10-27T10:34:25Z",
+      "summary": "In this paper, we consider conservation results for iterated $β_n$-model reflection principles. Using these principles, we characterize the $Π^1_{m+2}$-, $Σ^1_{m+2}$- and $\\mathsf{B}(Π^1_{m+2})$-consequences of $Σ^1_{n+1}$-$\\mathsf{DC}_0$ and $Σ^1_{n+1}$-$\\mathsf{TDC}_0$ for $m \\leq n$. Here, $\\mathsf{B}(Π^1_{m+2})$ denotes the set of Boolean combinations of $Π^1_{m+2}$-formulas, and $\\mathsf{TDC}$ stands for transfinite $\\mathsf{DC}$. We also show that, in each case, the stronger theory has a super-exponential speed-up over the corresponding conservative subtheory.",
+      "title": "Dependent choice and iterated beta_n-model reflection",
+      "url": "https://arxiv.org/abs/2610.36982",
       "version": 1
     },
     {
-      "arxiv_id": "2610.34900",
+      "arxiv_id": "2610.36552",
       "categories": [
         "math.LO"
       ],
-      "published": "2026-10-26T06:20:07Z",
-      "summary": "We show that if $κ^{<κ} = κ$, then there is a $κ$-strategically closed, $κ^+$-c.c.\\ partial order that forces $\\square_κ$. We discuss consequences for generic large cardinals.",
-      "title": "Forcing square with small conditions",
-      "url": "https://arxiv.org/abs/2610.34900",
+      "published": "2026-10-27T03:01:37Z",
+      "summary": "The fibrational framework of Licata, Shulman, and Riley gives a uniform account of substructural and modal logics for single-conclusion judgments. This thesis extends it to a multiple-output setting in which cartesian resources may be used freely, while linear resources occur exactly once on either side of the turnstile. Judgments are indexed by descriptors: directed acyclic graphs generalizing the tree-shaped expressions of the original framework. Descriptor $2$-cells encode structural transformations, and explicit gates provide weakening, contraction, coweakening, and cocontraction at linear modes. We define a sequent calculus generated by two connectives, $F$ and $U$. We prove identity, invertibility, and cut admissibility. The mode and type theories present linear-non-linear $2$-polycategories, and the projection is a local discrete fibration and a fibration, with opcartesian lifts for one-output base morphisms. Two adequacy results validate the framework: its cartesian fragment recovers the Licata--Shulman--Riley calculus, and its purely linear fragment presents classical multiplicative linear logic. Finally, we relate indexed and fibrational semantics. After developing representability correspondences for multicategories and polycategories, we establish an equivalence between multi-indexed categories over a fixed representable base and multicategorical opfibrations over it, together with its biclosed bifibrational version. We also give a one-way construction from planar poly-indexed data to a planar polycategory.",
+      "title": "A Fibrational Framework For Multi-Conclusion Logics",
+      "url": "https://arxiv.org/abs/2610.36552",
       "version": 1
     },
     {
-      "arxiv_id": "2610.34548",
+      "arxiv_id": "2610.36265",
       "categories": [
         "math.LO"
       ],
-      "published": "2026-10-25T20:17:08Z",
-      "summary": "What does a recursive definition mean when the logic is grounded, so a sentence is true only if a terminating process makes it so? Kripke's answer for the special case of truth was the least fixed point. This paper takes that answer as a rule. Reflective Grounded Arithmetic (RGA) already writes any recursive definition as one self-referential term, paradoxes included. Inductive Grounded Arithmetic (IGA) adds the elimination rule for every positive one, so that accessibility, the winning positions of a game, and grounded truth itself each come with their own induction principle. The rule is sound for the omega model and the system is consistent, both machine-checked in Isabelle/HOL. With the rule, IGA proves Goodstein's theorem outright, in a logic without implication at an undecided hypothesis, and the Kirby-Paris hydra game for primitive recursive strategies, both with every step of the arithmetic a grounded derivation. It proves the Cantor normal forms well-founded, from which the well-foundedness of the standard $\\varepsilon_0$ notation system in HOL follows, and it certifies the Veblen notation as an ordinal below every $\\varphi(n,0)$. It defines Kripke truth for RGA's own language as one fixed point that agrees with the omega model exactly. Two equivalences locate what the classical world has and the grounded one does not. IGA proves the whole Veblen notation well-founded exactly when it admits bivalence of accessibility for that order, and bivalence of accessibility for an order is sound exactly when the order is well-founded; so $Γ_0$ lies at most one instance of excluded middle away, at the accessibility predicate of the notation, and that instance, the well-foundedness sentence and one membership claim in a primitive-recursive form of Kleene's $\\mathcal O$ are interderivable over IGA.",
-      "title": "Inductive Grounded Arithmetic: Goodstein, the Hydra, and $Γ_0$",
-      "url": "https://arxiv.org/abs/2610.34548",
+      "published": "2026-10-26T20:40:31Z",
+      "summary": "Universally Baire sets are a standard tool in modern set theory, where they are closely connected with forcing and absoluteness. In this paper we study universal Baireness instead as purely a regularity notion for subsets of Polish spaces. Our aim is not to develop the set-theoretic theory, but to place the notion on a systematic descriptive-set-theoretic footing and to clarify the several nonequivalent definitions that occur in the literature. A subset of a Polish space is called \\emph{universally Baire} if all its continuous preimages possess the property of Baire. However, it is important to specify what the domain of these continuous functions can be. In fact, a plethora of definitions are used by various authors in the literature, the class of possible domains is sometimes the class of Polish spaces, compact metrizable spaces, all topological spaces, compact topological spaces, etc. We clarify this situation by demonstrating that the above four options are pairwise nonequivalent under the Continuum Hypothesis, we determine all the implications between these four notions that are provable in $ZFC$, and also show that all the notions used in the literature are equivalent to one of these four. Furthermore, we use Miller forcing to show that actually the cases of Polish and compact metrizable spaces are consistently equivalent. We show that numerous definitions using Borel isomorphisms, changes of topologies and Boolean algebras are all equivalent to the case of Polish domains. We present an argument that the notion using Polish domains is the natural dual to the notion of universally measurable sets. Finally, as a byproduct, we prove that the following statement is independent of $ZFC$: if a subset of a Polish space has the property of Baire relative to every nowhere dense Cantor subspace, then the subset has the property of Baire in the whole space.",
+      "title": "On various notions of universally Baire sets and reflection of non-Baire property in Cantor sets",
+      "url": "https://arxiv.org/abs/2610.36265",
       "version": 1
     }
   ],
