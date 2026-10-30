@@ -21,16 +21,16 @@ Automated research snapshot based on arXiv metadata.
 
 | Published | Paper | Categories |
 |---|---|---|
-| 2026-10-27 | [Applications of the fixed point theorem for mappings contracting perimeters of triangles: ODEs, PDEs, integer and difference equations](https://arxiv.org/abs/2610.37644) | math.CA |
-| 2026-10-27 | [Nonlinear uncertainty principle](https://arxiv.org/abs/2610.37549) | math.CA |
-| 2026-10-27 | [Relative distality and incidence bounds in positive characteristic](https://arxiv.org/abs/2610.37532) | math.LO |
-| 2026-10-27 | [Rank functions, $\\mathbb{Z}_p$-extensions and class numbers](https://arxiv.org/abs/2610.37490) | math.RA |
-| 2026-10-27 | [AMOR: Adaptive Modal Operator Refinement for Operator Learning on Arbitrary Meshes and Irregular 3D Geometries](https://arxiv.org/abs/2610.37485) | math.NA |
-| 2026-10-27 | [The Assouad Dimension of Graphs: An Affirmative Answer to Fraser's Question](https://arxiv.org/abs/2610.37477) | math.CA |
-| 2026-10-27 | [Phase-type representations for Strong Stability Preserving Runge--Kutta methods](https://arxiv.org/abs/2610.37425) | math.NA |
-| 2026-10-27 | [Truncated $\\mathcal{H}_2$ Optimal Model Order Reduction for Bilinear Quadratic Output Systems](https://arxiv.org/abs/2610.37387) | math.NA |
-| 2026-10-27 | [Multifidelity variational inference for derivative-free PDE-constrained inverse problems](https://arxiv.org/abs/2610.37359) | math.NA |
-| 2026-10-27 | [A Posteriori Error Analysis of Finite Element Approximation to an Evolution Equation with a Positive-Type Memory Term](https://arxiv.org/abs/2610.37264) | math.NA |
+| 2026-10-29 | [NEOPIC: A Neural Operator Framework for Particle-based Kinetic Plasma Simulations](https://arxiv.org/abs/2610.40528) | math.NA |
+| 2026-10-29 | [Quantitative sub-ballisticity of self-avoiding walk on $\\mathbb{Z}^d$](https://arxiv.org/abs/2610.40520) | math.LO |
+| 2026-10-29 | [Differentiation and Shift Property Characterisations of the Group Fourier Transform on the Heisenberg Group](https://arxiv.org/abs/2610.40508) | math.CA |
+| 2026-10-29 | [A Parameterized Stochastic Hamiltonian Process on Graphs with Two-Point Boundary Conditions](https://arxiv.org/abs/2610.40497) | math.NA |
+| 2026-10-29 | [Finite-rank rigidity and Nash-curve discreteness for correlation potentials](https://arxiv.org/abs/2610.40475) | math.CA |
+| 2026-10-29 | [Bilinear operators along variable curves](https://arxiv.org/abs/2610.40472) | math.CA |
+| 2026-10-29 | [Numerical Investigation of Soft-to-Hard Convergence: Discretization, Admissibility, and Spectral Regularity](https://arxiv.org/abs/2610.40461) | math.NA |
+| 2026-10-29 | [Singular value decompositions over $\\ast$-algebras with applications to tensor decompositions](https://arxiv.org/abs/2610.40450) | math.NA |
+| 2026-10-29 | [Ergodicity as an obstruction to classification by higher-rank invariants](https://arxiv.org/abs/2610.40440) | math.LO |
+| 2026-10-29 | [An alternative proof of the Keel--Tao endpoint Strichartz estimates](https://arxiv.org/abs/2610.40434) | math.CA |
 
 ## Methodology
 
