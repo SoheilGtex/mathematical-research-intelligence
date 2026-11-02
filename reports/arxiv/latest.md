@@ -21,16 +21,16 @@ Automated research snapshot based on arXiv metadata.
 
 | Published | Paper | Categories |
 |---|---|---|
-| 2026-10-29 | [NEOPIC: A Neural Operator Framework for Particle-based Kinetic Plasma Simulations](https://arxiv.org/abs/2610.40528) | math.NA |
-| 2026-10-29 | [Quantitative sub-ballisticity of self-avoiding walk on $\\mathbb{Z}^d$](https://arxiv.org/abs/2610.40520) | math.LO |
-| 2026-10-29 | [Differentiation and Shift Property Characterisations of the Group Fourier Transform on the Heisenberg Group](https://arxiv.org/abs/2610.40508) | math.CA |
-| 2026-10-29 | [A Parameterized Stochastic Hamiltonian Process on Graphs with Two-Point Boundary Conditions](https://arxiv.org/abs/2610.40497) | math.NA |
-| 2026-10-29 | [Finite-rank rigidity and Nash-curve discreteness for correlation potentials](https://arxiv.org/abs/2610.40475) | math.CA |
-| 2026-10-29 | [Bilinear operators along variable curves](https://arxiv.org/abs/2610.40472) | math.CA |
-| 2026-10-29 | [Numerical Investigation of Soft-to-Hard Convergence: Discretization, Admissibility, and Spectral Regularity](https://arxiv.org/abs/2610.40461) | math.NA |
-| 2026-10-29 | [Singular value decompositions over $\\ast$-algebras with applications to tensor decompositions](https://arxiv.org/abs/2610.40450) | math.NA |
-| 2026-10-29 | [Ergodicity as an obstruction to classification by higher-rank invariants](https://arxiv.org/abs/2610.40440) | math.LO |
-| 2026-10-29 | [An alternative proof of the Keel--Tao endpoint Strichartz estimates](https://arxiv.org/abs/2610.40434) | math.CA |
+| 2026-10-30 | [Parabolic Reifenberg Parametrizations and Corona Decompositions, with Applications to Singular Integrals](https://arxiv.org/abs/2610.42142) | math.CA |
+| 2026-10-30 | [Functional Tensor Trains for High-Order Greeks and Exposure Tails of Multi-Asset Structured Products](https://arxiv.org/abs/2610.42119) | math.NA |
+| 2026-10-30 | [Dirichlet form approach to stochastic thin-film equations](https://arxiv.org/abs/2610.42086) | math.NA |
+| 2026-10-30 | [Spectra of stochastic matrices with a Toeplitz interior](https://arxiv.org/abs/2610.42072) | math.RA |
+| 2026-10-30 | [Stochastic Rayleigh-Ritz Ascent: Global Linear Convergence under a Spectral Gap](https://arxiv.org/abs/2610.42071) | math.NA |
+| 2026-10-30 | [Asymmetric $L^p$-improving and maximal estimates for the triangle averaging operator](https://arxiv.org/abs/2610.42061) | math.CA |
+| 2026-10-30 | [Stochastic processes on reductive homogeneous and symmetric spaces](https://arxiv.org/abs/2610.42025) | math.NA |
+| 2026-10-30 | [Tiling without a subspace complement: a sharp counterexample in dimension nine over the field with two elements](https://arxiv.org/abs/2610.42005) | math.CA |
+| 2026-10-30 | [A Robust High-order Approximation of the Gray Thermal Radiative Transfer Equations](https://arxiv.org/abs/2610.41967) | math.NA |
+| 2026-10-30 | [Loose Inductive Set Theories](https://arxiv.org/abs/2610.41862) | math.LO |
 
 ## Methodology
 
