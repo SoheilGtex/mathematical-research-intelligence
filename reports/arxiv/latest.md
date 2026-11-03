@@ -21,16 +21,16 @@ Automated research snapshot based on arXiv metadata.
 
 | Published | Paper | Categories |
 |---|---|---|
-| 2026-10-30 | [Parabolic Reifenberg Parametrizations and Corona Decompositions, with Applications to Singular Integrals](https://arxiv.org/abs/2610.42142) | math.CA |
-| 2026-10-30 | [Functional Tensor Trains for High-Order Greeks and Exposure Tails of Multi-Asset Structured Products](https://arxiv.org/abs/2610.42119) | math.NA |
-| 2026-10-30 | [Dirichlet form approach to stochastic thin-film equations](https://arxiv.org/abs/2610.42086) | math.NA |
-| 2026-10-30 | [Spectra of stochastic matrices with a Toeplitz interior](https://arxiv.org/abs/2610.42072) | math.RA |
-| 2026-10-30 | [Stochastic Rayleigh-Ritz Ascent: Global Linear Convergence under a Spectral Gap](https://arxiv.org/abs/2610.42071) | math.NA |
-| 2026-10-30 | [Asymmetric $L^p$-improving and maximal estimates for the triangle averaging operator](https://arxiv.org/abs/2610.42061) | math.CA |
-| 2026-10-30 | [Stochastic processes on reductive homogeneous and symmetric spaces](https://arxiv.org/abs/2610.42025) | math.NA |
-| 2026-10-30 | [Tiling without a subspace complement: a sharp counterexample in dimension nine over the field with two elements](https://arxiv.org/abs/2610.42005) | math.CA |
-| 2026-10-30 | [A Robust High-order Approximation of the Gray Thermal Radiative Transfer Equations](https://arxiv.org/abs/2610.41967) | math.NA |
-| 2026-10-30 | [Loose Inductive Set Theories](https://arxiv.org/abs/2610.41862) | math.LO |
+| 2026-11-02 | [A hyperbolic nonlinear Schrödinger system in multiple spatial dimensions: structure, convergence, and numerical discretization](https://arxiv.org/abs/2611.03642) | math.NA |
+| 2026-11-02 | [Multi-Trajectory Parallel-in-Iteration Optimization](https://arxiv.org/abs/2611.03621) | math.NA |
+| 2026-11-02 | [Counterexamples to the Jacobian Conjecture from the viewpoint of lineability](https://arxiv.org/abs/2611.03572) | math.CA |
+| 2026-11-02 | [High-order guaranteed lower bounds for the Schrödinger eigenvalue problem](https://arxiv.org/abs/2611.03567) | math.NA |
+| 2026-11-02 | [Lecture note on Fourier decoupling theory and its applications](https://arxiv.org/abs/2611.03549) | math.CA |
+| 2026-11-02 | [Hyperplane Furstenberg Sets in Higher Dimensions](https://arxiv.org/abs/2611.03504) | math.CA |
+| 2026-11-02 | [High-order in-cell discontinuous reconstruction path-conservative methods for conservative systems in primitive variables](https://arxiv.org/abs/2611.03479) | math.NA |
+| 2026-11-02 | [Structured Neural Network Models for Anisotropic Magnetic Constitutive Laws](https://arxiv.org/abs/2611.03475) | math.NA |
+| 2026-11-02 | [On Farah ideals and beyond](https://arxiv.org/abs/2611.03432) | math.LO |
+| 2026-11-02 | [Centralizers of maps as automorphism groups of Yang--Baxter solutions](https://arxiv.org/abs/2611.03380) | math.RA |
 
 ## Methodology
 

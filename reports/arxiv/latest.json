@@ -1,223 +1,223 @@
 {
   "papers": [
     {
-      "arxiv_id": "2610.42142",
-      "categories": [
-        "math.CA"
-      ],
-      "published": "2026-10-30T17:58:48Z",
-      "summary": "For parabolic Ahlfors regular sets, we show that the bilateral weak geometric lemma (BWGL), bilateral approximation by unions of planes (BAUP), and corona decompositions by $Lip$(1,1/2) graphs (whose defining functions need not have half-order time derivatives in BMO) are equivalent. These geometric conditions do not imply the strong geometric lemma. A key tool is a parabolic version of Reifenberg's theorem for sets with holes, which we prove here. As an application of these geometric results, we prove that a parabolic Ahlfors $(n+2)$-regular measure $μ$ on $\\mathbb{R}^{d+1}$, $1\\leq n\\leq d-1$, is parabolic uniformly rectifiable if its support satisfies any of these equivalent conditions and the parabolic Riesz transform is bounded on $L^2(μ)$.",
-      "title": "Parabolic Reifenberg Parametrizations and Corona Decompositions, with Applications to Singular Integrals",
-      "url": "https://arxiv.org/abs/2610.42142",
-      "version": 1
-    },
-    {
-      "arxiv_id": "2610.42119",
+      "arxiv_id": "2611.03642",
       "categories": [
         "math.NA"
       ],
-      "published": "2026-10-30T17:52:14Z",
-      "summary": "Risk management of worst-of autocallables needs price sensitivities (Greeks) up to third order and the potential future exposure, a tail quantile of the note's future value. In Monte Carlo, each order of differentiation multiplies the sampling noise by a factor that grows with the observation frequency, and nested simulation turns the noise of its inner paths into a bias of the quantile. We instead solve the backward pricing recursion, storing the continuation value as an $hp$ functional tensor train (hp-FTT) whose piecewise-polynomial cores are split at the barriers, so that worst-of barrier events act exactly, with rank one. For Gaussian transitions we show that the polynomial degree sufficient for an error $\\varepsilon$ grows only as $\\sqrt{\\log(1/\\varepsilon)}$. One solve then gives every Greek at any spot without sampling noise, by integrating the likelihood-ratio weight against the stored value, and the values it stores at future dates replace inner simulation. Against the strongest Monte Carlo estimators we could build or find published, on worst-of autocallables observed monthly on three to five assets, the order of the Greek and the accuracy decide which method is cheaper. At $1\\%$ accuracy Monte Carlo is more than an order of magnitude cheaper for deltas, second-order Greeks go either way, and hp-FTT is cheaper for every third-order Greek, by up to two orders of magnitude. At $0.1\\%$ hp-FTT is cheaper for every Greek we could check, under geometric Brownian motion and local volatility alike. For the exposure alone Monte Carlo is cheaper at $1\\%$ and hp-FTT at $0.1\\%$, and a solve run for the Greeks yields it for little more than scenario sampling. Sampling pays in variance for each derivative and hp-FTT in rank for each asset, so Monte Carlo keeps low-order Greeks at percent accuracy, rarely observed contracts and many assets.",
-      "title": "Functional Tensor Trains for High-Order Greeks and Exposure Tails of Multi-Asset Structured Products",
-      "url": "https://arxiv.org/abs/2610.42119",
+      "published": "2026-11-02T18:58:22Z",
+      "summary": "We propose and study a first-order hyperbolic approximation of the nonlinear Schrödinger (NLS) equation in $N$ spatial dimensions. This is an extension of the recently-proposed 1D hyperbolic NLS model. We study the structure and properties of the hyperbolic approximation and their relation to those of the original system. We show that the N-dimensional hyperbolic system exactly conserves analogs of the mass, energy, and momentum, and that it possesses stationary solutions that are closely related to those of NLS. The hyperbolic system is also shown to admit plane-wave solutions that share some stability properties with those of NLS, and that relaxation can shrink the focusing low-wavenumber modulational instability band as well as introduce a high-wavenumber instability band not present in NLS. We also show that solutions of the hyperbolic system converge to solutions of NLS in the relaxation limit. We present an adaptive-mesh finite volume discretization of the hyperbolic system and demonstrate its effectiveness in handling simulations, including those with geometric obstacles or non-periodic boundary conditions. The effectiveness of the numerical scheme is demonstrated through examples including a Bose-Einstein condensate, line soliton instability, and superflow past a cylinder.",
+      "title": "A hyperbolic nonlinear Schrödinger system in multiple spatial dimensions: structure, convergence, and numerical discretization",
+      "url": "https://arxiv.org/abs/2611.03642",
       "version": 1
     },
     {
-      "arxiv_id": "2610.42086",
+      "arxiv_id": "2611.03621",
       "categories": [
         "math.NA"
       ],
-      "published": "2026-10-30T17:37:08Z",
-      "summary": "The thin-film equation describes the evolution of a thin liquid film driven by capillarity and limited by viscosity. For sufficiently small film heights, thermal fluctuations may not be neglected. Since the thin-film equation as an overdamped evolution equation has a gradient flow structure, the informal implementation of the fluctuation-dissipation principle is straightforward. In this paper, we work out that the concept of Dirichlet forms and the related construction of Markov processes are tailor-made for this type of overdamped continuum evolution with thermal noise. However, the concept of Dirichlet forms relies on the availability of a Gibbsian equilibrium measure, which, in case of the thin-film equation, limits the treatment to the $(1+1)$-dimensional case. By means of Dirichlet form theory, we obtain the existence and uniqueness of the evolution of laws on configuration space. We show that the regularity of the realizations of this Markov process matches the heuristics. In a simplified situation with a Gaussian reference measure and a non-degenerate mobility function, we characterize it as what is called an energy solution. The latter provides a pathwise decomposition of the driving forces into a deterministic and a thermal one, which was the starting point. Applying the same techniques in the spatially discretized setting proposed in [Math. Comp. 92 (2023), 1931--1976], we obtain the same results uniformly in the discretization parameter. In particular, Galerkin as well as spectral approximations of the stochastic thin-film equation are shown to be uniformly tight in optimal topologies. In the simplified setting, we also prove Mosco convergence of the associated Dirichlet forms and thereby obtain convergence of these approximations.",
-      "title": "Dirichlet form approach to stochastic thin-film equations",
-      "url": "https://arxiv.org/abs/2610.42086",
+      "published": "2026-11-02T18:51:46Z",
+      "summary": "Previously, we developed a ``parallel-in-iteration'' optimization framework that uses multigrid reduction-in-time (MGRIT) to parallelize slowly converging optimization methods, such as gradient descent. Unlike time-dependent evolution problems, optimization requires only a final point with a sufficiently small gradient, rather than an accurate approximation of the entire trajectory of iterates. This motivates a different use of MGRIT: instead of repeatedly improving the approximation of a single long trajectory, we introduce restarted MGRIT (R-MGRIT), which performs one MGRIT iteration on a trajectory, takes the approximate final point as a new initial guess, and repeats the process on a new trajectory. Each restart thus defines a new all-at-once system, allowing progress toward the solution without accurately approximating the preceding trajectory. Moreover, we find that these trajectories can be shortened without increasing the number of restarts needed for convergence. We provide theoretical results comparing MGRIT and R-MGRIT for linear problems and demonstrate the convergence behavior of the shortened trajectories numerically for both linear and nonlinear problems. Shortening the trajectories increases the estimated parallel speedup while reducing the number of processors required.",
+      "title": "Multi-Trajectory Parallel-in-Iteration Optimization",
+      "url": "https://arxiv.org/abs/2611.03621",
       "version": 1
     },
     {
-      "arxiv_id": "2610.42072",
+      "arxiv_id": "2611.03572",
       "categories": [
-        "math.RA"
+        "math.CA"
       ],
-      "published": "2026-10-30T17:29:53Z",
-      "summary": "For stochastic matrices of order $n$, the Karpelevič region is the set of all possible eigenvalues. We study matrices whose first and last $m$ rows are arbitrary probability vectors, while the remaining middle rows come from one probability vector by successive cyclic shifts to the right, moving the last entry to the first position each time. As $m$ increases, their eigenvalue regions expand from the polygon spanned by the $n$th roots of unity. For $n\\ge3$, they first equal the full Karpelevič region at $m=\\lceil(n-1)/4\\rceil$. Reproducing all $n$ eigenvalues, counted with multiplicity, of every stochastic matrix of the same order requires $m=\\lfloor n/2\\rfloor$. Thus, in even order $n\\ge4$, retaining two consecutive rows with the Toeplitz pattern can exclude eigenvalue lists even when every possible eigenvalue occurs individually. The boundary of the Karpelevič region consists of arcs joining roots of unity. We determine the least $m$ for which every point of each arc occurs as an eigenvalue in our family. For arcs whose nonreal points first become possible eigenvalues at order $n\\ge4$, and for $m\\ge1$ below this minimum, no point on the arc other than its endpoints occurs in the family. At the minimum, every point on the arc becomes attainable. At the smallest order $n\\ge4$ at which a nonreal point on a boundary arc away from its endpoints can occur as an eigenvalue, that point determines the characteristic polynomial of every stochastic matrix of order $n$ having it as an eigenvalue. Further results describe the smaller regions and the angles at which their boundaries approach roots of unity.",
-      "title": "Spectra of stochastic matrices with a Toeplitz interior",
-      "url": "https://arxiv.org/abs/2610.42072",
+      "published": "2026-11-02T18:26:32Z",
+      "summary": "Algebraic genericity in the family of polynomial counterexamples to the recently solved Jacobian Conjecture for $N\\ge3$ is investigated. The notion of affine-coneability is introduced and it is shown that this family is affine-coneable and 1-lineable, but not 2-lineable. Semigroupability is further studied with respect to coordinatewise multiplication and composition.",
+      "title": "Counterexamples to the Jacobian Conjecture from the viewpoint of lineability",
+      "url": "https://arxiv.org/abs/2611.03572",
       "version": 1
     },
     {
-      "arxiv_id": "2610.42071",
+      "arxiv_id": "2611.03567",
       "categories": [
         "math.NA"
       ],
-      "published": "2026-10-30T17:28:37Z",
-      "summary": "We consider the adjoint-free random-plane iteration algorithm for finding the top eigenvector of a matrix proposed in (SIAM J. Matrix Anal. Appl. 47 (2026), 1349-1374). Unlike standard methods such as the power method or gradient descent, the above algorithm lacked linear convergence guarantees in the presence of a spectral gap. In this paper, we establish explicit spectral-gap-dependent global linear convergence rates in expectation, providing quantitative guarantees for the empirically observed convergence.",
-      "title": "Stochastic Rayleigh-Ritz Ascent: Global Linear Convergence under a Spectral Gap",
-      "url": "https://arxiv.org/abs/2610.42071",
+      "published": "2026-11-02T18:22:56Z",
+      "summary": "We compute unconditional guaranteed lower eigenvalue bounds for Schrödinger operators using a modified hybrid high-order method with built-in correction for the potential defect. The method assumes exact numerical integration and allows possibly unbounded potentials in $L^p$ for $p>n/2$ and $p\\geq2$ on general polyhedral domains. We prove that the high-order correction preserves optimal a priori convergence orders, and derive reliable and efficient a posteriori error estimators. Numerical experiments provide striking evidence of optimal high-order convergence rates of the adaptive algorithm.",
+      "title": "High-order guaranteed lower bounds for the Schrödinger eigenvalue problem",
+      "url": "https://arxiv.org/abs/2611.03567",
       "version": 1
     },
     {
-      "arxiv_id": "2610.42061",
+      "arxiv_id": "2611.03549",
       "categories": [
         "math.CA"
       ],
-      "published": "2026-10-30T17:23:23Z",
-      "summary": "Let $d\\ge2$ and $t>0$. We study the bilinear triangle averaging operator $$\\mathcal T_t(f,g)(x)=\\int_{\\mathcal I}f(x-ty)g(x-tz) dσ(y,z),$$ where $σ$ is the normalized surface measure on the manifold $\\mathcal I=\\{(y,z)\\in\\mathbb R^d\\times\\mathbb R^d:|y|=|z|=|y-z|=1\\}$ of equilateral triangles of side length one with a vertex at the origin. We prove the strong-type asymmetric $L^p$-improving estimate $$\\mathcal T_1:L^{\\frac{d+1}{d-1}}(\\mathbb R^d)\\times L^{\\frac{d^2-1}{d^2-3d+4}}(\\mathbb R^d)\\longrightarrow L^{\\frac{d+1}{2}}(\\mathbb R^d)$$ in every dimension $d\\ge4$. This enlarges the range of exponents $(p,q,r)$ for which the triangle averaging operator is known to map $L^p(\\mathbb R^d)\\times L^q(\\mathbb R^d)$ to $L^r(\\mathbb R^d)$, and symmetrization produces new symmetric estimates in every such dimension as well. The proof combines Sobolev smoothing estimates, obtained through a microlocal decomposition of the triangle incidence relation, with complex interpolation in an analytic family of averages over triangles of varying shape that contains the triangle averaging operator. We also establish maximal estimates for triangle averages. Let $E\\subset[1,2]$ be a nonempty set of upper Minkowski dimension $β$, and let $\\mathcal T_E(f,g)=\\sup_{t\\in E}|\\mathcal T_t(f,g)|$. We prove that $$\\|\\mathcal T_E(f,g)\\|_2\\lesssim\\|f\\|_{H^{-s_1}}\\|g\\|_{H^{-s_2}}$$ whenever $s_1,s_2\\ge0$, $s_1+s_2<\\frac{d-3-β}{2}$ and $d>3+β$. This improves the previously known Sobolev smoothing estimate by half a derivative and lowers the dimension requirement. We also obtain asymmetric localized maximal estimates of the form $\\mathcal T_E:L^p(\\mathbb R^d)\\times L^q(\\mathbb R^d)\\to L^r(\\mathbb R^d)$ in an enlarged range of exponents.",
-      "title": "Asymmetric $L^p$-improving and maximal estimates for the triangle averaging operator",
-      "url": "https://arxiv.org/abs/2610.42061",
+      "published": "2026-11-02T18:11:09Z",
+      "summary": "This paper is based on lecture notes taken and organized during the 17th Graduate Mathematics Intensive Training Program (Spring 2025), held at the Beijing International Center for Mathematical Research, in which Professor Shaoming Guo lectured on \"An Introduction to Fourier Decoupling Theory.\" The main content includes an introduction to and proofs of $\\ell^2$ decoupling inequality, together with its applications in number theory, harmonic analysis, and geometric measure theory. The writing follows Professor Guo's teaching style, proving theorems in an intuitive and heuristic manner; consequently, the text contains many figures to explain the ideas at hand, while also lacking some rigor. However, all of these geometric intuitions can be rigorously justified, albeit in a more complicated and technical way. The author hopes that readers will be able to understand, through these lecture notes, the geometric intuition hidden behind the cumbersome proofs, and thereby deepen their understanding of the relevant definitions and theorems. Rigorous proofs can be found in Professor Guo's forthcoming book, which interested readers may consult.",
+      "title": "Lecture note on Fourier decoupling theory and its applications",
+      "url": "https://arxiv.org/abs/2611.03549",
       "version": 1
     },
     {
-      "arxiv_id": "2610.42025",
+      "arxiv_id": "2611.03504",
+      "categories": [
+        "math.CA"
+      ],
+      "published": "2026-11-02T17:40:55Z",
+      "summary": "The hyperplane Furstenberg problem asks how small the Hausdorff dimension of $E\\subset\\mathbb{R}^n$ can be when a $t$-dimensional family of affine $(n-1)$-dimensional hyperplanes meets $E$ in sets of dimension at least $s$. For $0<s\\le n-1$ and $0<t\\le n$, we prove the sharp bound in $\\mathbb{R}^n$ $\\dim_{\\mathrm{H}}E\\ge\\mathbf{F}(s,t;n,n-1)$, where $\\mathbf{F}$ is Gan's Furstenberg index proposed in prime fields. We also construct examples attaining this bound for all parameters. Our main reduction theorem, Theorem 3.1, states that for $n\\ge3$, $0<s\\le n-2$, and $1<t\\le n$, every weighted $(s,t)$ configuration $(E,H)$ at scale $δ$ produces a dual weighted $(s,t-1)$ configuration $(P,\\mathcal{T})$ inside a hyperplane $H_{y_0}\\cong\\mathbb{R}^{n-1}$. The reduction uses radial projection and energy estimates for Frostman measures. Iterating this reduction and applying the Csörnyei--Stull incidence theorem yields the bound.",
+      "title": "Hyperplane Furstenberg Sets in Higher Dimensions",
+      "url": "https://arxiv.org/abs/2611.03504",
+      "version": 1
+    },
+    {
+      "arxiv_id": "2611.03479",
       "categories": [
         "math.NA"
       ],
-      "published": "2026-10-30T16:55:00Z",
-      "summary": "In this paper we present a method to effectively and efficiently provide pathwise approximations of the Riemannian Brownian motion on a reductive homogeneous space $M\\cong G/H$ endowed with a $G$-invariant metric. This setting includes spheres, hyperbolic spaces, the space of symmetric positive-definite matrices, flag manifolds and Stiefel manifolds. The simulation is based on Wong--Zakai approximations of an appropriately chosen SDE in $G$ that is projected down onto $M\\cong G/H$. The effectiveness lies in the fact that well-established results on the convergence rate of the Wong--Zakai equation immediately carry over to the homogeneous space thanks to Nash's embedding. The efficiency lies in the fact that explicit representations of the Wong--Zakai approximations can be obtained in this setting using the Lie exponential map.",
-      "title": "Stochastic processes on reductive homogeneous and symmetric spaces",
-      "url": "https://arxiv.org/abs/2610.42025",
+      "published": "2026-11-02T17:19:22Z",
+      "summary": "We present a path-conservative methodology for the numerical approximation of conservative systems formulated exclusively in primitive variables, the most physically relevant set of variables. The approach is designed to preserve the correct weak solution while avoiding the spurious oscillations near contact discontinuities that may arise in conservative formulations. Nonconservative products are treated through the selection of a suitable family of paths combined with an in-cell discontinuous reconstruction strategy, which is locally activated near shocks. To choose the path we introduce a compatibility condition between the Rankine-Hugoniot conditions of the non-conservative form, with the exact ones, assumed to be known. In smooth regions and across contact discontinuities, a standard path-conservative scheme is employed. The method is further extended to achieve high-order accuracy. Numerical results for the Euler multimaterial and shear interface model demonstrates correct shock-capturing property, suppression of spurious oscillations due to contact discontinuities, and convergence without using hybrid formulations.",
+      "title": "High-order in-cell discontinuous reconstruction path-conservative methods for conservative systems in primitive variables",
+      "url": "https://arxiv.org/abs/2611.03479",
       "version": 1
     },
     {
-      "arxiv_id": "2610.42005",
-      "categories": [
-        "math.CA"
-      ],
-      "published": "2026-10-30T16:45:42Z",
-      "summary": "We construct an explicit 64-point subset of $\\mathbb F_2^9$ which tiles by translation but has no linear-subspace tiling complement. Together with our earlier dimension-eight theorem and a product argument, this shows that every nonempty tile in $\\mathbb F_2^d$ has a linear-subspace complement precisely when $d\\le8$. The example is spectral, so it is not a counterexample to Fuglede's conjecture. Its construction uses six three-dimensional subspaces of $\\mathbb F_2^6$, specified by a small table. We classify all its tiling complements and spectra: there are exactly 512 complements and 64 spectra, with one translation class of each. Every spectrum has normalized Wiener norm $15/8$. An appendix proves that Goyal's related construction is affinely inequivalent but has the same tiling complements and spectra. The construction and both classifications are proved from first principles. We also give elementary proofs of the positive assertion in dimensions at most seven and for all tile sizes other than sixteen in dimension eight. The remaining case uses our previously established theorem based on the classification of perfect binary codes of length fifteen.",
-      "title": "Tiling without a subspace complement: a sharp counterexample in dimension nine over the field with two elements",
-      "url": "https://arxiv.org/abs/2610.42005",
-      "version": 1
-    },
-    {
-      "arxiv_id": "2610.41967",
+      "arxiv_id": "2611.03475",
       "categories": [
         "math.NA"
       ],
-      "published": "2026-10-30T16:16:41Z",
-      "summary": "We present a high-order, positivity preserving, and asymptotic preserving approximation of the gray radiative transfer equations. The time and space approximation is done using a diagonally-implicit Runge-Kutta method with stabilized, continuous finite elements, and the angular approximation uses the method of discrete ordinates. We detail a simple and robust inner/outer iteration strategy to solve these equations and prove that the proposed scheme is exactly conservative, independent of iterative tolerances. A maximum and minimum principle is enforced using a conservative redistribution limiting technique, and the method is demonstrated to be robust in the thick diffusion limit.",
-      "title": "A Robust High-order Approximation of the Gray Thermal Radiative Transfer Equations",
-      "url": "https://arxiv.org/abs/2610.41967",
+      "published": "2026-11-02T17:17:43Z",
+      "summary": "High-performance electrical steel used for iron cores of power transformers and generators exhibits complex material behavior. While modeling and simulation of isotropic nonlinear response is well understood, the incorporation of magnetic anisotropy remains challenging. This work proposes to utilize a structured neural network architecture to systematically describe the anisotropic nonlinear anhysteretic magnetic material response of electrical steel sheets. By constructing a convex and smooth co-energy density with dedicated behavior at infinity, we can ensure thermodynamic consistency and correct physical behavior and further guarantee basic mathematical properties which provide well-posedness of corresponding magnetic field problems and efficient numerical solvers. Numerical tests demonstrate the capability of the proposed method to describe strongly anisotropic behavior as well as its robust convergence in finite-element simulations.",
+      "title": "Structured Neural Network Models for Anisotropic Magnetic Constitutive Laws",
+      "url": "https://arxiv.org/abs/2611.03475",
       "version": 1
     },
     {
-      "arxiv_id": "2610.41862",
+      "arxiv_id": "2611.03432",
       "categories": [
         "math.LO"
       ],
-      "published": "2026-10-30T15:15:55Z",
-      "summary": "We prove that KP, with Full Set Induction, is neither solid nor tight. More generally, every consistent theory obtained from KPC by adding a quantifier bounded set of sentences has a model with a parameter-free definable class surjection from its natural numbers onto its universe. Using such enumerations to define generic extensions by relative interpretations, we show that theories with the stable definable ground property are not tight. Ground definability over MOST and continuum coding over ZFC^{Π_3} yield applications to weak inductive set theories with large cardinals and forcing axioms. Finally, solidity for quantifier bounded extensions of MOST with Full Set Induction implies a Ground Axiom formulated using a fixed finite level of genericity; under the same solidity hypothesis, the corresponding extension of full ZFC proves the ordinary Ground Axiom.",
-      "title": "Loose Inductive Set Theories",
-      "url": "https://arxiv.org/abs/2610.41862",
+      "published": "2026-11-02T16:53:10Z",
+      "summary": "An ideal $\\mathcal{I}$ on $ω$ is called Farah if there are hereditary closed subsets $C_n$ of $\\mathcal{P}(ω)$, for $n\\inω$, such that $\\mathcal{I}=\\{A\\subseteqω:\\ \\forall_{n\\inω}\\ \\exists_{k\\inω}\\ A\\setminus k\\in C_n\\}$. Farah asked in [Trans. Amer. Math. Soc. 356 (2004), no. 6] if every $\\mathbf{F_{σδ}}$ ideal is a Farah ideal. We show that this is false by providing both tall and non-tall counterexamples. Moreover, we show that there is an antichain in the sense of Katětov order of length $\\continuum$ consisting of $\\mathbf{F_{σδ}}$ non-Farah ideals. We also investigate a closely related problem concerning sets of ideal limit points. We show that if $\\mathcal{I}$ is an $\\mathbf{G_{δσδ}}$ ideal on $ω$ and $x\\in X^ω$ is a sequence in an uncountable Polish space $X$, then \\[ Λ_x(\\mathcal{I})=\\left\\{p\\in X:\\ \\exists_{A\\notin\\mathcal{I}}\\ x\\restriction A\\text{ converges to }p\\right\\} \\] is $\\mathbf{F_σ}$. This answers [Top. App. 312 (2022)] (partially) and [J. Symb. Logic, DOI: 10.1017/jsl.2026.10181]. Earlier it was known to be true only in the case of Farah ideals.",
+      "title": "On Farah ideals and beyond",
+      "url": "https://arxiv.org/abs/2611.03432",
       "version": 1
     },
     {
-      "arxiv_id": "2610.41843",
+      "arxiv_id": "2611.03380",
+      "categories": [
+        "math.RA"
+      ],
+      "published": "2026-11-02T16:22:09Z",
+      "summary": "For a partition $X = Y \\sqcup Z$ of a set $X$ and an arbitrary map $g \\colon Y \\to {\\rm Hom}_{\\rm Set} (Z, \\, Z)$, we construct a solution $R_g \\colon X \\times X \\to X \\times X$ of the braid equation. We characterize intrinsically the solutions which are isomorphic to some $R_g$ and we give a necessary and sufficient condition for two solutions $R_g$ and $R_{g'}$ to be isomorphic. Consequently, the number of isomorphism classes of the solutions $R_g$ on a set with $n$ elements is $1 + \\sum_{k = 1}^{n-1} \\widetilde{o} (n - k, \\, k)$, where $\\widetilde{o} (m, \\, k)$ is the number of orbits of the symmetric group $S_m$, acting by conjugation, on the set of multisets with $k$ elements of maps $\\{1, \\ldots, m\\} \\to \\{1, \\ldots, m\\}$. This construction is then used to obtain a solution of the braid equation whose automorphism group is exactly the centralizer ${\\rm Aut} (f_1, \\ldots, f_k)$ of a given family $f_1, \\ldots, f_k \\colon X \\to X$ of maps, $k \\geq 1$. For $k = 2$, combined with a result of Agore, Chirvasitu and the author, this gives another proof of the fact that any group is isomorphic to the automorphism group of a solution of the braid equation (equivalently, of the set-theoretic Yang--Baxter equation).",
+      "title": "Centralizers of maps as automorphism groups of Yang--Baxter solutions",
+      "url": "https://arxiv.org/abs/2611.03380",
+      "version": 1
+    },
+    {
+      "arxiv_id": "2611.03320",
       "categories": [
         "math.LO"
       ],
-      "published": "2026-10-30T14:59:33Z",
-      "summary": "Let $p$ be a prime number and let $K$ be a field such that $p$ is prime to the absolute Galois group $\\operatorname{Gal}(K)$, in the sense that $p$ does not divide the degree of any finite Galois extension of $K$. We conjecture that $K$ is large in the sense of Pop: any smooth algebraic curve $C$ over $K$ with a $K$-rational point has infinitely many $K$-rational points. This conjecture would have some consequences in mathematical logic. For instance, it would imply the expected classification of stable fields of positive characteristic. We give some weak evidence for this conjecture. Specifically, suppose that $K$ is a perfect field and $\\operatorname{Gal}(K)$ is prime to $p$. Then every abelian variety $A$ over $K$ has Zariski dense $K$-rational points, and if $C$ is a smooth curve of genus less than $7-p$ with at least one $K$-rational point, then $C$ has infinitely many $K$-rational points.",
-      "title": "A conjecture on Galois groups and large fields",
-      "url": "https://arxiv.org/abs/2610.41843",
+      "published": "2026-11-02T15:45:23Z",
+      "summary": "The 1-2-3 Conjecture asserts that every finite graph without isolated edges admits edge weights from $\\{1,2,3\\}$ such that the sum function forms a vertex coloring. We study its Borel analogue for locally finite Borel graphs without isolated edges, proving that five weights suffice in general and four suffice for regular graphs. We obtain three weights for acyclic graphs admitting a Borel selection of a nonempty finite set of ends from each component. We also obtain $μ$-measurable and Baire measurable vertex-coloring $3$-edge weightings from $3$-colorings of the same definability, under probability measure-preserving and Baire quasi-invariance conditions, respectively.",
+      "title": "The 1-2-3 Conjecture for Borel Combinatorics",
+      "url": "https://arxiv.org/abs/2611.03320",
       "version": 1
     },
     {
-      "arxiv_id": "2610.41774",
-      "categories": [
-        "math.RA"
-      ],
-      "published": "2026-10-30T14:14:53Z",
-      "summary": "We consider noncommutative analogues of associated fibre bundles where the total space, base space and even the fiber may be nonaffine, that is, not represented by a single algebra, and where the structure group is replaced by a Hopf algebra $H$. We choose to describe gluing of affine pieces by corings. In the role of a principal bundle we take an internal $E$-coring $M$ in the monoidal category of right $H$-comodules where $E$ is a faithfully flat right Hopf-Galois extension. In a role of a fibre we either take a left $H$-comodule algebra $F$, or more generally an internal $F$-coring $N$ in the monoidal category of left $H$-comodules. Cotensor products combining these data is used to obtain an ordinary coring representing the total space of an associated bundle. If the fiber coring $N$ is equipped with a choice of an $H$-coinvariant grouplike element, then we exhibit a canonical morphisms of corings from the $H$-coinvariant coring of $M$ to the associated bundle coring which is viewed as a dual to the projection of an associated bundle.",
-      "title": "Coring morphisms presenting nonaffine noncommutative fibre bundles",
-      "url": "https://arxiv.org/abs/2610.41774",
-      "version": 1
-    },
-    {
-      "arxiv_id": "2610.41759",
-      "categories": [
-        "math.RA"
-      ],
-      "published": "2026-10-30T14:01:57Z",
-      "summary": "We prove that a finite-dimensional connected monomial algebra over an algebraically closed field is derived tame if and only if every finite connected convex subcategory of its universal cover has non-negative Euler form. Derived tameness is also equivalent to tameness of its repetitive category and trivial extension. For one-cycle algebras, this condition is equivalent to the non-negativity on $\\mathbb R$ of $|Q_0|$ explicitly computable polynomials in $\\mathbb Q[t]$. This gives a finite algorithm for deciding derived tameness. We also construct an infinite family of derived-tame one-cycle string algebras with minimal cubic relations, no two of which are derived equivalent.",
-      "title": "Derived tame monomial algebras",
-      "url": "https://arxiv.org/abs/2610.41759",
-      "version": 1
-    },
-    {
-      "arxiv_id": "2610.41660",
+      "arxiv_id": "2611.03267",
       "categories": [
         "math.CA"
       ],
-      "published": "2026-10-30T12:32:38Z",
-      "summary": "Elliptic Fekete configurations minimize logarithmic energy on the sphere. They also provide a natural source of complex polynomials with controlled Shub--Smale condition number. The link between these two problems is the product of the distances from each point to all the other points: logarithmic energy controls the geometric mean of these products, whereas local conditioning depends on each product separately. This paper studies the passage from global information to uniform estimates at individual nodes, exploring its connections with quantitative equidistribution, Riesz energies, and polynomial conditioning. We improve separation bounds for elliptic Fekete configurations and obtain quantitative Riesz-energy estimates for both these configurations and spherical roots of polynomials with optimal-order global conditioning. For $0<s<2$, these estimates also improve explicit upper bounds for the minimal Riesz $s$-energy.",
-      "title": "Elliptic Fekete points: separation, Riesz energies, and polynomial conditioning",
-      "url": "https://arxiv.org/abs/2610.41660",
+      "published": "2026-11-02T15:11:26Z",
+      "summary": "A remarkable theorem of S. Alesker, S. Artstein-Avidan, and V. Milman characterizes the Fourier transform on $\\mathbb{R}^n$ as, in essence, the unique transformation on the space of tempered distributions that exchanges convolution with pointwise multiplication. In this paper, we extend this perspective to the setting of the Heisenberg group $\\He$, focusing on functions taking values in a separable Hilbert space $\\Hi$. We establish a characterization of the group Fourier transform on $\\He$ in terms of convolution. More precisely, we characterize the group Fourier transform on $L^1(\\He,\\Hi)$ and $L^2(\\He,\\Hi)$. In addition, we obtain a similar characterization for the group Fourier transform of $\\Hi$-valued Schwartz class functions on the Heisenberg group.",
+      "title": "Characterization of the group Fourier transform of Hilbert space Valued functions",
+      "url": "https://arxiv.org/abs/2611.03267",
       "version": 1
     },
     {
-      "arxiv_id": "2610.41644",
+      "arxiv_id": "2611.03204",
       "categories": [
         "math.RA"
       ],
-      "published": "2026-10-30T12:18:12Z",
-      "summary": "This paper introduces the ${\\rm P}$-generalized determinant, a more general class of quaternion determinants. It unifies several classical quaternion determinants proposed between 1922 and 2008, including the Moore determinant, the Xie determinant, the Chen determinant, and the Kyrchei row--column determinants, thereby revealing the essential nature of quaternion determinants as multivariate polynomial-type functions with a fixed ordering of products. We provide equivalent characterizations of the expansion of the $\\mathrm{P}$-generalized determinant along a given row or column, and establish conversion relations between the $\\mathrm{P}_{l}$- and $\\mathrm{P}_{r}$-generalized determinants. We prove that the $\\mathrm{P}$-generalized determinant of a quaternion Hermitian matrix is a real number independent of the choice of cycle representation rule. We further investigate the behavior of the $\\mathrm{P}$-generalized determinant under elementary row and column operations on quaternion Hermitian matrices, as well as its linearity in rows and columns. Finally, using the $\\mathrm{P}$-generalized determinant, we derive determinantal representations of the inverse of an invertible quaternion Hermitian matrix and of the unique solution to the quaternion matrix equation $AXB=C$. In particular, this yields Cramer's rule for the left and right linear systems $Ax=b$ and $xA=b$.",
-      "title": "P-generalized determinant over quaternions and its applications",
-      "url": "https://arxiv.org/abs/2610.41644",
+      "published": "2026-11-02T14:28:21Z",
+      "summary": "We introduce hammock coordinates to study the combinatorial structure of partial silting configurations in the bounded derived category of a derived-discrete algebra $Λ(r,n,m)$. By extracting exact integer inequalities from the Bobiński--Geiß--Skowroński Hom-hammock formula, we establish a closed-form criterion for pairwise partial silting both within any $\\mathcal Z$-component and across distinct components. Using this coordinate framework, we establish three primary results. First, we prove the universal upper bound $|S| \\le n+m$ on the cardinality of any partial silting configuration $S$ of $\\mathcal Z$-objects ---both globally via Bongartz completion in the silting-discrete setting, and combinatorially within a single component via a $Σ^r$-invariant staircase argument. Second, we prove that this bound is universally sharp by constructing an explicit L-shaped partial silting configuration of size $n+m$ for every $Λ(r,n,m)$, alongside specialized diagonal configurations. Third, we show that the configuration lattice carries a faithful action of the cyclic group $\\mathbb Z/g$ where $g = \\gcd(r+m, n-r)$. We conclude by showing a structural obstruction to local determination: pairwise partial silting of consecutive objects in the lattice ordering does not imply global partial silting, due to the strict additivity of a coordinate defect along chains.",
+      "title": "Hammock coordinates for silting subcategories of derived-discrete algebras",
+      "url": "https://arxiv.org/abs/2611.03204",
       "version": 1
     },
     {
-      "arxiv_id": "2610.41614",
-      "categories": [
-        "math.RA"
-      ],
-      "published": "2026-10-30T11:53:48Z",
-      "summary": "In this paper, we study quasi-projective dimensions of modules over rings connected by homological ring epimorphisms. We establish several inequalities relating the quasi-projective dimensions over the source and target rings. As applications, we investigate the quasi-global dimension of triangular matrix rings and provide examples showing that the class of modules with finite quasi-projective dimension does not satisfy the 2-out-of-3 property in general.",
-      "title": "Quasi-projective dimensions over homological ring epimorphisms",
-      "url": "https://arxiv.org/abs/2610.41614",
-      "version": 1
-    },
-    {
-      "arxiv_id": "2610.41534",
+      "arxiv_id": "2611.03153",
       "categories": [
         "math.CA"
       ],
-      "published": "2026-10-30T10:26:38Z",
-      "summary": "We study the truncated Dirichlet functional \\[ Φ_n (f) = \\sum_{k = 1}^n k |a_k|^2, \\quad f(z) = \\sum_{k = 0}^\\infty a_k z^k, \\] when $f$ belongs to the Bloch space. If $n \\geq 27$, we find a normalized Bloch function $f_n$ such that \\[ Φ_n (f_n) > n B_n^2, \\] where $B_n = \\max \\{ |a_n| : \\| f \\|_{\\mathcal{B}} = 1 \\}$, thus proving that an inequality by Kayumov and Wirths cannot be extended to large values of $n$. Nevertheless, we show that the inequality $Φ_n(f) \\leq n B_n^2$ holds for all normalized functions when $n \\leq 9$.",
-      "title": "Truncated Dirichlet estimates for Bloch functions",
-      "url": "https://arxiv.org/abs/2610.41534",
+      "published": "2026-11-02T13:59:31Z",
+      "summary": "We show that any uniformly $d$-rectifiable subset of $\\mathbb{R}^n$ is contained in an Ahlfors $d$-regular set in $\\mathbb{R}^{n+1}$ which supports a $(1,1)$-Poincaré inequality. This provides a natural converse to a recent result of Azzam.",
+      "title": "Any uniformly rectifiable set is contained in a set with Poincaré inequality",
+      "url": "https://arxiv.org/abs/2611.03153",
       "version": 1
     },
     {
-      "arxiv_id": "2610.41430",
+      "arxiv_id": "2611.03036",
       "categories": [
-        "math.LO"
+        "math.RA"
       ],
-      "published": "2026-10-30T08:36:06Z",
-      "summary": "Let $K$ be a field which is strongly stable, that is, stable and strongly dependent. Then $K$ is finite or algebraically closed. This answers a question of Shelah.",
-      "title": "Strongly stable fields",
-      "url": "https://arxiv.org/abs/2610.41430",
+      "published": "2026-11-02T12:32:31Z",
+      "summary": "We apply the theory of generalised cluster algebras to classify the finiteness of positive integral points on the class of log K3 surfaces defined by $xyz = G(x,y)$ where $G$ has positive coefficients. We furthermore establish results on Zariski density, number of orbits and asymptotic growth of such points. These provide a Diophantine realisation of the finite-affine-indefinite trichotomy of rank-two root systems.",
+      "title": "Positive integral points on Mordell-Schinzel surfaces",
+      "url": "https://arxiv.org/abs/2611.03036",
       "version": 1
     },
     {
-      "arxiv_id": "2610.41064",
+      "arxiv_id": "2611.02971",
       "categories": [
         "math.LO"
       ],
-      "published": "2026-10-29T23:19:16Z",
-      "summary": "Many explicit constructions in algebra are not first-order definable in classical finitary logic, but are, however, definable in infinitary logic. The aim of this paper is to show how infinitary logic can be used to lift model-theoretic results in arithmetic to a quantifier-sensitive form. We apply this idea to a deep result of Jahnke and Kartas on the model theory of perfectoid fields. Our main result is that a first-order sentence $φ$ holds in the tilt $k^{\\flat}$ of a perfectoid field $k$ if and only if a certain sentence $φ^{\\natural}$ holds in a non-principal ultrapower of $k$, where $φ^{\\natural}$ does not depend on $k$ and is only slightly more complicated than $φ$ itself. In particular, tilting preserves the Lévy hierarchy in a precise sense. To this end, we prove that the Standard Decomposition of a valued field at a constant $t$ is infinitarily interpretable by formulas of rank at most 1.",
-      "title": "The complexity of tilting",
-      "url": "https://arxiv.org/abs/2610.41064",
+      "published": "2026-11-02T11:39:14Z",
+      "summary": "We introduce $\\mathbb{N}\\mathtt{PDL}$, a resource-aware variant of Propositional Dynamic Logic ($\\mathtt{PDL}$) capable of accounting for program costs measured by natural numbers (such as time or space in the sense of computability theory). In this framework, programs correspond to transition systems weighted by extended natural numbers, and the syntax of our logic includes formulas expressing which properties are reachable by program executions within specific cost constraints. First, we explain how the standard program constructs of non-deterministic choice, sequential composition, iteration, and tests are interpreted in this weighted setting and establish the validity of their corresponding reduction axioms. Using an appropriate adaptation of the (Fischer-Ladner) filtration technique, we proceed to prove decidability and completeness for $\\mathbb{N}\\mathtt{PDL}$ as our main results. We furthermore provide upper and lower complexity bounds for this logic using translations between standard $\\mathtt{PDL}$ and $\\mathbb{N}\\mathtt{PDL}$.",
+      "title": "Propositional Dynamic Logic with Program Costs",
+      "url": "https://arxiv.org/abs/2611.02971",
       "version": 1
     },
     {
-      "arxiv_id": "2610.40520",
+      "arxiv_id": "2611.02729",
       "categories": [
         "math.LO"
       ],
-      "published": "2026-10-29T17:28:11Z",
-      "summary": "We prove quantitative sub-ballisticity for the self-avoiding walk on the lattice $\\mathbb{Z}^d$, $d\\geq 2$. Namely, we obtain an explicit exponential rate of decay for the probability that a self-avoiding walk of length $n$ reaches distance at least $vn$, in terms of $v>0$. As a consequence, we show that the displacement of an $n$-step self-avoiding walk is at most $n/\\exp(c\\log^* n)$ with very high probability. Previously, only a non-quantitative $o(n)$ bound was known from the work of Duminil-Copin and Hammond. Along the way, we show that at criticality the partition function of bridges of length $n$ is on average bounded by $C/\\log\\log n$, which we believe to be of independent interest. Our approach is based on a quantitative analysis of the original nonconstructive proof of Duminil-Copin and Hammond using ideas from proof theory.",
-      "title": "Quantitative sub-ballisticity of self-avoiding walk on $\\mathbb{Z}^d$",
-      "url": "https://arxiv.org/abs/2610.40520",
+      "published": "2026-11-02T08:20:51Z",
+      "summary": "We establish an extension theorem for kappa-additive probability measures, where kappa is an arbitrary uncountable cardinal. Starting from a <kappa-algebra, we define an outer measure using coverings of cardinality at most kappa and characterise measurable sets by approximation in outer measure of symmetric differences. We prove that these sets form a kappa-algebra carrying a complete kappa-additive extension of the original measure. The extension is unique on the generated kappa-algebra, and its completion is the minimal domain admitting a complete kappa-additive extension. We also establish attainment of the covering infimum and show why the closure assumption on the initial algebra is essential. Examples include a strict extension of classical Lebesgue measure under the additional hypothesis add N = aleph_1 < cov N.",
+      "title": "Extension of kappa-additive measures",
+      "url": "https://arxiv.org/abs/2611.02729",
+      "version": 1
+    },
+    {
+      "arxiv_id": "2611.02683",
+      "categories": [
+        "math.RA"
+      ],
+      "published": "2026-11-02T07:36:16Z",
+      "summary": "For restricted simple Cartan-type Lie algebras over an algebraically closed field of characteristic $p\\ge5$, the reduced enveloping algebra at every nonzero $p$-character is a matrix algebra over a terminal symmetric corner, and this corner determines the extensions. Central-socle traces recover its radical and its simple factors, and the first radical layer determines the degree-one extensions. For the Witt algebra $W(1;1)$, at even height $2\\le h\\le p-3$, the unique simple module has self-extension dimension $\\min\\{p-h-2,h+2\\}$. At height two in characteristic seven, we present the Yoneda algebra as an eight-dimensional symmetric algebra tensored with a polynomial algebra on three central degree-two classes. An equivariant Tate resolution and cocycle identities prove the presentation in all degrees.",
+      "title": "Extensions at Nonzero p-Characters for Cartan-Type Lie Algebras",
+      "url": "https://arxiv.org/abs/2611.02683",
+      "version": 1
+    },
+    {
+      "arxiv_id": "2611.02544",
+      "categories": [
+        "math.RA"
+      ],
+      "published": "2026-11-02T05:13:07Z",
+      "summary": "Morier-Genoud and Ovsienko conjectured that a cubic Boolean generating function satisfying an ordered separation condition on its second polar must be equivalent to one of two symmetric normal forms. Two infinite families of counterexamples are constructed and proved analytically; both are direct sums of small seeds, and neither is equivalent to the proposed forms even after linear functions are added. The first adjoins a nondegenerate quadratic block to a ternary cubic seed and is distinguished from the proposed forms by the radical of its third polar. This radical determines the associative nucleus of every twisted quasialgebra with the given generating function, so the corresponding algebras are not isomorphic even when the grading is forgotten. The second family consists of direct sums of a five-variable seed and has zero third-polar radical. A criterion for quadratic-block presentations establishes the separation property of the seed; commutation-graph degrees, radical dimensions, and contraction ranks establish non-equivalence in all dimensions of the family.",
+      "title": "Counterexamples to a Cubic Nondegeneracy Conjecture",
+      "url": "https://arxiv.org/abs/2611.02544",
+      "version": 1
+    },
+    {
+      "arxiv_id": "2611.02531",
+      "categories": [
+        "math.LO"
+      ],
+      "published": "2026-11-02T05:04:57Z",
+      "summary": "We prove that the family of coset relations of $F_σ$ real linear subspaces of Banach space $\\ell_1$ has no common upper bound among Borel equivalence relations in the sense of Borel reducibility. These relations are indexed by a well-founded tree. Consequently, on a Polish space, a universal $Σ^0_α$ equivalence relation exists exactly when $α=1$, and a universal $Π^0_α$ equivalence relation exists exactly when $α=1$ or $2$. This strengthens the earlier nonexistence theorem for a universal $F_σ$ equivalence relation. This also answers a question of Kanovei and Lyubetsky about universal equivalence relations in Borel classes.",
+      "title": "No Borel upper bound for the $F_σ$ equivalence relations",
+      "url": "https://arxiv.org/abs/2611.02531",
       "version": 1
     }
   ],
