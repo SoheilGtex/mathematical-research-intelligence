@@ -21,16 +21,16 @@ Automated research snapshot based on arXiv metadata.
 
 | Published | Paper | Categories |
 |---|---|---|
-| 2026-11-02 | [A hyperbolic nonlinear Schrödinger system in multiple spatial dimensions: structure, convergence, and numerical discretization](https://arxiv.org/abs/2611.03642) | math.NA |
-| 2026-11-02 | [Multi-Trajectory Parallel-in-Iteration Optimization](https://arxiv.org/abs/2611.03621) | math.NA |
-| 2026-11-02 | [Counterexamples to the Jacobian Conjecture from the viewpoint of lineability](https://arxiv.org/abs/2611.03572) | math.CA |
-| 2026-11-02 | [High-order guaranteed lower bounds for the Schrödinger eigenvalue problem](https://arxiv.org/abs/2611.03567) | math.NA |
-| 2026-11-02 | [Lecture note on Fourier decoupling theory and its applications](https://arxiv.org/abs/2611.03549) | math.CA |
-| 2026-11-02 | [Hyperplane Furstenberg Sets in Higher Dimensions](https://arxiv.org/abs/2611.03504) | math.CA |
-| 2026-11-02 | [High-order in-cell discontinuous reconstruction path-conservative methods for conservative systems in primitive variables](https://arxiv.org/abs/2611.03479) | math.NA |
-| 2026-11-02 | [Structured Neural Network Models for Anisotropic Magnetic Constitutive Laws](https://arxiv.org/abs/2611.03475) | math.NA |
-| 2026-11-02 | [On Farah ideals and beyond](https://arxiv.org/abs/2611.03432) | math.LO |
-| 2026-11-02 | [Centralizers of maps as automorphism groups of Yang--Baxter solutions](https://arxiv.org/abs/2611.03380) | math.RA |
+| 2026-11-03 | [A wider state, not wider arithmetic, for single-precision time integration](https://arxiv.org/abs/2611.05365) | math.NA |
+| 2026-11-03 | [Remap for ALE Hydrodynamics via Direct Interpolation and Constraint Optimization](https://arxiv.org/abs/2611.05327) | math.NA |
+| 2026-11-03 | [De Rham cohomological architectures for PINNs and PDEs with topological holes](https://arxiv.org/abs/2611.05276) | math.NA |
+| 2026-11-03 | [Geometric classification of imaginaries in pseudofinite fields](https://arxiv.org/abs/2611.05248) | math.LO |
+| 2026-11-03 | [CQ-collocation BEMs for exterior wave propagation problems: the 3D Neumann case](https://arxiv.org/abs/2611.05226) | math.NA |
+| 2026-11-03 | [Physics-informed traditional and generative Mori-Zwanzig-reduced models for multiscale systems](https://arxiv.org/abs/2611.05211) | math.NA |
+| 2026-11-03 | [The P-Ideal Dichotomy and the Failure of Two-Cardinal Square Principles](https://arxiv.org/abs/2611.05198) | math.LO |
+| 2026-11-03 | [Hopf algebra polynomial identities in the Sweedler algebra](https://arxiv.org/abs/2611.05187) | math.RA |
+| 2026-11-03 | [Stein's generalized spherical maximal operator](https://arxiv.org/abs/2611.05154) | math.CA |
+| 2026-11-03 | [Large cardinals, small violations of choice](https://arxiv.org/abs/2611.05140) | math.LO |
 
 ## Methodology
 
