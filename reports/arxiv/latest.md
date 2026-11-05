@@ -4,8 +4,8 @@ Automated research snapshot based on arXiv metadata.
 
 ## Research Coverage
 
-- Unique papers: **20**
-- Cross-category papers: **0**
+- Unique papers: **19**
+- Cross-category papers: **1**
 - Research categories: **4**
 
 ## Category Distribution
@@ -21,16 +21,16 @@ Automated research snapshot based on arXiv metadata.
 
 | Published | Paper | Categories |
 |---|---|---|
-| 2026-11-03 | [A wider state, not wider arithmetic, for single-precision time integration](https://arxiv.org/abs/2611.05365) | math.NA |
-| 2026-11-03 | [Remap for ALE Hydrodynamics via Direct Interpolation and Constraint Optimization](https://arxiv.org/abs/2611.05327) | math.NA |
-| 2026-11-03 | [De Rham cohomological architectures for PINNs and PDEs with topological holes](https://arxiv.org/abs/2611.05276) | math.NA |
-| 2026-11-03 | [Geometric classification of imaginaries in pseudofinite fields](https://arxiv.org/abs/2611.05248) | math.LO |
-| 2026-11-03 | [CQ-collocation BEMs for exterior wave propagation problems: the 3D Neumann case](https://arxiv.org/abs/2611.05226) | math.NA |
-| 2026-11-03 | [Physics-informed traditional and generative Mori-Zwanzig-reduced models for multiscale systems](https://arxiv.org/abs/2611.05211) | math.NA |
-| 2026-11-03 | [The P-Ideal Dichotomy and the Failure of Two-Cardinal Square Principles](https://arxiv.org/abs/2611.05198) | math.LO |
-| 2026-11-03 | [Hopf algebra polynomial identities in the Sweedler algebra](https://arxiv.org/abs/2611.05187) | math.RA |
-| 2026-11-03 | [Stein's generalized spherical maximal operator](https://arxiv.org/abs/2611.05154) | math.CA |
-| 2026-11-03 | [Large cardinals, small violations of choice](https://arxiv.org/abs/2611.05140) | math.LO |
+| 2026-11-04 | [A property of boundary extensions of atomic singular inner functions](https://arxiv.org/abs/2611.06877) | math.CA |
+| 2026-11-04 | [Monadically Dependent Graph Classes Have Almost Bounded Merge-Width](https://arxiv.org/abs/2611.06804) | math.LO |
+| 2026-11-04 | [To lift or not to lift: Operator inference for nonlinear PDEs with boundary control](https://arxiv.org/abs/2611.06665) | math.NA |
+| 2026-11-04 | [Sobolev--Poincaré inequalities for piecewise $W^{2,p}$ functions over general polytopic meshes](https://arxiv.org/abs/2611.06646) | math.NA |
+| 2026-11-04 | [The Logic of Emergence](https://arxiv.org/abs/2611.06641) | math.LO |
+| 2026-11-04 | [On Jordan nilpotency of index n in group rings](https://arxiv.org/abs/2611.06587) | math.RA |
+| 2026-11-04 | [Robust Multigrid on Adaptive Meshes for the Integral Fractional Laplacian](https://arxiv.org/abs/2611.06577) | math.NA |
+| 2026-11-04 | [A Tensor-Network Chebyshev--Galerkin Method for Boundary-Value Problems in Computational Mechanics](https://arxiv.org/abs/2611.06552) | math.NA |
+| 2026-11-04 | [The group of strong automorphisms of the differential field of transseries](https://arxiv.org/abs/2611.06520) | math.LO, math.RA |
+| 2026-11-04 | [Largest-Angle Bisection and Statistical Regularization of Triangle Shapes](https://arxiv.org/abs/2611.06492) | math.NA |
 
 ## Methodology
 

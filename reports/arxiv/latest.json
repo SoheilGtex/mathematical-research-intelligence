@@ -1,223 +1,213 @@
 {
   "papers": [
     {
-      "arxiv_id": "2611.05365",
-      "categories": [
-        "math.NA"
-      ],
-      "published": "2026-11-03T18:56:19Z",
-      "summary": "Single precision (FP32) halves the memory and data movement of double precision (FP64), and on accelerators is often several times faster. Its rounding errors are harmless except in the stored state. A modified equation for Runge-Kutta methods in Shu-Osher form and linear multistep methods separates the rounding of the stored state, a forcing proportional to $1/Δt$, from truncation and from right-hand-side rounding, which sets a $Δt$-independent floor. We bound this forcing for strong-stability-preserving schemes and identify two mechanisms that keep its sign fixed, so it accumulates as a bias: past a turnaround step, refining the step increases the error, in FP64 as in FP32. For a model oscillator the analysis predicts the floor and the FP32-to-FP64 ratios of turnaround step and minimum error within 30%. Our remedy needs no FP64 arithmetic: each state variable is stored as the unevaluated sum of two FP32 numbers, updated with error-free transformations, while every right-hand-side evaluation stays in FP32. Unlike compensated summation, it needs no rewriting of the scheme. In model problems from geophysical flow, mechanical dynamics and celestial mechanics, with five Runge-Kutta and multistep schemes, it restores design-order convergence to the floor. In large-eddy simulations of a high-lift airplane wing on three refined grids, up to 544 million cells, with time steps $Δt$, $Δt/2$ and $Δt/4$, FP32 overpredicts the lift by 2.1, 4.5 and 7.7%, while the two-float lift agrees with FP64 within 0.3% on every grid, and on graphics processing units the production solver runs 1.6 to 2.7 times faster than FP64.",
-      "title": "A wider state, not wider arithmetic, for single-precision time integration",
-      "url": "https://arxiv.org/abs/2611.05365",
-      "version": 1
-    },
-    {
-      "arxiv_id": "2611.05327",
-      "categories": [
-        "math.NA"
-      ],
-      "published": "2026-11-03T18:30:22Z",
-      "summary": "This work presents an optimization-based remap approach for arbitrary Lagrangian-Eulerian (ALE) hydrodynamics that preserves sharp features and physical bounds while conserving global quantities such as volume, mass, momentum, and total energy. Achieving these properties is the main challenge in remap methods. The presented approach is well-suited for high-order finite element (FE) discretizations and ALE methods that allow for large, purely Lagrangian displacements between successive remeshing and remapping steps. Recent advances in parallel, GPU-capable interpolation routines enable the initial transfer of all fields via direct physical-space interpolation, avoiding computationally costly and diffusive pseudo-transient PDE-based advection. The interpolation produces bounded fields with minimal numerical diffusion. However, it may violate the desired conservation of global properties. Thus, a subsequent optimization step restores conservation while preserving physical bounds. The presented method provides minimally diffusive remapping of finite element fields of arbitrary order. Moreover, it directly remaps quantities defined at integration points, eliminating the need for projection onto finite element spaces. The approach also mitigates typical challenges associated with synchronizing primal variables and conserved quantities in advection-based remap methods. The proposed optimization-based remap method is evaluated using standard two- and three-dimensional remap benchmarks and full ALE hydrodynamics simulations.",
-      "title": "Remap for ALE Hydrodynamics via Direct Interpolation and Constraint Optimization",
-      "url": "https://arxiv.org/abs/2611.05327",
-      "version": 1
-    },
-    {
-      "arxiv_id": "2611.05276",
-      "categories": [
-        "math.NA"
-      ],
-      "published": "2026-11-03T17:57:15Z",
-      "summary": "We attempt to alleviate failure modes of classical physics-informed neural networks (PINNs) in scenarios of topological pathologies corresponding to punctures, holes, poles, and voids by introducing de Rham cohomological augmentations, or Hodge-de Rham PINNs. Vanilla PINNs often encounter pitfalls in hole-based settings due to discontinuous interfaces, nonzero closed path integration, path dependence, correspondence to exact forms via the exterior derivative, etc., therefore we absolve traditional failures via parameterizing a 1-form by the Hodge-Morrey-Friedrichs (HMF) decomposition for manifolds with boundary, drawing a connection to de Rham cohomology such as through the HMF isomorphism theorem. 1-forms can act as representations of scalar-valued PDE solutions through integral operator mappings. We propose performing a PINN-based loss on the parameterized 1-form through an associated PDE, which subsequently solves the potential-based PINN problem and moreover remedies the failures of vanilla PINNs via the Sobolev-regular operator under a Fréchet differentiation interconnection. The operator relationship often has a nontrivial closed-form and often requires integration or a case-by-case analysis, which we address thoroughly in our experiments. When an integrability condition is not met on our losses, we can equip exhaustion functions to train the networks. We demonstrate our methods on the Aharonov-Bohm effect, which, to our understanding, is largely nonexistent in PINN literature. We develop theoretical guarantees of our methods and demonstrate our pathological safeguards on a broad selection of topologically-adverse problems, including scenarios of inexact forms, and those of nontrivial harmonics and coexact terms.",
-      "title": "De Rham cohomological architectures for PINNs and PDEs with topological holes",
-      "url": "https://arxiv.org/abs/2611.05276",
-      "version": 1
-    },
-    {
-      "arxiv_id": "2611.05248",
-      "categories": [
-        "math.LO"
-      ],
-      "published": "2026-11-03T17:32:21Z",
-      "summary": "In [Pil07], Pillay showed that every imaginary in a proper pair of algebraically closed fields is interalgebraic with an imaginary of a certain algebraic form. In this paper, we establish an analogue for lovely pairs of pseudofinite fields. After naming countably many constants, we prove that every imaginary in lovely pairs of pseudofinite fields is interalgebraic with an imaginary of the same algebraic form as [Pil07] in the corresponding pairs of finite extensions of pseudofinite fields.",
-      "title": "Geometric classification of imaginaries in pseudofinite fields",
-      "url": "https://arxiv.org/abs/2611.05248",
-      "version": 1
-    },
-    {
-      "arxiv_id": "2611.05226",
-      "categories": [
-        "math.NA"
-      ],
-      "published": "2026-11-03T17:12:06Z",
-      "summary": "In this paper, we consider three-dimensional exterior wave propagation problems with non-homogeneous Neumann boundary conditions. We reformulate the problem as a space-time boundary integral equation involving a hypersingular operator. To solve the resulting formulation, we combine Lubich's convolution quadrature with a shifted collocation boundary element discretization and investigate numerically the efficiency, stability, and convergence of the resulting numerical scheme. Numerical tests show that the proposed approach achieves an accuracy comparable to that of Lubich's convolution quadrature combined with a Galerkin boundary element method, and provide numerical evidence of the unconditional stability of the collocation scheme.",
-      "title": "CQ-collocation BEMs for exterior wave propagation problems: the 3D Neumann case",
-      "url": "https://arxiv.org/abs/2611.05226",
-      "version": 1
-    },
-    {
-      "arxiv_id": "2611.05211",
-      "categories": [
-        "math.NA"
-      ],
-      "published": "2026-11-03T16:57:56Z",
-      "summary": "Model reduction via the Mori-Zwanzig (MZ) formalism is well understood for coarse-grained representations constructed from standard basis functions such as Fourier functions. We show that the same formalism can be used to build reduced-order models in bases discovered by physics-informed machine learning. The fluctuation-dissipation theorem (FDT) is used to close the resulting non-Markovian evolution equations for the expansion coefficients of the learned basis. We further introduce a complementary, generative closure model. Relative to the Markovian dynamics alone, both the MZ and generative closures substantially improve predictions of the filtered states.",
-      "title": "Physics-informed traditional and generative Mori-Zwanzig-reduced models for multiscale systems",
-      "url": "https://arxiv.org/abs/2611.05211",
-      "version": 1
-    },
-    {
-      "arxiv_id": "2611.05198",
-      "categories": [
-        "math.LO"
-      ],
-      "published": "2026-11-03T16:49:01Z",
-      "summary": "We prove that the $\\mathrm{P}$-ideal dichotomy implies the negation of the square principle $\\square(λ, ω)$ for every regular cardinal $λ\\geqω_2$.",
-      "title": "The P-Ideal Dichotomy and the Failure of Two-Cardinal Square Principles",
-      "url": "https://arxiv.org/abs/2611.05198",
-      "version": 1
-    },
-    {
-      "arxiv_id": "2611.05187",
-      "categories": [
-        "math.RA"
-      ],
-      "published": "2026-11-03T16:44:02Z",
-      "summary": "Using Mac Lane's PROPs, one can introduce multilinear polynomial identities that involve all the operations of a Hopf algebra: the (co)multiplication, the (co)unit and the antipode. We find bases for polynomial identities and calculate their codimensions for the Sweedler algebra, treating it first as an ordinary associative algebra over a field and second as a Hopf algebra.",
-      "title": "Hopf algebra polynomial identities in the Sweedler algebra",
-      "url": "https://arxiv.org/abs/2611.05187",
-      "version": 1
-    },
-    {
-      "arxiv_id": "2611.05154",
+      "arxiv_id": "2611.06877",
       "categories": [
         "math.CA"
       ],
-      "published": "2026-11-03T16:29:05Z",
-      "summary": "This survey concerns Stein's analytic family of generalized spherical means and the associated maximal operator. We review Stein's original theorem, the sharp necessary conditions for boundedness, and the complete theory for radial functions. We then explain the connection between positive results and local smoothing estimates for the half-wave propagator and, more generally, for Fourier integral operators. This point of view yields the sharp two-dimensional result through the work of Guth, H. Wang, and R. Zhang and, when combined with the recent local smoothing theorems, an improved higher-dimensional range. As a byproduct, the maximal operator associated with the first radial derivative of spherical means is bounded on $L^p(\\R^4)$ for $2<p<3$, a case left open in recent work of Kwaśnicki. We keep track of the relation between the local smoothing exponents and the resulting maximal estimates, and identify the region that remains open.",
-      "title": "Stein's generalized spherical maximal operator",
-      "url": "https://arxiv.org/abs/2611.05154",
+      "published": "2026-11-04T18:34:45Z",
+      "summary": "Using a property of the Hilbert transform, we prove a measure theoretic result concerning the extensions of atomic singular inner functions to the circle. Various alternative proofs are presented using the mean value theorem for harmonic functions and a well-known property of Blaschke products. Using the main result, we establish several facts concerning atomic singular inner functions and their logarithms.",
+      "title": "A property of boundary extensions of atomic singular inner functions",
+      "url": "https://arxiv.org/abs/2611.06877",
       "version": 1
     },
     {
-      "arxiv_id": "2611.05140",
+      "arxiv_id": "2611.06804",
       "categories": [
         "math.LO"
       ],
-      "published": "2026-11-03T16:19:53Z",
-      "summary": "We study the relationship between large cardinals and Blass' Small Violation of Choice ($\\mathsf{SVC}$), which states that the Axiom of Choice holds in a set-generic extension of the universe. Our main theorem is that in the presence of a supercompact cardinal, either the Axiom of Choice fails significantly, or else $\\mathsf{SVC}$ holds in $L(\\mathcal P(\\mathrm{Ord}))$. We show that a supercompact is not strong enough to reflect $\\mathsf{SVC}$, while an extendible cardinal is. If we assume Usuba's Loś Property holds for the supercompact, then we can outright derive $\\mathsf{SVC}$ in the universe.",
-      "title": "Large cardinals, small violations of choice",
-      "url": "https://arxiv.org/abs/2611.05140",
+      "published": "2026-11-04T17:20:29Z",
+      "summary": "A graph class $\\mathcal{C}$ is monadically dependent if one cannot interpret all graphs in vertex-colored graphs from $\\mathcal{C}$ using a fixed formula of first-order logic. We prove that every monadically dependent graph class has almost bounded merge-width, thereby confirming a conjecture of the first and the last author [STOC '25]. Our proof is algorithmic and the witnessing decompositions in the form of merge sequences can be computed in nearly-cubic time. This is a step towards the proof of fixed-parameter tractability of model checking first-order logic on monadically dependent graph classes, which is achieved in a companion paper.",
+      "title": "Monadically Dependent Graph Classes Have Almost Bounded Merge-Width",
+      "url": "https://arxiv.org/abs/2611.06804",
       "version": 1
     },
     {
-      "arxiv_id": "2611.05118",
+      "arxiv_id": "2611.06665",
       "categories": [
-        "math.CA"
+        "math.NA"
       ],
-      "published": "2026-11-03T16:07:51Z",
-      "summary": "We study the distortion of the lower dimension and lower spectrum of sets under quasiconformal mappings. As an application, we verify weighted Hardy--Sobolev inequalities in Euclidean domains arising as quasiconformal images of domains with sufficiently regular boundaries. The regularity in question is phrased in terms of estimates for either the Assouad or the lower dimension of the complement. We also provide dilatation-dependent classification results for certain planar open sets.",
-      "title": "Quasiconformal distortion of the lower dimension and applications",
-      "url": "https://arxiv.org/abs/2611.05118",
+      "published": "2026-11-04T15:40:43Z",
+      "summary": "Operator inference (OpInf) provides a nonintrusive framework for learning projection-based reduced-order models directly from data, but its standard formulations do not explicitly account for the fact that boundary actuation changes the admissible solution space of a PDE. This paper develops and evaluates a boundary-consistent, lifting-based OpInf formulation for nonlinear PDEs with time-varying inhomogeneous boundary conditions. The proposed approach decomposes the state into a known lifting component that satisfies the prescribed boundary conditions and a homogeneous component represented in a POD basis. Substituting this decomposition into the governing dynamics reveals a boundary-consistent reduced model structure in which the learned dynamics includes bilinear state-input and quadratic input-input interactions for quadratically nonlinear PDEs. The resulting operators are inferred from data, preserving the nonintrusive character of OpInf while guaranteeing boundary condition satisfaction by construction. Numerical experiments on boundary-actuated heat, Burgers, and lid-driven cavity problems show that the lifted formulation improves boundary compliance and can enhance prediction accuracy, solver stability, and computational efficiency, although these gains vary across problems and reduced model dimensions. Overall, this study establishes lifting as a principled extension of OpInf for boundary-actuated PDEs, clarifies when and how this formulation improves performance, and indicates that standard OpInf can remain an effective alternative in certain regimes.",
+      "title": "To lift or not to lift: Operator inference for nonlinear PDEs with boundary control",
+      "url": "https://arxiv.org/abs/2611.06665",
       "version": 1
     },
     {
-      "arxiv_id": "2611.04963",
+      "arxiv_id": "2611.06646",
       "categories": [
-        "math.LO"
+        "math.NA"
       ],
-      "published": "2026-11-03T14:21:57Z",
-      "summary": "We prove that there is no sequence $\\{ X_n \\}_{n\\inω}$ such that for all $n$, there is an injection from $\\mathcal{P}(X_{n+1})$ to $X_n$ under a restricted set of axioms that conforms to the \"working mathematician's\" intuition (excluding Choice, Replacement, and Foundation). We also show such a sequence cannot be defined using a formula either. More precisely, it is inconsistent with Zermelo set theory minus Infinity to have a formula $Φ(\\cdot,\\cdot)$ such that for each $n\\inω$ there are $X$ and $Y$ with $Φ(n,X)$, $Φ(n+1,Y)$, and $\\mathcal{P}(Y)$ being injectable into $X$. We finally show that the theorem fails if we allow infinitely many definitions, one for each term of the sequence, by using Hamkins, Linetsky, and Reitz's pointwise definable extensions of countable models of ZFC.",
-      "title": "Iterating logarithms and well-foundedness",
-      "url": "https://arxiv.org/abs/2611.04963",
+      "published": "2026-11-04T15:27:32Z",
+      "summary": "We establish Sobolev--Poincaré inequalities for piecewise $W^{2,p}$ functions in two and three dimensions over families of general polytopic (including shape-regular simplicial and Cartesian) meshes, allowing for degenerate facets. The proposed inequalities feature control by either the broken Hessian or, more naturally for general fourth-order problems, the broken Laplacian. Important tools in their derivation are a Helmholtz decomposition in Banach--Sobolev spaces and Sobolev--Poincaré inequalities for piecewise $W^{1,p}$ functions; we avoid the use of any inverse inequality. We provide estimates with fairly general Lebesgue exponents. Applications to the stability analysis of nonconforming discretizations for second- and fourth-order, linear and nonlinear problems are exhibited.",
+      "title": "Sobolev--Poincaré inequalities for piecewise $W^{2,p}$ functions over general polytopic meshes",
+      "url": "https://arxiv.org/abs/2611.06646",
       "version": 1
     },
     {
-      "arxiv_id": "2611.04956",
-      "categories": [
-        "math.CA"
-      ],
-      "published": "2026-11-03T14:16:41Z",
-      "summary": "Varjú and Yu have given a complete description of non-singleton self-similar sets of uniqueness on the real line $\\mathbb R$. In this paper, we first prove an arithmetic product theorem for self-similar $U$-sets $E:$ if $F\\subset\\mathbb R$ is compact, then $F\\cdot E$ is an $M_0$-set if and only if $F$ is uncountable. We next show that this conclusion remains valid for bounded integer-based homogeneous Moran sets. As an application, for every $s\\in(0,1]$, there exists a bounded integer-based homogeneous Moran set of uniqueness $K$ such that $\\dim_H K=s$ and the self-product $K\\cdot K$ is an $M_0$-set. In sharp contrast, for every $s\\in[0,1/2]$ we can construct an unbounded integer-based homogeneous Moran $U$-set $E$ with $\\dim_H E=s$ such that both $E$ and $E\\cdot E$ are $U$-sets, and $1/2$ is the optimal threshold for $U$-sets to be closed under the arithmetic self-product. Moreover, we show that if $E\\subset[0,1]$ is a compact set whose self-product $E\\cdot E$ is contained in an $H$-set, then $\\underline\\dim_B E\\le1/2$.",
-      "title": "Arithmetic product theorems on self-similar sets of uniqueness and homogeneous Moran sets",
-      "url": "https://arxiv.org/abs/2611.04956",
-      "version": 1
-    },
-    {
-      "arxiv_id": "2611.04911",
+      "arxiv_id": "2611.06641",
       "categories": [
         "math.LO"
       ],
-      "published": "2026-11-03T13:52:04Z",
-      "summary": "A space is ESLC if it contains neither an $S$-space nor an $L$-space, and NFS is the class of spaces containing no free sequences of length $ω_1$. We prove that under $\\mathrm{MA}(ω_1)$, if all finite powers of $X$ belong to NFS, then $C_p(X)^ω$ is ESLC; thus, for subspaces of $C_p(X)$, hereditary Lindelöfness, hereditary separability and countable spread coincide. This is derived from a dual form of a theorem of Todorčević. A Lindelöf $Σ$-space belongs to NFS if and only if its compact subspaces have countable tightness. Hence $C_p(X)$ contains no $L$-spaces if $X$ is a Lindelöf $Σ$-space of countable tightness and $\\mathrm{MA}(ω_1)$ holds, or if $X$ is any Lindelöf $Σ$-space and PFA holds. Under $\\mathrm{MA}(ω_1)$, all iterated function spaces of Corson compact spaces are ESLC, and in ZFC the space $C_p(X,\\{0,1\\})$ is ESLC for every zero-dimensional Corson compact space $X$.",
-      "title": "Hereditarily Lindelöf and hereditarily separable subspaces of function spaces",
-      "url": "https://arxiv.org/abs/2611.04911",
+      "published": "2026-11-04T15:20:35Z",
+      "summary": "``Emergence'' refers to the fact that different mathematical languages and theories seem to be required to describe scientific theories that operate at different spatial and temporal scales. Highly circumscribed, special cases of emergence have been investigated using many different formal tools, including coarse-graining (over space and / or time), renormalization, dimension reduction, broken symmetry, and various formulations of causality. Here we extend the mathematics of model theory to unify and extend these earlier investigations. As a preliminary application of our framework, we investigate canonical examples of emergence, including the emergence of genetics from chemistry, of psychology from neurobiology, and of different forms of collective behavior from the laws governing their constituent parts. By exploiting the power of model theory we also uncover many aspects of emergence that were previously obscured. In particular, we uncover some of the rich hierarchical structure that relates different scientific fields. For example, we show that scientific fields can be related via a collection of multiple partial orders, all defined over the same set. On the other hand, under an alternative relation among scientific fields, one which allows cycles, we show that it is possible that the set of all of scientific fields must collapse into a single scientific field. Going forward, these investigations point to the formal tools that might need to be developed in order to arrive at a deeper understanding of this emergent hierarchy of scientific reality.",
+      "title": "The Logic of Emergence",
+      "url": "https://arxiv.org/abs/2611.06641",
       "version": 1
     },
     {
-      "arxiv_id": "2611.04877",
+      "arxiv_id": "2611.06587",
+      "categories": [
+        "math.RA"
+      ],
+      "published": "2026-11-04T14:42:42Z",
+      "summary": "Let $RG$ be the group ring of an arbitrary group $G$ over an associative and commutative ring $R$ with identity. In this paper, we provide necessary and sufficient conditions for $RG$ to be Jordan nilpotent of index $n \\geq 2$. In particular, we establish a connection between the study of Jordan nilpotency in group rings and the study of Lie nilpotency in these algebras. We also classify the Jordan nilpotency of $RG$, over rings of arbitrary characteristic, up to the index $6$.",
+      "title": "On Jordan nilpotency of index n in group rings",
+      "url": "https://arxiv.org/abs/2611.06587",
+      "version": 1
+    },
+    {
+      "arxiv_id": "2611.06577",
+      "categories": [
+        "math.NA"
+      ],
+      "published": "2026-11-04T14:37:50Z",
+      "summary": "We analyze a geometric multigrid method on locally refined mesh hierarchies for non-local variational problems, focusing on the integral fractional Laplacian. For newest-vertex-bisection-generated hierarchies, we prove uniform contraction of the multigrid iteration independently of the refinement level, the smallest local mesh size, and the polynomial degree in the finite element discretization. The proof is based on an abstract Hilbert-space framework, a strengthened Cauchy--Schwarz estimate obtained from a near-/far-field decomposition of the non-local bilinear form, and a multilevel stable decomposition independent of the discretization parameters. Numerical experiments underline the theoretical findings.",
+      "title": "Robust Multigrid on Adaptive Meshes for the Integral Fractional Laplacian",
+      "url": "https://arxiv.org/abs/2611.06577",
+      "version": 1
+    },
+    {
+      "arxiv_id": "2611.06552",
+      "categories": [
+        "math.NA"
+      ],
+      "published": "2026-11-04T14:16:51Z",
+      "summary": "Quantum-inspired numerical methods for partial differential equations represent discretized fields and operators as quantics tensor trains (QTT), so that their cost depends on how compressible the problem is rather than on the number of unknowns. Global spectral formulations in this setting have so far relied on Fourier bases, restricted to periodic problems, or on collocation, which does not preserve the variational structure exploited by tensor-network solvers. We introduce a QTT Chebyshev--Galerkin method that assembles and solves global spectral systems directly in compressed form, without forming the underlying arrays. Starting from the weak formulation, the method handles coupled elliptic systems with variable coefficients, smoothly mapped geometries, and mixed Dirichlet--Robin boundary conditions, and yields symmetric positive-definite systems suited to variational tensor-network solvers. Parameters and random inputs enter as additional coordinates, so the same construction returns the solution over an entire parameter space in a single solve. In linear elasticity, the method retains spectral convergence and reaches errors below $10^{-8}$ on a three-dimensional benchmark, beyond those attained by QTT finite differences and Q2/Q4 FEniCSx finite elements over the tested range. A six-parameter cantilever design study covering $1.7\\times10^{7}$ designs is solved in a single 92~s run, and a stochastic problem with ten random coordinates is represented with $2.4\\times10^{6}$ times less memory than its full coefficient array.",
+      "title": "A Tensor-Network Chebyshev--Galerkin Method for Boundary-Value Problems in Computational Mechanics",
+      "url": "https://arxiv.org/abs/2611.06552",
+      "version": 1
+    },
+    {
+      "arxiv_id": "2611.06520",
+      "categories": [
+        "math.LO",
+        "math.RA"
+      ],
+      "published": "2026-11-04T13:46:24Z",
+      "summary": "We describe the group of strongly additive automorphisms of the differential field $\\mathbb T$ of transseries as a non-trivial semidirect product. We show that this group is torsion-free and has trivial center, and that many naturally arising differential subfields of $\\mathbb T$ are definably closed in $\\mathbb T$.",
+      "title": "The group of strong automorphisms of the differential field of transseries",
+      "url": "https://arxiv.org/abs/2611.06520",
+      "version": 1
+    },
+    {
+      "arxiv_id": "2611.06492",
+      "categories": [
+        "math.NA"
+      ],
+      "published": "2026-11-04T13:28:27Z",
+      "summary": "Largest-angle bisection (LAB) repeatedly divides a triangle by bisecting its largest angle. Although this procedure is known to preserve nondegenerate triangle shapes, less is known about the distribution of shapes across the resulting refinement tree. We show that its long-term behavior is governed by a distinction between pure and mixed branches. A branch that eventually selects only one of the two children may approach an exceptional family of shapes. By contrast, every branch that changes children infinitely often converges in shape to a right-isosceles triangle. This follows from a projective Lyapunov function that is non-increasing at every refinement and decreases strictly whenever the selected child changes. Consequently, a random branch converges to the right-isosceles shape with probability one, and the proportion of triangles near that shape tends to one across complete refinement levels. Largest-angle bisection therefore produces statistical regularization even though exceptional branches remain present.",
+      "title": "Largest-Angle Bisection and Statistical Regularization of Triangle Shapes",
+      "url": "https://arxiv.org/abs/2611.06492",
+      "version": 1
+    },
+    {
+      "arxiv_id": "2611.06439",
+      "categories": [
+        "math.LO"
+      ],
+      "published": "2026-11-04T12:43:01Z",
+      "summary": "We study the relation between the existence of escaping (or hyperimmune) functions and weak 1-genericity using computability over ideals. We prove in particular the existence of an $\\mathcal{I}$-escaping function which does not $\\mathcal{I}$-compute any weakly $\\mathcal{I}$-generic set whenever $\\mathcal{I}$ is a countable Turing ideal closed under the existence of diagonally non-computable functions.",
+      "title": "Escaping and generics over ideals",
+      "url": "https://arxiv.org/abs/2611.06439",
+      "version": 1
+    },
+    {
+      "arxiv_id": "2611.06426",
       "categories": [
         "math.CA"
       ],
-      "published": "2026-11-03T13:29:16Z",
-      "summary": "We study phase retrieval for multi-window short-time Fourier transforms with windows given by complex linear combinations of the first two normalized Hermite functions. Assume that the family of window coefficient vectors does phase retrieval in $\\bbC^2$. We prove that the multi-window magnitude samples uniquely determine every signal in $L^2(\\bbR)$ up to a global phase whenever the sampling set is separated with lower Beurling density greater than $2$, or is a translated lattice with density at least $2$. Moreover, we show that the sampling density is the best possible, which improves a result in [P.~Grohs, L.~Liehr, and M.~Rathmair. Multi-window {STFT} phase retrieval: lattice uniqueness, J. Funct. Anal., 288(3): Paper No. 110733, 23, 2025].",
-      "title": "Sampling Density for Multi-window STFT Phase Retrieval",
-      "url": "https://arxiv.org/abs/2611.04877",
+      "published": "2026-11-04T12:29:57Z",
+      "summary": "We show that any discrete-time filtration can be embedded into a dyadic filtration, realized via a non-classical measure-preserving map. This embedding makes it possible to reduce certain problems involving vector-valued martingales to the case of Haar martingales. Some applications of this result will also be discussed.",
+      "title": "An equivalence principle for martingales",
+      "url": "https://arxiv.org/abs/2611.06426",
       "version": 1
     },
     {
-      "arxiv_id": "2611.04810",
+      "arxiv_id": "2611.06416",
       "categories": [
         "math.CA"
       ],
-      "published": "2026-11-03T12:42:28Z",
-      "summary": "Let $α\\in\\mathbb R$, $0<p<\\infty$, $0<q,r\\le\\infty$, and $W$ be a matrix $\\mathcal A_p$ weight on ${\\mathbb R}^n$. We introduce the matrix-weighted $Z$-spaces $Z^{p,q,r}_α(W)$ and tent spaces $T^{p,q,r}_α(W)$ on the upper half-space and establish their characterizations using reducing operators. We then characterize homogeneous matrix-weighted Besov and Triebel--Lizorkin spaces in terms of the corresponding $Z$-spaces and tent spaces, respectively, using Schwartz kernels satisfying Tauberian and finite moment conditions. Furthermore, we establish duality for the matrix-weighted $Z$-spaces and tent spaces and obtain real and complex interpolation results for these spaces and the associated homogeneous matrix-weighted Besov and Triebel--Lizorkin spaces.",
-      "title": "Matrix-weighted $Z$-spaces and tent spaces:characterizations, duality and interpolation",
-      "url": "https://arxiv.org/abs/2611.04810",
+      "published": "2026-11-04T12:16:33Z",
+      "summary": "Can the complete macroscopic spectrum of return times determine the Hausdorff dimension of the corresponding set of initial points? We classify all common lower and upper macroscopic intermediate-dimension spectra of zero-density integer sets and realize every admissible spectrum on a full-dimensional family of zero-frequency orbits under logarithmic-power bounds on inverse-branch contraction. For first-return branches with stretched-exponential contraction $e^{-n^δ}$, $0<δ<1$, complete spectrum levels exhibit a sharp zero/full dimension transition at the counting endpoint $δ$. At the critical exponent, exact laws $N_y(t)\\sim c_0t^δ(\\log t)^β$ yield zero dimension for $β\\le0$ and full dimension for $β>0$, even with the complete spectrum fixed. An explicit two-branch intermittent interval map realizes this transition through genuine first returns. Above the critical exponent, imposing an exact counting law and a complete spectrum does not reduce the dimension of an intrinsic mean-energy level in an affine return tower. For nonlinear branches, we obtain quantitative bounds and an exact conditional-pressure formula under thermodynamic regularity assumptions, verified for an explicit non-affine family.",
+      "title": "Macroscopic return-time spectra and Hausdorff dimension transitions",
+      "url": "https://arxiv.org/abs/2611.06416",
       "version": 1
     },
     {
-      "arxiv_id": "2611.04690",
+      "arxiv_id": "2611.06413",
       "categories": [
-        "math.RA"
+        "math.LO"
       ],
-      "published": "2026-11-03T11:14:27Z",
-      "summary": "Let $R$ be a commutative noetherian ring. We ask whether complexes with finitely generated cohomology and a fixed support can be generated by relatively compact objects, using coproducts which exist in the half-bounded derived category. We prove that $\\mathbf D^+_{\\mathrm{fg},W}(R)=\\operatorname{Loc}_{\\mathrm{ex}}(\\mathbf D^b_{\\mathrm{fg},W}(R))$ whenever $W\\subseteq\\operatorname{Spec} R$ is specialization closed and has finite dimension. The same equality holds for every specialization-closed subset of $\\operatorname{Spec} B$ when $B$ is a finite-type algebra over a noetherian domain $A$ of finite character and either $A$ or $B$ is regular. These equalities classify the thick Hom-submodules closed under existing coproducts. We also prove the corresponding bounded-above statement from the support results of Matsui--Takahashi. For an arbitrary noetherian ring, the bounded-below generation conjecture reduces to torsion complexes over quotient domains, with their support unchanged. Finally, over a regular noetherian domain of infinite dimension, we give a bounded-below object which is generated by bounded objects with the same support but has no bounded-below representative by finitely generated modules. The comparison functor from the bounded-below derived category of finite modules is therefore neither full nor essentially surjective.",
-      "title": "A Relative Telescope-Type Conjecture: Support and Generation in Half-Bounded Derived Categories",
-      "url": "https://arxiv.org/abs/2611.04690",
+      "published": "2026-11-04T12:13:38Z",
+      "summary": "We show that, over a valued field $K$ with $1$-h-minimal theory $\\operatorname{Th}(K)$, two Cartesian products of balls must be equal up to translation and coordinate permutation in order for there to exist a definable surjective isometry between them. For this purpose, we introduce a notion of relative dimension for cuboids in $K^n$ that is computed combinatorially and relates to the notion of dimension for definable sets in Hensel minimal theories when $K$ has infinite residue field.",
+      "title": "Definably isometric cuboids over Hensel minimal fields",
+      "url": "https://arxiv.org/abs/2611.06413",
       "version": 1
     },
     {
-      "arxiv_id": "2611.04688",
+      "arxiv_id": "2611.06396",
       "categories": [
         "math.RA"
       ],
-      "published": "2026-11-03T11:11:47Z",
-      "summary": "A Kelmans transformation increases or preserves the largest eigenvalue of a symmetric nonnegative matrix. We determine when this comparison holds for Hermitian block extensions with a fixed coupling and an arbitrary common complementary block. An orthogonal change of basis and Schur complementation give an exact formula for the compressed resolvent difference as a difference of two rank-one matrices. This formula characterizes admissible coupling subspaces by proportionality of projected resolvent vectors. Polynomial coefficient kernels describe all such subspaces, and cyclic subspaces give dimension bounds and a maximum-dimension result for a two-block family. We also prove a general block comparison theorem and give monotonicity and equality criteria for nonnegative rank-one couplings. Applications concern graph joins, complex attachments, and Hermitian adjacency matrices.",
-      "title": "Resolvent comparison for Hermitian block matrices and Kelmans transformations",
-      "url": "https://arxiv.org/abs/2611.04688",
+      "published": "2026-11-04T12:02:03Z",
+      "summary": "We determine the high-degree restricted first cohomology of the positive subalgebra of the rank-one contact algebra in characteristics five and seven, with parabolically induced coefficients. In degrees from twice the characteristic through four times the characteristic minus three, each characteristic has six nonzero homogeneous components, of total dimension thirteen. The constituents include Frobenius twists of the natural horizontal module, represented by Cartier cocycles. PBW duality converts the calculation into bounded-degree homology, where the coefficient action couples the natural and cubic relation coordinates. The resulting modules determine the high-degree part of the coefficient cohomology used in the Lyndon-Hochschild-Serre term $E_2^{0,1}$ for extensions of induced contact modules. In particular, extensions from the Steinberg induced modules vanish in these degrees.",
+      "title": "High-Degree Restricted Cohomology for $K(3;1)^{(1)}$ in Characteristics Five and Seven",
+      "url": "https://arxiv.org/abs/2611.06396",
       "version": 1
     },
     {
-      "arxiv_id": "2611.04599",
+      "arxiv_id": "2611.06376",
       "categories": [
-        "math.RA"
+        "math.CA"
       ],
-      "published": "2026-11-03T09:53:55Z",
-      "summary": "Do Kaplansky's group-ring conjectures hold for torsion-free word-hyperbolic groups? We show that all four fail in positive characteristic. For every prime $p$ there is a finitely presented, torsion-free, word-hyperbolic group $G$ with a finite two-dimensional classifying space and $a,b\\in\\mathbb{F}_p[G]$ with $ab=1\\neq ba$. So, over every field of characteristic $p$, the group algebra of $G$ is not directly finite and has a non-trivial idempotent, zero divisor and unit, and $G$ is neither sofic nor surjunctive. For $p=2$, $G$, $a$ and $b$ come from OpenAI's random construction, and we add that $G$ is hyperbolic with probability $1-o(1)$, as are OpenAI's zero-divisor groups. For odd $p$ the groups are new: they adapt OpenAI's direct-finiteness construction with a signed cancellation, found first by S. V. Ivanov and independently by us, via an exact solution of a colour-balance problem and a Perron certificate. As far as we know, they are the first torsion-free counterexamples to direct finiteness and to the idempotent conjecture in odd characteristic. Hyperbolicity comes from one deterministic criterion: if a labelled graph is pattern-free, the group obtained by coning off its components is aspherical and has a linear isoperimetric inequality. We prove it by running OpenAI's exclusion of reduced spheres on van Kampen discs, an accounting OpenAI used for another complex. For every prime $p$, the existence of $G$, $a$ and $b$ and the failure of all four conjectures are formalized in Lean 4, including existence forms of the random-graph estimates used. In characteristic zero, where the idempotent and direct-finiteness conjectures hold for torsion-free hyperbolic groups, we show that no cancellation built into the vertex types survives the decay estimate that makes the groups torsion-free. OpenAI's characteristic-two counterexample with torsion is a CAT(0) group.",
-      "title": "Kaplansky's conjectures fail for torsion-free hyperbolic groups in positive characteristic",
-      "url": "https://arxiv.org/abs/2611.04599",
+      "published": "2026-11-04T11:36:05Z",
+      "summary": "The Siler model describes mortality from birth to old age as the sum of a declining immaturity hazard, a constant background hazard, and an increasing senescence hazard. No standard closed form is available for its remaining life expectancy, which must therefore be evaluated by numerical integration. We show that Siler remaining life expectancy at age $x$ is a Poisson mixture of Gompertz-Makeham remaining life expectancies, that is, a Poisson-weighted average of life expectancies in models with only a constant background hazard and an exponentially increasing senescence hazard. All components share the senescence hazard. Their background hazards increase from one component to the next by the rate at which immaturity mortality declines. The Poisson mean is the immaturity hazard that remains to be accumulated after age $x$. This representation yields an exact series of generalized exponential integrals with a closed-form bound on the truncation error. Replacing the background hazard by its discounted counterpart also gives the Laplace transform of the remaining lifetime. The mixture bounds the life expectancy lost to immaturity mortality: up to a term below the reciprocal of $a_2+b_1$, this loss equals the probability of an immaturity death times the life expectancy with the immaturity hazard removed. In annual Siler fits to Swedish female mortality, we estimate that the loss at birth fell from 4.3 years in 1900 to less than 0.01 years in 2020, which accounts for 15% of the gain in life expectancy at birth over the period.",
+      "title": "An Exact Poisson Mixture Representation of Siler Remaining Life Expectancy",
+      "url": "https://arxiv.org/abs/2611.06376",
       "version": 1
     },
     {
-      "arxiv_id": "2611.04502",
+      "arxiv_id": "2611.06325",
       "categories": [
         "math.RA"
       ],
-      "published": "2026-11-03T08:27:58Z",
-      "summary": "For two third-order tensors over $\\mathbb{R}$ or $\\mathbb{C}$, we define the Strassen CP rank gap as the sum of their CP ranks minus the CP rank of their direct sum. For arbitrary third-order tensors, we derive explicit upper bounds on this gap in terms of CP rank excess and dimension. For symmetric third-order tensors, we similarly define the Strassen symmetric rank gap using symmetric rank and establish explicit upper bounds in terms of symmetric rank excess, CP rank excess, and dimension. These bounds also yield sufficient conditions for the respective gaps to vanish, ensuring additivity of CP rank or symmetric rank under direct sums.",
-      "title": "Upper Bounds on the Strassen CP Rank Gap and Symmetric Rank Gap of Third-Order Tensors",
-      "url": "https://arxiv.org/abs/2611.04502",
+      "published": "2026-11-04T10:57:46Z",
+      "summary": "Let $A$ be a representation-infinite finite-dimensional algebra over an algebraically closed field $k$. We prove that for every infinite cardinal $κ$ there is an indecomposable $A$-module $M$ with $\\dim_k M=κ$. Over algebraically closed fields, this settles Simson's conjecture, also called the third Brauer--Thrall conjecture, that every representation-infinite finite-dimensional algebra has indecomposable modules of arbitrarily large cardinality. To construct these modules, we extend Bongartz's representation embedding from finite-dimensional Kronecker modules without a simple injective summand to such modules of arbitrary dimension. The extended functor commutes with direct sums and filtered colimits and preserves the dimension of infinite-dimensional modules. Applying it to the indecomposable Kronecker modules of every infinite dimension constructed by Göbel and Simson yields the required $A$-modules.",
+      "title": "Representation embeddings and the third Brauer--Thrall conjecture",
+      "url": "https://arxiv.org/abs/2611.06325",
+      "version": 1
+    },
+    {
+      "arxiv_id": "2611.06316",
+      "categories": [
+        "math.CA"
+      ],
+      "published": "2026-11-04T10:50:17Z",
+      "summary": "Nonlocal diffusion operators with a drift term naturally arise in models such as moving coordinate systems induced by climate change. This paper systematically studies several concepts of generalized principal eigenvalues (GPEs) for such operators. We allow the dispersal kernel to be heterogeneous and non-symmetric, and remove the standard global upper bound on the kernel (thereby covering the case of heavy-tailed dispersal kernels). To overcome the analytical difficulties brought by this more general setting, we establish a new Harnack-type inequality for non-compactly supported kernels, and apply homogenization and cut-off approximation techniques to derive two-sided bounds for the domain approximation limit of GPEs. Furthermore, under the almost periodic setting, we prove that the GPEs defined through different admissible test function spaces (e.g., \\(C^1\\) spaces with bounded derivatives and uniformly continuous function spaces in the viscosity sense) are completely coincident. This characterization reveals a fundamental unification: the limit result of principal eigenvalues under domain approximation by Coville and Hamel coincides exactly with the explicit variational formula by Du, Fang, and Ni, thereby bridging two previously independent theoretical results.",
+      "title": "Generalized principal eigenvalues for nonlocal operators with drift",
+      "url": "https://arxiv.org/abs/2611.06316",
+      "version": 1
+    },
+    {
+      "arxiv_id": "2611.06305",
+      "categories": [
+        "math.RA"
+      ],
+      "published": "2026-11-04T10:40:04Z",
+      "summary": "Let $F$ be a field. We study weak polynomial identities for pairs $(A,V)$ where $A$ is the first Weyl algebra over $F$ and $V$ is either a Lie subalgebra (under the usual Lie bracket) of $A$, or simply a vector subspace of $A$. Sometimes the weak identities of $(A,V)$, when $V$ is a Lie algebra, are called identities of representations of Lie algebras. Our starting point is the description of finite dimensional Lie algebras $L$ that can be embedded into the first Weyl algebra; this description was given by Rausch de Traubenberg, Slupinski and Tanasă in 2006. First we assume that $F$ is algebraically closed field of characteristic 0, and describe a finite basis of the weak identities of the pair $(A,L)$ where $L=\\mathfrak{sl}_2$. In order to obtain such a basis we invoke theorems by Razmyslov and by Trishin concerning the identities of infinite dimensional irreducible representations of $\\mathfrak{sl}_2$. Afterwards we consider $L$ as a filiform Lie algebra together with its concrete realisation inside the first Weyl algebra. We produce a finite basis of weak identities of the pair $(A,L)$, assuming $F$ to be infinite. Finally we study the weakest form of identities for $(A,V)$ where $A$ is the $n$-th Weyl algebra and $V$ is just a vector space - its canonical generating vector subspace. We deduce a basis of the weak identities in this case as well, once again assuming $F$ to be an infinite field, with no restriction on its characteristic. The same result was recently obtained by Dotsenko and Lopatin in characteristic $0$ by different methods. Our methods are combinatorial, we also use the theory developed by Razmyslov, and the representations of the symmetric and the general linear groups and their duality. We employ the characteristic-free description of the invariants of the symplectic group given by De Concini and Procesi.",
+      "title": "Identities of Representation of Lie subalgebras of the first Weyl algebra",
+      "url": "https://arxiv.org/abs/2611.06305",
       "version": 1
     }
   ],
