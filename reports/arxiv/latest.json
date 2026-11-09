@@ -1,223 +1,203 @@
 {
   "papers": [
     {
-      "arxiv_id": "2611.08429",
+      "arxiv_id": "2611.09887",
+      "categories": [
+        "math.CA",
+        "math.NA"
+      ],
+      "published": "2026-11-06T18:58:06Z",
+      "summary": "We prove that the set $\\mathcal{N}_N$ of ReLU networks with one hidden layer and at most $N\\in\\mathbb N$ neurons is weakly closed in $W^{1,p}(Ω)$, for a bounded connected open set $Ω\\subset\\mathbb R^d$. Consequently, every coercive, weakly lower semicontinuous energy on this space attains its minimum over $\\mathcal{N}_N$. This covers the Deep Ritz method with convex integrands, Sobolev training and Lipschitz learning. Moreover, as the weight decay parameter tends to zero, minimizers of the regularized problem converge, up to subsequences, to minimizers with minimal parameter norm. We also prove that the set of ReLU networks with two hidden layers of bounded widths is not closed in $W^{1,p}(Ω)$ or in $C(\\overlineΩ)$. This disproves a conjecture of Petersen, Raslan and Voigtlaender.",
+      "title": "On the (non-)closedness of the set of ReLU networks",
+      "url": "https://arxiv.org/abs/2611.09887",
+      "version": 1
+    },
+    {
+      "arxiv_id": "2611.09853",
       "categories": [
         "math.NA"
       ],
-      "published": "2026-11-05T18:22:30Z",
-      "summary": "We determine field-of-values equivalent preconditioners for the time-dependent Stokes equations discretized in time by stage-weighted Radau IIA Runge--Kutta time-stepping and discontinuous Galerkin time-stepping methods. By weighing each stage of the Radau IIA Runge--Kutta method differently we obtain preconditioners that are field-of-values equivalent, with constants independent of viscosity, timestep, and mesh size, to the system matrix. Similarly, by using weighted inner products in time to define the discontinuous Galerkin time-stepping method, we again obtain field-of-values equivalent preconditioners for the resulting system matrix. Numerical experiments are performed in two and three-dimensions which demonstrate robustness of the proposed preconditioners.",
-      "title": "Preconditioning for the time-dependent Stokes equations: stage-weighted Radau IIA and weighted discontinuous Galerkin time-stepping",
-      "url": "https://arxiv.org/abs/2611.08429",
+      "published": "2026-11-06T18:36:24Z",
+      "summary": "In this study, we present a comparison of iterative methods for the compressible Reynolds equation with Navier slip boundary conditions, based on a fully compressible cavitation model for lubricated bearings. We establish the existence and uniqueness of the solution to the two-dimensional problem. We introduce the Kirchhoff transformation to reformulate the nonlinear density-pressure relationship into a quasi-linear problem. We develop an efficient numerical approach to solve the two-dimensional nonlinear problem. The methods examined are the Gauss-Seidel method, the Newton-Raphson method and parallelized nonlinear Jacobi method, applied to one- and two-dimensional slider bearing configurations. The overall solution time is shown to depend strongly on the choice of method.",
+      "title": "Efficient iterative methods for the nonlinear compressible Reynolds equation with Navier slip boundary condition",
+      "url": "https://arxiv.org/abs/2611.09853",
       "version": 1
     },
     {
-      "arxiv_id": "2611.08421",
+      "arxiv_id": "2611.09849",
+      "categories": [
+        "math.RA"
+      ],
+      "published": "2026-11-06T18:31:49Z",
+      "summary": "In this paper, first we study the deformations, stability and rigidity of Lie triple system morphisms by means of higher derived brackets and augmented Yamaguti cohomology. The vanishing of the first cohomology gives formal and local inner rigidity. The vanishing of the second cohomology removes the formal extension obstructions and, in finite dimension over $\\mathbb{R}$, gives local smoothness and stability under simultaneous perturbations of the two products. Next, we establish the relationship with Lie algebra homomorphisms in each part of the theory. The universal enveloping Lie algebra identifies a Lie triple morphism with a grading-preserving Lie homomorphism. We obtain the corresponding first cohomology isomorphism, the equivalence of formal and smooth deformations, and a stability result for graded Lie bracket perturbations. For Lie triple products induced by binary Lie brackets, we construct a comparison of differentials and obstruction classes. Under perfectness and a zero-centralizer condition, the local morphism spaces coincide. Finally, we relate triple subsystem graphs to graded Lie subalgebra graphs and compare their normal differentials.",
+      "title": "Deformations and Local Geometry of Lie Triple System Morphisms",
+      "url": "https://arxiv.org/abs/2611.09849",
+      "version": 1
+    },
+    {
+      "arxiv_id": "2611.09832",
       "categories": [
         "math.NA"
       ],
-      "published": "2026-11-05T18:19:28Z",
-      "summary": "Discovering continuous symmetries directly from differential-equation data can reveal geometric structure for model reduction and scientific machine learning without symbolic determining equations or a closed-form representation of the governing system. We formulate intrinsic Lie point-symmetry discovery as an operator-theoretic problem on sampled jet-space data. Admissible generators are identified from a sampled determining operator and separated from redundant, solution-dependent, and geometrically trivial directions. The framework combines prolongation, sequential subspace restrictions, and a fixed nonlinear dictionary linear in trainable coefficients. A rank-stabilization preflight test diagnoses systems whose represented intrinsic symmetry algebra does not stabilize under dictionary refinement. On a controlled differential-equation benchmark with an analytically known 11-dimensional represented intrinsic symmetry algebra, the method recovers the complete represented generator set, reproduces its Lie-bracket structure to numerical precision, and approximates a known generator beyond the training domain. Here we show that explicit intrinsic continuous-symmetry generators can be recovered from data obtained from exact or approximate differential systems.",
-      "title": "Data-driven discovery of intrinsic Lie point symmetries of differential equation systems",
-      "url": "https://arxiv.org/abs/2611.08421",
+      "published": "2026-11-06T18:17:52Z",
+      "summary": "In this work, we propose a mass-lumped finite element method for the Allen-Cahn equation that incorporates nonlinear mobility which may degenerate. The spatial approximation uses continuous, piecewise linear, mass-lumped finite elements, while convex splitting is employed for the double-well potential in time. Under the standard non-obtuse mesh condition, it is shown that the resulting fully discrete method preserves the maximum-bound principle unconditionally: if the initial approximation takes values in $[-1, 1]$, then so does the numerical solution at every time level. Additionally, the method dissipates the original discrete Ginzburg-Landau energy without any time-step restriction, even when the mobility vanishes at pure phases. This analysis relies on the monotonicity of the lumped finite element operator and the convexity of the split potential. Numerical experiments confirm these theoretical properties and demonstrate the robustness of the method in phase-separation dynamics involving degenerate mobility.",
+      "title": "Mass-lumped finite elements with maximum-bound preservation and original-energy dissipation for the degenerate-mobility Allen-Cahn equation",
+      "url": "https://arxiv.org/abs/2611.09832",
       "version": 1
     },
     {
-      "arxiv_id": "2611.08401",
-      "categories": [
-        "math.CA"
-      ],
-      "published": "2026-11-05T18:11:38Z",
-      "summary": "A signal band-limited to one rectangular band and observed through a finite window is the classical concentration problem of Slepian, Landau, Pollak, and Widom. The eigenvalues of the operator cluster near one and near zero, separated by a transition called the plunge. The plunge width grows like the logarithm of the window length, with a universal coefficient of one over pi squared set by the band-edge jump. This paper follows the clusters and the plunge as the band is deformed. An elementwise power of the kernel smooths the band edge, and the plunge gives way to a power-law edge with exponent one less than the power. Disjoint copies of the band widen the plunge in proportion to the number of band edges, as the multiple-interval theorem of Landau and Widom implies, so the coefficient is a per-edge constant. Shrinking each band to a line gives the classical finite-rank operator. Overlapping bands give a multilevel staircase, and a self-similar band gives a cluster hierarchy governed by the Cantor dimension. At the smooth edge, rescaled eigenvalues do not collapse onto one curve. The edge descriptor passes from a constant to an exponent to an integer to a fractal dimension. For the single band, classical results place all eigenfilter zeros on the unit circle, with more of them inside the band as the order rises, so the dominant eigenvectors act as lowpass filters.",
-      "title": "Spectral Regimes of Truncated sinc-Power and Pulse-Train Kernels: Edge Exponents, Per-Edge Plunges, and the Landau-Widom Limit",
-      "url": "https://arxiv.org/abs/2611.08401",
-      "version": 1
-    },
-    {
-      "arxiv_id": "2611.08344",
-      "categories": [
-        "math.RA"
-      ],
-      "published": "2026-11-05T17:30:20Z",
-      "summary": "Let E be an arbitrary graph, K a field, and D the set of boundary paths of E consisting of both infinite paths and finite paths ending at singular vertices. The space KD of K-valued functions on D is a right module over the Leavitt path algebra LK(E). For a non- empty set S ? D that is strongly connected and closed under adding and deleting initial segments, we study the submodule N_S = 1_S.LK(E) generated by the indicator function of S. Let S_0 be the set of vertices lying on the paths in S. We show that N_S is simple if and only if S contains no breaking vertex of the hereditary saturated set H = E0 nS0. In particular, when S contains only infinite paths or when E is a row- finite graph, NS is a simple module. Up to isomorphism, the simple module NS depends only on S_0. When S is an infinite set of paths, the simple module NS is neither graded nor projective. The left module LK(E)1_S, obtained by twisting the action through the involution of LK(E), is simple exactly when NS is, and, when S is infinite, it is not isomorphic to any of the Chen simple modules. For the rose graph R_n with n ? 2 petals, we show that LK(R_n)1_S is isomorphic to one of the twisted Chen modules constructed by Nam, Srivastava and Vien, and to none of the other simple modules in their list. Moreover, when S is not a single vertex, the simple module NS is finitely presented if and only if only finitely many edges of E have both source and range in S_0; in particular, every simple module N_S is finitely presented when E is a finite graph. Finally, we determine when the analogous module generated by an indicator function over the Cohn path algebra CK(E) is simple. 1.",
-      "title": "Simple Modules over Leavitt Path Algebras Generated by Indicator Functions on Paths",
-      "url": "https://arxiv.org/abs/2611.08344",
-      "version": 1
-    },
-    {
-      "arxiv_id": "2611.08319",
-      "categories": [
-        "math.LO"
-      ],
-      "published": "2026-11-05T17:15:44Z",
-      "summary": "The Arthur-Nimue-Merlin degrees are a generalization of the Turing degrees introduced by Kihara as a tangible description of the partially ordered set of Lawvere-Tierney topologies on the effective topos (equivalently, subtoposes of the effective topos). They are defined in terms of a three-player game that introduces both angelic and demonic non-determinism into oracle queries. We construct an order embedding of the Turing degrees with their order reversed into the Arthur-Nimue-Merlin degrees, whose image we call the \"co-Turing degrees\"; we then study the order relationship of these co-Turing degrees with the (naturally embedded) Turing degrees within the Arthur-Nimue-Merlin degrees. This is a short version of arXiv:2603.19946, focused on the main results.",
-      "title": "An order-reversing embedding of Turing degrees into Arthur-Nimue-Merlin degrees (short version)",
-      "url": "https://arxiv.org/abs/2611.08319",
-      "version": 1
-    },
-    {
-      "arxiv_id": "2611.08289",
-      "categories": [
-        "math.CA"
-      ],
-      "published": "2026-11-05T16:53:37Z",
-      "summary": "Eldan's level-$1{:}3$ inequality is a central tool in his second-order correlation inequalities for increasing Boolean functions. His proof is going to Gaussian space and uses an entropy estimate for second Hermite tensors. We give a direct proof on the discrete hypercube. For increasing real-valued functions $f,g:\\{0,1\\}^n\\to\\mathbb R$, we prove $$ W_3[f,g]\\ge -2W_1[f,g]\\log\\!\\left(\\frac{\\sqrt{\\mathrm{Var}(f)\\mathrm{Var}(g)}}{W_1[f,g]}\\right). $$ The proof combines complex hypercontractivity with the discrete Riesz transforms. We also give a short proof of a level-$1:d$ inequality obtained by Keller and Kindler. As an application, we recover Eldan's correlation inequality with a slight improvement. If $f,g:\\{0,1\\}^n\\to\\{0,1\\}$ are increasing and $g$ is antipodal, then $$ \\mathrm{Cov}(f,g)\\ge \\frac1{24}\\,\\frac{\\sum_i\\mathrm{Inf}_i[f]\\mathrm{Inf}_i[g]}{\\sqrt{\\log\\!\\left(4e\\sqrt{\\mathrm{Var}(f)\\mathrm{Var}(g)}/(\\sum_i\\mathrm{Inf}_i[f]\\mathrm{Inf}_i[g])\\right)}}, $$ where the square-root logarithm cannot be improved as shown in the OR--majority example.",
-      "title": "Fourier level inequalities on the discrete cube via complex hypercontractivity and Riesz transforms",
-      "url": "https://arxiv.org/abs/2611.08289",
-      "version": 1
-    },
-    {
-      "arxiv_id": "2611.08276",
+      "arxiv_id": "2611.09813",
       "categories": [
         "math.NA"
       ],
-      "published": "2026-11-05T16:44:33Z",
-      "summary": "A hybrid virtual element formulation (HVEM) is presented for transient flow in variably saturated soils governed by Richards' equation. The nodal heads are the only global degrees of freedom, and a Darcy flux is assumed in each polygonal element and condensed. The flux combines a divergence-free part with a particular field of linear divergence that absorbs storage and sources, so that the water balance of every element holds identically, at every iterate and for any time step, and that of the whole domain at convergence. To guarantee rank-sufficiency with no stabilisation parameter, the divergence-free fields are harmonic polynomials ordered by their behaviour under rotation, giving a closed-form rule for the number of flux parameters, derived on regular polygons and verified numerically on distorted ones and on elements with hanging nodes. Darcy's law is written in each element for the Kirchhoff potential, which removes the conductivity from the diffusion while the head stays continuous across material interfaces. A Kirchhoff mean of the conductivity makes hydrostatic equilibrium and gravity drainage exact on any mesh. The storage is lumped on the nodes with weights supplied by the assumed flux. All the element operators reduce to boundary integrals, so that the nonlinear iterations need only nodal values. The formulation is assessed on solutions in closed form, on published benchmarks and on rainfall over homogeneous and layered slopes, where independent solutions provide a further check. It converges at second order in the head on polygonal and locally refined meshes, also where gravity dominates, and closes the water budget in every test. On a layered slope, cut grids refined in a band along the surface reach the accuracy of a uniform grid twice as fine with about 40% of the nodes. Its structure, shared with the HVEM for elastoplasticity, suits coupled analyses of slopes.",
-      "title": "Variably saturated flow on polygonal and cut meshes using a mass-conservative hybrid virtual element",
-      "url": "https://arxiv.org/abs/2611.08276",
+      "published": "2026-11-06T18:00:42Z",
+      "summary": "We develop a conforming virtual element framework for differential forms on general polytopal meshes in arbitrary dimension and at arbitrary order. Recursive local Hodge-Laplace boundary value problems define a trimmed virtual de Rham complex, from which moment constraints yield a complete subcomplex. The local spaces of these two complexes contain the trimmed and complete polynomial spaces of differential forms, respectively, and admit unisolvent degrees of freedom and computable polynomial projections. The canonical interpolants commute with the exterior derivative, and both complexes have cohomology isomorphic to that of the continuous de Rham complex. For both virtual families, we establish negative-norm inverse estimates and mesh-uniform norm equivalences in all form degrees. We further derive canonical interpolation error bounds and discrete Poincar'e inequalities. As an application, we obtain an inf-sup stable mixed Hodge-Laplace method with harmonic variables and optimal-order convergence under sufficient regularity. Moreover, the two conforming complexes are cochain isomorphic to their fully discrete counterparts (J. Eur. Math. Soc., 2025, doi:10.4171/JEMS/1602), and the norm equivalences provide a key analytical bridge between the conforming and fully discrete formulations.",
+      "title": "A virtual element exterior calculus framework",
+      "url": "https://arxiv.org/abs/2611.09813",
       "version": 1
     },
     {
-      "arxiv_id": "2611.08268",
+      "arxiv_id": "2611.09749",
       "categories": [
         "math.RA"
       ],
-      "published": "2026-11-05T16:40:14Z",
-      "summary": "We give a human-readable exposition of OpenAI's construction of a group algebra in characteristic two that is not directly finite. We then adapt the argument to show that, for every prime $p$, there exists a hyperbolic group $G_p$ such that $\\mathbb{F}_p[G_p]$ is not directly finite.",
-      "title": "A Note on the OpenAI Construction of Counterexamples to the Kaplansky Direct-Finiteness Conjecture",
-      "url": "https://arxiv.org/abs/2611.08268",
+      "published": "2026-11-06T17:18:35Z",
+      "summary": "We construct a family of division ring extensions and compute their left and right dimensions. In characteristic zero, we obtain a counterexample to the pure semisimplicity conjecture: a hereditary right pure semisimple ring of infinite representation type. For each prime $p\\ge3$, we construct in characteristic $p$ a hereditary artinian ring of finite representation type with Coxeter diagram $I_2(p+2)$.",
+      "title": "Division ring extensions and a counterexample to the pure semisimplicity conjecture",
+      "url": "https://arxiv.org/abs/2611.09749",
       "version": 1
     },
     {
-      "arxiv_id": "2611.08261",
+      "arxiv_id": "2611.09706",
       "categories": [
         "math.NA"
       ],
-      "published": "2026-11-05T16:36:36Z",
-      "summary": "The Characteristic Mapping (CM) method is a transport scheme which discretizes the Lagrangian flow map as a composition of spatial interpolants. This adaptive approximation technique has demonstrated novel resolution properties and the ability to efficiently simulate the fine scales of inviscid turbulent flows. In this work, we construct an extension of this approach to the solution of dissipative problems, including the Navier-Stokes equations. The extension lifts a general scalar evolution equation to a path in a group of diffeomorphisms, where the semigroup approach of the CM method can be exploited. We give an interpretation of this lift through the geometric framework of optimal transport. We then introduce a semidirect product evolution technique to perform the time stepping of the map components. The map is evolved based on the semi-Lagrangian CM approach, and its log-Jacobian is evolved explicitly by an exponential integrator. The numerical scheme is demonstrated to be high-order accurate and is tested on a range of canonical nonlinear dissipative equations. By retaining the resolution properties of the CM method, the approach shows a promising ability to simulate turbulent fluid flows across all Reynolds numbers.",
-      "title": "A characteristic mapping method for dissipative evolution equations",
-      "url": "https://arxiv.org/abs/2611.08261",
+      "published": "2026-11-06T16:49:20Z",
+      "summary": "We propose an algorithm for estimating the Cholesky factorization of positive, semi-definite matrices without pivoting. Our method has the same data access pattern as the canonical Cholesky method, and therefore is amenable to familiar hardware optimization techniques. Our method interprets the factorization task as a variational problem and in turn solves it using an induced dynamical system. We study the rate of convergence of this dynamical system to its stationary state for both positive definite and semi-definite matrices. Numerical experiments validate that our method is competitive with pivoted Cholesky on several practical examples.",
+      "title": "Finite-time Cholesky Factorization",
+      "url": "https://arxiv.org/abs/2611.09706",
       "version": 1
     },
     {
-      "arxiv_id": "2611.08244",
+      "arxiv_id": "2611.09695",
+      "categories": [
+        "math.LO"
+      ],
+      "published": "2026-11-06T16:41:04Z",
+      "summary": "In this paper we focus on rigidity in descriptive set theory. Building on cocycle superrigidity results of Popa, Furman and Ioana, we prove rigidity in the purely Borel context for the orbit equivalence relations arising from the shift actions and translation actions of lattices in semisimple Lie groups with higher rank. Our results sharpen work of Adams and Kechris.",
+      "title": "Borel rigidity for higher rank lattices",
+      "url": "https://arxiv.org/abs/2611.09695",
+      "version": 1
+    },
+    {
+      "arxiv_id": "2611.09608",
+      "categories": [
+        "math.LO",
+        "math.RA"
+      ],
+      "published": "2026-11-06T15:33:13Z",
+      "summary": "We establish a canonical topological lifting of Mundici equivalence, representing every topological MV-algebra as the unit interval of a topological $\\ell$-group and extending the correspondence to a categorical adjunction. As applications, we give a direct group-theoretic proof of the equivalence of $T_0$ and $T_{3\\frac12}$ and show that every topological MV-algebra is a retral space. We further extend the lifting to topological Riesz MV-algebras and identify the canonical topology with Wiweger's mixed topology under suitable assumptions, recovering the strict topology as a special case. Finally, we obtain a unit-interval formulation of Koopman representations for continuous-time dynamical systems.",
+      "title": "Topological Mundici Adjunction and Its Applications",
+      "url": "https://arxiv.org/abs/2611.09608",
+      "version": 1
+    },
+    {
+      "arxiv_id": "2611.09602",
       "categories": [
         "math.RA"
       ],
-      "published": "2026-11-05T16:21:57Z",
-      "summary": "Akbari, Cameron, and Khosrovshahi proposed two questions concerning the null space and the image space of graphs. Although these problems have been studied in several cases, they have not yet been fully resolved. In this work, we present constructions of graphs that satisfy both the problems.",
-      "title": "Open Problems on the Null Space and Image Space of the Adjacency Matrix",
-      "url": "https://arxiv.org/abs/2611.08244",
+      "published": "2026-11-06T15:29:16Z",
+      "summary": "The definition of algebraic entropy presents a difficulty in the general setting of filtered algebras, which makes it necessary to distinguish between filtered algebras and finitely filtered algebras. While algebraic entropy is well defined in the finitely filtered case, extending this notion to arbitrary filtered algebras is not immediate. To address this issue, we realize a filtered algebra as the limit of a strict direct system of finitely filtered algebras and define its entropy as the supremum of the entropies of the algebras in the system. This extension is consistent with the original definition, when the algebra is finitely filtered, the extended entropy agrees with its algebraic entropy. This new setting allows us to extend the definition of the algebraic entropy to path and Leavitt path algebras of infinite graphs.",
+      "title": "An extension of the notion of algebraic entropy",
+      "url": "https://arxiv.org/abs/2611.09602",
       "version": 1
     },
     {
-      "arxiv_id": "2611.08224",
-      "categories": [
-        "math.CA"
-      ],
-      "published": "2026-11-05T16:10:57Z",
-      "summary": "Building on our earlier work, we present an $L^2$-$L^1$ inequality for radial Fourier eigenfunctions, relating this to the sign uncertainty principle of Bourgain, Clozel and Kahane. We also propose a generalisation of the aforementioned uncertainty principle.",
-      "title": "Fourier inequalities and sign uncertainty II",
-      "url": "https://arxiv.org/abs/2611.08224",
-      "version": 1
-    },
-    {
-      "arxiv_id": "2611.08222",
-      "categories": [
-        "math.CA"
-      ],
-      "published": "2026-11-05T16:10:09Z",
-      "summary": "Let $n \\ge 3$, $2 \\le α< n$, and $1 < p,r < \\infty$ satisfy $p^{-1}+r^{-1}=1+α/n$. We prove uniqueness, up to common translations and dilations, of the normalized nonnegative extremizing pairs for the corresponding Hardy-Littlewood-Sobolev inequality. More generally, all positive finite-energy solutions of the Euler-Lagrange system belong to a single symmetry orbit. The proof compares two solutions at different relative scales. Total positivity of order two identifies the second eigenspace of an associated compact self-adjoint operator and forces each nonzero difference to change sign exactly once. The opposite orientations obtained at the two ends of the scale parameter then yield uniqueness. The same method proves radial nondegeneracy modulo dilation. We also establish strong convergence of the normalized alternating Euler-Lagrange iteration from every nonnegative, radially nonincreasing initial datum to a fixed extremizing pair, without rescaling the iterates. Square-root mass variables reduce the exclusion of several concentration profiles to a static spectral estimate and an energy-increment argument. The analysis includes sublinear exponents and the logarithmic borderline decay regimes.",
-      "title": "Uniqueness of Extremizers and Convergence of the Euler-Lagrange Iteration for the Critical Hardy-Littlewood-Sobolev Inequality",
-      "url": "https://arxiv.org/abs/2611.08222",
-      "version": 1
-    },
-    {
-      "arxiv_id": "2611.08211",
+      "arxiv_id": "2611.09566",
       "categories": [
         "math.LO"
       ],
-      "published": "2026-11-05T16:00:54Z",
-      "summary": "Using techniques from model theory, we prove analogues of Rado's and Sárközy's theorems on solutions to polynomial equations in dense sets of definable groups and fields equipped with well-behaved measures. As a special case, we adapt our results to pseudofinite structures, to deduce non-qualitative asymptotic results.",
-      "title": "Solving polynomials in large pseudo-finite sets",
-      "url": "https://arxiv.org/abs/2611.08211",
+      "published": "2026-11-06T15:07:29Z",
+      "summary": "In this paper we continue the work started in [Bonzio & Zamperlin 2025] by investigating the algebraic semantics for modal external weak Kleene logics. In order to do so we study the global modal logics associated with the three-valued Kripke models introduced in the previous article, showing how these systems are algebraizable. We proceed by defining their algebraic counterparts, obtaining the classes of modal Bochvar and modal Halldén algebras, whose structure theory we investigate via Płonka sum decomposition. Of particular interested is the interaction of the modal operator with the homorphisms of the Płonka decomposition. These results allow us to prove representation theorems for these expanded modal algebras in the style of the Jónsson-Tarski representation for Boolean algebras with operators. As a consequence, we also obtain algebraic semnatics for the local modal logics from which the work originated.",
+      "title": "Modal weak Kleene logics: algebraic semantics and Jónsson-Tarski representation",
+      "url": "https://arxiv.org/abs/2611.09566",
       "version": 1
     },
     {
-      "arxiv_id": "2611.08208",
-      "categories": [
-        "math.NA"
-      ],
-      "published": "2026-11-05T16:00:06Z",
-      "summary": "It is well known that for SDEs with non-Lipschitz coefficients, the Euler scheme can fail to converge in an Lp sense. It is also widely observed that convergence fails only due to rare explosive trajectories, that distort the expectation. In this work we demonstrate that almost any method of removing these rare explosive trajectories leads to convergence in a suitable strong and weak sense. We apply this framework to coefficients that grow faster than linearly at infinity and Lennard-Jones type coefficients that explode like a reciprocal power on a compact set.",
-      "title": "Ignoring Blow-Ups for Approximations",
-      "url": "https://arxiv.org/abs/2611.08208",
-      "version": 1
-    },
-    {
-      "arxiv_id": "2611.08192",
-      "categories": [
-        "math.CA"
-      ],
-      "published": "2026-11-05T15:48:23Z",
-      "summary": "We prove a pointwise domination of Poisson variances for Hörmander--Mikhlin multipliers on the real line. The estimate holds in operator order for operator-valued functions and gives a direct Fourier-side proof of BMO boundedness. The same argument gives an algebraic proof of the one-dimensional Schur multiplier estimate of Conde-Alonso, González-Pérez, Parcet and Tablate ( Annals of Mathematics, 2023), formulated here using Poisson BMO. The endpoint estimates are proved for $L^2$ functions and Hilbert--Schmidt operators; interpolation gives the corresponding $L^p$ and Schatten estimates.",
-      "title": "An interpretation of the BMO boundedness of Hörmander--Mikhlin multipliers",
-      "url": "https://arxiv.org/abs/2611.08192",
-      "version": 1
-    },
-    {
-      "arxiv_id": "2611.08143",
-      "categories": [
-        "math.LO"
-      ],
-      "published": "2026-11-05T15:04:35Z",
-      "summary": "Monadically dependent graph classes are those in which first-order logic cannot encode all graphs. They include all nowhere dense classes and all classes of bounded twin-width. We show that first-order model checking is fixed-parameter tractable on every monadically dependent graph class. Together with the known hardness result for hereditary classes that are not monadically dependent, this gives a complete characterization of the hereditary graph classes with fixed-parameter tractable first-order model checking. This resolves a central open problem in algorithmic model theory. Our proof combines ideas from structural graph theory (graph decompositions), finite model theory (locality of first-order logic), and model theory (counting types). In particular, we show that in monadically dependent classes, tuples of fixed length have only $|U|^{O(1)}$ types of fixed quantifier rank over any set of parameters $U$.",
-      "title": "First-Order Model Checking on Monadically Dependent Graph Classes",
-      "url": "https://arxiv.org/abs/2611.08143",
-      "version": 1
-    },
-    {
-      "arxiv_id": "2611.08135",
+      "arxiv_id": "2611.09465",
       "categories": [
         "math.RA"
       ],
-      "published": "2026-11-05T15:00:57Z",
-      "summary": "For any $m$ pairwise commuting matrices $\\{A_i\\}_{i=1}^{m}\\subset \\M_n(\\F)$, we prove $\\dim_\\F \\F[A_1,\\cdots, A_m]\\leq (2^m-1)(n-1)+1$, answering Bergman's question on the existence of a linear bound for a fixed number $m$.",
-      "title": "Linear bounds and sharp exponential growth for commuting matrix algebra",
-      "url": "https://arxiv.org/abs/2611.08135",
+      "published": "2026-11-06T13:44:11Z",
+      "summary": "We characterise the two-step nilpotent varieties of algebras: the semi-abelian varieties in which all ternary cosmash products vanish. Just as abelian varieties are the categories of modules over a ring, two-step nilpotent varieties are exactly the categories of modules over a square ring in the sense of Baues, Hartl and Pirashvili. We construct the square ring explicitly from the full subcategory on the free algebras on one and two generators, and give complete proofs. As consequences we obtain a description of any two-step nilpotent variety by generators and relations, an intrinsic characterisation in terms of quadratic term operations, and an account of its abelian core and of the lower central series of its objects in terms of the square ring. Along the way, we associate with any commutative ring $R$ a square ring whose modules, the two-step nilpotent $R$-groups, extend Hall's nilpotent $R$-groups of class two from $2$-binomial rings to arbitrary rings of coefficients.",
+      "title": "Two-step nilpotent varieties as categories of modules over a square ring",
+      "url": "https://arxiv.org/abs/2611.09465",
       "version": 1
     },
     {
-      "arxiv_id": "2611.08079",
+      "arxiv_id": "2611.09306",
+      "categories": [
+        "math.CA"
+      ],
+      "published": "2026-11-06T10:58:52Z",
+      "summary": "We determine the sharp constant in the weighted $L^2$ Bernstein inequality for coordinate derivatives on the unit ball with a Jacobi weight and the strengthened derivative factors introduced by Beberok and Xu. The constant is expressed in terms of the largest zeros of Jacobi polynomials, and all extremal polynomials are characterized explicitly. The proof uses an orthogonal polynomial decomposition that gives diagonal formulas for both the squared norm and the weighted derivative integral. We also obtain two-sided bounds for the sharp constant and determine its leading asymptotic behavior as the polynomial degree tends to infinity.",
+      "title": "A sharp weighted $L^2$ Bernstein inequality for partial derivatives on the unit ball",
+      "url": "https://arxiv.org/abs/2611.09306",
+      "version": 1
+    },
+    {
+      "arxiv_id": "2611.09134",
       "categories": [
         "math.LO"
       ],
-      "published": "2026-11-05T14:28:57Z",
-      "summary": "We prove equivalences of asymmetric partition relations involving natural numbers and products of weakly compact cardinals $κ$, infinite cardinals $λ<κ$ and natural numbers to certain classes of finitary problems in the theory of edge-coloured digraphs. We are able to determine three classes of Ramsey numbers exactly, typical examples in these classes are $r(ω^2 2, 3)$, $r(κλ2, 3)$ and $r(κλ3, 3)$. We moreover provide general upper bounds for $r(ω^2 m, 3)$ and $r(κλm, n)$.",
-      "title": "Idiosynchromatic Poetry",
-      "url": "https://arxiv.org/abs/2611.08079",
+      "published": "2026-11-06T08:08:59Z",
+      "summary": "This paper presents a formalization for a theory of constructing real numbers using concepts related to filters. The formalization is implemented using the Coq proof assistant and is grounded in axiomatic set theory. The theory encompasses various notions such as filters, ultrafilters, principal ultrafilters, and arithmetical ultrafilters. A special filter, namely the non-principal arithmetical ultrafilter, whose existence requires the Continuum Hypothesis to be proven, is employed to establish several non-standard number sets: *N, *Z and *Q. The set of real numbers, R, is subsequently derived by equivalently classifying a specific subset of *Q. The entire theory is thoroughly formalized, with each detail verified to ensure rigor and precision. This work contributes a new selection of foundational materials for the formalization of mathematical theories.",
+      "title": "Formalization of Filter-Method Construction for Real Numbers in Coq",
+      "url": "https://arxiv.org/abs/2611.09134",
       "version": 1
     },
     {
-      "arxiv_id": "2611.07987",
+      "arxiv_id": "2611.09010",
       "categories": [
-        "math.RA"
+        "math.CA"
       ],
-      "published": "2026-11-05T13:15:43Z",
-      "summary": "For projective morphisms $π:Y\\to X=\\operatorname{Spec}R$ over noetherian complete local rings, with fibres of dimension at most one and $\\mathbf{R}π_*\\mathcal{O}_Y\\cong\\mathcal{O}_X$, we construct a tilting fan from cones of pretilting bundles. Maximal cones parametrize tilting bundles, and facet adjacency encodes irreducible mutation. Completeness in positive rank is equivalent to finiteness of tilting bundles modulo line-bundle twists. For closed fibres that are split ADE highest-root cycles or their Stein contractions, we identify tilting bundles with chambers of restricted affine Tits cones and determine the fan. Over normal Gorenstein complete local domains, reflexive pushforward takes pretilting bundles on normal projective birational models with fibres of dimension at most one and $π^!\\mathcal{O}_X\\cong\\mathcal{O}_Y$ to modifying modules. Pushforwards of canonical tilting bundles recover models as module blowups and detect contractions by additive containment, yielding an Auslander--McKay embedding. The hypersurfaces $R=S[[u,v]]/(uv-f)$, with $S$ a regular complete local ring and $f\\in S$ a nonzero nonunit, generalize type $A$ Du Val surfaces and $cA_n$ threefolds to arbitrary dimension. We classify modifying modules by divisor flags and rank-one reflexive twists; flag blowups turn the embedding into an equivalence. If $f$ has $r\\ge2$ prime factors counted with multiplicity, reflexive pushforward on any maximal-flag model gives a mutation-preserving surjection from tilting bundles, parametrized by chambers of affine type $\\widetilde{A}_{r-1}$, to maximal modifying modules. Its fibres are affine Weyl group orbits determined by repeated factors. All maximal-flag models and maximal modification algebras are derived equivalent. These algebras are noncommutative crepant resolutions exactly when $S/(p)$ is regular for every prime factor $p$ of $f$.",
-      "title": "Tilting bundles and modifying modules in relative dimension one",
-      "url": "https://arxiv.org/abs/2611.07987",
+      "published": "2026-11-06T05:41:15Z",
+      "summary": "Walsh analysis connects ordered Fourier convergence, summability, nonlinear approximation, and universal representation through a common character algebra. This survey examines developments from 2000-2026 against their classical foundations. Binary kernel geometry explains Hardy-space losses and summability thresholds; interval and packet methods control spectral selection; localized blocks produce correction and universal representations with distinct coefficient and exceptional-set requirements. Selected proofs and counterexamples compare these mechanisms and identify where an implication needs an additional hypothesis. The same distinctions organize digital integration, sparse measurements, Boolean spectra, and generalized Walsh bases. Quantitative thresholds, source conventions, and published theorem pointers are collected in comparative tables. The concluding problems separate source-listed questions, proposed refinements, and elementary obstructions. Supplementary derivations preserve normalization checks and finite covariance calculations while keeping the main exposition focused on the analytic mechanisms.",
+      "title": "Walsh Analysis in the Twenty-First Century: Convergence, Summability, Nonlinear Approximation, Universality, and Digital Applications",
+      "url": "https://arxiv.org/abs/2611.09010",
       "version": 1
     },
     {
-      "arxiv_id": "2611.07915",
+      "arxiv_id": "2611.08901",
       "categories": [
         "math.LO"
       ],
-      "published": "2026-11-05T12:29:00Z",
-      "summary": "${T}_n$-Heyting algebras form a subvariety of Heyting algebras and are characterized by the property that a chain of prime filters in such an algebra has at most $n-1$ elements. We study some basic properties of these algebras and determine the structure and number of elements of the free ${T}_n$-Heyting algebra with a finite number $r$ of free generators, $FT_n(r)$.",
-      "title": "Free $T_n$-Heyting algebras",
-      "url": "https://arxiv.org/abs/2611.07915",
+      "published": "2026-11-06T02:43:09Z",
+      "summary": "The Stone-Weierstrass theorem obtains every continuous function on a compact space as a uniform limit of functions built from a separating family by finitely many operations, and Reggio proved the theorem equivalent to the Beth definability property of an infinitary equational logic. We extend both results beyond compactness: on every separable metric space, and in particular on every Polish space, every bounded uniformly continuous function is a uniform limit of functions built from countably many bounded separating functions by the connectives of infinitary real-valued logic, and an approximate Beth property of this logic is equivalent to the new theorem. The extension rests on a rule of syntax, which admits a countable supremum when its terms share an a priori bound and thereby makes the sentences define exactly the bounded Lipschitz functions, and on a model existence game that does the work of compactness in the proof of interpolation.",
+      "title": "A Stone-Weierstrass Theorem for Polish Spaces, Given by Logic",
+      "url": "https://arxiv.org/abs/2611.08901",
+      "version": 1
+    },
+    {
+      "arxiv_id": "2611.08661",
+      "categories": [
+        "math.CA"
+      ],
+      "published": "2026-11-05T20:14:19Z",
+      "summary": "We study Liouville transforms for the differential equation $Ju'+qu=wf$ on the real interval $(a,b)$ where $J$ is a constant, invertible, skew-hermitian matrix and $q$ and $w$ are matrices whose entries are distributions of order $0$ with $q$ Hermitian and $w$ non-negative. In particular, we examine their use in the treatment of quasi-regular endpoints and their impact on the Weyl-Titchmarsh $\\mathbb M$-function associated with the differential equation.",
+      "title": "Liouville transforms for ordinary differential equations with distributional coefficients",
+      "url": "https://arxiv.org/abs/2611.08661",
+      "version": 1
+    },
+    {
+      "arxiv_id": "2611.08653",
+      "categories": [
+        "math.CA"
+      ],
+      "published": "2026-11-05T19:59:50Z",
+      "summary": "We study weighted endpoint estimates for the centered fractional maximal operator on the infinite rooted $k$-ary tree, $T$. Our first result is a Fefferman--Stein type estimate \\[ w\\bigl(\\{M_αf>λ\\}\\bigr) \\lesssim_{α,s} \\frac1λ\\sum_{x\\in T}|f(x)|M_{α,s}w(x), \\qquad s>1, \\] with a constant independent of the branching parameter $k$. Although the proof is inspired by the non-fractional argument of Ombrosi, Rivera-Ríos and Safe in \\cite{ORRS}, the fractional normalization introduces a genuinely new scale interaction. At radius $r$, one must renormalize the function by $k^{rα}$ while keeping the dyadic cutoff at $k^r$; this leads to a new summation mechanism involving simultaneously $k^{rα}$ and $k^{r(1-α)}$. We then study sharpness and the geometry of admissible weights. We construct counterexamples showing that the estimate cannot in general be reduced to $s=1$ for any $0<α<1$. In the subcritical range $0<α<1/2$, we characterize power-type radial weights satisfying the natural fractional $A_1$ condition and prove that the failure persists after any fixed finite number of iterations of $M_α$. We also prove that $M_αw\\lesssim w$ is necessary for the corresponding weighted weak type estimate but is not sufficient in the subcritical range. Finally, we identify a phase transition: for $1/2\\leα<1$ no nonzero global weight can satisfy $M_αw\\lesssim w$.",
+      "title": "Fractional Fefferman--Stein inequalities on infinite rooted $k$-ary trees",
+      "url": "https://arxiv.org/abs/2611.08653",
       "version": 1
     }
   ],
