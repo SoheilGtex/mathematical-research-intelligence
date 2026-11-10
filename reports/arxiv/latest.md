@@ -21,16 +21,16 @@ Automated research snapshot based on arXiv metadata.
 
 | Published | Paper | Categories |
 |---|---|---|
-| 2026-11-06 | [On the (non-)closedness of the set of ReLU networks](https://arxiv.org/abs/2611.09887) | math.CA, math.NA |
-| 2026-11-06 | [Efficient iterative methods for the nonlinear compressible Reynolds equation with Navier slip boundary condition](https://arxiv.org/abs/2611.09853) | math.NA |
-| 2026-11-06 | [Deformations and Local Geometry of Lie Triple System Morphisms](https://arxiv.org/abs/2611.09849) | math.RA |
-| 2026-11-06 | [Mass-lumped finite elements with maximum-bound preservation and original-energy dissipation for the degenerate-mobility Allen-Cahn equation](https://arxiv.org/abs/2611.09832) | math.NA |
-| 2026-11-06 | [A virtual element exterior calculus framework](https://arxiv.org/abs/2611.09813) | math.NA |
-| 2026-11-06 | [Division ring extensions and a counterexample to the pure semisimplicity conjecture](https://arxiv.org/abs/2611.09749) | math.RA |
-| 2026-11-06 | [Finite-time Cholesky Factorization](https://arxiv.org/abs/2611.09706) | math.NA |
-| 2026-11-06 | [Borel rigidity for higher rank lattices](https://arxiv.org/abs/2611.09695) | math.LO |
-| 2026-11-06 | [Topological Mundici Adjunction and Its Applications](https://arxiv.org/abs/2611.09608) | math.LO, math.RA |
-| 2026-11-06 | [An extension of the notion of algebraic entropy](https://arxiv.org/abs/2611.09602) | math.RA |
+| 2026-11-09 | [Adding unbounded and not bounded sets to a singular cardinal](https://arxiv.org/abs/2611.12848) | math.LO |
+| 2026-11-09 | [On $\\mathrm{HH}^1$ of blocks of finite simple group algebras](https://arxiv.org/abs/2611.12844) | math.RA |
+| 2026-11-09 | [Global Asymptotics of a Toda Soliton Condensate with Random Scattering Data](https://arxiv.org/abs/2611.12748) | math.CA |
+| 2026-11-09 | [When is Polynomial Optimization SoS-Exact? Sufficient Regularization and Strict Gram Representations](https://arxiv.org/abs/2611.12697) | math.NA |
+| 2026-11-09 | [Second-Order Linear $q$-Difference Equations](https://arxiv.org/abs/2611.12688) | math.CA |
+| 2026-11-09 | [Sharpness of the Martin-O'Bryant autoconvolution inequality](https://arxiv.org/abs/2611.12685) | math.CA |
+| 2026-11-09 | [Global zero distribution and pluripolar exceptional cones for complex linear differential equations](https://arxiv.org/abs/2611.12670) | math.CA |
+| 2026-11-09 | [Stochastic Multilevel Sampling for Inverse Problems via Coarse-Space Identifiability](https://arxiv.org/abs/2611.12667) | math.NA |
+| 2026-11-09 | [Shape Holomorphy of the Calderón Projector on Lipschitz Surfaces: Frequency-Explicit Bounds for the Helmholtz](https://arxiv.org/abs/2611.12659) | math.NA |
+| 2026-11-09 | [Budan--Fourier theorem for circuit polynomial systems](https://arxiv.org/abs/2611.12613) | math.CA |
 
 ## Methodology
 

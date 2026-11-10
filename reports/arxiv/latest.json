@@ -1,203 +1,203 @@
 {
   "papers": [
     {
-      "arxiv_id": "2611.09887",
-      "categories": [
-        "math.CA",
-        "math.NA"
-      ],
-      "published": "2026-11-06T18:58:06Z",
-      "summary": "We prove that the set $\\mathcal{N}_N$ of ReLU networks with one hidden layer and at most $N\\in\\mathbb N$ neurons is weakly closed in $W^{1,p}(Ω)$, for a bounded connected open set $Ω\\subset\\mathbb R^d$. Consequently, every coercive, weakly lower semicontinuous energy on this space attains its minimum over $\\mathcal{N}_N$. This covers the Deep Ritz method with convex integrands, Sobolev training and Lipschitz learning. Moreover, as the weight decay parameter tends to zero, minimizers of the regularized problem converge, up to subsequences, to minimizers with minimal parameter norm. We also prove that the set of ReLU networks with two hidden layers of bounded widths is not closed in $W^{1,p}(Ω)$ or in $C(\\overlineΩ)$. This disproves a conjecture of Petersen, Raslan and Voigtlaender.",
-      "title": "On the (non-)closedness of the set of ReLU networks",
-      "url": "https://arxiv.org/abs/2611.09887",
-      "version": 1
-    },
-    {
-      "arxiv_id": "2611.09853",
-      "categories": [
-        "math.NA"
-      ],
-      "published": "2026-11-06T18:36:24Z",
-      "summary": "In this study, we present a comparison of iterative methods for the compressible Reynolds equation with Navier slip boundary conditions, based on a fully compressible cavitation model for lubricated bearings. We establish the existence and uniqueness of the solution to the two-dimensional problem. We introduce the Kirchhoff transformation to reformulate the nonlinear density-pressure relationship into a quasi-linear problem. We develop an efficient numerical approach to solve the two-dimensional nonlinear problem. The methods examined are the Gauss-Seidel method, the Newton-Raphson method and parallelized nonlinear Jacobi method, applied to one- and two-dimensional slider bearing configurations. The overall solution time is shown to depend strongly on the choice of method.",
-      "title": "Efficient iterative methods for the nonlinear compressible Reynolds equation with Navier slip boundary condition",
-      "url": "https://arxiv.org/abs/2611.09853",
-      "version": 1
-    },
-    {
-      "arxiv_id": "2611.09849",
-      "categories": [
-        "math.RA"
-      ],
-      "published": "2026-11-06T18:31:49Z",
-      "summary": "In this paper, first we study the deformations, stability and rigidity of Lie triple system morphisms by means of higher derived brackets and augmented Yamaguti cohomology. The vanishing of the first cohomology gives formal and local inner rigidity. The vanishing of the second cohomology removes the formal extension obstructions and, in finite dimension over $\\mathbb{R}$, gives local smoothness and stability under simultaneous perturbations of the two products. Next, we establish the relationship with Lie algebra homomorphisms in each part of the theory. The universal enveloping Lie algebra identifies a Lie triple morphism with a grading-preserving Lie homomorphism. We obtain the corresponding first cohomology isomorphism, the equivalence of formal and smooth deformations, and a stability result for graded Lie bracket perturbations. For Lie triple products induced by binary Lie brackets, we construct a comparison of differentials and obstruction classes. Under perfectness and a zero-centralizer condition, the local morphism spaces coincide. Finally, we relate triple subsystem graphs to graded Lie subalgebra graphs and compare their normal differentials.",
-      "title": "Deformations and Local Geometry of Lie Triple System Morphisms",
-      "url": "https://arxiv.org/abs/2611.09849",
-      "version": 1
-    },
-    {
-      "arxiv_id": "2611.09832",
-      "categories": [
-        "math.NA"
-      ],
-      "published": "2026-11-06T18:17:52Z",
-      "summary": "In this work, we propose a mass-lumped finite element method for the Allen-Cahn equation that incorporates nonlinear mobility which may degenerate. The spatial approximation uses continuous, piecewise linear, mass-lumped finite elements, while convex splitting is employed for the double-well potential in time. Under the standard non-obtuse mesh condition, it is shown that the resulting fully discrete method preserves the maximum-bound principle unconditionally: if the initial approximation takes values in $[-1, 1]$, then so does the numerical solution at every time level. Additionally, the method dissipates the original discrete Ginzburg-Landau energy without any time-step restriction, even when the mobility vanishes at pure phases. This analysis relies on the monotonicity of the lumped finite element operator and the convexity of the split potential. Numerical experiments confirm these theoretical properties and demonstrate the robustness of the method in phase-separation dynamics involving degenerate mobility.",
-      "title": "Mass-lumped finite elements with maximum-bound preservation and original-energy dissipation for the degenerate-mobility Allen-Cahn equation",
-      "url": "https://arxiv.org/abs/2611.09832",
-      "version": 1
-    },
-    {
-      "arxiv_id": "2611.09813",
-      "categories": [
-        "math.NA"
-      ],
-      "published": "2026-11-06T18:00:42Z",
-      "summary": "We develop a conforming virtual element framework for differential forms on general polytopal meshes in arbitrary dimension and at arbitrary order. Recursive local Hodge-Laplace boundary value problems define a trimmed virtual de Rham complex, from which moment constraints yield a complete subcomplex. The local spaces of these two complexes contain the trimmed and complete polynomial spaces of differential forms, respectively, and admit unisolvent degrees of freedom and computable polynomial projections. The canonical interpolants commute with the exterior derivative, and both complexes have cohomology isomorphic to that of the continuous de Rham complex. For both virtual families, we establish negative-norm inverse estimates and mesh-uniform norm equivalences in all form degrees. We further derive canonical interpolation error bounds and discrete Poincar'e inequalities. As an application, we obtain an inf-sup stable mixed Hodge-Laplace method with harmonic variables and optimal-order convergence under sufficient regularity. Moreover, the two conforming complexes are cochain isomorphic to their fully discrete counterparts (J. Eur. Math. Soc., 2025, doi:10.4171/JEMS/1602), and the norm equivalences provide a key analytical bridge between the conforming and fully discrete formulations.",
-      "title": "A virtual element exterior calculus framework",
-      "url": "https://arxiv.org/abs/2611.09813",
-      "version": 1
-    },
-    {
-      "arxiv_id": "2611.09749",
-      "categories": [
-        "math.RA"
-      ],
-      "published": "2026-11-06T17:18:35Z",
-      "summary": "We construct a family of division ring extensions and compute their left and right dimensions. In characteristic zero, we obtain a counterexample to the pure semisimplicity conjecture: a hereditary right pure semisimple ring of infinite representation type. For each prime $p\\ge3$, we construct in characteristic $p$ a hereditary artinian ring of finite representation type with Coxeter diagram $I_2(p+2)$.",
-      "title": "Division ring extensions and a counterexample to the pure semisimplicity conjecture",
-      "url": "https://arxiv.org/abs/2611.09749",
-      "version": 1
-    },
-    {
-      "arxiv_id": "2611.09706",
-      "categories": [
-        "math.NA"
-      ],
-      "published": "2026-11-06T16:49:20Z",
-      "summary": "We propose an algorithm for estimating the Cholesky factorization of positive, semi-definite matrices without pivoting. Our method has the same data access pattern as the canonical Cholesky method, and therefore is amenable to familiar hardware optimization techniques. Our method interprets the factorization task as a variational problem and in turn solves it using an induced dynamical system. We study the rate of convergence of this dynamical system to its stationary state for both positive definite and semi-definite matrices. Numerical experiments validate that our method is competitive with pivoted Cholesky on several practical examples.",
-      "title": "Finite-time Cholesky Factorization",
-      "url": "https://arxiv.org/abs/2611.09706",
-      "version": 1
-    },
-    {
-      "arxiv_id": "2611.09695",
+      "arxiv_id": "2611.12848",
       "categories": [
         "math.LO"
       ],
-      "published": "2026-11-06T16:41:04Z",
-      "summary": "In this paper we focus on rigidity in descriptive set theory. Building on cocycle superrigidity results of Popa, Furman and Ioana, we prove rigidity in the purely Borel context for the orbit equivalence relations arising from the shift actions and translation actions of lattices in semisimple Lie groups with higher rank. Our results sharpen work of Adams and Kechris.",
-      "title": "Borel rigidity for higher rank lattices",
-      "url": "https://arxiv.org/abs/2611.09695",
+      "published": "2026-11-09T18:41:17Z",
+      "summary": "This paper solves a problem (SP) attributed to Solovay in the 1960s, which is to add an unbounded sequence to a singular cardinal $κ$ without adding bounded subsets to $κ$, while preserving $κ^+$. The solution applies to any cofinality of the singular cardinal, with the assumption that $κ$ is a strong limit needed for the case of uncountable cofinality. Unsuccessful attempts to solve (SP), mostly for the countable cofinality, have appeared in published papers by various authors.",
+      "title": "Adding unbounded and not bounded sets to a singular cardinal",
+      "url": "https://arxiv.org/abs/2611.12848",
       "version": 1
     },
     {
-      "arxiv_id": "2611.09608",
+      "arxiv_id": "2611.12844",
+      "categories": [
+        "math.RA"
+      ],
+      "published": "2026-11-09T18:39:43Z",
+      "summary": "Let $G$ be a sporadic simple group, $k$ a field of positive characteristic and assume $B$ is a block of $kG$ with non-trivial defect. In this paper we prove the first Hochschild cohomology group $\\mathrm{HH}^1(B)$ is non-vanishing. Furthermore, we prove that for every wild block with abelian defect of a sporadic simple group, we have that $\\mathrm{HH}^1(B)$ is a solvable Lie algebra of derived length two, with non-zero maximal toral rank.",
+      "title": "On $\\mathrm{HH}^1$ of blocks of finite simple group algebras",
+      "url": "https://arxiv.org/abs/2611.12844",
+      "version": 1
+    },
+    {
+      "arxiv_id": "2611.12748",
+      "categories": [
+        "math.CA"
+      ],
+      "published": "2026-11-09T17:30:28Z",
+      "summary": "We study a dense $N$-soliton condensate for the infinite Toda lattice in the limit $N \\to \\infty$. In contrast to previous mathematical studies of soliton gases where the norming constants are assumed to be deterministic or infinitesimal, we consider initial scattering data where both the discrete eigenvalues and the norming constants are independent random variables. The norming constants $γ_j$ are allowed to be arbitrarily large under a mild moment condition $\\mathbb{E}[γ_j^ν] < \\infty$ ($ν> 1$). Our main result is divided into two parts. First, we develop a probabilistic Riemann--Hilbert framework to show that the system self-averages: despite large, independent fluctuations in the initial data, the random Toda lattice variables converge deterministically to an effective continuum model at a polynomial rate $\\mathcal{O}(N^{-δ})$ for $0 < δ< 1/2$. Second, by performing the Deift--Zhou nonlinear steepest descent analysis of the continuum problem, we obtain the complete leading-order macroscopic description of the lattice across the entire space-time plane. The solution decomposes into five distinct finite-gap regimes, characterized explicitly by modulated elliptic and genus-2 waves with an error of order $\\mathcal{O}(1/\\ln N)$. In contrast to the straight characteristic rays typical of standard soliton gas limits, the interfaces separating these five macroscopic regimes in the space-time plane are genuinely non-linear curves; in particular, the boundary of the modulated genus-2 region is completely non-linear. Finally, under our assumptions, we establish the Nonlinear Dispersion Relations for the Toda soliton condensate and prove that the macroscopic ensemble averages are determined by the soliton gas density of states.",
+      "title": "Global Asymptotics of a Toda Soliton Condensate with Random Scattering Data",
+      "url": "https://arxiv.org/abs/2611.12748",
+      "version": 1
+    },
+    {
+      "arxiv_id": "2611.12697",
+      "categories": [
+        "math.NA"
+      ],
+      "published": "2026-11-09T16:56:44Z",
+      "summary": "Global minimization of multivariate polynomials is computationally difficult in general, and nonnegativity does not necessarily imply a sum-of-squares (SoS) representation. We show that adding sufficiently strong Euclidean regularization to a polynomial provides a general mechanism for overcoming such challenges. Namely, for any multivariate polynomial $P$ of degree at most $p$ with a nonzero linear coefficient, and any even integer $2d>p$, we prove that $m_σ(s)=P(s)+\\fracσ{2d}\\|s\\|_2^{2d}$ is SoS exact for all sufficiently large $σ$. Furthermore, the shifted polynomial $m_σ-\\min m_σ$ admits a positive-definite Gram representation on appropriately-shifted nonconstant monomials. Consequently, the global minimum and minimizer can be recovered exactly by a single degree-$d$ semidefinite programming (SDP) representation, whose size is polynomial in the dimension for fixed $d$, without requiring higher levels of the SoS hierarchy. The proof develops a degree-independent mechanism based on the Bregman remainder of the regularizer: its strict Gram margin absorbs the lower-degree polynomial perturbations. We further establish an analogous exact SDP regime for polynomial optimization over sufficiently small Euclidean balls, connecting large regularization with small-radius trust-region problems. Finally, we investigate how the algebraic structure of the regularizer governs the existence of a strict Gram margin, extending the mechanism beyond Euclidean norms while identifying limitations of coordinate-separable regularization.",
+      "title": "When is Polynomial Optimization SoS-Exact? Sufficient Regularization and Strict Gram Representations",
+      "url": "https://arxiv.org/abs/2611.12697",
+      "version": 1
+    },
+    {
+      "arxiv_id": "2611.12688",
+      "categories": [
+        "math.CA"
+      ],
+      "published": "2026-11-09T16:50:07Z",
+      "summary": "Second order $q$ difference equations arise in various areas such as basic hypergeometric series, orthogonal polynomials and the analytic theory of special functions. When the independent variable is scaled by powers of $q$ ($0<q<1$), such equations display asymptotic behaviour that differs markedly from their differential or classical difference counterparts. Our purpose is to give a complete, self contained treatment of linear, second order $q$ difference equations with divergent formal solutions, including explicit error bounds, exact resummations and Stokes phenomena.",
+      "title": "Second-Order Linear $q$-Difference Equations",
+      "url": "https://arxiv.org/abs/2611.12688",
+      "version": 1
+    },
+    {
+      "arxiv_id": "2611.12685",
+      "categories": [
+        "math.CA"
+      ],
+      "published": "2026-11-09T16:47:53Z",
+      "summary": "We show that there does not exist a constant $c<1$ such that ${\\lVert f\\ast f\\rVert}_{L^{2}}^2\\le c\\,{\\lVert f\\ast f\\rVert}_{L^{1}}{\\lVert f\\ast f\\rVert}_{L^{\\infty}}$ holds for every nonnegative $f\\in L^1(\\mathbb{R})\\cap L^2(\\mathbb{R})$.",
+      "title": "Sharpness of the Martin-O'Bryant autoconvolution inequality",
+      "url": "https://arxiv.org/abs/2611.12685",
+      "version": 1
+    },
+    {
+      "arxiv_id": "2611.12670",
+      "categories": [
+        "math.CA"
+      ],
+      "published": "2026-11-09T16:39:54Z",
+      "summary": "We study the zeros of solutions of complex linear differential equations of arbitrary order $n\\ge2$ with exponential-sum coefficients. Using the initial-value space $\\mathbb{C}^n$ to parametrize the solutions, we show that solutions with initial vectors outside a complete pluripolar cone of Lebesgue measure zero share an explicit common leading term for the global zero count and a common joint limit in radius and angle. The rescaled radial distance from the disk boundary has an exponential limiting distribution, while the rescaled angular deviations from each main ray are Gaussian. Inspired by logarithmic tracts in the Eremenko-Lyubich class $\\mathcal{B}$, we pull exterior sectors back conformally to countably many curvilinear strips extending in finitely many directions and obtain zero-counting asymptotics in each strip, although the coefficients may lie outside this class. Moreover, the asymptotic formula for the global zero count and the joint limit in radius and angle persist under arbitrary entire perturbations of strictly smaller weighted exponential type.",
+      "title": "Global zero distribution and pluripolar exceptional cones for complex linear differential equations",
+      "url": "https://arxiv.org/abs/2611.12670",
+      "version": 1
+    },
+    {
+      "arxiv_id": "2611.12667",
+      "categories": [
+        "math.NA"
+      ],
+      "published": "2026-11-09T16:38:21Z",
+      "summary": "Sampling only part of the data reduces the cost of each iteration in an inverse problem, but can make reconstruction updates unreliable. We study stochastic multilevel sampling, which computes updates on a coarse-to-fine hierarchy of correction spaces. The guiding idea is that a small sample may support a reliable coarse-grid update even when it provides insufficient information for a fine-grid update. For quadratic objectives, we identify conditions under which corrections computed from sampled data decrease the full-data objective. In small-batch experiments with computed tomography and periodic deblurring, the stochastic multilevel method improves reconstruction accuracy over matched single-level methods. In an increasingly ill-conditioned CT refinement with a fixed number of projection angles, the single-level error increases as the image dimension grows, whereas a deep hierarchy maintains or improves accuracy and outperforms full-data single-level optimization at the same number of forward and adjoint applications. The gains persist across the tested local solvers and strengthen with deeper hierarchies. A separate known-probe ptychography study provides complementary evidence for the benefit of hierarchical corrections for nonlinear inverse problems.",
+      "title": "Stochastic Multilevel Sampling for Inverse Problems via Coarse-Space Identifiability",
+      "url": "https://arxiv.org/abs/2611.12667",
+      "version": 1
+    },
+    {
+      "arxiv_id": "2611.12659",
+      "categories": [
+        "math.NA"
+      ],
+      "published": "2026-11-09T16:27:39Z",
+      "summary": "We establish the holomorphic dependence of the Calderón projector for the Helmholtz operator upon shape boundary deformations of a family of bounded Lipschitz domains in two and three spatial dimensions, with bounds explicit in the wavenumber and the size of the holomorphic extension. More precisely, after transporting the four boundary integral operators contained in the Calderón projector to a fixed reference boundary, we prove that the resulting parameter-to-operator maps admit bounded holomorphic extensions in their natural fractional Sobolev spaces. Unlike approaches that require boundary regularity of class $\\mathscr C^{1,1}$ or higher, our argument traces the holomorphic dependence on the shape by transferring elliptic estimates to the boundary through the fundamental solution and the Dirichlet and conormal trace operators. This construction is the key step that allows us to treat Lipschitz-regular boundary deformations. Furthermore, we show that the domain of holomorphy can be chosen independently of the wavenumber $κ$, while the operator bounds in the corresponding fractional Sobolev spaces contain algebraic factors in $κ$ multiplied by $\\exp(Cκδ)$. In particular, for real domains, corresponding to $δ=0$, our single layer estimate recovers, to our knowledge, the best available frequency dependence on general Lipschitz boundaries. For the double layer, adjoint double layer, and hypersingular operators, we obtain novel frequency-explicit bounds. The results proved in this work provide the analytic foundation for frequency-explicit uncertainty quantification, model order reduction, and high-dimensional approximation of boundary integral operators, their Galerkin discretizations, and the resulting boundary densities and quantities of interest on families of parametrically varying boundaries.",
+      "title": "Shape Holomorphy of the Calderón Projector on Lipschitz Surfaces: Frequency-Explicit Bounds for the Helmholtz",
+      "url": "https://arxiv.org/abs/2611.12659",
+      "version": 1
+    },
+    {
+      "arxiv_id": "2611.12613",
+      "categories": [
+        "math.CA"
+      ],
+      "published": "2026-11-09T15:56:34Z",
+      "summary": "We prove a Budan--Fourier theorem for linear combinations of analytic functions whose successive Wronskians are positive: the number of zeros of $g=\\sum_{k=1}^s c_kh_k$ in an interval $(a,b]$, counted with multiplicities, is bounded by the drop of the number of sign changes of the sequence of Wronskians $W(h_1,\\ldots,h_{k-1},g)$ between $a$ and $b$, and the difference is even. This refines the bound $s-1$ of Koiran, Portier and Tavenas, and we show that it applies, after a suitable renumbering, to any sequence of functions satisfying Descartes' rule of signs. We then study the functions arising from polynomial systems supported on circuits, that is, systems of $n$ equations in $n$ variables with $n+2$ monomials. For these functions, we show that the Budan--Fourier bound never exceeds Descartes' bound, and we compute it at the endpoints of the interval of definition. As an application, we obtain a refinement of the optimal Descartes' rule of signs for circuits of Bihan, Dickenstein and Forsgård: we bound the number of positive solutions whose logarithm lies in explicit polytopes, these bounds add up to at most the bound of Bihan, Dickenstein and Forsgård, and they determine the parity of the number of positive solutions.",
+      "title": "Budan--Fourier theorem for circuit polynomial systems",
+      "url": "https://arxiv.org/abs/2611.12613",
+      "version": 1
+    },
+    {
+      "arxiv_id": "2611.12593",
+      "categories": [
+        "math.NA"
+      ],
+      "published": "2026-11-09T15:43:00Z",
+      "summary": "Let $S_{f,n}$ and $K_{f,n}$ denote Schröder's methods of the first and second kind with given order $ n $ ($\\geq 2 $) applied to an entire function $ f $. This article investigates the existence of the entire solutions $f$ whenever $ S_{f,n} $ and $ K_{f,n} $ are rational. Utilizing the Nevanlinna theory, we obtain the general form of entire solutions for such equations. It is proved that either of $ S_{f,n} $ and $ K_{f,n} $ is a non-identity rational map if and only if $f = p e^{q}$, for some polynomials $p$ and $q$. Additionally, we provide one recurrence relation of $K_{f,n}$ depending only upon $K_{f,n-1}$.",
+      "title": "On the entire solutions of Schröder iteration functions of first and second kind",
+      "url": "https://arxiv.org/abs/2611.12593",
+      "version": 1
+    },
+    {
+      "arxiv_id": "2611.12585",
+      "categories": [
+        "math.NA"
+      ],
+      "published": "2026-11-09T15:39:22Z",
+      "summary": "We compare two cubic Hermite Galerkin semidiscretizations of the Korteweg-de Vries equation on a bounded interval with boundary dissipation. They use the same trial space. The first is the weighted scheme considered in our previous paper (arXiv:2610.39269), called the W-scheme. It has mesh-uniform regularity: the discrete semigroups of the linearized equation inherit Crandall-Pazy regularity and Kato smoothing, with bounds uniform in the mesh size $h$. The second is the standard Galerkin method in $L^2$, called the S-scheme. It has no mesh-uniform regularity. For the W-scheme, the full error and the ordering error converge at an algebraic rate in $h$, uniformly on $[t_0,\\infty)$ times small balls of $L^2$ for any fixed $t_0>0$. They are bounded by $Ch^p\\varepsilon$ and $Ch^p\\varepsilon^2$, respectively, where $\\varepsilon$ is the size of the datum and $p>0$. We prove that neither bound holds for the S-scheme by using exact high-frequency spurious eigenpairs of the S-scheme. The existence of such eigenpairs for fine meshes with at least 512 elements has a proof checked by Lean 4. Computations compare the two schemes on unit-norm data built from these eigenfunctions, on 512, 1024 and 2048 elements. The full error of the S-scheme stays at $4.6\\times10^{-2}$. That of the W-scheme is at most $2.2\\times10^{-9}$. The ordering error of the S-scheme stays at $9.6\\times10^{-6}$. That of the W-scheme falls from $2.3\\times10^{-9}$ to $1.4\\times10^{-10}$. Their ratio grows from $4.2\\times10^3$ to $6.6\\times10^4$.",
+      "title": "A Large Gap between Galerkin Errors with and without Mesh-Uniform Regularity for the KdV Equation with Boundary Dissipation",
+      "url": "https://arxiv.org/abs/2611.12585",
+      "version": 1
+    },
+    {
+      "arxiv_id": "2611.12536",
+      "categories": [
+        "math.RA"
+      ],
+      "published": "2026-11-09T15:07:43Z",
+      "summary": "We study Lie algebras graded by the generalized root system $AG_2$, which is obtained from $G_2$ by adjoining the doubles of its short roots, over fields of characteristic different from $2$ and $3$. We show that every such Lie algebra with a grading subalgebra of type $A_2$ is, modulo its center, the Tits-Kantor-Koecher Lie algebra of a structurable algebra equipped with an idempotent $t$ satisfying $t+\\overline{t}=1$. Conversely, every structurable algebra with such an idempotent gives rise to an $(AG_2,A_2)$-graded Lie algebra. We describe the corresponding Peirce decomposition and characterize the additional algebraic structure required for an $(AG_2,G_2)$-grading. Using the classification of central simple structurable algebras, we determine the central simple examples when the characteristic is also different from $5$. Finally, we compare our constructions with the theory of Tits hexagons. For the central simple examples in which all root spaces are non-zero, we determine which ones are Tits-hexagonalizable; in certain cases, this imposes an additional balancing condition on the idempotent.",
+      "title": "Lie algebras graded by the root system $AG_2$",
+      "url": "https://arxiv.org/abs/2611.12536",
+      "version": 1
+    },
+    {
+      "arxiv_id": "2611.12505",
+      "categories": [
+        "math.LO"
+      ],
+      "published": "2026-11-09T14:47:10Z",
+      "summary": "A Ramsey quasi-order is a quasi-order $(\\cal{R},\\leq)$ such that $\\cal{R}$ is a Polish space, $\\leq$ is analytic and every analytic subset of $\\cal{R}$ is Ramsey. In this paper, we study the transfer of the analytic Ramsey property via monotone quasi-open maps, which are closely related to a family of forcing projections between quasi-orders (ranging from weak projections to strong projections). We apply this framework to the class of topological Ramsey spaces by providing a detailed list of examples of strong projections between topological Ramsey spaces, and show that, for many of these examples, there is no weak projection in the reverse direction. We also exhibit pairs of topological Ramsey spaces that do not weakly project into each other. Finally, partially confirming a conjecture of Dobrinen, we show that every space in a large class of topological Ramsey spaces either strongly projects into the Ellentuck space or contains a dense set of atoms.",
+      "title": "Projections between Ramsey quasi-orders and topological Ramsey spaces",
+      "url": "https://arxiv.org/abs/2611.12505",
+      "version": 1
+    },
+    {
+      "arxiv_id": "2611.12499",
+      "categories": [
+        "math.LO"
+      ],
+      "published": "2026-11-09T14:43:16Z",
+      "summary": "Dynamic topological logic (${\\bf DTL}$) combines topological and temporal modalities to express asymptotic properties of dynamic systems on topological spaces. A dynamic topological model is a triple $\\left <X,f,V\\right >$, where $X$ is a topological space, $f:X\\to X$ a continuous function and $V$ a truth valuation assigning subsets of $X$ to propositional variables. Valid formulas are those that are true in every model, independently of $X$ or $f$. A natural problem that arises is to identify the logics obtained on familiar spaces, such as $\\mathbb R^n$. Slavnov showed that any satisfiable formula could be satisfied in some $\\mathbb R^n$ for $n$ large enough, but the question of how the logic varies with $n$ remained open. In this paper we prove that any fragment of ${\\bf DTL}$ that is complete for locally finite Kripke frames is complete for $\\mathbb R^2$. This includes ${\\bf DTL}^\\bigcirc$; it also includes some larger fragments, such as ${\\bf DTL_1}$, where ``henceforth\" may not appear in the scope of a topological operator. We show that satisfiability of any formula of our language in a locally finite Kripke frame implies satisfiability in $\\mathbb R^2$ by constructing continuous, open maps from the plane into arbitrary locally finite Kripke frames, which give us a type of bisimulation. We also show that the results cannot be extended to arbitrary formulas of ${\\bf DTL}$ by exhibiting a formula which is valid in $\\mathbb R^2$ but not in arbitrary topological spaces.",
+      "title": "Dynamic Topological Completeness for $\\mathbb R^2$",
+      "url": "https://arxiv.org/abs/2611.12499",
+      "version": 1
+    },
+    {
+      "arxiv_id": "2611.12495",
       "categories": [
         "math.LO",
         "math.RA"
       ],
-      "published": "2026-11-06T15:33:13Z",
-      "summary": "We establish a canonical topological lifting of Mundici equivalence, representing every topological MV-algebra as the unit interval of a topological $\\ell$-group and extending the correspondence to a categorical adjunction. As applications, we give a direct group-theoretic proof of the equivalence of $T_0$ and $T_{3\\frac12}$ and show that every topological MV-algebra is a retral space. We further extend the lifting to topological Riesz MV-algebras and identify the canonical topology with Wiweger's mixed topology under suitable assumptions, recovering the strict topology as a special case. Finally, we obtain a unit-interval formulation of Koopman representations for continuous-time dynamical systems.",
-      "title": "Topological Mundici Adjunction and Its Applications",
-      "url": "https://arxiv.org/abs/2611.09608",
+      "published": "2026-11-09T14:41:48Z",
+      "summary": "The definable closure of a real closed $H$-field $H$ in an ambient closed $H$-field extension $M$ is shown to be an immediate extension of $H$, except in two very special cases, where this is only true after adjunction to $H$ of a particular $H$-definable element of $M$ and then taking the real closure in $M$.",
+      "title": "On definable closure in closed $H$-fields",
+      "url": "https://arxiv.org/abs/2611.12495",
       "version": 1
     },
     {
-      "arxiv_id": "2611.09602",
+      "arxiv_id": "2611.12469",
+      "categories": [
+        "math.LO",
+        "math.RA"
+      ],
+      "published": "2026-11-09T14:19:48Z",
+      "summary": "We show that universal algebra, and the theory of natural dualities in particular, provides a uniform framework for the dualities between median algebras and bounded poc sets and their Boolean topological variants. We identify the Roller compactification of a CAT(0) cube complex with the profinite completion and the natural extension of the median algebra of its vertices. We then develop the order-theoretic perspective, which leads to a characterization of the profinite completion by the property that its intervals are the canonical extensions of the original ones. Since the basepoint orders of a median algebra have no top in general, we introduce conditional canonical extensions, show that they are unique, and realize them inside the profinite completion. Finally, a transfer theorem carries universal sentences from the finite quotients of a median algebra to its profinite completion, and we close with open questions on a correspondence theory between median algebras and their bounded poc sets.",
+      "title": "Dualities and completions of median algebras and semilattices: a universal-algebraic approach",
+      "url": "https://arxiv.org/abs/2611.12469",
+      "version": 1
+    },
+    {
+      "arxiv_id": "2611.12297",
       "categories": [
         "math.RA"
       ],
-      "published": "2026-11-06T15:29:16Z",
-      "summary": "The definition of algebraic entropy presents a difficulty in the general setting of filtered algebras, which makes it necessary to distinguish between filtered algebras and finitely filtered algebras. While algebraic entropy is well defined in the finitely filtered case, extending this notion to arbitrary filtered algebras is not immediate. To address this issue, we realize a filtered algebra as the limit of a strict direct system of finitely filtered algebras and define its entropy as the supremum of the entropies of the algebras in the system. This extension is consistent with the original definition, when the algebra is finitely filtered, the extended entropy agrees with its algebraic entropy. This new setting allows us to extend the definition of the algebraic entropy to path and Leavitt path algebras of infinite graphs.",
-      "title": "An extension of the notion of algebraic entropy",
-      "url": "https://arxiv.org/abs/2611.09602",
-      "version": 1
-    },
-    {
-      "arxiv_id": "2611.09566",
-      "categories": [
-        "math.LO"
-      ],
-      "published": "2026-11-06T15:07:29Z",
-      "summary": "In this paper we continue the work started in [Bonzio & Zamperlin 2025] by investigating the algebraic semantics for modal external weak Kleene logics. In order to do so we study the global modal logics associated with the three-valued Kripke models introduced in the previous article, showing how these systems are algebraizable. We proceed by defining their algebraic counterparts, obtaining the classes of modal Bochvar and modal Halldén algebras, whose structure theory we investigate via Płonka sum decomposition. Of particular interested is the interaction of the modal operator with the homorphisms of the Płonka decomposition. These results allow us to prove representation theorems for these expanded modal algebras in the style of the Jónsson-Tarski representation for Boolean algebras with operators. As a consequence, we also obtain algebraic semnatics for the local modal logics from which the work originated.",
-      "title": "Modal weak Kleene logics: algebraic semantics and Jónsson-Tarski representation",
-      "url": "https://arxiv.org/abs/2611.09566",
-      "version": 1
-    },
-    {
-      "arxiv_id": "2611.09465",
-      "categories": [
-        "math.RA"
-      ],
-      "published": "2026-11-06T13:44:11Z",
-      "summary": "We characterise the two-step nilpotent varieties of algebras: the semi-abelian varieties in which all ternary cosmash products vanish. Just as abelian varieties are the categories of modules over a ring, two-step nilpotent varieties are exactly the categories of modules over a square ring in the sense of Baues, Hartl and Pirashvili. We construct the square ring explicitly from the full subcategory on the free algebras on one and two generators, and give complete proofs. As consequences we obtain a description of any two-step nilpotent variety by generators and relations, an intrinsic characterisation in terms of quadratic term operations, and an account of its abelian core and of the lower central series of its objects in terms of the square ring. Along the way, we associate with any commutative ring $R$ a square ring whose modules, the two-step nilpotent $R$-groups, extend Hall's nilpotent $R$-groups of class two from $2$-binomial rings to arbitrary rings of coefficients.",
-      "title": "Two-step nilpotent varieties as categories of modules over a square ring",
-      "url": "https://arxiv.org/abs/2611.09465",
-      "version": 1
-    },
-    {
-      "arxiv_id": "2611.09306",
-      "categories": [
-        "math.CA"
-      ],
-      "published": "2026-11-06T10:58:52Z",
-      "summary": "We determine the sharp constant in the weighted $L^2$ Bernstein inequality for coordinate derivatives on the unit ball with a Jacobi weight and the strengthened derivative factors introduced by Beberok and Xu. The constant is expressed in terms of the largest zeros of Jacobi polynomials, and all extremal polynomials are characterized explicitly. The proof uses an orthogonal polynomial decomposition that gives diagonal formulas for both the squared norm and the weighted derivative integral. We also obtain two-sided bounds for the sharp constant and determine its leading asymptotic behavior as the polynomial degree tends to infinity.",
-      "title": "A sharp weighted $L^2$ Bernstein inequality for partial derivatives on the unit ball",
-      "url": "https://arxiv.org/abs/2611.09306",
-      "version": 1
-    },
-    {
-      "arxiv_id": "2611.09134",
-      "categories": [
-        "math.LO"
-      ],
-      "published": "2026-11-06T08:08:59Z",
-      "summary": "This paper presents a formalization for a theory of constructing real numbers using concepts related to filters. The formalization is implemented using the Coq proof assistant and is grounded in axiomatic set theory. The theory encompasses various notions such as filters, ultrafilters, principal ultrafilters, and arithmetical ultrafilters. A special filter, namely the non-principal arithmetical ultrafilter, whose existence requires the Continuum Hypothesis to be proven, is employed to establish several non-standard number sets: *N, *Z and *Q. The set of real numbers, R, is subsequently derived by equivalently classifying a specific subset of *Q. The entire theory is thoroughly formalized, with each detail verified to ensure rigor and precision. This work contributes a new selection of foundational materials for the formalization of mathematical theories.",
-      "title": "Formalization of Filter-Method Construction for Real Numbers in Coq",
-      "url": "https://arxiv.org/abs/2611.09134",
-      "version": 1
-    },
-    {
-      "arxiv_id": "2611.09010",
-      "categories": [
-        "math.CA"
-      ],
-      "published": "2026-11-06T05:41:15Z",
-      "summary": "Walsh analysis connects ordered Fourier convergence, summability, nonlinear approximation, and universal representation through a common character algebra. This survey examines developments from 2000-2026 against their classical foundations. Binary kernel geometry explains Hardy-space losses and summability thresholds; interval and packet methods control spectral selection; localized blocks produce correction and universal representations with distinct coefficient and exceptional-set requirements. Selected proofs and counterexamples compare these mechanisms and identify where an implication needs an additional hypothesis. The same distinctions organize digital integration, sparse measurements, Boolean spectra, and generalized Walsh bases. Quantitative thresholds, source conventions, and published theorem pointers are collected in comparative tables. The concluding problems separate source-listed questions, proposed refinements, and elementary obstructions. Supplementary derivations preserve normalization checks and finite covariance calculations while keeping the main exposition focused on the analytic mechanisms.",
-      "title": "Walsh Analysis in the Twenty-First Century: Convergence, Summability, Nonlinear Approximation, Universality, and Digital Applications",
-      "url": "https://arxiv.org/abs/2611.09010",
-      "version": 1
-    },
-    {
-      "arxiv_id": "2611.08901",
-      "categories": [
-        "math.LO"
-      ],
-      "published": "2026-11-06T02:43:09Z",
-      "summary": "The Stone-Weierstrass theorem obtains every continuous function on a compact space as a uniform limit of functions built from a separating family by finitely many operations, and Reggio proved the theorem equivalent to the Beth definability property of an infinitary equational logic. We extend both results beyond compactness: on every separable metric space, and in particular on every Polish space, every bounded uniformly continuous function is a uniform limit of functions built from countably many bounded separating functions by the connectives of infinitary real-valued logic, and an approximate Beth property of this logic is equivalent to the new theorem. The extension rests on a rule of syntax, which admits a countable supremum when its terms share an a priori bound and thereby makes the sentences define exactly the bounded Lipschitz functions, and on a model existence game that does the work of compactness in the proof of interpolation.",
-      "title": "A Stone-Weierstrass Theorem for Polish Spaces, Given by Logic",
-      "url": "https://arxiv.org/abs/2611.08901",
-      "version": 1
-    },
-    {
-      "arxiv_id": "2611.08661",
-      "categories": [
-        "math.CA"
-      ],
-      "published": "2026-11-05T20:14:19Z",
-      "summary": "We study Liouville transforms for the differential equation $Ju'+qu=wf$ on the real interval $(a,b)$ where $J$ is a constant, invertible, skew-hermitian matrix and $q$ and $w$ are matrices whose entries are distributions of order $0$ with $q$ Hermitian and $w$ non-negative. In particular, we examine their use in the treatment of quasi-regular endpoints and their impact on the Weyl-Titchmarsh $\\mathbb M$-function associated with the differential equation.",
-      "title": "Liouville transforms for ordinary differential equations with distributional coefficients",
-      "url": "https://arxiv.org/abs/2611.08661",
-      "version": 1
-    },
-    {
-      "arxiv_id": "2611.08653",
-      "categories": [
-        "math.CA"
-      ],
-      "published": "2026-11-05T19:59:50Z",
-      "summary": "We study weighted endpoint estimates for the centered fractional maximal operator on the infinite rooted $k$-ary tree, $T$. Our first result is a Fefferman--Stein type estimate \\[ w\\bigl(\\{M_αf>λ\\}\\bigr) \\lesssim_{α,s} \\frac1λ\\sum_{x\\in T}|f(x)|M_{α,s}w(x), \\qquad s>1, \\] with a constant independent of the branching parameter $k$. Although the proof is inspired by the non-fractional argument of Ombrosi, Rivera-Ríos and Safe in \\cite{ORRS}, the fractional normalization introduces a genuinely new scale interaction. At radius $r$, one must renormalize the function by $k^{rα}$ while keeping the dyadic cutoff at $k^r$; this leads to a new summation mechanism involving simultaneously $k^{rα}$ and $k^{r(1-α)}$. We then study sharpness and the geometry of admissible weights. We construct counterexamples showing that the estimate cannot in general be reduced to $s=1$ for any $0<α<1$. In the subcritical range $0<α<1/2$, we characterize power-type radial weights satisfying the natural fractional $A_1$ condition and prove that the failure persists after any fixed finite number of iterations of $M_α$. We also prove that $M_αw\\lesssim w$ is necessary for the corresponding weighted weak type estimate but is not sufficient in the subcritical range. Finally, we identify a phase transition: for $1/2\\leα<1$ no nonzero global weight can satisfy $M_αw\\lesssim w$.",
-      "title": "Fractional Fefferman--Stein inequalities on infinite rooted $k$-ary trees",
-      "url": "https://arxiv.org/abs/2611.08653",
+      "published": "2026-11-09T12:20:15Z",
+      "summary": "We construct an example of a non-Archimedean valued skew field k, with elements a and b of distinct absolute value such that there are no p, q $\\in$ k[x] (x a central indeterminate) such that (x -b)(x -a) = pq, p similar to x -a, and q similar to x -b. The obstruction lies in the non-existence of a solution in k to Sylvester's equation at -tb = 1. We also disprove a 1963 result by Cohn (also reproduced in Cohn's 2006 monograph), by constructing a domain with similar elements a and b with a an atom and b not a product of atoms (resp., a product of two atoms, one of them central).",
+      "title": "A Note on Similarity Classes From Atomic Factorizations in Domains",
+      "url": "https://arxiv.org/abs/2611.12297",
       "version": 1
     }
   ],
