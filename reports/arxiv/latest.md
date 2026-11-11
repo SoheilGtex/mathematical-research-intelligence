@@ -4,8 +4,8 @@ Automated research snapshot based on arXiv metadata.
 
 ## Research Coverage
 
-- Unique papers: **18**
-- Cross-category papers: **2**
+- Unique papers: **19**
+- Cross-category papers: **1**
 - Research categories: **4**
 
 ## Category Distribution
@@ -21,16 +21,16 @@ Automated research snapshot based on arXiv metadata.
 
 | Published | Paper | Categories |
 |---|---|---|
-| 2026-11-09 | [Adding unbounded and not bounded sets to a singular cardinal](https://arxiv.org/abs/2611.12848) | math.LO |
-| 2026-11-09 | [On $\\mathrm{HH}^1$ of blocks of finite simple group algebras](https://arxiv.org/abs/2611.12844) | math.RA |
-| 2026-11-09 | [Global Asymptotics of a Toda Soliton Condensate with Random Scattering Data](https://arxiv.org/abs/2611.12748) | math.CA |
-| 2026-11-09 | [When is Polynomial Optimization SoS-Exact? Sufficient Regularization and Strict Gram Representations](https://arxiv.org/abs/2611.12697) | math.NA |
-| 2026-11-09 | [Second-Order Linear $q$-Difference Equations](https://arxiv.org/abs/2611.12688) | math.CA |
-| 2026-11-09 | [Sharpness of the Martin-O'Bryant autoconvolution inequality](https://arxiv.org/abs/2611.12685) | math.CA |
-| 2026-11-09 | [Global zero distribution and pluripolar exceptional cones for complex linear differential equations](https://arxiv.org/abs/2611.12670) | math.CA |
-| 2026-11-09 | [Stochastic Multilevel Sampling for Inverse Problems via Coarse-Space Identifiability](https://arxiv.org/abs/2611.12667) | math.NA |
-| 2026-11-09 | [Shape Holomorphy of the Calderón Projector on Lipschitz Surfaces: Frequency-Explicit Bounds for the Helmholtz](https://arxiv.org/abs/2611.12659) | math.NA |
-| 2026-11-09 | [Budan--Fourier theorem for circuit polynomial systems](https://arxiv.org/abs/2611.12613) | math.CA |
+| 2026-11-10 | [Automatic Continuity for projective clone homomorphisms](https://arxiv.org/abs/2611.14490) | math.LO, math.RA |
+| 2026-11-10 | [A fourth-order dimensionally split exponential time differencing scheme with real and distinct pole rational approximation for non-linear reaction-diffusion systems](https://arxiv.org/abs/2611.14485) | math.NA |
+| 2026-11-10 | [Independent Families Under Determinacy-Like Hypotheses](https://arxiv.org/abs/2611.14366) | math.LO |
+| 2026-11-10 | [Shape Perturbation of the Galerkin Boundary Element Dirichlet-to-Neumann Matrix on Moving Polygons](https://arxiv.org/abs/2611.14349) | math.NA |
+| 2026-11-10 | [Numerical analysis of coupled flow, deformation and frictional contact mechanics in a fractured porous medium](https://arxiv.org/abs/2611.14341) | math.NA |
+| 2026-11-10 | [Asymptotic Robustness of HDG Schemes for the Convection-Diffusion Equation](https://arxiv.org/abs/2611.14329) | math.NA |
+| 2026-11-10 | [Rectifiable measures in Ahlfors regular spaces: endpoint constructions](https://arxiv.org/abs/2611.14313) | math.CA |
+| 2026-11-10 | [Noetherian connected braided Hopf algebras are affine](https://arxiv.org/abs/2611.14304) | math.RA |
+| 2026-11-10 | [Scattering Resonances of Plane-Embedded Cavities: A Finite Element DtN Approach](https://arxiv.org/abs/2611.14258) | math.NA |
+| 2026-11-10 | [The Čech-Stone compactification of the reals and coz-included sublocales](https://arxiv.org/abs/2611.14222) | math.RA |
 
 ## Methodology
 
