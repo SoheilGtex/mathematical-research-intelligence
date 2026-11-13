@@ -1,213 +1,213 @@
 {
   "papers": [
     {
-      "arxiv_id": "2611.14490",
+      "arxiv_id": "2611.17293",
       "categories": [
-        "math.LO",
-        "math.RA"
+        "math.CA"
       ],
-      "published": "2026-11-10T18:48:42Z",
-      "summary": "We show that every projective clone homomorphism from a closed function clone containing the automorphism group of a countable homogeneous Ramsey structure $Δ$ in a finite relational language is uniformly continuous. This answers, for such structures, open questions previously raised by Barto, Bodirsky, Marimon, Pongrácz, and the second author in several papers (Bodirsky, Pinsker, Pongrácz, J. Symb. Log. 2021; Barto, Pinsker, SIAM J. Comput. 2020; Marimon, Pinsker, arXiv:2512.01086). Consequently, the polymorphism clone of a first-order reduct $Γ$ of $Δ$ admits a projective clone homomorphism if and only if $Γ$ primitively positively interprets all finite structures; in other words, this ability of $Γ$ is characterised by the absence of non-trivial identities in its polymorphism clone, a purely algebraic condition.sence of non-trivial identities in its polymorphism clone, i.e., a purely algebraic condition.",
-      "title": "Automatic Continuity for projective clone homomorphisms",
-      "url": "https://arxiv.org/abs/2611.14490",
+      "published": "2026-11-12T18:54:13Z",
+      "summary": "We prove a three-ends incidence estimate whose multiplicity exponent is sharp for one-dimensional Katz-Tao point sets.} At the heart of the argument lies rectangular non-concentration and its incidence theory introduced earlier by the authors. As an application, we obtain a strong quantitative bound on the number of approximate rectangles with the vertices belonging to four separated camps, each retaining a non-concentration condition.",
+      "title": "Three-ends Furstenberg estimates and approximate rectangles",
+      "url": "https://arxiv.org/abs/2611.17293",
       "version": 1
     },
     {
-      "arxiv_id": "2611.14485",
+      "arxiv_id": "2611.17289",
       "categories": [
         "math.NA"
       ],
-      "published": "2026-11-10T18:45:45Z",
-      "summary": "This paper presents a novel fourth-order, L-stable exponential time differencing (ETD) Runge-Kutta type scheme incorporating a dimensional splitting integrating factor method for the numerical solution of nonlinear reaction-diffusion systems. The method, ETDRK4RDP-IF, is obtained by approximating the matrix exponential operators in the classical dimensionally split ETDRK-IF scheme with an accurate fourth-order, L-acceptable rational function with real and distinct poles. The L-acceptability of the rational approximation guarantees effective damping of spurious oscillations arising from nonsmooth initial and/or boundary data and further eliminates complex arithmetic in the solution of the associated linear systems, thereby enhancing computational efficiency and making the scheme well-suited for parallel implementation in low-level programming languages such as Fortran and C++. Numerical experiments confirm the fourth-order accuracy for a range of reaction-diffusion problems with Dirichlet and Neumann boundary conditions, and demonstrate that it outperforms existing standard ETD methods in serial and parallel implementations, yielding CPU time reductions of up to a factor of 20.",
-      "title": "A fourth-order dimensionally split exponential time differencing scheme with real and distinct pole rational approximation for non-linear reaction-diffusion systems",
-      "url": "https://arxiv.org/abs/2611.14485",
+      "published": "2026-11-12T18:52:50Z",
+      "summary": "Physics-informed neural networks (PINNs) solve partial differential equations without a mesh, but they do not in general preserve the steady states that well-balanced schemes reproduce exactly. We present a well-balanced extension of the weak and entropy PINN (WE-PINN) framework to the shallow water equations over smooth and discontinuous bathymetry. The residual is a weak space--time control-volume identity enforced on randomly placed control volumes that may overlap, so no mesh is needed. In free-surface variables, the geometric source is integrated by parts onto the bed, so that the network is never differentiated, and a cell-local bed-slope correction makes the quadrature reproduce the exact bed increment. Bed discontinuities, located from the bathymetry alone, separate sub-domains carrying independent networks, coupled through conservation of discharge and total head. We prove that the fully discrete residual vanishes identically on the lake at rest for any control-volume family, quadrature order and nominal bed slope, so that the equilibrium is an exact global minimiser of the training objective; that the continuous residual characterises weak solutions; that the slope correction is consistent; and that no approximation with a continuous free surface can satisfy the head condition at a step with non-zero discharge, so that the decomposition is necessary. Numerically, the residual vanishes to round-off on four lake-at-rest configurations over smooth, discontinuous, compound and tabulated beds, and the trained network reaches the equilibrium to round-off under an extended training budget. On seven Riemann problems at a bottom step, covering sub-, super- and critical transitions, the network attains relative $L^1$ free-surface errors between $6.9\\times10^{-4}$ and $3.5\\times10^{-3}$, and reaches critical states without prescribing them.",
+      "title": "Well-Balanced WE-PINNs for the Shallow Water Equations over Smooth and Discontinuous Bathymetries",
+      "url": "https://arxiv.org/abs/2611.17289",
       "version": 1
     },
     {
-      "arxiv_id": "2611.14366",
+      "arxiv_id": "2611.17277",
+      "categories": [
+        "math.CA"
+      ],
+      "published": "2026-11-12T18:50:34Z",
+      "summary": "We prove that an absolutely continuous self-similar measure has an $L^p$ density for some $p>1$. Moreover, explicit examples of Bernoulli convolutions with a continuous density are established.",
+      "title": "On $L^p$ density of self-similar measures and Bernoulli convolutions",
+      "url": "https://arxiv.org/abs/2611.17277",
+      "version": 1
+    },
+    {
+      "arxiv_id": "2611.17256",
+      "categories": [
+        "math.NA"
+      ],
+      "published": "2026-11-12T18:41:09Z",
+      "summary": "Locally conformally symplectic (LCS) manifolds are characterized by a nondegenerate two-form $Ω$ satisfying $\\mathrm{d}Ω=\\varphi\\wedgeΩ$, where $\\varphi$ is a closed one-form, called the Lee form. Although an LCS structure is locally conformal to an ordinary symplectic structure, the local symplectic descriptions need not arise from a single global symplectic form. This creates a natural local-to-global problem for geometric numerical integration: local symplectic discretizations must be compatible on chart overlaps in order to determine a globally defined numerical dynamics. We develop a Hamiltonian variational framework for the construction and globalization of structure-preserving integrators for LCS systems. The continuous theory is first recalled in a form adapted to a Type~II Hamiltonian variational principle. We then introduce exact and approximate discrete right Hamiltonians for the local symplectic representatives and identify the transformation law that they must satisfy on overlaps. This compatibility condition implies equivariance of the associated local discrete Hamiltonian maps and therefore provides a sufficient condition for their globalization. The resulting global discrete map preserves the LCS two-form conformally, with a discrete conformal factor determined by the local conformal potentials. The framework applies naturally to Type~II Hamiltonian variational integrators and, in the cotangent-type setting considered here, to symplectic Runge--Kutta methods. In particular, Gauss--Legendre methods and the implicit midpoint rule yield globally compatible LCS structure-preserving schemes. Under suitable regularity assumptions, the corresponding Lagrangian formulation is recovered through discrete Legendre transformations. Numerical examples illustrate overlap compatibility, chart switching, convergence, and discrete conformal preservation.",
+      "title": "Structure-Preserving Integrators for Locally Conformally Symplectic Systems: Variational Methods and Globalization",
+      "url": "https://arxiv.org/abs/2611.17256",
+      "version": 1
+    },
+    {
+      "arxiv_id": "2611.17251",
+      "categories": [
+        "math.NA"
+      ],
+      "published": "2026-11-12T18:37:54Z",
+      "summary": "Analog in-memory computing offers the potential to accelerate approximate inverse preconditioning, but hardware errors can degrade preconditioners designed in digital arithmetic. We develop an analog-digital preconditioner for symmetric positive-definite linear systems that combines analog block Jacobi with a small digital low-rank residual correction. The correction space is constructed by probing the same programmed analog arrays used in the solve, targeting errors from both the coupling omitted by block Jacobi and persistent hardware perturbations. Under a random linear-operator model, we separate the programmed-mean error from fresh read fluctuations, distinguish the effects of copy averaging and repeated reads, and quantify the sampling accuracy of columnwise probing. Under a centered additive write-noise model, we also derive a computable regularization threshold and identify the approximation error introduced by the regularization shift. Experiments with an analog hardware simulator show that programming errors can change the directions that block Jacobi reduces poorly. In the tested comparisons with significant programming errors, learning the correction space from the programmed copies reduces FGMRES iteration counts relative to construction from digital block Jacobi.",
+      "title": "Noise-Adaptive Analog-Digital Preconditioning",
+      "url": "https://arxiv.org/abs/2611.17251",
+      "version": 1
+    },
+    {
+      "arxiv_id": "2611.17198",
+      "categories": [
+        "math.CA"
+      ],
+      "published": "2026-11-12T18:01:28Z",
+      "summary": "A central theme in modern harmonic analysis, with strong connections to Ramsey theory, is the tension between randomness and structure: to what extent can a \"large\" set avoid prescribed configurations, and when must such patterns inevitably appear? The answer depends delicately on how size is measured, with notions such as Hausdorff dimension, Fourier dimension, and density leading to strikingly different phenomena. In this mini-course, we explore this theme through two complementary perspectives. On one hand, we study translation-invariant linear patterns, a natural class of Euclidean Ramsey-type configurations. On the other hand, we investigate distance sets of sparse subsets of Euclidean space, which encode metric configurations of pairs of points. Together, these results illustrate a unifying principle: while sparse sets may avoid individual configurations, sufficiently strong analytic or geometric conditions enforce the emergence of Ramsey-type structure. The course will emphasize key ideas, methods, and examples, aiming to provide an accessible entry point to current developments at the interface of harmonic analysis, geometric measure theory, and Euclidean Ramsey theory. Lectures are by Malabika Pramanik.",
+      "title": "Patterns, Distances, and Structure in Sparse Sets",
+      "url": "https://arxiv.org/abs/2611.17198",
+      "version": 1
+    },
+    {
+      "arxiv_id": "2611.17179",
+      "categories": [
+        "math.CA",
+        "math.LO"
+      ],
+      "published": "2026-11-12T17:48:39Z",
+      "summary": "We complete the classification of algebraic relations among solutions of equations in the second Painlevé family $P_{II}(α): y''=2y^3+ty+α$, where $α\\in\\mathbb{C}$. More precisely, we prove that if $y_1,\\ldots,y_n$ are generic solutions of $P_{II}(α_1),\\ldots,P_{II}(α_n)$, respectively, and $tr.deg_{\\mathbb{C}(t)}\\mathbb{C}(t)(y_1,y_1',\\ldots,y_n,y_n')<2n$, then for some $i<j$, we have that $α_i\\pmα_j\\in\\mathbb{Z}$, and $y_i=T(y_j)$ for a classical Bäcklund transformation $T$. In particular, the classical Bäcklund transformations are the only Bäcklund transformations in the second Painlevé family.",
+      "title": "On transformations in the Second Painlevé family",
+      "url": "https://arxiv.org/abs/2611.17179",
+      "version": 1
+    },
+    {
+      "arxiv_id": "2611.17165",
       "categories": [
         "math.LO"
       ],
-      "published": "2026-11-10T17:22:10Z",
-      "summary": "We generalize the notion of an independent family on $ω$ to $\\mathcal{J}$-independent families on an arbitrary cardinal $κ$ and then show that under determinacy-like hypotheses that there can be no such families for reasonable $\\mathcal{J}$. This is quite atypical as all other generalizations of the kinds of combinatorial families coming from the theory of cardinal characteristics follow a very different pattern, which will also be explained; in this sense independent families seem particularly special. The base theory assumed throughout is $\\textsf{ZF + }$All infinite sets are Dedekind infinite.",
-      "title": "Independent Families Under Determinacy-Like Hypotheses",
-      "url": "https://arxiv.org/abs/2611.14366",
+      "published": "2026-11-12T17:42:13Z",
+      "summary": "Solovay's celebrated result establishes the arithmetical completeness of GL by embedding Kripke models into arithmetic. We provide an alternative proof of the arithmetical completeness of GL, in which we instead embed failed proof searches into arithmetic. Our methodology requires only a well-behaved sequent calculus and does not rely on completeness with respect to Kripke semantics or any of its variants. This approach is particularly interesting for logics that do not behave well semantically, such as ER, for which we also provide a new proof of arithmetical completeness.",
+      "title": "Solovay's Construction via Proof Search",
+      "url": "https://arxiv.org/abs/2611.17165",
       "version": 1
     },
     {
-      "arxiv_id": "2611.14349",
-      "categories": [
-        "math.NA"
-      ],
-      "published": "2026-11-10T17:14:43Z",
-      "summary": "For nonlocal interface evolution problems such as the Mullins-Sekerka flow, certain parametric schemes discretize only the interface and approximate the Dirichlet-to-Neumann map by boundary elements. Their error analysis requires bounds on how this discrete operator changes as the polygon moves. In that analysis, the polygons are only Lipschitz and close to a smooth curve only in a Lipschitz norm, the perturbations are controlled only in the energy norm, and the kernels are singular on the diagonal. We study the symmetric Galerkin boundary element matrix on the polygons in a Lipschitz neighborhood of a smooth reference curve. Its first variation, tested against discrete Neumann solutions, is bounded by the energy norm of the perturbation alone. The second-order remainder of the associated mass form is bounded by the product of the energy norm and the Lipschitz norm of the perturbation, so that only one of the two factors needs a uniform bound. On the interpolating polygon, the matrix is consistent with the continuous operator without the logarithmic loss that a pointwise comparison of the kernels would suggest, and its shape derivative is consistent with that of the continuous operator. All bounds are uniform in the mesh size and depend only on the constants of the reference curve.",
-      "title": "Shape Perturbation of the Galerkin Boundary Element Dirichlet-to-Neumann Matrix on Moving Polygons",
-      "url": "https://arxiv.org/abs/2611.14349",
-      "version": 1
-    },
-    {
-      "arxiv_id": "2611.14341",
-      "categories": [
-        "math.NA"
-      ],
-      "published": "2026-11-10T17:04:55Z",
-      "summary": "This paper studies the numerical approximation of a mathematical model of coupled flow and viscoelastic deformation in a fractured porous medium including fracture contact mechanics. We consider a mixed-dimensional model, where the fracture is modeled as a co-dimension one object within the porous medium. This model couples Darcy flow in the matrix and fracture, linear viscoelasticity of the matrix and frictional contact mechanics of the fracture surfaces; the contact conditions include normal compliance and a Coulomb friction law. We propose and analyze a fully discrete numerical scheme for this problem, using conformal finite elements in space and the implicit Euler method in time. Existence and uniqueness of the discrete solution is established, and stability and a priori error estimates are derived. A numerical experiment is performed in which numerical error estimates are computed and compared to the theoretical results.",
-      "title": "Numerical analysis of coupled flow, deformation and frictional contact mechanics in a fractured porous medium",
-      "url": "https://arxiv.org/abs/2611.14341",
-      "version": 1
-    },
-    {
-      "arxiv_id": "2611.14329",
-      "categories": [
-        "math.NA"
-      ],
-      "published": "2026-11-10T16:53:39Z",
-      "summary": "The convection-diffusion problem has been studied extensively as an important model for convection-dominated problems. The problem becomes more challenging when the convecting velocity is no longer Lipschitz and merely has Sobolev regularity. In this paper, we use Boyer's extension of the DiPerna--Lions theory for the transport equation to study the vanishing diffusion limit of discretizations of the convection-diffusion equation with Sobolev velocity. In the case of flux-adapted boundary conditions, we prove that a continuous Galerkin discretization converges strongly to the renormalized solution of the transport equation as the diffusion coefficient and mesh size go to zero, without requiring any relationship between them. We refer to this unconditional strong convergence as asymptotic robustness. In the case of Dirichlet boundary conditions, we use the renormalization theory and barrier arguments to prove that a piecewise constant hybridizable discontinuous Galerkin scheme is asymptotically robust, while the continuous Galerkin scheme may fail to converge. Our results indicate that the asymptotic robustness of schemes for the convection-diffusion problem depends on the realization of the boundary conditions as opposed to internal layers.",
-      "title": "Asymptotic Robustness of HDG Schemes for the Convection-Diffusion Equation",
-      "url": "https://arxiv.org/abs/2611.14329",
-      "version": 1
-    },
-    {
-      "arxiv_id": "2611.14313",
-      "categories": [
-        "math.CA"
-      ],
-      "published": "2026-11-10T16:42:51Z",
-      "summary": "A theorem of Balka and Keleti implies that on any complete separable metric space $\\mathbb{X}$, every locally finite Borel measure $μ$ of packing dimension strictly less than $m$ is \"Euclidean-like\" insofar as there exist Lipschitz maps $f_i:E_i\\subset\\mathbb{R}^m\\rightarrow\\mathbb{X}$ such that $μ(\\mathbb{X}\\setminus\\bigcup_1^\\infty f_i(E_i))=0$. An ongoing challenge in geometric measure theory is to understand when this property, called $m$-rectifiability, holds for measures of packing dimension $m$. Towards this goal, we prove that every complete Ahlfors $q$-regular metric space with $q\\geq m$ supports $m$-rectifiable doubling measures of packing dimension $m$. The proof of existence of such measures is new even when $\\mathbb{X}=\\mathbb{R}^n$ and $n>m$. More generally, on every complete Ahlfors $q$-regular metric space with $q>m-1$, we construct $m$-rectifiable, purely $(m-1)$-unrectifiable measures with any prescribed exact Hausdorff and packing dimensions $0\\leq s_H\\leq s_P\\leq q$ with $m-1\\leq s_P\\leq m$, which are doubling when $s_H>0$. This verifies a conjecture of Badger and Schul. The design of the measures relies on metric cubes with variable scaling, in which the ratio of consecutive side lengths tends to infinity but jumps only on a sparse set of generations, together with Badger and Schul's square packing construction of Lipschitz maps.",
-      "title": "Rectifiable measures in Ahlfors regular spaces: endpoint constructions",
-      "url": "https://arxiv.org/abs/2611.14313",
-      "version": 1
-    },
-    {
-      "arxiv_id": "2611.14304",
-      "categories": [
-        "math.RA"
-      ],
-      "published": "2026-11-10T16:36:18Z",
-      "summary": "The well-known Wu--Zhang question asks whether every Noetherian Hopf algebra over a field is affine (finitely generated as an algebra). In this paper, we extend this fundamental problem to the braided setting within the monoidal category ${}_{H}^{H}\\mathcal{YD}$ of left Yetter--Drinfel'd modules over a Hopf algebra $H$. By developing term-rewriting methods based on reduction orderings and prime-word factorizations in free prebraided algebras, we establish explicit expansions for YD-triangular comultiplications. We prove that if $(\\mathbb{K}\\langle X \\rangle, ε)$ is an augmented free algebra in ${}_{H}^{H}\\mathcal{YD}$ and $I \\subseteq \\ker ε$ is an ideal invariant under a YD-triangular comultiplication, then every $I$-reducible letter---and consequently every non-empty word in $\\langle X \\rangle$---can be expressed modulo $I$ as a linear combination of products of $I$-irreducible letters strictly smaller with respect to the reduction order. As a primary consequence, we prove that any right Noetherian connected prebraided Hopf algebra $B$ in ${}_{H}^{H}\\mathcal{YD}$ is affine, generated by the image of a finite set $X_{I}$ of $I$-irreducible letters. As an application, we show that the braided component $B = A^{\\mathrm{co}\\,π}$ of a right Noetherian Radford biproduct $A = B \\sharp H$ is affine whenever $A_{(0)} \\subseteq \\jmath(H)$, reducing the affineness of $A$ entirely to that of $H$.",
-      "title": "Noetherian connected braided Hopf algebras are affine",
-      "url": "https://arxiv.org/abs/2611.14304",
-      "version": 1
-    },
-    {
-      "arxiv_id": "2611.14258",
-      "categories": [
-        "math.NA"
-      ],
-      "published": "2026-11-10T16:05:27Z",
-      "summary": "While scattering resonances of plane-embedded cavities have wide-ranging engineering applications, numerical results for such configurations remain virtually unexplored. We present an effective finite element approach for computing these resonances. The unbounded domain is truncated using a Dirichlet-to-Neumann(DtN) boundary operator, recasting the problem as the eigenvalue problem of a holomorphic Fredholm operator function. Discretization is carried out using Lagrange finite elements with a truncated DtN expansion, and convergence is rigorously proven using Karma's approximation theory. The resulting non-linear matrix eigenvalue system is computed using a multi-step parallel spectral indicator method. Numerical experiments confirm the theoretical predictions and provide benchmark solutions for future investigations.",
-      "title": "Scattering Resonances of Plane-Embedded Cavities: A Finite Element DtN Approach",
-      "url": "https://arxiv.org/abs/2611.14258",
-      "version": 1
-    },
-    {
-      "arxiv_id": "2611.14222",
-      "categories": [
-        "math.RA"
-      ],
-      "published": "2026-11-10T15:40:09Z",
-      "summary": "A new notion of a coz-included sublocale is introduced. It is a necessary condition for a sublocale to be a dense $C$-embedding, and together with the property of being well-embedded, is sufficient. However, although it is clearly a strengthening of coz-ontoness (or z-embeddings), it is incomparable with $C^*$-embeddings as is demonstrated by the Čech-Stone compactification of the real numbers. Motivated by non-trivial spatial examples, this new notion and other weaker variants, such as casi coz-included and relative zero sublocales, are explored and characterized in the point-free setting. As a consequence, new characterizations of several classes of frames, such as perfectly normal and $Oz$ frames, among others, are provided. Besides the lattice theoretic interpretations, there are some interesting topological ramifications.",
-      "title": "The Čech-Stone compactification of the reals and coz-included sublocales",
-      "url": "https://arxiv.org/abs/2611.14222",
-      "version": 1
-    },
-    {
-      "arxiv_id": "2611.14216",
-      "categories": [
-        "math.CA"
-      ],
-      "published": "2026-11-10T15:34:56Z",
-      "summary": "Let $γ$ be a Gaussian measure on the sequence space $\\ell_2$ whose mean is zero and whose correlation operator $C_γ$ is a diagonal operator on $\\ell_2$. Exact values of the $q$-average linear $n$-widths in $\\ell_q$ for $1\\le q<\\infty$ are obtained. We also obtain asymptotic orders of the average linear $n$-width in $\\ell_\\infty$ under some condition on $C_γ$, and of the probabilistic linear $(n,δ)$-widths in $\\ell_q$ for $1\\le q\\le 2$, and for $2<q\\le \\infty$ under some condition on $C_γ$.",
-      "title": "Average and probabilistic linear widths of sequence spaces with a Gaussian measure",
-      "url": "https://arxiv.org/abs/2611.14216",
-      "version": 1
-    },
-    {
-      "arxiv_id": "2611.14208",
-      "categories": [
-        "math.CA"
-      ],
-      "published": "2026-11-10T15:29:28Z",
-      "summary": "We consider a subclass of the Muckenhoupt $A_2$ weights with added smoothness, which we refer to as flattening weights $F_2.$ We quantify how such weights arise as exponents of VMO functions and prove that monotone rearrangement does not increase the class modulus in $F_2.$",
-      "title": "Monotone Rearrangement for Flattening Weights $F_2$",
-      "url": "https://arxiv.org/abs/2611.14208",
-      "version": 1
-    },
-    {
-      "arxiv_id": "2611.14057",
-      "categories": [
-        "math.RA"
-      ],
-      "published": "2026-11-10T13:24:28Z",
-      "summary": "Let $A$ be a Nakayama algebra and $\\underline{\\mathrm{Aus}}(A)$ its stable Auslander algebra. We introduce a new homological invariant, called the finitistic Gorenstein dimension, which coincides with the classical Gorenstein dimension whenever the latter is finite, and compute this invariant for $\\underline{\\mathrm{Aus}}(A)$ when $A$ has infinite global dimension. Combined with an accompanying criterion for the finiteness of the Gorenstein dimension of $\\underline{\\mathrm{Aus}}(A)$, our results provide a complete description of this dimension and verify the Gorenstein Symmetry Conjecture for this class of algebras. Furthermore, we show that the finitistic Gorenstein dimension of $ \\underline{\\mathrm{Aus}}(A) $ is also left-right symmetric, is explicitly related to the finitistic dimension of $A$, and can be attained among the injective dimensions of the projective $ \\underline{\\mathrm{Aus}}(A) $-modules corresponding to simple $A$-modules. Our proofs rely on computing injective dimensions in terms of distances in the coresolution forest of $A$, a combinatorial structure closely related to Ringel's coresolution quiver.",
-      "title": "Gorenstein dimensions for stable Auslander algebras of Nakayama algebras",
-      "url": "https://arxiv.org/abs/2611.14057",
-      "version": 1
-    },
-    {
-      "arxiv_id": "2611.14056",
-      "categories": [
-        "math.CA"
-      ],
-      "published": "2026-11-10T13:23:49Z",
-      "summary": "We show that for every unbounded set $A\\subset\\mathbb R$ and every $0<\\varepsilon<1$, there exists a closed set $S\\subset\\mathbb R$ that has measure at least $1-\\varepsilon$ in every unit interval and contains no nontrivial affine copy of $A$. This resolves the Erdős similarity problem in the large.",
-      "title": "A resolution of the Erdős similarity problem in the large",
-      "url": "https://arxiv.org/abs/2611.14056",
-      "version": 1
-    },
-    {
-      "arxiv_id": "2611.14024",
-      "categories": [
-        "math.RA"
-      ],
-      "published": "2026-11-10T12:56:40Z",
-      "summary": "In this paper, we study Goncharov-type Rota-Baxter operators in the framework of group-graded Hopf pi-algebras. By constructing convolution pi-algebras as the core calculus tool, we systematically derive fundamental algebraic properties of Hopf pi-algebras, including antipode anti-homomorphism and generalized homomorphism compatibility. On this basis, we establish the axiomatic system of two classes of graded Rota-Baxter operators of weight 1 and weight -1, prove their bijective correspondence via the antipode, construct several non-trivial examples, and present two derived structures: descendant Hopf pi-algebras and image Hopf pi-subalgebras. This work enriches the operator theory of graded Hopf algebras and provides algebraic constructions for related research on graded Yang-Baxter equations.",
-      "title": "From convolution pi-algebras to Rota-Baxter Hopf pi-algebras",
-      "url": "https://arxiv.org/abs/2611.14024",
-      "version": 1
-    },
-    {
-      "arxiv_id": "2611.14012",
-      "categories": [
-        "math.CA"
-      ],
-      "published": "2026-11-10T12:51:03Z",
-      "summary": "In this paper, we extend the technique of Lerner, Ombrosi and Rivera-Ríos (Bull. Lond. Math. Soc. 51(1): 107--119, 2019) for the necessity of the strong-type boundedness of commutators to the endpoint case, and give characterizations of BMO via the endpoint bounds for commutators of singular integrals with rough kernels and related operators, which improve the conditions of Accomazzo (Israel J. Math. 228(2): 787--800, 2018), Guo et al. (J. Geom. Anal. 30(4): 3995-4035, 2020). We also give a characterization of BMO via the endpoint bounds for commutators of non-degenerate Calderón-Zygmund operators by removing the real-valued restriction on pointwise multiplier, which extend the results of Hytönen (J. Math. Pures Appl. (9) 156: 351--391, 2021) to the endpoint case. Finally, we find counterexamples to illustrate that weighted endpoint estimate of commutator of fractional integral operator does not necessarily imply $b\\in{\\rm BMO}$, and two-weighted endpoint estimate of Bloom type for commutator of Hilbert transform does not hold, which are missing for a long time.",
-      "title": "Improvement to characterizations of BMO in terms of endpoint bounds for commutators and some counterexamples",
-      "url": "https://arxiv.org/abs/2611.14012",
-      "version": 1
-    },
-    {
-      "arxiv_id": "2611.13706",
+      "arxiv_id": "2611.17157",
       "categories": [
         "math.LO"
       ],
-      "published": "2026-11-10T07:57:46Z",
-      "summary": "Inspired by recent work of A. Njamcul and A. Pavlović, we study topological spaces expanded by ideals of sets. We investigate the relationship between the cardinal invariants of the ideal topological space $(X, τ_\\mathcal{I})$, the underlying topology $(X, τ)$, and the cardinal characteristics of the ideal $\\mathcal{I}$. Furthermore, we analyze continuous maps between standard Polish spaces and their ideal expansions. We establish rigidity phenomena showing that continuous functions from $(X, τ)$ into $(X, τ_\\mathcal{I})$ are severely constrained (e.g., taking at most countably many values on Polish spaces and being strictly constant on $\\mathbb{R}$), whereas continuous functions from $(\\mathbb{R}, τ_\\mathcal{I})$ to $(\\mathbb{R}, τ)$ collapse to standard continuous functions under mild conditions on the ideal.",
-      "title": "Topology idealized",
-      "url": "https://arxiv.org/abs/2611.13706",
+      "published": "2026-11-12T17:37:42Z",
+      "summary": "We develop a general technique for deriving covering theorems from pcf-theoretic information by refining sequences of partitions. The method gives a direct proof of Shelah's cov vs. pp theorem and analogous results for diagonal coverings associated with normal ideals and covering modulo arbitrary $σ$-complete ideals, where $σ$ is regular and uncountable. In each setting, we characterize the covering invariant through pseudopowers, true cofinalities of reduced products of progressive sets, and appropriate notions of cofinality in (possible non-progressive) intervals of regular cardinals.",
+      "title": "Covering numbers and pcf theory",
+      "url": "https://arxiv.org/abs/2611.17157",
       "version": 1
     },
     {
-      "arxiv_id": "2611.13697",
+      "arxiv_id": "2611.17151",
       "categories": [
-        "math.LO"
+        "math.NA"
       ],
-      "published": "2026-11-10T07:43:34Z",
-      "summary": "Reflective Grounded Arithmetic (RGA) is a paracomplete arithmetic in which every term is a program and truth is grounded evaluation. RGA discharges a hypothesis only when it proves the hypothesis decided. This paper shows, in a machine-checked Isabelle/HOL development, how Gödel's incompleteness theorems hold for RGA and for systems built on it. RGA's implication is material and RGA has the disjunction property, so the implications the textbook proof of the second theorem uses fail while its entailments and rules hold: Gödel's proof survives as entailments. RGA does not prove its consistency sentence Con, and RGA derives its own second theorem as the entailment $\\mathit{Con}\\vdash\\neg\\mathit{Pr}(\\ulcorner\\mathit{Con}\\urcorner)$ and as one sentence quantified over proofs. The second theorem is then proved once, for every Gödel extension of RGA: an entailment relation on RGA's language, closed under RGA's rules, with a checker that meets three structural conditions, NEC, D3 and EXPL as proof transformers, D1 as closed acceptance, and consistency. D2 is not among the conditions. RGA with its checker is one instance. Inductive Grounded Arithmetic (IGA), RGA with ground induction, is another, its checker adding one rule detector, and IGA does not derive its consistency sentence for it. Adoption, a reflection rule whose premise is a derived warrant that the checker accepts computed proofs of every instance of a universal, gives consistent extensions RGA$^+$ and IGA$^+$. RGA$^+$ derives RGA's consistency sentence and IGA$^+$ derives RGA's and IGA's, so each strictly extends its base, and IGA$^+$ both. The second theorem holds at every adopted notation claim, and adopting Turing's code for that claim's checker derives its consistency sentence, so no claim certifies itself. Whether IGA alone derives RGA's consistency sentence is open, and the paper names what two routes to an answer need.",
-      "title": "Gödel's Incompleteness Theorems in Grounded Arithmetic",
-      "url": "https://arxiv.org/abs/2611.13697",
+      "published": "2026-11-12T17:35:21Z",
+      "summary": "We establish quantitative convergence results for the smoothed particle hydrodynamics (SPH) method approximating the compressible Euler equations with nonlinear pressure laws $ρ^γ$, $γ\\geq 2$. Our approach is based on a nonlocal approximation of the pressure force that preserves the energy structure of the original system, including an exact energy balance. Using the relative entropy method, we prove convergence towards smooth solutions of the compressible Euler equations as the nonlocality parameter $\\varepsilon\\to0$, with algebraic convergence rates and an explicit algebraic relationship between $\\varepsilon$ and the number of particles $N$. In particular, we obtain quantitative convergence rates for the density in the Wasserstein distance and negative Sobolev norms, and for the momentum in the flat metric. A key feature of our analysis is that it applies to measure-valued densities in the nonlocal system, providing a unified framework for both continuum and particle solutions. Our results extend the existing rigorous convergence theory for SPH beyond quadratic pressure ($γ=2$) to general nonlinear pressure laws with $γ\\geq 2$ on the periodic domain.",
+      "title": "Convergence rates for smoothed particle hydrodynamics (SPH) with nonlinear pressure",
+      "url": "https://arxiv.org/abs/2611.17151",
       "version": 1
     },
     {
-      "arxiv_id": "2611.13390",
+      "arxiv_id": "2611.17136",
+      "categories": [
+        "math.CA"
+      ],
+      "published": "2026-11-12T17:26:28Z",
+      "summary": "We study the multidimensional polynomial Szemerédi theorem over prime fields. Let $P_1,\\dots,P_m\\in\\F_p[t]^k$ be block independent vector polynomials of degree at most $d$, with $P_i(0)=0$ for every $i$. We prove that there is a constant $c=c(k,m,d)>0$ such that, for every sufficiently large prime $p$, every set $A\\subset\\F_p^k$ with $|A|\\ge p^{k-c}$ contains a configuration $x,x+P_1(t),\\dots,x+P_m(t)$ with $t\\in\\F_p\\setminus\\{0\\}$.",
+      "title": "On the multidimensional polynomial Szemerédi theorem",
+      "url": "https://arxiv.org/abs/2611.17136",
+      "version": 1
+    },
+    {
+      "arxiv_id": "2611.17132",
+      "categories": [
+        "math.RA"
+      ],
+      "published": "2026-11-12T17:23:23Z",
+      "summary": "For a unital associative ring $R$, let $\\operatorname{silp}(R)$ be the supremum of the injective dimensions of all projective right $R$-modules, and let $\\operatorname{spli}(R)$ be the supremum of the projective dimensions of all injective right $R$-modules. We construct an explicit non-Noetherian unital algebra \\[R=k1\\oplus \\frac{k(0\\longrightarrow1\\longrightarrow2\\longrightarrow\\cdots)} {\\langle\\text{all paths of length }2\\rangle}\\] over any field and prove that $\\operatorname{silp}(R)=1$ and $\\operatorname{spli}(R)=\\infty. $ The algebra is the unitization of the non-unital path algebra of the one-sided infinite ray modulo paths of length two. The example answers the question whether $\\operatorname{silp=spli}$ raised by Gedrich and Gruenberg.",
+      "title": "Rings with unequal $\\operatorname{slip-spli}$",
+      "url": "https://arxiv.org/abs/2611.17132",
+      "version": 1
+    },
+    {
+      "arxiv_id": "2611.17131",
+      "categories": [
+        "math.NA"
+      ],
+      "published": "2026-11-12T17:23:13Z",
+      "summary": "We present a dynamic domain decomposition method for gas mixtures described by a multi-species BGK model in the regime where collisions between particles of the same species are dominant. In this regime the hydrodynamic limit is a system of Euler equations in which every species keeps its own velocity and temperature, the species being coupled through momentum and energy exchange terms. To decide locally whether this multi-velocity, multi-temperature Euler description is accurate, we extend the moment realizability criterion of Levermore, Morokoff and Nadiga: for each species, a realizability matrix is derived from the Chapman--Enskog expansion of the kinetic model, and its zeroth- and first-order approximations are compared. The indicator involves only macroscopic quantities and is evaluated species by species, so that in the same cell one species may be described by the Euler equations and another one by the kinetic equation. The kinetic solver is therefore used only where, and for the species for which, the indicator detects non-equilibrium effects, such as across shocks or near obstacles in rarefied flows. Both solvers are discretized on unstructured triangular meshes with second-order accuracy in space and time. The kinetic equation is integrated by an asymptotic-preserving IMEX Runge--Kutta scheme, whose limit for vanishing Knudsen number is a consistent discretization of the multi-velocity, multi-temperature Euler system. In the numerical tests the hybrid solution stays close to the kinetic one, while the computational time is reduced by a factor between about three and almost five.",
+      "title": "Realizability-Based Kinetic-Fluid Domain Decomposition for Multitemperature Gas Mixtures on Unstructured Meshes",
+      "url": "https://arxiv.org/abs/2611.17131",
+      "version": 1
+    },
+    {
+      "arxiv_id": "2611.17124",
       "categories": [
         "math.LO"
       ],
-      "published": "2026-11-10T00:10:10Z",
-      "summary": "For any given uncountable cardinal $κ$, we show that every $κ$-edge-connected graph admits a minor embedding of the graph $T_κ\\star1$ (the $κ$-regular tree with a new apex vertex adjacent to all its nodes), which is itself $κ$-edge-connected. This extends a previous result of Kurkofka regarding unavoidable minors of $\\aleph_0$-edge-connected graphs to all uncountable cardinalities $κ$.",
-      "title": "The unavoidable minor in graphs of uncountable edge-connectivity",
-      "url": "https://arxiv.org/abs/2611.13390",
+      "published": "2026-11-12T17:18:01Z",
+      "summary": "We give a Diophantine definition of the integers in the rational numbers conditional on the $abc$ conjecture, Dickson's conjecture, and finiteness of $2$-primary parts of Shafarevich--Tate groups. We also discuss some consequences of the existence of a Diophantine definition of the integers in the rational numbers. The goal of this work is to serve as an entry point to recent developments around Hilbert's tenth problem for the rational numbers.",
+      "title": "Why should $\\mathbb{Z}$ be Diophantine in $\\mathbb{Q}$?",
+      "url": "https://arxiv.org/abs/2611.17124",
+      "version": 1
+    },
+    {
+      "arxiv_id": "2611.17106",
+      "categories": [
+        "math.LO"
+      ],
+      "published": "2026-11-12T17:03:01Z",
+      "summary": "We develop a mathematical abstraction for uniformly exploiting symmetries in programming and reasoning based on the mathematical proof principle `without-loss-of-generality' (w.l.o.g.). Given: group actions that describe symmetries of the input and the output; and a canoniser, which captures how arbitrary inputs get sent to canonical ones, our construction extends any function from the canonical inputs to the whole domain. We characterise the conditions on the canonisers which guarantee that the construction gives the unique equivariant (i.e. symmetry-preserving) extension. Furthermore, we adapt the construction to a dependently-typed setting, where it captures traditional symmetric w.l.o.g. arguments via the Curry-Howard correspondence. Finally, we extend the construction to algebraic data types, where the symmetries of the constructors both uniquely determine the symmetries of the data type and pave the way for efficient execution.",
+      "title": "Mathematical foundations for symmetric programming and reasoning",
+      "url": "https://arxiv.org/abs/2611.17106",
+      "version": 1
+    },
+    {
+      "arxiv_id": "2611.16812",
+      "categories": [
+        "math.RA"
+      ],
+      "published": "2026-11-12T13:50:05Z",
+      "summary": "We obtain a criterion for the uniqueness of addition in Schrödinger Lie algebras, applicable to both bijections and injections. This allows us to construct the first example of a Lie algebra with unique addition and a non-trivial center over a field of characteristic zero. Furthermore, a necessary and sufficient condition is established for the Schrödinger algebras to have bracket width one.",
+      "title": "Uniqueness of addition in Schrödinger algebras",
+      "url": "https://arxiv.org/abs/2611.16812",
+      "version": 1
+    },
+    {
+      "arxiv_id": "2611.16695",
+      "categories": [
+        "math.RA"
+      ],
+      "published": "2026-11-12T12:12:34Z",
+      "summary": "We give an explicit description of the left adjoint $F$ of the forgetful functor $U\\colon\\mathsf{GAlg}\\to\\mathsf{GHoops}$ from Gödel algebras to Gödel hoops. If $H$ is a Gödel hoop with a least element $m$, then $F(H)$ is the direct product of the Gödel algebra obtained by adjoining a new bottom element to $H$ and of $H$ itself, regarded as a Gödel algebra with bottom element $m$. For an arbitrary Gödel hoop $H$, we glue these products along the principal filters of $H$, and we describe the operations of $F(H)$, the action of $F$ on homomorphisms and the unit of the adjunction. As an application, we show that the unit of the adjunction $F\\dashv U$ is not cartesian, and that the same holds for BL-algebras and basic hoops. Moreover, the semi-abelian categories of Gödel hoops and of basic hoops are not equivalent to the slice categories of Gödel algebras and of BL-algebras over their initial object. Thus, in contrast with the cases of Wajsberg hoops and of product hoops, the free-forgetful adjunctions between Gödel algebras and Gödel hoops, and between BL-algebras and basic hoops, do not give rise to ideally exact contexts.",
+      "title": "Free Gödel algebras over Gödel hoops",
+      "url": "https://arxiv.org/abs/2611.16695",
+      "version": 1
+    },
+    {
+      "arxiv_id": "2611.16651",
+      "categories": [
+        "math.RA"
+      ],
+      "published": "2026-11-12T11:28:20Z",
+      "summary": "Let $k$ be a fixed positive integer and $p$ be an odd prime such that $\\gcd(p-1,k)=1$. For sufficiently large primes $p$, we show that the equation $AX^k+BY^k=C$ has solutions $X,Y \\in \\mathrm{GL}(2, \\mathbb{F}_p)$, where $A$ and $B$ are fixed matrices in $\\mathrm{GL}(2, \\mathbb{F}_p)$, and $C$ is a fixed matrix in $\\mathrm{M}(2,\\mathbb{F}_p).$ Our proof relies on Fourier analysis over $\\mathrm{GL}(2, \\mathbb{F}_p).$",
+      "title": "Matrix Waring Problem in finite fields with coefficients from $\\mathrm{GL}(2, \\mathbb{F}_p)$",
+      "url": "https://arxiv.org/abs/2611.16651",
+      "version": 1
+    },
+    {
+      "arxiv_id": "2611.16165",
+      "categories": [
+        "math.RA"
+      ],
+      "published": "2026-11-12T01:51:26Z",
+      "summary": "Gábor Czédli introduced congruence density and investigated how it changes under sublattice extensions. We prove that density cannot increase: if $S$ is a sublattice of a finite lattice $L$, then $\\cd(L)\\leq2^{-d}\\cd(S)$, where $d$ is the larger of the increases in the numbers of join-reducible and meet-reducible elements. We also determine when equality holds: $\\cd(L)=\\cd(S)$ precisely when every element of $L\\setminus S$ is comparable with every element of $L$. The theorem of Czédli and Szabó relating quasiorders to pairs of congruences gives the corresponding results for quasiorder density.",
+      "title": "Congruence density under sublattice inclusion",
+      "url": "https://arxiv.org/abs/2611.16165",
       "version": 1
     }
   ],

@@ -21,16 +21,16 @@ Automated research snapshot based on arXiv metadata.
 
 | Published | Paper | Categories |
 |---|---|---|
-| 2026-11-10 | [Automatic Continuity for projective clone homomorphisms](https://arxiv.org/abs/2611.14490) | math.LO, math.RA |
-| 2026-11-10 | [A fourth-order dimensionally split exponential time differencing scheme with real and distinct pole rational approximation for non-linear reaction-diffusion systems](https://arxiv.org/abs/2611.14485) | math.NA |
-| 2026-11-10 | [Independent Families Under Determinacy-Like Hypotheses](https://arxiv.org/abs/2611.14366) | math.LO |
-| 2026-11-10 | [Shape Perturbation of the Galerkin Boundary Element Dirichlet-to-Neumann Matrix on Moving Polygons](https://arxiv.org/abs/2611.14349) | math.NA |
-| 2026-11-10 | [Numerical analysis of coupled flow, deformation and frictional contact mechanics in a fractured porous medium](https://arxiv.org/abs/2611.14341) | math.NA |
-| 2026-11-10 | [Asymptotic Robustness of HDG Schemes for the Convection-Diffusion Equation](https://arxiv.org/abs/2611.14329) | math.NA |
-| 2026-11-10 | [Rectifiable measures in Ahlfors regular spaces: endpoint constructions](https://arxiv.org/abs/2611.14313) | math.CA |
-| 2026-11-10 | [Noetherian connected braided Hopf algebras are affine](https://arxiv.org/abs/2611.14304) | math.RA |
-| 2026-11-10 | [Scattering Resonances of Plane-Embedded Cavities: A Finite Element DtN Approach](https://arxiv.org/abs/2611.14258) | math.NA |
-| 2026-11-10 | [The Čech-Stone compactification of the reals and coz-included sublocales](https://arxiv.org/abs/2611.14222) | math.RA |
+| 2026-11-12 | [Three-ends Furstenberg estimates and approximate rectangles](https://arxiv.org/abs/2611.17293) | math.CA |
+| 2026-11-12 | [Well-Balanced WE-PINNs for the Shallow Water Equations over Smooth and Discontinuous Bathymetries](https://arxiv.org/abs/2611.17289) | math.NA |
+| 2026-11-12 | [On $L^p$ density of self-similar measures and Bernoulli convolutions](https://arxiv.org/abs/2611.17277) | math.CA |
+| 2026-11-12 | [Structure-Preserving Integrators for Locally Conformally Symplectic Systems: Variational Methods and Globalization](https://arxiv.org/abs/2611.17256) | math.NA |
+| 2026-11-12 | [Noise-Adaptive Analog-Digital Preconditioning](https://arxiv.org/abs/2611.17251) | math.NA |
+| 2026-11-12 | [Patterns, Distances, and Structure in Sparse Sets](https://arxiv.org/abs/2611.17198) | math.CA |
+| 2026-11-12 | [On transformations in the Second Painlevé family](https://arxiv.org/abs/2611.17179) | math.CA, math.LO |
+| 2026-11-12 | [Solovay's Construction via Proof Search](https://arxiv.org/abs/2611.17165) | math.LO |
+| 2026-11-12 | [Covering numbers and pcf theory](https://arxiv.org/abs/2611.17157) | math.LO |
+| 2026-11-12 | [Convergence rates for smoothed particle hydrodynamics (SPH) with nonlinear pressure](https://arxiv.org/abs/2611.17151) | math.NA |
 
 ## Methodology
 
