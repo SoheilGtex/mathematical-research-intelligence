@@ -4,8 +4,8 @@ Automated research snapshot based on arXiv metadata.
 
 ## Research Coverage
 
-- Unique papers: **19**
-- Cross-category papers: **1**
+- Unique papers: **20**
+- Cross-category papers: **0**
 - Research categories: **4**
 
 ## Category Distribution
@@ -21,16 +21,16 @@ Automated research snapshot based on arXiv metadata.
 
 | Published | Paper | Categories |
 |---|---|---|
-| 2026-11-12 | [Three-ends Furstenberg estimates and approximate rectangles](https://arxiv.org/abs/2611.17293) | math.CA |
-| 2026-11-12 | [Well-Balanced WE-PINNs for the Shallow Water Equations over Smooth and Discontinuous Bathymetries](https://arxiv.org/abs/2611.17289) | math.NA |
-| 2026-11-12 | [On $L^p$ density of self-similar measures and Bernoulli convolutions](https://arxiv.org/abs/2611.17277) | math.CA |
-| 2026-11-12 | [Structure-Preserving Integrators for Locally Conformally Symplectic Systems: Variational Methods and Globalization](https://arxiv.org/abs/2611.17256) | math.NA |
-| 2026-11-12 | [Noise-Adaptive Analog-Digital Preconditioning](https://arxiv.org/abs/2611.17251) | math.NA |
-| 2026-11-12 | [Patterns, Distances, and Structure in Sparse Sets](https://arxiv.org/abs/2611.17198) | math.CA |
-| 2026-11-12 | [On transformations in the Second Painlevé family](https://arxiv.org/abs/2611.17179) | math.CA, math.LO |
-| 2026-11-12 | [Solovay's Construction via Proof Search](https://arxiv.org/abs/2611.17165) | math.LO |
-| 2026-11-12 | [Covering numbers and pcf theory](https://arxiv.org/abs/2611.17157) | math.LO |
-| 2026-11-12 | [Convergence rates for smoothed particle hydrodynamics (SPH) with nonlinear pressure](https://arxiv.org/abs/2611.17151) | math.NA |
+| 2026-11-16 | [Exceptional cubics on 7-manifolds](https://arxiv.org/abs/2611.21589) | math.RA |
+| 2026-11-16 | [Trustworthy Numerical Software in the Age of AI: What Would Turing Do?](https://arxiv.org/abs/2611.21570) | math.NA |
+| 2026-11-16 | [Second scaling regime in high-dimensional function approximation and curse of dimensionality](https://arxiv.org/abs/2611.21566) | math.NA |
+| 2026-11-16 | [Mean curvature flow into an ambient Riemannian manifold evolving by Ricci-Bourguignon flow](https://arxiv.org/abs/2611.21523) | math.CA |
+| 2026-11-16 | [Melnikov residuals and stationary amalgamation in PAC fields](https://arxiv.org/abs/2611.21508) | math.LO |
+| 2026-11-16 | [Variationally correct physics-informed operator learning for nonlinear partial differential equations](https://arxiv.org/abs/2611.21469) | math.NA |
+| 2026-11-16 | [Exactly Proper Forcing](https://arxiv.org/abs/2611.21390) | math.LO |
+| 2026-11-16 | [An improved weighted broad $L^2$ estimate in $\\mathbb{R}^2$](https://arxiv.org/abs/2611.21374) | math.CA |
+| 2026-11-16 | [Fourier--Stieltjes palettes on compact abelian groups](https://arxiv.org/abs/2611.21340) | math.CA |
+| 2026-11-16 | [Convex polynomial approximation on the unit ball](https://arxiv.org/abs/2611.21329) | math.CA |
 
 ## Methodology
 
