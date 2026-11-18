@@ -4,8 +4,8 @@ Automated research snapshot based on arXiv metadata.
 
 ## Research Coverage
 
-- Unique papers: **20**
-- Cross-category papers: **0**
+- Unique papers: **19**
+- Cross-category papers: **1**
 - Research categories: **4**
 
 ## Category Distribution
@@ -21,16 +21,16 @@ Automated research snapshot based on arXiv metadata.
 
 | Published | Paper | Categories |
 |---|---|---|
-| 2026-11-16 | [Exceptional cubics on 7-manifolds](https://arxiv.org/abs/2611.21589) | math.RA |
-| 2026-11-16 | [Trustworthy Numerical Software in the Age of AI: What Would Turing Do?](https://arxiv.org/abs/2611.21570) | math.NA |
-| 2026-11-16 | [Second scaling regime in high-dimensional function approximation and curse of dimensionality](https://arxiv.org/abs/2611.21566) | math.NA |
-| 2026-11-16 | [Mean curvature flow into an ambient Riemannian manifold evolving by Ricci-Bourguignon flow](https://arxiv.org/abs/2611.21523) | math.CA |
-| 2026-11-16 | [Melnikov residuals and stationary amalgamation in PAC fields](https://arxiv.org/abs/2611.21508) | math.LO |
-| 2026-11-16 | [Variationally correct physics-informed operator learning for nonlinear partial differential equations](https://arxiv.org/abs/2611.21469) | math.NA |
-| 2026-11-16 | [Exactly Proper Forcing](https://arxiv.org/abs/2611.21390) | math.LO |
-| 2026-11-16 | [An improved weighted broad $L^2$ estimate in $\\mathbb{R}^2$](https://arxiv.org/abs/2611.21374) | math.CA |
-| 2026-11-16 | [Fourier--Stieltjes palettes on compact abelian groups](https://arxiv.org/abs/2611.21340) | math.CA |
-| 2026-11-16 | [Convex polynomial approximation on the unit ball](https://arxiv.org/abs/2611.21329) | math.CA |
+| 2026-11-17 | [On the multiplicity of crossing limit cycles of double diagonalizable piecewise linear vector fields](https://arxiv.org/abs/2611.23230) | math.CA |
+| 2026-11-17 | [Circular Vector Tomography with Partial Radial Data](https://arxiv.org/abs/2611.23199) | math.CA |
+| 2026-11-17 | [$\\ell^p$-Improving for Discrete Fractional Integrals and Averages on the Moment Curve](https://arxiv.org/abs/2611.23137) | math.CA |
+| 2026-11-17 | [Finite element nonlinear nudging for the Navier-Stokes equations](https://arxiv.org/abs/2611.23036) | math.NA |
+| 2026-11-17 | [Right shape, wrong time: phase errors of ODE solvers in the flame problem](https://arxiv.org/abs/2611.23027) | math.NA |
+| 2026-11-17 | [A singularity detecting uniformly convergent quantum wavelet framework for weakly singular nonlocal Emden--Fowler systems with quantum Mittag--Leffler sources](https://arxiv.org/abs/2611.23023) | math.NA |
+| 2026-11-17 | [Residual-Driven Basis and Data Selection for Polynomial Approximation of High-Dimensional Hamilton-Jacobi-Bellman Equations](https://arxiv.org/abs/2611.22979) | math.NA |
+| 2026-11-17 | [Smoothing Bias and Direction Recovery at Boundary Minima of the Nuclear Norm along Matrix Lines](https://arxiv.org/abs/2611.22963) | math.NA |
+| 2026-11-17 | [Round hyperspheres uniquely minimize most tangent-point energies](https://arxiv.org/abs/2611.22920) | math.CA |
+| 2026-11-17 | [Relative computability and definability for nonregular oracles](https://arxiv.org/abs/2611.22871) | math.LO |
 
 ## Methodology
 

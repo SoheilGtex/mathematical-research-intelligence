@@ -1,47 +1,180 @@
 {
   "papers": [
     {
-      "arxiv_id": "2611.21589",
-      "categories": [
-        "math.RA"
-      ],
-      "published": "2026-11-16T18:55:34Z",
-      "summary": "A $G_2$-structure $\\varphi$ on a $7$-manifold $\\mathcal M$ determines a two-dimensional space of invariant totally symmetric cubic forms on each fiber of the rank-$27$ bundle $S^2_0T^*\\mathcal M$ of traceless symmetric $2$-tensors. This space is spanned by the trace cubic $C_0$ and a cubic $C_\\varphi$ that, up to a constant factor, is the pointwise integrand of the Yukawa coupling on the $G_2$ moduli space. We determine the exact infinitesimal stabilizers over $\\mathbb C$ of all nonzero cubics in this family. For $C_0+λC_\\varphi$, the stabilizer has dimension $78$ precisely at the two non-real values $λ_\\pm=(1\\pm i\\sqrt7)/8$. Its dimension is $21$ for $C_0$ and $14$ in all other cases. At $λ_\\pm$, the stabilizer is simple of type $E_6$, and the corresponding cubic is linearly equivalent to the complex Albert algebra cubic norm. The two cubics at $λ_\\pm$, which we call critical, define complex-conjugate $E_6$-reductions of the complexified bundle. At any element with nonzero critical norm, the corresponding cubic determines a complex Albert algebra with basepoint stabilizer $F_4$; a line subbundle of the tangent bundle selects a smooth bundle of these algebras with tensorial operations and a Euclidean real form. The induced Levi-Civita connection preserves either critical cubic exactly when the $G_2$-structure is torsion-free. Its orthogonal projections onto the two exceptional reductions coincide with the connection induced by the minimal $G_2$-connection.",
-      "title": "Exceptional cubics on 7-manifolds",
-      "url": "https://arxiv.org/abs/2611.21589",
-      "version": 1
-    },
-    {
-      "arxiv_id": "2611.21570",
-      "categories": [
-        "math.NA"
-      ],
-      "published": "2026-11-16T18:42:50Z",
-      "summary": "AI coding agents can now produce numerical software faster than human experts can review it, raising serious concerns about usability and reliability. These and other AI tools are already transforming mathematics and software, and they will soon transform mathematical software. These concerns motivated us to assess AI-generated numerical linear algebra (NLA) kernels, which we did through an audit of a recent public GPU QR competition. All five leading kernels passed the competition's accuracy tests, and the winning kernel achieved a 107-fold speedup over the competition's baseline, which calls NVIDIA's QR routine. Yet each failed at least once on new inputs, even those from the competition's generator, under the same checker, while the baseline passed them all. In light of this, we want to develop reusable formalizations of numerical analysis methods, which remain sparsely represented in existing formal libraries. We describe VSCL, our Lean library of mathematical foundations for numerical computing. We also propose VERNA to connect these tasks by using formalized results to guide kernel assessment against explicit specifications. Drawing on Turing's work on rounding-error analysis and program checking, we discuss design principles for developing trustworthy numerical software when direct human checking is impractical.",
-      "title": "Trustworthy Numerical Software in the Age of AI: What Would Turing Do?",
-      "url": "https://arxiv.org/abs/2611.21570",
-      "version": 1
-    },
-    {
-      "arxiv_id": "2611.21566",
-      "categories": [
-        "math.NA"
-      ],
-      "published": "2026-11-16T18:41:07Z",
-      "summary": "High-dimensional function approximation is often subject to the curse of dimensionality, commonly described by a hypercube scaling regime with a large expense of $R^d$ grid points, where $R$ denotes the side length of a hypercube in $d$ dimensions. Here we show that a second scaling regime, which we call the lattice ball scaling regime, also arises and is relevant for practical applications. In this regime, the expense scales as $d^{R^2}/(R^2!)$ and therefore grows polynomially with $d$. This regime arises without additional special assumptions of special types of function spaces or error norms. The lattice ball scaling regime occurs when $R^2\\ll d$, due to the discrete nature of counting the expense as the number of lattice points inside a hypersphere. Here we investigate this regime, which arises from the classical problem of approximating high-dimensional functions from common spaces of analytic or $m$-times continuously differentiable functions using orthogonal series (spectral method) such as Fourier, Chebyshev, and Legendre polynomial series. For many applications, the expense in the lattice ball scaling regime can be substantially smaller than that of the hypercube scaling regime, making accurate approximations more accessible. Numerical illustrations include classifying images of handwritten digits from the MNIST dataset and learning the solution operators of partial differential equations, such as Burgers' equation and the radiative transfer equation. The potential for connections with artificial neural networks and other machine learning methods is also discussed.",
-      "title": "Second scaling regime in high-dimensional function approximation and curse of dimensionality",
-      "url": "https://arxiv.org/abs/2611.21566",
-      "version": 1
-    },
-    {
-      "arxiv_id": "2611.21523",
+      "arxiv_id": "2611.23230",
       "categories": [
         "math.CA"
       ],
-      "published": "2026-11-16T18:16:13Z",
-      "summary": "We study the mean curvature flow in Riemannian manifolds evolving by the Ricci-Bourguignon flow. Using DeTurck's trick, we establish short-time existence and uniqueness for the mean curvature flow in this time-dependent ambient geometry. In the case where the ambient metric evolves by a self-similar solution to the Ricci-Bourguignon flow, we characterize the associated mean curvature solitons and derive a Huisken monotonicity-type formula adapted to the Ricci-Bourguignon setting. As a consequence, we show that, in compact ambient manifolds, type-I singularities of the mean curvature flow in a gradient shrinking Ricci-Bourguignon soliton background have, after suitable parabolic rescaling, weighted minimal hypersurfaces as their limiting models, while in the noncompact setting, we establish the corresponding result for a gradient shrinking Schouten soliton background. This provides a geometric framework for understanding how the ambient scalar curvature influences the formation and structure of singularity models for the mean curvature flow. We also show how to construct explicit examples of mean curvature flow in a gradient Ricci-Bourguignon soliton background.",
-      "title": "Mean curvature flow into an ambient Riemannian manifold evolving by Ricci-Bourguignon flow",
-      "url": "https://arxiv.org/abs/2611.21523",
+      "published": "2026-11-17T18:59:55Z",
+      "summary": "We consider planar piecewise linear vector fields with two zones separated by a straight line and having two diagonalizable components, which we call the \\emph{double diagonalizable configuration}. In this configuration, the Poincaré half-maps correspond to separatrices of saddle points in the foliations of symmetric differential forms $ω_r(x)-ω_r(y)$, where $ω_r$ is a rational $1$-form with exactly three simple poles. Limit cycles correspond to non-diagonal intersections of two such separatrices, and the multiplicity of a limit cycle is precisely the order of contact at the intersection point. We prove that two distinct separatrices which are not nested segments of the same straight line have a contact of order at most $4$ at a diagonal point and at most $2$ at a non-diagonal point. As a consequence, we obtain that the multiplicity of limit cycles in the double diagonalizable configuration is at most two, this bound being sharp.",
+      "title": "On the multiplicity of crossing limit cycles of double diagonalizable piecewise linear vector fields",
+      "url": "https://arxiv.org/abs/2611.23230",
+      "version": 1
+    },
+    {
+      "arxiv_id": "2611.23199",
+      "categories": [
+        "math.CA"
+      ],
+      "published": "2026-11-17T18:40:44Z",
+      "summary": "In this article, we introduce and study several generalized circular Radon transforms acting on smooth vector fields compactly supported in a planar annulus, with centers restricted to the outer acquisition circle and truncated measurement radii. The operators of interest are the longitudinal and transverse circular Radon transforms and their weighted analogues. We characterize the kernels of the individual unweighted transforms. Then we establish the reconstruction of a vector field from the combined longitudinal and transverse circular Radon transform data. We further show that the pairs formed by each transform and its weighted analogue is not sufficient for the complete recovery of a vector field. However, we demonstrate that full reconstruction is possible with suitable additional data. Finally, we numerically implement and validate the derived inversion formulas.",
+      "title": "Circular Vector Tomography with Partial Radial Data",
+      "url": "https://arxiv.org/abs/2611.23199",
+      "version": 1
+    },
+    {
+      "arxiv_id": "2611.23137",
+      "categories": [
+        "math.CA"
+      ],
+      "published": "2026-11-17T17:55:08Z",
+      "summary": "We prove the $\\ell^p$-improving estimates in the full range for discrete fractional integral operators on the moment curve (except at the endpoint) and discrete averages on the moment curve (with $N^ε$-losses). This follows via essentially sharp Diophantine solution counting estimates for inhomogeneous Vinogradov systems with an odd number of variables.",
+      "title": "$\\ell^p$-Improving for Discrete Fractional Integrals and Averages on the Moment Curve",
+      "url": "https://arxiv.org/abs/2611.23137",
+      "version": 1
+    },
+    {
+      "arxiv_id": "2611.23036",
+      "categories": [
+        "math.NA"
+      ],
+      "published": "2026-11-17T16:36:47Z",
+      "summary": "Nonlinear nudging augments the classical linear nudging (continuous data as- similation) term with a nonlinear feedback that strengthens as the observed error decreases, and yields super-exponential convergence to the true state. In this paper, we study nonlinear nudging for the 3-dimensional incompressible Navier-Stokes equations with the finite element method, which allows complex geometries and physical boundary conditions. We propose an implicit-explicit (IMEX) finite element scheme with inf-sup stable elements, prove its unconditional long-time stability, and show for the spatially semi-discrete scheme that the error reaches a prescribed tolerance in finite time. Our analysis also suggests that the non- linear nudging term requires the mesh resolution to be fine enough (${χ= O(H^{-1})}$, where $χ$ is the nonlinear nudging intensity and ${H}$ is the observation mesh size). Further, our error estimates suggest that a larger nonlinear exponent $γ$ requires finer observational resolution, which is confirmed by numerical tests. Numerical experiments, including two-dimensional forced viscous flow in a periodic box, flow past a cylinder, and flow over a flat plate, show that nonlinear nudging synchronizes with the true solution considerably faster than linear nudging. We also show that observations in a subregion suffice to synchronize the whole flow",
+      "title": "Finite element nonlinear nudging for the Navier-Stokes equations",
+      "url": "https://arxiv.org/abs/2611.23036",
+      "version": 1
+    },
+    {
+      "arxiv_id": "2611.23027",
+      "categories": [
+        "math.NA"
+      ],
+      "published": "2026-11-17T16:31:42Z",
+      "summary": "The flame model $y'=y^2-y^3$, $y(0)=δ$, is a standard illustration of stiffness: for $δ=10^{-4}$ the stiff MATLAB solvers ode23s and ode15s need only 99 and 140 steps, against 3040 for ode45. We show that these cheap solutions have the right shape at the wrong time: they place the front 29 and 329 time units early, with maximal errors 0.95 and 1.00. Because all solutions are time translates of one master profile, the global error of every numerical solution with values in $[δ,1)$ is exactly a phase error, $y_k=y_δ(t_k-D_k)$. For fixed-step one-step methods of order $p$ we prove $D=h^p\\int_δ^{y}g+O(h^{p+1})$ with a remainder bounded uniformly in $δ$, so that the delay grows at most like $h\\ln(1/δ)$ for $p=1$ and stays bounded for $p\\geq2$. For any computed solution the delay is exactly the sum of its defects with respect to the exact flow, converted into time; a heuristic model, confirmed by MATLAB runs, explains why it is created in the first few steps and why tightening the tolerances is an expensive cure. Integrating for $1/y$, which runs like a clock in the slow phase, with an absolute tolerance reduces the error by several orders of magnitude, at a median cost close to that of the standard formulation. The mechanism needs only that the equation is autonomous; its general form is the subject of a companion paper.",
+      "title": "Right shape, wrong time: phase errors of ODE solvers in the flame problem",
+      "url": "https://arxiv.org/abs/2611.23027",
+      "version": 1
+    },
+    {
+      "arxiv_id": "2611.23023",
+      "categories": [
+        "math.NA"
+      ],
+      "published": "2026-11-17T16:28:59Z",
+      "summary": "We develop a quantum wavelet-based computational framework for coupled systems of Caputo-type quantum ($q$-) fractional Emden--Fowler problems with $q$-Mittag--Leffler source terms, where the solutions exhibit singular behavior in time. Here $q\\in(0,1)$ denotes the parameter of $q$-calculus. The highest-order Caputo $q$-fractional derivatives are expanded through the Haar wavelet basis, and the lower-order fractional derivatives are approximated through Jackson $q$-fractional integrals of Haar wavelets. The continuous problem reduces to a nonlinear algebraic system on the midpoint collocation points. Under suitable structural assumptions, the Banach fixed-point theorem yields the existence and uniqueness of the continuous solutions and wellposedness of the discrete solutions on collocation points. The nonlinearity of the given problem is dealt with by the damped Newton's iteration. In addition, We prove stability of the scheme and derive rigorous convergence estimates in a weighted norm that remains uniformly controlled despite the appearance of singular weight at $t=0$ in the continuous model. When the highest-order fractional derivatives are Hölder continuous with exponent $σ$, the mathematical error of weakly singular solution and its lower-order fractional derivatives become $\\mathcal{O}(τ_L^σ)$, where $τ_L=2^{-(L+1)}$ denotes the width of the finest subintervals for maximum level of resolution $L$. First-order convergence is guaranteed under stronger regularity with $σ=1$. Several test cases are considered to confirm the accuracy and robustness of the present approach, which strongly agrees with the theoretical estimates. In particular, first-order convergence is observed even where the stronger regularity assumption is not satisfied.",
+      "title": "A singularity detecting uniformly convergent quantum wavelet framework for weakly singular nonlocal Emden--Fowler systems with quantum Mittag--Leffler sources",
+      "url": "https://arxiv.org/abs/2611.23023",
+      "version": 1
+    },
+    {
+      "arxiv_id": "2611.22979",
+      "categories": [
+        "math.NA"
+      ],
+      "published": "2026-11-17T15:59:03Z",
+      "summary": "We develop greedy strategies for selecting global polynomial basis functions and training data in the sparse approximation of high-dimensional partial differential equations, with emphasis on Hamilton-Jacobi-Bellman (HJB) equations arising in nonlinear optimal control. Inspired by the goal-oriented dual-weighted residual framework, we derive a closed-form, mesh-free indicator that predicts, to first order, the reduction of the PDE residual obtained by adding a single candidate basis function, without solving an adjoint problem. In the data-driven regime, we jointly select basis functions and gradient-augmented training samples by maximizing the predicted decrease of a supervised loss. Numerical experiments on benchmark PDEs and nonlinear optimal control problems in up to 35 dimensions show accuracy comparable to non-adaptive approaches with substantially fewer basis functions and training samples.",
+      "title": "Residual-Driven Basis and Data Selection for Polynomial Approximation of High-Dimensional Hamilton-Jacobi-Bellman Equations",
+      "url": "https://arxiv.org/abs/2611.22979",
+      "version": 1
+    },
+    {
+      "arxiv_id": "2611.22963",
+      "categories": [
+        "math.NA"
+      ],
+      "published": "2026-11-17T15:51:02Z",
+      "summary": "We study optimal matrix directions associated with minimizing $\\|G+λΘ\\|_*$, the nuclear norm along a fixed affine line of real matrices with scalar multiplier $λ$. At a rank-deficient minimum, the compact polar factor can violate the tangency constraint even at the minimizing multiplier. Spectral smoothing gives a continuous scalar equation for tangency. We quantify its bias at a unique boundary minimum, where exactly one one-sided derivative vanishes. An orthogonal block decomposition shows that pseudo-Huber smoothing with scale $δ$ shifts the multiplier by exact order $δ^{2/3}$ as $δ\\to0$. The Frobenius error relative to the minimum-Frobenius-norm optimal direction has exact order $δ^{1/3}$ when some singular values vanish at exactly second order in the multiplier displacement, and $δ^{2/3}$ otherwise. A sharp rank bound rules out the slower rate when $Θ$ has rank at most two. Huber smoothing gives an error of exact order $δ$ for the same limiting direction. Convergent expansions in powers of $δ^{1/3}$ also yield a three-scale extrapolation with $O(δ)$ error after restoring feasibility.",
+      "title": "Smoothing Bias and Direction Recovery at Boundary Minima of the Nuclear Norm along Matrix Lines",
+      "url": "https://arxiv.org/abs/2611.22963",
+      "version": 1
+    },
+    {
+      "arxiv_id": "2611.22920",
+      "categories": [
+        "math.CA"
+      ],
+      "published": "2026-11-17T15:21:39Z",
+      "summary": "We show that round hyperspheres uniquely minimize a broad class of generalized tangent-point energies among all boundaries of bounded Caccioppoli sets sharing the same perimeter or enclosed volume. This includes closed $C^1$-hypersurfaces. Equivalently, we establish sharp lower bounds for the associated scale-invariant ratios of energy to surface measure and energy to volume, respectively, with equality precisely for round spheres.",
+      "title": "Round hyperspheres uniquely minimize most tangent-point energies",
+      "url": "https://arxiv.org/abs/2611.22920",
+      "version": 1
+    },
+    {
+      "arxiv_id": "2611.22871",
+      "categories": [
+        "math.LO"
+      ],
+      "published": "2026-11-17T14:46:34Z",
+      "summary": "Classically, a set is computable from an oracle if both the set and its complement are computably enumerable (c.e.) relative to that oracle. We construct a countable nonstandard model of true arithmetic with sets A and X such that both A and its complement are c.e. relative to X, yet A is not pointwise Turing reducible to X. The Turing functionals used here are single-valued at every oracle. For regular oracles, we prove that the classical equivalence holds over ISigma_1. Two further phenomena, each known from earlier work, are realized with the same oracle X that witnesses our main separation. Strong and pointwise Turing reducibility differ for this X, and some Delta_1^X set is not X-c.e.",
+      "title": "Relative computability and definability for nonregular oracles",
+      "url": "https://arxiv.org/abs/2611.22871",
+      "version": 1
+    },
+    {
+      "arxiv_id": "2611.22866",
+      "categories": [
+        "math.CA"
+      ],
+      "published": "2026-11-17T14:45:17Z",
+      "summary": "We show that a measure $μ$ in $\\mathbb{R}^n \\times \\mathbb{R}$ equipped with the parabolic metric is rectifiable (in the parabolic sense) if and only if the Jones' square function is finite $μ$-almost everywhere. This square function is constructed using the parabolic version of the Jones' beta numbers, which control how close $μ$ is to being supported in time-independent planes (these planes are the paradigmatic example of parabolic rectifiable set). Our only background assumption is that $μ$ has positive and finite densities (qualitatively) almost everywhere. A key feature of our proof is the use of a parabolic version of the Reifenberg parametrization theorem, which in the Euclidean setting is due to David and Toro (MAMS, 2012), and has recently been extended to the parabolic setting by Hoffman, Mourgoglou and the fourth author. In the latter work, the authors construct a bi-Hölder map. Here, under an additional summability condition, we improve this construction to obtain a parabolic regular bi-Lipschitz map. This improvement in regularity plays a crucial role in our arguments.",
+      "title": "Characterization of parabolic rectifiability in terms of Jones' square function",
+      "url": "https://arxiv.org/abs/2611.22866",
+      "version": 1
+    },
+    {
+      "arxiv_id": "2611.22622",
+      "categories": [
+        "math.RA"
+      ],
+      "published": "2026-11-17T11:36:14Z",
+      "summary": "Let $\\bigwedge^2 V$ be the second exterior power of a vector space $V$ over a finite field. The Cooperstein conjecture asserts a dimension bound for flats external to varieties consisting of points of bounded rank in $\\mathrm{PG}(\\bigwedge^2 V)$. This geometric problem can be translated into a question about linear spaces of alternating matrices whose nonzero elements have rank at least a prescribed value. For matrices of odd order, the sharp cardinality bound was already established by Delsarte and Goethals (1975). In this paper, we prove the Cooperstein conjecture for matrices of even order and, more generally, we prove its additive analogue by determining, for all admissible parameters, the maximum size of an additive subgroup of alternating matrices in which every nonzero matrix has at least the prescribed rank. Our proof uses Pfaffian equations to characterize alternating matrices of rank below the prescribed minimum. We study the minimal graded free resolutions of the corresponding Pfaffian rings. The Cohen--Macaulay property and the $a$-invariant of each Pfaffian ring determine the largest shift in its resolution. We use trace functions on evaluation quotients to construct polynomial indicators for the matrices of small rank in an additive subgroup. The largest shift controls their degrees, yielding the upper bound by a counting argument. Finally, we give explicit trace constructions attaining the bound.",
+      "title": "The Cooperstein conjecture and additive alternating $d$-codes",
+      "url": "https://arxiv.org/abs/2611.22622",
+      "version": 1
+    },
+    {
+      "arxiv_id": "2611.22587",
+      "categories": [
+        "math.RA"
+      ],
+      "published": "2026-11-17T11:12:12Z",
+      "summary": "In this paper we give a construction technique of $T_{D,g}^n-$set for reversible linear codes and reversible DNA codes with their code parameters. This technique yields many reversible MDS codes which significantly improves the $T^n-$set construction by Oztas et.al. in terms of obtained code parameters. Concatenation-based constructions are presented for reversible linear codes satisfying self-duality and linear complementary dual (LCD) conditions, giving necessary and sufficient condition for desired dual properties. We introduce a new notion of $(n_1,c_1|n_2,c_2)-$ right polycyclic codes. Also, a new construction technique is developed to obtain reversible linear $(n_1,c_1|n_2,c_2)-$ right polycyclic codes with good parameters (MDS codes) over any finite commutative rings.",
+      "title": "Constructions of reversible linear and DNA codes through $T_{D,g}^n-$set and $(n_1,c_1|n_2,c_2)-$right polycyclic codes",
+      "url": "https://arxiv.org/abs/2611.22587",
+      "version": 1
+    },
+    {
+      "arxiv_id": "2611.22478",
+      "categories": [
+        "math.RA"
+      ],
+      "published": "2026-11-17T09:37:47Z",
+      "summary": "Distance algebras were introduced by Asao and Ivanov to realize magnitude homology and cohomology as bigraded Tor and Ext groups. We study the representation-theoretic and homological properties of the distance algebra $Σ_G$ of a finite connected graph $G$. We characterize the graphs for which $Σ_G$ is representation-finite, multiserial, biserial, or self-injective by an explicit graph-theoretic classification. We also compute the finitistic, self-injective, and dominant dimensions for several natural families of graphs. For a finite modular lattice $L$, we consider the distance algebra $Σ_L$ associated to the Hasse graph of $L$, and show that $Σ_L$ is Auslander--Gorenstein precisely when $L$ is a finite direct product of chains. We also present a family of minimal Auslander--Gorenstein distance algebras, namely, those associated to punctured hypercubes, whose finitistic (equivalently, self-injective; equivalently, dominant) dimension can be arbitrarily large.",
+      "title": "On representation-theoretic and homological properties of distance algebras of finite graphs",
+      "url": "https://arxiv.org/abs/2611.22478",
+      "version": 1
+    },
+    {
+      "arxiv_id": "2611.22213",
+      "categories": [
+        "math.RA"
+      ],
+      "published": "2026-11-17T04:50:16Z",
+      "summary": "Let \\(\\mathrm{SL}_2(\\C)\\) be the group of complex \\(2\\times 2\\)-matrices with determinant \\(1\\). We prove that each continuous map \\(A:\\R^2\\to\\mathrm{SL}_2(\\C)\\) can be written in the form \\[A=\\begin{pmatrix}1&f_1\\\\0&1\\end{pmatrix} \\begin{pmatrix}1&0\\\\f_2&1\\end{pmatrix} \\begin{pmatrix}1&f_3\\\\0&1\\end{pmatrix} \\begin{pmatrix}1&0\\\\f_4&1\\end{pmatrix} \\begin{pmatrix}1&f_5\\\\0&1\\end{pmatrix}, \\] where \\(f_1,\\ldots,f_5:\\R^2\\to\\C\\) are continuous functions.",
+      "title": "On continuous unitriangular matrices on \\(\\mathbb R^2\\)",
+      "url": "https://arxiv.org/abs/2611.22213",
+      "version": 1
+    },
+    {
+      "arxiv_id": "2611.21772",
+      "categories": [
+        "math.LO",
+        "math.RA"
+      ],
+      "published": "2026-11-16T19:04:27Z",
+      "summary": "Motivated by the geometry of point modules over monomial algebras, we introduce a box-counting function associated to a right-infinite word over a finite alphabet. An extendable box is a family of finite words obtained by choosing letters independently at each position, subject to the condition that all choices admit a common infinite right continuation in the associated subshift. We prove several results for these functions for words of linearly bounded complexity. For $k$-automatic words, we show using techniques from first-order logic that the total box-counting function is $k$-regular. Finally, we apply our results to prove eventual affine growth of the number of positive-dimensional irreducible components in finite projections of point-module spaces associated to semiprime monomial algebras of at most quadratic growth.",
+      "title": "Boxes in Infinite Words: Complexity, Automata, and Point Modules",
+      "url": "https://arxiv.org/abs/2611.21772",
       "version": 1
     },
     {
@@ -56,17 +189,6 @@
       "version": 1
     },
     {
-      "arxiv_id": "2611.21469",
-      "categories": [
-        "math.NA"
-      ],
-      "published": "2026-11-16T17:48:08Z",
-      "summary": "Physics-informed operator learning trains neural operators on the residual of a parametric partial differential equation (PDE) instead of labeled solution data, but its reliability depends on a variationally correct residual: one that is equivalent to the error in a norm dictated by the equation, the PDE-compliant norm. For nonlinear equations written as first-order systems, we prove that the first-order system least-squares residual is equivalent to the error in this norm near a solution branch if the linearized residual is stable and the residual derivative is Lipschitz continuous, possibly in a norm stronger than the error norm. We verify these conditions for monotone reaction, solution- and gradient-dependent diffusion, and compressible Neo-Hookean hyperelasticity. The stability mechanisms vary across these classes, as do the regions where the equivalence holds, from arbitrary bounded sets to a neighborhood of the branch. In a conforming finite element space, we show that the loss excess of a state near the finite element solution is equivalent to its squared distance from that solution. We use this loss to train a reduced basis neural operator with values in this space, with solution snapshots needed only for the basis and the loss and its symbolically derived gradient assembled by the finite element library. At inference, this loss estimates the error. Numerically, the square root of the loss excess tracks the error within factors comparable to those of the linear case, and the operator achieves higher accuracy in the PDE-compliant norm than grid-based baselines evaluated in the same finite element space.",
-      "title": "Variationally correct physics-informed operator learning for nonlinear partial differential equations",
-      "url": "https://arxiv.org/abs/2611.21469",
-      "version": 1
-    },
-    {
       "arxiv_id": "2611.21390",
       "categories": [
         "math.LO"
@@ -78,94 +200,6 @@
       "version": 1
     },
     {
-      "arxiv_id": "2611.21374",
-      "categories": [
-        "math.CA"
-      ],
-      "published": "2026-11-16T16:36:28Z",
-      "summary": "For a compact smooth plane curve $S$ with nonzero curvature and a union $X\\subseteq B_R$ of unit balls satisfying a one-dimensional Katz--Tao condition, we prove $\\|\\mathrm{Br}_A E_S f\\|_{L^2(X)} \\leq C_{\\varepsilon,\\varepsilon'} R^{\\varepsilon}|X|^{13/62}\\|f\\|_2$. The proof relies on a refined local broad estimate that uses density decomposition and the short frequency intervals associated with coarse tubes.",
-      "title": "An improved weighted broad $L^2$ estimate in $\\mathbb{R}^2$",
-      "url": "https://arxiv.org/abs/2611.21374",
-      "version": 1
-    },
-    {
-      "arxiv_id": "2611.21340",
-      "categories": [
-        "math.CA"
-      ],
-      "published": "2026-11-16T16:21:22Z",
-      "summary": "Let G be an infinite compact abelian group and let K={0,a_1,a_2,...}, where a_1>a_2>...>0 and a_n\\to 0. We construct a nonzero real, even, purely singular Rajchman measure whose Fourier--Stieltjes range is contained in K. We then classify the compact abelian groups on which every positive null palette is exactly realizable in each of four classes: purely singular measures, atomless purely singular measures, strongly continuous purely singular measures, and Rajchman purely singular measures. Exact realization by a purely singular measure is always possible; atomless exact realization fails precisely for groups topologically isomorphic to \\mathbb{T}\\times F with F finite; and universal exact Rajchman realization is equivalent to \\operatorname{Tor}(\\widehat G) being infinite, or equivalently to G/G_0 being infinite. On \\mathbb{T} we also give palette-dependent sufficient conditions for exact Rajchman realization. Finally, if U\\subset\\mathbb{C} is open and 0\\in\\overline U, we construct a continuous Rajchman measure with nonzero singular part whose Fourier--Stieltjes range is contained in U, assuming metrizability of G when 0\\notin U. This gives a negative answer to an open-range absolute-continuity question of Ohrysko and Wojciechowski.",
-      "title": "Fourier--Stieltjes palettes on compact abelian groups",
-      "url": "https://arxiv.org/abs/2611.21340",
-      "version": 1
-    },
-    {
-      "arxiv_id": "2611.21329",
-      "categories": [
-        "math.CA"
-      ],
-      "published": "2026-11-16T16:18:24Z",
-      "summary": "Let $\\mathbb{B}^d$ be the closed unit ball in $\\mathbb{R}^d$, $d\\ge1$. We prove that, for every convex $f\\in C(\\mathbb{B}^d)$ and every integer $n\\ge1$, there exists a polynomial $P_n$ of total degree at most $n$, convex on all of $\\mathbb{R}^d$, such that $\\|f-P_n\\|_{C(\\mathbb{B}^d)}\\le c\\,ω_2(f,n^{-1};\\mathbb{B}^d)$. Here $ω_2$ is the ordinary second modulus of smoothness and $c=c_d$ depends only on $d$. In particular, we obtain the rate $O(n^{-2})$ for convex functions with uniformly bounded second derivatives.",
-      "title": "Convex polynomial approximation on the unit ball",
-      "url": "https://arxiv.org/abs/2611.21329",
-      "version": 1
-    },
-    {
-      "arxiv_id": "2611.21320",
-      "categories": [
-        "math.NA"
-      ],
-      "published": "2026-11-16T16:13:24Z",
-      "summary": "This paper presents a computational model integrating transmural drug transport, smooth muscle cell contraction, nonlinear anisotropic material behavior, and residual stresses to investigate the effects of calcium channel blockers~(CCBs) on local stress distributions in atherosclerotic arteries. The balance of linear momentum is coupled with a three-dimensional reaction-diffusion equation for the drug transport. Smooth muscle contraction is modeled phenomenologically based on a chemo-mechanical model that incorporates the effects of stretch on intracellular calcium dynamics and calcium sensitization. A novel drug-tissue interaction model is proposed to capture the effects of CCBs on intracellular calcium and thus on smooth muscle contraction. Material parameters are identified by fitting to experimental data from the literature and finite element simulations are conducted on five exemplary atherosclerotic arterial geometries reconstructed from histological cross-sections. Simulation results show that although CCBs reduce the stresses in the media through reduced smooth muscle contraction, they shift load to the fibrous cap, whose stress increases in all five geometries (median of up to 28.9~kPa). This increase varies strongly between plaque morphologies and becomes smaller with lower smooth muscle tone before treatment, lower drug concentrations in the arterial wall and increasing axial pre-stretch. A blood pressure reduction of 10~mmHg already lowers it to a median of at most 3.8~kPa in four of the five geometries. Our findings suggest that CCBs may increase the rupture risk of vulnerable plaques with highly loaded fibrous caps under insufficient blood pressure reduction, which remains to be confirmed experimentally and clinically.",
-      "title": "Pharmaco-mechanical computational simulation of atherosclerotic arteries: effects of calcium channel blockers on local stress distributions",
-      "url": "https://arxiv.org/abs/2611.21320",
-      "version": 1
-    },
-    {
-      "arxiv_id": "2611.21316",
-      "categories": [
-        "math.CA"
-      ],
-      "published": "2026-11-16T16:10:30Z",
-      "summary": "For any $\\varepsilon>0$ we construct a continuous motion of a line segment in the plane, such that the center point of the line segment traverses a given bounded set except for a subset of area less than $\\varepsilon$, while the rest of the line segment sweeps only an area less than $\\varepsilon$. We further show that a circle with a pair of antipodal points removed has the Strong Kakeya Property in the plane: that is, given any two copies of such a punctured circle, we can continuously move one to the other, while staying in a set of arbitrarily small Lebesgue measure. We give a full characterization of those subsets of a great circle that have this property on the sphere. We also show how the first mentioned result can be applied to obtain discontinuity results about the area swept by continuously moving objects.",
-      "title": "Continuous Kakeya type problems with special points that sweep much more area than the rest",
-      "url": "https://arxiv.org/abs/2611.21316",
-      "version": 1
-    },
-    {
-      "arxiv_id": "2611.21268",
-      "categories": [
-        "math.NA"
-      ],
-      "published": "2026-11-16T15:38:21Z",
-      "summary": "Transformers have demonstrated the ability to perform in-context learning, that is, to adapt to new tasks from a few examples without updating their parameters. Existing theory has largely focused on emulating gradient-based algorithms for convex statistical problems or establishing general function approximation guarantees without exploiting the underlying statistical structure. We study in-context parameter estimation and trajectory prediction for parametric ordinary differential equations (ODEs), where estimation is generally nonconvex. Under suitable identifiability and regularity conditions, we construct a transformer that estimates unknown system parameters from noisy trajectory observations through a two-stage approximate maximum likelihood procedure: a coarse search provides an initialization within a locally strongly convex region, followed by gradient descent with local linear contraction. For prediction, we compose this estimator with a neural approximation of the ODE solution map. We further show that, through parameter sharing, a single transformer can perform both parameter estimation and trajectory prediction simultaneously. For these constructions, we establish nonasymptotic guarantees and finite-pretraining oracle inequalities that separate errors due to finite pretraining data, finite context length, and finite-sized transformer approximation. Numerical experiments on linear and nonlinear ODEs further show that pretrained transformers can benefit from longer inference contexts without updating their weights.",
-      "title": "In-Context Estimation and Prediction for Parametric ODEs",
-      "url": "https://arxiv.org/abs/2611.21268",
-      "version": 1
-    },
-    {
-      "arxiv_id": "2611.21263",
-      "categories": [
-        "math.RA"
-      ],
-      "published": "2026-11-16T15:34:55Z",
-      "summary": "We study Belavin--Drinfeld Poisson bivectors $π_{(\\bar{\\mathbfΓ}^r,\\bar{\\mathbfΓ}^c)}$ on $\\operatorname{Mat}_{n\\times m}(\\mathbb{C})$ from the perspective of Poisson deformation theory. We prove that the log-canonical part $π_0$ of $π_{(\\bar{\\mathbfΓ}^r,\\bar{\\mathbfΓ}^c)}$ is $\\mathbb{T}_{(\\mathbfΓ^r,\\mathbfΓ^c)}$-log-symplectic if and only if the pair $(\\mathbfΓ^r,\\mathbfΓ^c)$ of Belavin--Drinfeld triples is aperiodic. In this case, we show that $π_{(\\bar{\\mathbfΓ}^r,\\bar{\\mathbfΓ}^c)}$ is a maximal $\\mathbb{T}_{(\\mathbfΓ^r,\\mathbfΓ^c)}$-invariant Poisson deformation of $π_0$, and we construct a $\\mathbb{T}_{(\\mathbfΓ^r,\\mathbfΓ^c)}$-equivariant Poisson birational map between $(\\operatorname{Mat}_{n\\times m},π_0)$ and $(\\operatorname{Mat}_{n\\times m},π_{(\\bar{\\mathbfΓ}^r,\\bar{\\mathbfΓ}^c)})$.",
-      "title": "Belavin--Drinfeld bivectors and Poisson deformations",
-      "url": "https://arxiv.org/abs/2611.21263",
-      "version": 1
-    },
-    {
-      "arxiv_id": "2611.21237",
-      "categories": [
-        "math.RA"
-      ],
-      "published": "2026-11-16T15:22:56Z",
-      "summary": "Thompson's group $V$ was introduced in 1965 as one of the first examples of an infinite finitely presented simple group. The Higman-Thompson groups $V_{k, r}$ naturally generalize $V$; they exhibit many of the same interesting properties and have been extensively studied in the literature. Monoid theoretic analogues $TV_{k, r}$, $PTV_{k, r}$, and $IV_{k, r}$ of the Higman-Thompson groups were first considered by Thompson, and published many years later in work of Birget. The monoid theoretic analogue of the symmetric group is the full transformation monoid, in that every monoid is isomorphic to a submonoid of some full transformation monoid. The analogous role for inverse monoids is played by the symmetric inverse monoid. Birget's three monoids $TV_{k, r}$, $PTV_{k, r}$, and $IV_{k, r}$ are to $V_{n, r}$ what the full, and partial transformation monoids, and the symmetric inverse monoid are to the symmetric group. The second author and De Witt recently showed that $TV_{k, r}$ is finitely presented. In this paper we show that the remaining two monoids $PTV_{k, r}$ and $IV_{k, r}$ are also finitely presented.",
-      "title": "Finite presentations for Thompson monoids",
-      "url": "https://arxiv.org/abs/2611.21237",
-      "version": 1
-    },
-    {
       "arxiv_id": "2611.20784",
       "categories": [
         "math.LO"
@@ -174,50 +208,6 @@
       "summary": "Sullivan recently constructed continuum many countable homogeneous $n$-hypertournaments for every $n\\ge3$ by forbidding configurations he calls pair-cancelling. We show that, for every family $\\mathcal F$ of pair-cancelling $n$-hypertournaments, the class of all linearly ordered finite $\\mathcal F$-free $n$-hypertournaments is Ramsey and has the ordering property. In particular, freely ordered $\\mathbf{H}_4$-free $3$-hypertournaments are Ramsey, answering a question of Cherlin, Hubička, Nešetřil, and the author from 2021. For every odd $n\\ge3$, we give a simple Ramsey expansion with the expansion property for even $n$-hypertournaments by naming an $(n-1)$-hypertournament and a free linear order. We also show that, for $n\\ge6$, no unbounded hereditary strong amalgamation class of finite $n$-hypertournaments has EPPA. Moreover, we prove the failure of EPPA for all Sullivan's classes with $n\\ge4$, and for the even $5$-hypertournaments. We conjecture that even hypertournaments and classes omitting a family of pair-cancelling hypertournaments, together with the homogeneous cyclic order in arity three, are the only countably infinite homogeneous $n$-hypertournaments for $n\\ge3$. We give some supporting evidence.",
       "title": "On homogeneous hypertournaments",
       "url": "https://arxiv.org/abs/2611.20784",
-      "version": 1
-    },
-    {
-      "arxiv_id": "2611.20604",
-      "categories": [
-        "math.RA"
-      ],
-      "published": "2026-11-16T06:29:30Z",
-      "summary": "This paper introduces a new class of Manin triples of compatible Lie algebras and investigates the corresponding bialgebra structures. To this end, we first study an invariant-c$2$c form on a compatible Lie algebra, namely a nondegenerate symmetric bilinear form that is invariant with respect to one Lie bracket and is a commutative $2$-cocycle with respect to the other, which naturally arises from a quadratic differential Novikov algebra. Then we introduce the notion of compatible Lie-anti-pre-Lie algebras (compatible LAPL algebras in short), which serve as the underlying algebra structures of compatible Lie algebras endowed with invariant-c$2$c forms. Furthermore, we introduce the notion of a compatible LAPL bialgebra, which is shown to be equivalent to a Manin triple of compatible Lie algebras with respect to the invariant-c$2$c form. We investigate triangular compatible LAPL bialgebras, which are obtained from antisymmetric solutions of the compatible LAPL Yang-Baxter equation. We also use $\\mathcal{O}$-operators of compatible LAPL algebras to construct such solutions. Finally, we show that every differential Novikov bialgebra gives rise to a compatible LAPL bialgebra and that this construction preserves triangularity.",
-      "title": "A new class of Manin triples of compatible Lie algebras",
-      "url": "https://arxiv.org/abs/2611.20604",
-      "version": 1
-    },
-    {
-      "arxiv_id": "2611.20599",
-      "categories": [
-        "math.RA"
-      ],
-      "published": "2026-11-16T06:26:51Z",
-      "summary": "Motivated by open questions of Kabbaj and Mimouni, we determine the position of full $t$-linkage among the standard classes of integral domains and its relationship with almost Krullness. Full linkage for a star operation is equivalent to cancellation in the monoid of all nonzero fractional star ideals. For the $t$-operation, this full cancellation law, denoted by $\\mathrm{TCL}$, lies strictly between the $t$-almost Dedekind and completely integrally closed classes; on the $\\mathrm{PvMD}$ locus, we recover the known $t$-almost Dedekind characterization. We prove that $\\mathrm{TCL}$ and almost Krullness are incomparable. A monoid algebra arising from Reinhart's example satisfies $\\mathrm{TCL}$ but is neither almost Krull nor a $\\mathrm{PvMD}$. In the opposite direction, we construct a locally factorial almost Krull domain with a maximal ideal $0\\ne M=M_t=(M^2)_t\\subsetneq D$. For this domain the canonical locally divisorial operation $κ$ is cancellative and $κ_f=t$, but cancellation does not descend to $t$. In contrast, finite valuation patching proves that the Heinzer--Ohm and Arnold--Matsuda almost Krull non-$\\mathrm{PvMD}$s satisfy $\\mathrm{TCL}$ with $t<κ$; in the latter example $κ=v$. Class-monoid, residual, and support criteria identify the obstruction to descent. Thus the missing $t$-linkage node is governed by cancellation in the entire fractional $t$-ideal monoid, rather than by local Krullness alone.",
-      "title": "Full $t$-Linkage, Cancellation, and Almost Krull Domains",
-      "url": "https://arxiv.org/abs/2611.20599",
-      "version": 1
-    },
-    {
-      "arxiv_id": "2611.20517",
-      "categories": [
-        "math.LO"
-      ],
-      "published": "2026-11-16T04:42:40Z",
-      "summary": "A probabilistic Turing machine is an ordinary Turing machine that may also toss fair coins, with no limit on its running time or memory. If it always halts, it decides only computable problems. Aaronson et al. studied machines that may run forever on some coin tosses, with the answer read only from the runs that halt. Suppose the correct answer must be more than twice as likely as the wrong one. They showed that these machines decide exactly the problems solvable with a fixed list of questions about the halting problem. They asked what happens when the correct answer need only be the more likely one. We show that the machines then decide exactly the problems solvable by asking such questions one after another, each chosen after the earlier answers. We also show that the factor two can be replaced by any fixed factor greater than one. A machine may promise two numbers: a lower bound on its probability of halting, and a lower bound on its probability of being right when it halts. From these two numbers we compute exactly how many questions fixed in advance the machine can replace. The main idea is that probability acts as a budget for how often a computable guess may change its mind. The results extend to oracle machines and to machines nested inside each other. Quantum machines decide the same problems.",
-      "title": "Postselection on Halting and Reductions to the Halting Problem",
-      "url": "https://arxiv.org/abs/2611.20517",
-      "version": 1
-    },
-    {
-      "arxiv_id": "2611.20299",
-      "categories": [
-        "math.LO"
-      ],
-      "published": "2026-11-15T23:01:00Z",
-      "summary": "We answer a question of Goldberg about cover exacting cardinals. Concretely, we show that if $κ$ is $ω_1$-strongly compact, then no cardinal $λ>κ$ is $γ$-cover exacting for some cardinal $γ$.",
-      "title": "On cover exacting cardinals",
-      "url": "https://arxiv.org/abs/2611.20299",
       "version": 1
     }
   ],
