@@ -4,8 +4,8 @@ Automated research snapshot based on arXiv metadata.
 
 ## Research Coverage
 
-- Unique papers: **19**
-- Cross-category papers: **1**
+- Unique papers: **20**
+- Cross-category papers: **0**
 - Research categories: **4**
 
 ## Category Distribution
@@ -21,16 +21,16 @@ Automated research snapshot based on arXiv metadata.
 
 | Published | Paper | Categories |
 |---|---|---|
-| 2026-11-17 | [On the multiplicity of crossing limit cycles of double diagonalizable piecewise linear vector fields](https://arxiv.org/abs/2611.23230) | math.CA |
-| 2026-11-17 | [Circular Vector Tomography with Partial Radial Data](https://arxiv.org/abs/2611.23199) | math.CA |
-| 2026-11-17 | [$\\ell^p$-Improving for Discrete Fractional Integrals and Averages on the Moment Curve](https://arxiv.org/abs/2611.23137) | math.CA |
-| 2026-11-17 | [Finite element nonlinear nudging for the Navier-Stokes equations](https://arxiv.org/abs/2611.23036) | math.NA |
-| 2026-11-17 | [Right shape, wrong time: phase errors of ODE solvers in the flame problem](https://arxiv.org/abs/2611.23027) | math.NA |
-| 2026-11-17 | [A singularity detecting uniformly convergent quantum wavelet framework for weakly singular nonlocal Emden--Fowler systems with quantum Mittag--Leffler sources](https://arxiv.org/abs/2611.23023) | math.NA |
-| 2026-11-17 | [Residual-Driven Basis and Data Selection for Polynomial Approximation of High-Dimensional Hamilton-Jacobi-Bellman Equations](https://arxiv.org/abs/2611.22979) | math.NA |
-| 2026-11-17 | [Smoothing Bias and Direction Recovery at Boundary Minima of the Nuclear Norm along Matrix Lines](https://arxiv.org/abs/2611.22963) | math.NA |
-| 2026-11-17 | [Round hyperspheres uniquely minimize most tangent-point energies](https://arxiv.org/abs/2611.22920) | math.CA |
-| 2026-11-17 | [Relative computability and definability for nonregular oracles](https://arxiv.org/abs/2611.22871) | math.LO |
+| 2026-11-18 | [Low Moments, Small Balls and Star Discrepancy](https://arxiv.org/abs/2611.24934) | math.CA |
+| 2026-11-18 | [Consistent interfacial flow numerics - Part II: The momentum convection term](https://arxiv.org/abs/2611.24866) | math.NA |
+| 2026-11-18 | [Non-intrusive modal decomposition of transport-dominated data](https://arxiv.org/abs/2611.24857) | math.NA |
+| 2026-11-18 | [On the $L^p$-Neumann problem for divergence form elliptic equations in the upper half-space](https://arxiv.org/abs/2611.24808) | math.CA |
+| 2026-11-18 | [Electric combined-field-only P1 Galerkin BEM for PEC scattering with scalar Helmholtz operators](https://arxiv.org/abs/2611.24772) | math.NA |
+| 2026-11-18 | [On Hilbert's tenth problem for number fields](https://arxiv.org/abs/2611.24748) | math.LO |
+| 2026-11-18 | [Variation bounds for averages over nondegenerate curves](https://arxiv.org/abs/2611.24746) | math.CA |
+| 2026-11-18 | [Endpoint behaviour of vertical and horizontal Riesz transforms for the flow Laplacian on homogeneous trees](https://arxiv.org/abs/2611.24683) | math.CA |
+| 2026-11-18 | [Structure-Preserving PHS RBF-FD Methods for Schrodinger Equations](https://arxiv.org/abs/2611.24639) | math.NA |
+| 2026-11-18 | [Boundedness of the Riesz potential associated to diffusion operators in Lebesgue spaces](https://arxiv.org/abs/2611.24601) | math.CA |
 
 ## Methodology
 
