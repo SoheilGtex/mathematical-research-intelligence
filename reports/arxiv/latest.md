@@ -21,16 +21,16 @@ Automated research snapshot based on arXiv metadata.
 
 | Published | Paper | Categories |
 |---|---|---|
-| 2026-11-18 | [Low Moments, Small Balls and Star Discrepancy](https://arxiv.org/abs/2611.24934) | math.CA |
-| 2026-11-18 | [Consistent interfacial flow numerics - Part II: The momentum convection term](https://arxiv.org/abs/2611.24866) | math.NA |
-| 2026-11-18 | [Non-intrusive modal decomposition of transport-dominated data](https://arxiv.org/abs/2611.24857) | math.NA |
-| 2026-11-18 | [On the $L^p$-Neumann problem for divergence form elliptic equations in the upper half-space](https://arxiv.org/abs/2611.24808) | math.CA |
-| 2026-11-18 | [Electric combined-field-only P1 Galerkin BEM for PEC scattering with scalar Helmholtz operators](https://arxiv.org/abs/2611.24772) | math.NA |
-| 2026-11-18 | [On Hilbert's tenth problem for number fields](https://arxiv.org/abs/2611.24748) | math.LO |
-| 2026-11-18 | [Variation bounds for averages over nondegenerate curves](https://arxiv.org/abs/2611.24746) | math.CA |
-| 2026-11-18 | [Endpoint behaviour of vertical and horizontal Riesz transforms for the flow Laplacian on homogeneous trees](https://arxiv.org/abs/2611.24683) | math.CA |
-| 2026-11-18 | [Structure-Preserving PHS RBF-FD Methods for Schrodinger Equations](https://arxiv.org/abs/2611.24639) | math.NA |
-| 2026-11-18 | [Boundedness of the Riesz potential associated to diffusion operators in Lebesgue spaces](https://arxiv.org/abs/2611.24601) | math.CA |
+| 2026-11-19 | [Amplitude dependent wave envelope type estimates for moment curves and applications](https://arxiv.org/abs/2611.26581) | math.CA |
+| 2026-11-19 | [Stochastic counterpart of Nesterov's method for sampling and provable non-acceleration of samplers with heavy-ball structure](https://arxiv.org/abs/2611.26575) | math.NA |
+| 2026-11-19 | [A time-domain adversarial example demonstrating the failure of $H^1$ elements in $a$-$φ$ electromagnetic simulation](https://arxiv.org/abs/2611.26546) | math.NA |
+| 2026-11-19 | [Nonlinear Fourier series](https://arxiv.org/abs/2611.26477) | math.CA |
+| 2026-11-19 | [Spectral isometries and invertibility preservers on Banach algebras](https://arxiv.org/abs/2611.26462) | math.RA |
+| 2026-11-19 | [Signed QoI Gaps for Goal-Oriented Error Estimation: Reliability and Sharpness from the Same First-Order System Residuals](https://arxiv.org/abs/2611.26322) | math.NA |
+| 2026-11-19 | [Oscillatory integral operators of arbitrary signature: beyond the universal estimates](https://arxiv.org/abs/2611.26265) | math.CA |
+| 2026-11-19 | [Invariance and Expressiveness: Modal Variations](https://arxiv.org/abs/2611.26244) | math.LO |
+| 2026-11-19 | [Uninorm constructions on bounded trellises via closure and interior operators](https://arxiv.org/abs/2611.26204) | math.LO |
+| 2026-11-19 | [Perturbation Algorithm and Iterative Realization of a Four-Layer Semi-Discrete Scheme for an Evolutionary Problem with a Variable Operator](https://arxiv.org/abs/2611.26136) | math.NA |
 
 ## Methodology
 

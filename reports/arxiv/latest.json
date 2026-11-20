@@ -1,223 +1,223 @@
 {
   "papers": [
     {
-      "arxiv_id": "2611.24934",
+      "arxiv_id": "2611.26581",
       "categories": [
         "math.CA"
       ],
-      "published": "2026-11-18T18:55:31Z",
-      "summary": "Let $D_P$ be the discrepancy function of a configuration $P$ of $N$ points in the $d$-dimensional unit cube, and let $\\|D_P\\|_q$ be its $L^q$ discrepancy. We prove that for all fixed $d\\ge2$ and $0<q\\le1$ the $L^q$ discrepancy of every configuration of $N\\ge2$ points is at least $c_{d,q}(\\log N)^{(d-1)/2}$ with a constant $c_{d,q}>0$. This bound is sharp; together with the classical results for $q>1$, it determines the minimal order of the $L^q$ discrepancy for every $0<q<\\infty$ in every dimension $d\\ge2$, and for $q=1$ it answers Chen's problem on the sharp lower bound for the $L^1$ discrepancy in dimension $d\\ge3$. We prove the small ball inequality for Haar functions in every fixed dimension $d\\ge3$ and for arbitrary real coefficients with the conjectured power of $n$, up to a polylogarithmic factor; here $2^{-n}$ is the smallest volume of the dyadic boxes involved. The method also extends to a class of piecewise polynomial mother functions. For the $L^\\infty$ discrepancy $\\|D_P\\|_\\infty=ND^*(P)$, where $D^*(P)$ is the star discrepancy, we prove the conjectured lower bound $c(\\log N)^{3/2}$ in dimension three, and the lower bound $(\\log N)^{d/2}$ up to a power of $\\log\\log N$ in every fixed dimension $d\\ge4$. Finally, we construct $N$-point sets whose $L^\\infty$ discrepancy is $O_d((\\log N)^{d-1-1/16})$ in every fixed dimension $d\\ge3$; this disproves the conjectured optimality of the order $(\\log N)^{d-1}$ of the classical constructions.",
-      "title": "Low Moments, Small Balls and Star Discrepancy",
-      "url": "https://arxiv.org/abs/2611.24934",
+      "published": "2026-11-19T18:43:18Z",
+      "summary": "We prove amplitude dependent wave envelope type estimates for moment curves in arbitrary dimensions. The proof uses the sharp square function estimates of Maldague and Guth-Maldague. As an application, we establish sharp small cap decoupling inequalities for the moment curve in every dimension $n\\geq4$. This proves the conjecture of Demeter-Guth-Wang on exponential sums in all dimensions.",
+      "title": "Amplitude dependent wave envelope type estimates for moment curves and applications",
+      "url": "https://arxiv.org/abs/2611.26581",
       "version": 1
     },
     {
-      "arxiv_id": "2611.24866",
+      "arxiv_id": "2611.26575",
       "categories": [
         "math.NA"
       ],
-      "published": "2026-11-18T18:19:19Z",
-      "summary": "The two-phase Volume-of-Fluid solvers of OpenFOAM overpredict the horizontal water velocity near the crest of a water wave, and the error grows as the wave propagates. Part I of this series removed the spurious air velocities caused by the gravity term but left this error unchanged. Here we show that it is caused by the momentum convection term. Its mass flux is computed in the interface advection step from the velocity at the start of the time step, whereas the convected velocity is taken at the end of the step, because convection is discretised implicitly. In a progressive wave, where the horizontal and vertical velocities are 90 degrees out of phase, this time lag produces an upward flux of horizontal momentum, proportional to the time step, which accumulates in a spurious current near the surface. The same mismatch makes the response to a force depend on the density at the wrong time level. Explicit convection removes the lag and makes the response consistent with the gravity force, but requires the convected face velocity at the interface to be taken from the upwind cell. Only then is the new velocity of a cell a weighted average of old velocities, whatever the density ratio. We demonstrate both requirements with prescribed flows and with the full solver. For a progressive wave, explicit convection with upwind face velocities at the interface reduces the overprediction of the crest velocity from 26-31 % to within 1 % and removes the near-surface current. The resulting solver, fluxinator, is meant for maximum Courant numbers of 0.1 and below, where it keeps the wave height within 1.5 % over 15 periods on meshes with six or more cells per wave height. Because the spurious velocities that limit the time step are removed, it needs 34-42 % less wall-clock time than interFoam for the tested wave.",
-      "title": "Consistent interfacial flow numerics - Part II: The momentum convection term",
-      "url": "https://arxiv.org/abs/2611.24866",
+      "published": "2026-11-19T18:42:01Z",
+      "summary": "Polyak's heavy-ball method and Nesterov's method are two momentum-based methods that have inspired many optimization techniques used in applied fields, including machine learning. Momentum also provides a connection with sampling, and interestingly, many kinetic Langevin samplers reduce to the heavy-ball recurrence when velocity is eliminated and noise is removed. This observation motivates a natural question: what is the corresponding sampler for Nesterov's method? We propose a sampler whose deterministic part is exactly Nesterov's recurrence, driven by temporally correlated Gaussian noise and requires one new gradient evaluation per step. Noise correlation provides $\\mathcal{O}(h^2)$ bias for smooth observables. We establish geometric ergodicity for possibly non-convex potentials. For strongly convex potentials with Lipschitz continuous gradients, we obtain contraction rates and show that, up to an additive constant, the energy decays at a rate of order $κ^{-1/2}$, where $κ$ is the condition number. For Gaussian targets, we show that relaxation has square-root dependence on $κ$. We further prove that any sampler based on heavy-ball dynamics with additive noise cannot achieve accelerated convergence uniformly over the class of strongly convex functions. Finally, we compare the proposed sampler with OBABO, BAOAB, HMC, MALA, BPS, and NUTS in numerical experiments and demonstrate the better performance of proposed sampler.",
+      "title": "Stochastic counterpart of Nesterov's method for sampling and provable non-acceleration of samplers with heavy-ball structure",
+      "url": "https://arxiv.org/abs/2611.26575",
       "version": 1
     },
     {
-      "arxiv_id": "2611.24857",
+      "arxiv_id": "2611.26546",
       "categories": [
         "math.NA"
       ],
-      "published": "2026-11-18T18:15:22Z",
-      "summary": "We derive a non-intrusive modal decomposition method for positive transport-dominated datasets. We derive our method by generalizing an optimization-centric formulation of the Proper Orthogonal Decomposition. We propose two principles as a basis for this generalization. The first is that the Wasserstein distance is a more effective measure of the approximation error for transport-dominated problems, and the second is that the smoothness of the low-dimensional trajectories must be taken into account during the reconstruction. The framework is sufficiently flexible that domain-expert knowledge, in the form of inequality constraints, can be easily included. These features are demonstrated on synthetic problems and on data from a wildland fire simulation. Our method is based on the Shifted POD, which models the data as the sum of modes undergoing different coordinate transformations, but unlike the bulk of Shifted POD literature we do not assume that the correct transformation parameters are known. For a fixed number of modes, we observe a reduction of the reconstruction error of up to $43\\%$ with respect to the Shifted POD baseline, despite the fact that the baseline assumes a-priori knowledge of the coordinate transformation parameters and the proposed method does not.",
-      "title": "Non-intrusive modal decomposition of transport-dominated data",
-      "url": "https://arxiv.org/abs/2611.24857",
+      "published": "2026-11-19T18:20:20Z",
+      "summary": "Frequently, $H^1$ continuous finite elements are used in computational electromagnetics despite it being widely known that such an interpolation is not guaranteed to furnish reliable approximations of solutions to general initial/boundary value problems. It is mathematically more natural to use $H(\\text{Curl})$ elements (edge elements) than $H^1$ elements, since the former form part of a discrete complex that respects the differential-geometric structure of Maxwell's equations while the latter do not. However, most work discussing the failure of $H^1$ elements for electromagnetics is esoteric and concrete examples demonstrating the clear advantage of edge elements are generally restricted to quasi-static, frequency-domain, or eigenvalue problems. In this work, we summarize essential facts regarding $H^1$ and $H(\\text{Curl})$ elements and present a physically feasible yet intentionally adversarial time-domain eddy-current example demonstrating the failure of gauge-penalized $H^1$ elements in an $a$-$φ$ formulation compared to gauge-free mixed scalar/edge $H^1/H(\\text{Curl})$ elements. The results indicate that edge elements can be used to furnish reasonable results for general loading conditions, whereas penalized $H^1$ elements fail (e.g., converge to an incorrect state) even with mesh refinement.",
+      "title": "A time-domain adversarial example demonstrating the failure of $H^1$ elements in $a$-$φ$ electromagnetic simulation",
+      "url": "https://arxiv.org/abs/2611.26546",
       "version": 1
     },
     {
-      "arxiv_id": "2611.24808",
+      "arxiv_id": "2611.26477",
       "categories": [
         "math.CA"
       ],
-      "published": "2026-11-18T17:45:24Z",
-      "summary": "A central question has been whether the $L^p$-Neumann problem is solvable for some $p\\in(1,\\infty)$ in the upper half-space $\\mathbb{R}^{n+1}_+:=\\mathbb{R}^n\\times(0,\\infty)$, $n\\geq2$, for second-order uniformly elliptic equations in divergence form whose coefficients are either independent of the transverse variable or satisfy the Dahlberg--Kenig--Pipher (DKP) condition. We answer this question in the negative for both classes, even for matrices whose symmetric part is the identity. The two examples have the same nonzero Neumann datum $g\\in C_c^\\infty(\\mathbb R^n)$ of mean zero. Although $g$ is bounded and belongs to the real Hardy space $H^1(\\mathbb R^n)$, neither equation admits a weak solution with this datum whose gradient has a non-tangential maximal function in $L^p(\\mathbb R^n)$ for any $1\\leq p<\\infty$. For the variational solution $u$ associated with either matrix $A$, the non-tangential maximal functions of $\\nabla_x u$, $\\partial_tu$ and $(A\\nabla u)_{n+1}$ each have infinite $L^p$ norm for every $1\\leq p\\leq\\infty$. In the example with coefficients independent of the transverse variable, the equation in the interior is the Laplace equation. The matrix in the DKP example has finite $L^2$-type Carleson discrepancy from the identity. This shows that solvability of the $L^p$-Neumann problem is not stable under arbitrary Carleson perturbations of the identity. For a suitable choice of the coefficients in the lower half-space, the $L^2$ non-tangential maximal and uniform slice estimates fail for both the tangential gradient and the transverse derivative of the associated single layer potential. The $L^2$ estimate for the tangential gradient of its boundary trace also fails. We explain the role of the coefficients below the boundary and prove the $L^2$ layer potential estimates for the reflected extension when the DKP norm is sufficiently small.",
-      "title": "On the $L^p$-Neumann problem for divergence form elliptic equations in the upper half-space",
-      "url": "https://arxiv.org/abs/2611.24808",
+      "published": "2026-11-19T17:37:23Z",
+      "summary": "We survey aspects of nonlinear Fourier series as presented in the 2026 Brouwer lecture by the second author. The fast nonlinear Fourier expansion mentioned in the lecture is further elaborated in joint work with the first author.",
+      "title": "Nonlinear Fourier series",
+      "url": "https://arxiv.org/abs/2611.26477",
       "version": 1
     },
     {
-      "arxiv_id": "2611.24772",
+      "arxiv_id": "2611.26462",
+      "categories": [
+        "math.RA"
+      ],
+      "published": "2026-11-19T17:24:00Z",
+      "summary": "We prove that every unital surjective complex-linear spectral isometry between complex unital semisimple Banach algebras is a Jordan isomorphism, thereby giving an affirmative answer to the spectrum-preserving form of Kaplansky's conjecture. We also characterize surjective complex-linear maps between arbitrary unital Banach algebras that preserve invertibility in either direction, satisfy either spectral inclusion, or preserve the spectral radius. In particular, for a complex-linear bijection between semisimple Banach algebras, preservation of invertibility in either direction implies preservation in both directions, and either spectral inclusion implies equality of spectra, even without assuming unitality. As an application, we study preservers of the Fredholm essential spectrum and essential spectral radius.",
+      "title": "Spectral isometries and invertibility preservers on Banach algebras",
+      "url": "https://arxiv.org/abs/2611.26462",
+      "version": 1
+    },
+    {
+      "arxiv_id": "2611.26322",
       "categories": [
         "math.NA"
       ],
-      "published": "2026-11-18T17:20:18Z",
-      "summary": "We develop a Galerkin boundary element method for the indirect electric field-only combined-field integral equation (ECFOIE) for perfectly electrically conducting obstacles with smooth surfaces. The method is free of low-frequency breakdown and of spurious resonances. It applies scalar Helmholtz operators componentwise, so that fast scalar solvers can be reused, with less memory than a Rao-Wilton-Glisson (RWG) discretization. The iteration count of the Calderón-regularized ECFOIE (R-ECFOIE) is constant under mesh refinement and, with a complex-wavenumber Calderón regularizer, grows only mildly with frequency. The discretization uses continuous, nodal piecewise-linear basis functions on flat triangular meshes, with essentially as many unknowns as an RWG discretization, and tangential and normal projections and the mean curvature of the obstacle's surface carry the vector structure. On flat meshes the curvature is concentrated on the edges, and we average the edge measure obtained from the first variation of area over vertex patches, which gives sparse curvature matrices. At low frequency, four Lagrange-multiplier constraints on the induced charge and on the longitudinal dipole moments of the far field keep the R-ECFOIE accurate in the quasi-static regime, tested on scatterers eight orders of magnitude smaller than the wavelength. Under mesh refinement, the errors decrease at about second order. A Helmholtz resonator, a rounded Fichera cube, and a smoothed Stanford bunny are compared with electric field integral equation (EFIE) solutions, and the first two also with electrostatic references at extreme low frequency.",
-      "title": "Electric combined-field-only P1 Galerkin BEM for PEC scattering with scalar Helmholtz operators",
-      "url": "https://arxiv.org/abs/2611.24772",
+      "published": "2026-11-19T16:07:01Z",
+      "summary": "There are two common ways to estimate the error in a quantity of interest (QoI). The product of primal and adjoint error estimators gives a reliable but pessimistic bound. The dual-weighted residual method gives a sharp signed estimate from a more accurate approximation of the adjoint solution. We write the primal and adjoint problems as first-order systems and obtain both a reliable bound and a sharp estimate from the same residuals. The first paper of this series (arXiv:2607.23850) uses two consistent evaluators of a quantity of interest, one built from the potentials and one in which the gradients are expressed through the fluxes. We show that they differ exactly by the $A^{-1}$ inner product of the primal and adjoint constitutive residuals, and we call this difference the signed QoI gap. The identity holds for arbitrary primal and adjoint approximations. In our numerical experiments, the signed QoI gap is of the size of the larger of the errors of the two evaluators, while the product of the estimators exceeds this error by factors of up to several hundred. We therefore use the least-squares estimators to refine the mesh and the signed QoI gap to decide when to stop. We also introduce a third evaluator, built from the fluxes alone, which restores the reaction term. The resulting reaction-restored QoI gap estimates the error when reaction dominates. With the non-intrusive least-squares flux recovery, we can apply the method to any discretization that produces a conforming potential, including finite difference and finite volume schemes.",
+      "title": "Signed QoI Gaps for Goal-Oriented Error Estimation: Reliability and Sharpness from the Same First-Order System Residuals",
+      "url": "https://arxiv.org/abs/2611.26322",
       "version": 1
     },
     {
-      "arxiv_id": "2611.24748",
+      "arxiv_id": "2611.26265",
+      "categories": [
+        "math.CA"
+      ],
+      "published": "2026-11-19T15:35:21Z",
+      "summary": "We consider Hörmander oscillatory integral operators on $\\mathbb{R}^n$. In particular, we are interested in proving bounds with dependence on the signature of the phase. The sharp universal range of $L^p\\to L^p$ estimates was obtained for any given signature by the second author and Iliopoulou. Under the mild non-compression hypotheses on the phase introduced in Chen et al., we prove $L^p\\to L^p$ estimates that go beyond this universal range in odd dimensions. We also obtain the sharp universal range of $L^p\\to L^q$ estimates for odd $n$. The techniques are based on the breakthrough work of Wang--Wu on the Fourier restriction conjecture.",
+      "title": "Oscillatory integral operators of arbitrary signature: beyond the universal estimates",
+      "url": "https://arxiv.org/abs/2611.26265",
+      "version": 1
+    },
+    {
+      "arxiv_id": "2611.26244",
       "categories": [
         "math.LO"
       ],
-      "published": "2026-11-18T17:06:52Z",
-      "summary": "Given a quadratic number field $K$ we show that the $abc$ conjecture over $K$ implies that $\\mathbb{Z}$ is Diophantine in $K$ and, hence, a negative answer to Hilbert's tenth problem over $K$. More generally, the same conclusions hold for an arbitrary number field $K$ provided that the $abc$ conjecture holds over $K$ and that there is an elliptic curve over $\\mathbb{Q}$ whose rank is positive and does not increase over $K$.",
-      "title": "On Hilbert's tenth problem for number fields",
-      "url": "https://arxiv.org/abs/2611.24748",
+      "published": "2026-11-19T15:24:30Z",
+      "summary": "This contribution focuses on bisimulation invariance as the hallmark of modal model theory and of modal modelling. It exemplifies traditional as well as more recent ramifications \\&\\ extensions of classical results -- involving variant modes of bisimulation equivalence and matching modalities also beyond plain Kripke structures, and emphasising especially the technical challenges in finite model theory and other non-elementary settings. Main results to be discussed revolve about the theme of expressive completeness phenomena: beside expressive completeness under bisimulation invariance in relation to first-order background logics, in the style of van Benthem--Rosen characterisations, this also concerns maximality results under criteria form abstract model theory, in the style of Lindstroem theorems.",
+      "title": "Invariance and Expressiveness: Modal Variations",
+      "url": "https://arxiv.org/abs/2611.26244",
       "version": 1
     },
     {
-      "arxiv_id": "2611.24746",
+      "arxiv_id": "2611.26204",
       "categories": [
-        "math.CA"
+        "math.LO"
       ],
-      "published": "2026-11-18T17:06:18Z",
-      "summary": "In this article, we prove sharp variational estimates for averaging operators over non-degenerate curves in $\\R^3.$ The sufficiency follows from dyadic localisation, Sobolev embedding, and local smoothing estimates, and the primary novelty of this article lies in obtaining sharp necessary conditions for variational estimates.",
-      "title": "Variation bounds for averages over nondegenerate curves",
-      "url": "https://arxiv.org/abs/2611.24746",
+      "published": "2026-11-19T14:46:37Z",
+      "summary": "In this paper, we establish necessary and sufficient conditions under which six closure- or interior-based operations on bounded trellises are uninorms. These operations incorporate triangular norms, triangular conorms, or both, and form three order-dual pairs. Since the underlying pseudo-order need not be transitive and meet and join need not be associative, standard lattice arguments do not apply directly. Under a fixed ambient transitivity assumption, the first pair is characterized by image, monotonicity, and compatibility conditions for the associated maps on elements incomparable with the neutral element; an additional comparison condition used in earlier sufficient constructions is shown to be redundant. Complete characterizations are also obtained for the variants with an absorbing endpoint, including both nondegenerate and degenerate interval cases. For the pair involving both a triangular norm and a triangular conorm, we derive exact comparison conditions requiring the triangular norm to take the value~$0$, or dually the triangular conorm to take the value~$1$, in the relevant cases. These conditions reduce to the usual incomparability assumptions in the absence of nontrivial zero- or one-divisors. On bounded lattices, the closure and interior conditions simplify to explicit identities or image restrictions. Finite proper-trellis examples clarify the role and limitations of the ambient transitivity assumptions.",
+      "title": "Uninorm constructions on bounded trellises via closure and interior operators",
+      "url": "https://arxiv.org/abs/2611.26204",
       "version": 1
     },
     {
-      "arxiv_id": "2611.24683",
-      "categories": [
-        "math.CA"
-      ],
-      "published": "2026-11-18T16:16:28Z",
-      "summary": "We study endpoint estimates of Riesz transforms on a homogeneous tree equipped with its canonical flow measure $μ$. We prove that the known boundedness from $H^1_{\\mathrm{at}}(μ)$ to $L^1(μ)$ of the vertical Riesz transform can not be strengthened to boundedness on $H^1_{\\mathrm{at}}(μ)$ itself. We also prove that the adjoint vertical Riesz transform is not of weak type $(1,1)$. For the scalar horizontal transforms defined by nonzero bounded coefficients with zero sum on each child set, we establish $H^1_{\\mathrm{at}}(μ)\\to L^1(μ)$ boundedness and show that failure to preserve cancellation on atoms prevents boundedness on $H^1_{\\mathrm{at}}(μ)$. We then introduce a horizontal derivative based on deviations from sibling averages. Its associated Riesz transform retains the $L^p(μ)$ bounds for $1<p<\\infty$ and the weak type $(1,1)$ estimate, and is bounded on $H^1_{\\mathrm{at}}(μ)$ itself. These mapping properties parallel those of horizontal Riesz transforms in the continuous setting, supporting our construction as a natural discrete analogue. These results distinguish vertical and horizontal behaviour at the endpoint and identify cancellation on sibling sets as a mechanism for Hardy-space boundedness.",
-      "title": "Endpoint behaviour of vertical and horizontal Riesz transforms for the flow Laplacian on homogeneous trees",
-      "url": "https://arxiv.org/abs/2611.24683",
-      "version": 1
-    },
-    {
-      "arxiv_id": "2611.24639",
+      "arxiv_id": "2611.26136",
       "categories": [
         "math.NA"
       ],
-      "published": "2026-11-18T15:48:01Z",
-      "summary": "We develop and analyze a structure-preserving polyharmonic-spline radial-basis-function finite-difference (PHS RBF-FD) method for the two-dimensional Schrödinger equation with homogeneous Dirichlet boundary conditions. The method combines a 29-point complete-shell stencil with odd boundary reflection to construct a symmetric discrete Laplacian. Unlike conventional nearest-neighbor RBF-FD discretizations, whose independently selected stencils do not generally preserve global symmetry, the proposed construction admits an exact discrete sine eigenbasis. We derive a Fourier-symbol representation and establish a sufficient criterion for strict negative definiteness, verified for the \\(r^7+\\mathbb P_4\\) and \\(r^{11}+\\mathbb P_5\\) formulations using validated coefficient calculations. The resulting symmetric spatial operator preserves discrete mass and energy under exact semidiscrete evolution, while fully discrete conservation depends on the time integrator. Numerical experiments examine kernel selection, dispersion, convergence, symmetry defects, and computational cost. Comparisons with conventional RBF-FD and fourth-order finite differences include exact Fourier modes and a variable-potential Schrödinger problem with an independently refined spectral reference. The \\(r^{11}+\\mathbb P_5\\) formulation provides favorable accuracy in the tested problems while maintaining the desired spatial structure. The analysis establishes a connection between boundary treatment, global operator symmetry, and structure preservation in localized PHS discretizations.",
-      "title": "Structure-Preserving PHS RBF-FD Methods for Schrodinger Equations",
-      "url": "https://arxiv.org/abs/2611.24639",
+      "published": "2026-11-19T13:55:55Z",
+      "summary": "In a Hilbert space, we consider the Cauchy problem for an evolutionary equation with the operator $A+B(t)$, where $A$ is a self-adjoint positive definite operator and $B(t)$ is a bounded operator depending on time. By means of the perturbation algorithm, the purely implicit four-layer semi-discrete scheme of the third order of approximation (the three-step backward differentiation formula) is reduced to three two-layer schemes, whose solutions are used to construct an approximate solution of the original problem. In each two-layer scheme, the term containing $B(t)$ is moved to the right-hand side, and the resulting equation is solved by an iterative method, so that only the time-independent operator $I+τA$ has to be inverted; the convergence of the iterations at the rate of a geometric progression with a ratio of order $τ$ is proved. A priori estimates for the two-layer and four-layer schemes are obtained by means of a discrete analogue of Gronwall's lemma. An estimate of order $τ^3$ for the error of the approximate solution is proved under an assumption on the difference quotients of the computed grid functions on the first layers. The results are illustrated by numerical experiments.",
+      "title": "Perturbation Algorithm and Iterative Realization of a Four-Layer Semi-Discrete Scheme for an Evolutionary Problem with a Variable Operator",
+      "url": "https://arxiv.org/abs/2611.26136",
       "version": 1
     },
     {
-      "arxiv_id": "2611.24601",
+      "arxiv_id": "2611.26113",
       "categories": [
         "math.CA"
       ],
-      "published": "2026-11-18T15:26:20Z",
-      "summary": "We revisit boundedness of the Riesz potential associated to a diffusion operator both in fixed and variable exponent Lebesgue spaces. We obtain optimal asymptotics in the former setting and we provide new tools to establish boundedness in the latter.",
-      "title": "Boundedness of the Riesz potential associated to diffusion operators in Lebesgue spaces",
-      "url": "https://arxiv.org/abs/2611.24601",
+      "published": "2026-11-19T13:40:49Z",
+      "summary": "We study positive solutions of the Minkowski-curvature Neumann problem \\[ \\left(\\frac{u'}{\\sqrt{1-(u')^2}}\\right)' + a(t)g(u)=0,\\qquad u'(0)=u'(T)=0, \\] with a two-step sign-changing weight. Under an explicit condition on an increasing nonlinearity \\(g\\), we prove that for every prescribed integer \\(N\\ge 1\\) and every prescribed ratio \\(κ>0\\) of the step lengths, there exist step weights of that ratio and strictly negative integral for which the problem has at least \\(N\\) distinct positive solutions. The multiplicity persists under small perturbations of the weight parameters. A structural condition on \\(g'/g\\) yields at least three positive Neumann solutions for \\(g(u)=e^{u^p}-1\\) for every \\(p>1\\). An explicit increasing nonlinearity also satisfies the \\(N\\)-solution criterion for every finite \\(N\\), with the weight chosen separately in each case.",
+      "title": "Multiple Positive Solutions of Minkowski-Curvature Neumann Problems with a Two-Step Indefinite Weight",
+      "url": "https://arxiv.org/abs/2611.26113",
       "version": 1
     },
     {
-      "arxiv_id": "2611.24594",
-      "categories": [
-        "math.RA"
-      ],
-      "published": "2026-11-18T15:21:14Z",
-      "summary": "Let $R$ be a nonzero unital ring of characteristic $2$, and let $λ$ be a central unit of $R$. We prove that an element $a\\in R$ satisfying $a^3+a^2+λ=0$ cannot be expressed as the sum of a tripotent element and a square-zero element. The proof does not require the summands to commute. Over $\\F_2$, this gives counterexamples in every order divisible by three, including order twelve, and proves the optimality of the known uniform exponent four in those orders. We also give constructive proofs that every matrix of order four or five over $\\F_2$ is a sum of a tripotent and a square-zero matrix, and deduce a complete criterion in order three. Combining the cubic obstruction with the quartic obstruction for idempotent-plus-cube-zero decompositions, we obtain two-way incomparability of the corresponding decomposition classes in every positive order divisible by twelve.",
-      "title": "A Cubic Obstruction to Sums of Tripotent and Square-Zero Matrices",
-      "url": "https://arxiv.org/abs/2611.24594",
-      "version": 1
-    },
-    {
-      "arxiv_id": "2611.24577",
-      "categories": [
-        "math.RA"
-      ],
-      "published": "2026-11-18T15:09:11Z",
-      "summary": "We prove that over a Weyl algebra over a field of characteristic zero $A_n(k)$, every nonzero $d\\in A_n(k)$ admits $F,R,S\\in A_n(k)$ such that $1=dR+FdS$, a conjecture Stafford proposed in 1978. As a consequence, every finitely generated torsion right $A_n(k)$-module is cyclic. The proof maps $d$, by a symplectic change of variables, to a normal form $\\tilde d$ and shows that the cyclic module $Q=A_n(k)/(\\tilde dA_n(k)+x_1^N\\tilde dA_n(k))$ vanishes. We first show that right multiplication by $x_1$ is surjective on $Q$. A comparison of lengths of localized modules over the associated graded ring then gives $\\operatorname{gr}Q=x_1\\operatorname{gr}Q$, so that the characteristic variety of $Q$ is disjoint from the hyperplane $\\{x_1=0\\}$. Finally, Gabber's involutivity theorem together with an argument about conormal directions at infinity from algebraic geometry shows that such a characteristic variety must be empty and therefore, $Q = 0$.",
-      "title": "Stafford's conjecture on cyclicity of torsion modules",
-      "url": "https://arxiv.org/abs/2611.24577",
-      "version": 1
-    },
-    {
-      "arxiv_id": "2611.24528",
-      "categories": [
-        "math.RA"
-      ],
-      "published": "2026-11-18T14:42:28Z",
-      "summary": "We study free products of vector lattices and their relation to free products of Banach lattices. We characterize the Archimedean vector lattices whose vector lattice free product with every Archimedean vector lattice is again Archimedean: these are precisely those whose finitely generated sublattices are projective. For finitely generated lattices, this connects the free-product property with polyhedral geometry through Baker--Beynon duality. We also show that the Banach lattice free product is the completion of the Archimedean vector lattice free product under the largest lattice norm making the canonical maps contractive. For finitely many factors, the Archimedean vector lattice free product is order dense in the Banach lattice free product. Moreover, it is shown that bounded families of injective lattice homomorphisms also induce injective homomorphisms between Banach lattice free products. Finally, in analogy with the theory of separably injective Banach lattices, we study relative injectivity and universal disposition for the class of vector lattices with countably many proper prime ideals. Every vector lattice embeds into one of universal disposition for this class, while ordered ultrapowers of the real line provide relatively injective examples of cardinality continuum.",
-      "title": "Free Products of Vector Lattices",
-      "url": "https://arxiv.org/abs/2611.24528",
-      "version": 1
-    },
-    {
-      "arxiv_id": "2611.24484",
+      "arxiv_id": "2611.26099",
       "categories": [
         "math.NA"
       ],
-      "published": "2026-11-18T14:19:54Z",
-      "summary": "We develop first- and second-moment approximations for a reduced time-harmonic Biot poroelastic interface system with random material interfaces. The model retains mixture inertia, quasi-static Darcy discharge, and explicit storage and coupling coefficients. The interface separates two media, each with constant Lamé parameters and hydraulic mobility. We use shape calculus to analyze random perturbations normal to the interface. We derive the first shape derivative in a total-traction and normal-flux formulation, establish a Taylor expansion on a fixed function space under a non-resonance assumption, and prove error bounds on fixed observation regions. The mean approximation is second-order accurate, and the covariance and variance approximations are third-order accurate. We estimate the variance error directly. Applying pivoted Cholesky compression to the covariance matrix of the coefficients in a fixed basis of smooth interface modes reduces the computation of the leading covariance to deterministic sensitivity solves. Numerical experiments in two and three dimensions examine perturbation rates, low-rank truncation, coupled statistics, and computational cost.",
-      "title": "Shape-Derivative Moment Approximation for a Reduced Time-Harmonic Biot Poroelastic System with Random Interfaces",
-      "url": "https://arxiv.org/abs/2611.24484",
+      "published": "2026-11-19T13:33:47Z",
+      "summary": "Let $Ω\\subset\\mathbb{R}^n$ be a convex polytope in arbitrary dimension $n\\geq 1$, and consider the Ritz projection on quasi-uniform triangulations of $Ω$. We prove a new pointwise estimate in terms of the sharp maximal function and use it to establish stability in weighted Lebesgue, Orlicz, and Lorentz spaces. We then introduce discrete higher-order smoothness spaces based on oscillations and a smooth companion construction, and prove discrete analogues of classical embedding and compactness results. Finally, we establish stability of the Ritz projection in these discrete spaces, together with localized estimates. These results provide a framework for transferring higher-order regularity through the Ritz projection. As part of our analysis, we also study approximation properties of the Scott-Zhang projection in Besov and Triebel-Lizorkin spaces.",
+      "title": "Regularity transfer for the Ritz projection",
+      "url": "https://arxiv.org/abs/2611.26099",
       "version": 1
     },
     {
-      "arxiv_id": "2611.24066",
-      "categories": [
-        "math.LO"
-      ],
-      "published": "2026-11-18T08:59:05Z",
-      "summary": "We prove that for $n\\ge2$ the normalized surface measure is the only rotation-invariant finitely additive probability measure on the Borel subsets of $\\mathbb S^n$, and that for $d\\ge3$ Lebesgue measure is the only finitely additive measure on the bounded Borel subsets of $\\mathbb{R}^d$ which is invariant under orientation-preserving isometries and normalized on the unit cube. This answers the Borel version of the Ruziewicz problem. On $\\mathbb S^n$ it suffices to assume invariance under a finite set of rotations with a spectral gap, and on $\\mathbb{R}^d$ under two such sets of rotations about two distinct centres. The main step is a criterion for invariant finitely additive probability measures to vanish on null sets. For a finite nonempty symmetric set of homeomorphisms of a $σ$-compact metrizable space with a quasi-invariant Borel measure $m$ which is finite on compact sets, such as Lebesgue measure on $\\mathbb{R}^d$, every invariant finitely additive probability measure on Borel sets vanishes on $m$-null sets if and only if there is $δ>0$ such that every countably additive Borel probability measure supported on an $m$-null Borel set is moved by some generator by at least $δ$ in total variation. Sufficiency is proved by constructing, for every invariant null Borel set, a bounded Borel field on the orbit graph, supported on the set and with divergence at least one there.",
-      "title": "The Borel Ruziewicz problem",
-      "url": "https://arxiv.org/abs/2611.24066",
-      "version": 1
-    },
-    {
-      "arxiv_id": "2611.23945",
+      "arxiv_id": "2611.26061",
       "categories": [
         "math.RA"
       ],
-      "published": "2026-11-18T06:31:07Z",
-      "summary": "Left-symmetric dialgebras (LSDA) are to left-symmetric algebras what Leibniz algebras are to Lie algebras. We classify the three-dimensional nilpotent LSDA over the complex numbers. To do this we adapt the annihilator-extension (Skjelbred-Sund) method to dialgebras, using the annihilator with respect to both products on both sides, and we compute the second cohomology of all two-dimensional nilpotent LSDA. Up to isomorphism, besides the null and split algebras there are nine non-split algebras and families; the 2-step nilpotent families depend on four and three parameters. We give isomorphism criteria and separating invariants, identify the left-symmetric and diassociative algebras in the list, and complete the two-dimensional classification of an earlier paper.",
-      "title": "The algebraic classification of three-dimensional nilpotent left-symmetric dialgebras",
-      "url": "https://arxiv.org/abs/2611.23945",
+      "published": "2026-11-19T13:05:53Z",
+      "summary": "Building on the P-generalized determinant over quaternions, we introduce the double determinant of arbitrary square quaternion matrices. We then apply the double determinant to obtain a determinant representation for the inverse of any invertible quaternion matrix, without the Hermitian restriction. Furthermore, we establish Cramer's rule for the unique solutions to the quaternion linear equations Ax=b and xA=b, as well as to the quaternion matrix equations AX=B, XA=B, and AXB=C. As an application, we use the determinant representation of the unique solution to AXB=C to design a color image encryption-decryption scheme. Numerical experiments demonstrate that the encryption algorithm effectively conceals the contour and color information of the original image, while the decryption algorithm restores the original image almost perfectly, thereby confirming the effectiveness and practical potential of the proposed scheme.",
+      "title": "Double determinants of quaternion matrices in the P-generalized determinant framework with applications",
+      "url": "https://arxiv.org/abs/2611.26061",
       "version": 1
     },
     {
-      "arxiv_id": "2611.23850",
-      "categories": [
-        "math.LO"
-      ],
-      "published": "2026-11-18T04:58:14Z",
-      "summary": "We prove that if the bounding number $\\mathfrak b$ equals the cardinality of the continuum $\\mathfrak c$, then every infinite almost disjoint family of size less than $\\mathfrak c$ can be extended to a maximal almost disjoint family whose Isbell--Mrówka space has a pseudocompact Vietoris hyperspace.",
-      "title": "Pseudocompact MAD families under $\\mathfrak b=\\mathfrak c$",
-      "url": "https://arxiv.org/abs/2611.23850",
-      "version": 1
-    },
-    {
-      "arxiv_id": "2611.23745",
+      "arxiv_id": "2611.25997",
       "categories": [
         "math.RA"
       ],
-      "published": "2026-11-18T02:55:29Z",
-      "summary": "We establish a weak Nullstellensatz for skew polynomial rings $R_n=D[x_1,\\ldots,x_n;σ]$, where $D$ is a division ring and the commuting variables induce the same automorphism $σ$ of $D$. For $n\\ge2$, we characterize the pairs $(D,σ)$ for which every maximal left ideal is generated by $x_1-a_1,\\ldots,x_n-a_n$, with $σ(a_j)a_i=σ(a_i)a_j$. The criterion consists of right $σ$-algebraic closure of $D$ and right algebraic closure of the centralizers of all commuting $(n-2)$-tuples in each twisted fixed division ring $E_a=\\{c\\in D:σ(c)a=ac\\}$ for $0\\ne a\\in D$.",
-      "title": "Weak Hilbert's Nullstellensatz for skew polynomials over division rings",
-      "url": "https://arxiv.org/abs/2611.23745",
+      "published": "2026-11-19T12:18:06Z",
+      "summary": "Let $L$ be a finite modular lattice with exactly one diamond, that is, exactly one interval of length two with at least three atoms. We describe the minimal primes of the join-meet ideal $I_L$ in terms of maximal closed distributive sublattices of $L$, and we show that $I_L$ has height $|L|-\\mathrm{rank}(L)$. Moreover, we characterize the radicality of $I_L$, over any field, in terms of the complements of the atoms of the diamond in their fibres. Finally, we prove that $I_L$ is unmixed if and only if all its minimal primes have the same height, if and only if the rank of every maximal closed distributive sublattice through an atom of the diamond is $\\mathrm{rank}(L)-1$; in this case $I_L$ is radical.",
+      "title": "Minimal primes and radicality of join-meet ideals of modular lattices with one diamond",
+      "url": "https://arxiv.org/abs/2611.25997",
       "version": 1
     },
     {
-      "arxiv_id": "2611.23713",
+      "arxiv_id": "2611.25982",
       "categories": [
-        "math.LO"
+        "math.RA"
       ],
-      "published": "2026-11-18T02:16:32Z",
-      "summary": "We define a wide class of tree forcings that we call $\\textit{normed-tree forcings}$ and prove that they can preserve Ramsey ultrafilters. These include $\\textit{fat-tree forcings}$ as particular cases. As an application, we prove the consistency with $\\mathsf{ZFC}$ of $\\mathfrak{d}=\\mathfrak{u}=\\aleph_1 < \\mathsf{minLc}=\\mathfrak{c}=\\aleph_2$, where $\\mathfrak{d}$ denotes the dominating number, $\\mathfrak{u}$ the ultrafilter number, and $\\mathsf{minLc}$ the minimum localization cardinal. This solves some open questions about pairs of classical cardinal characteristics, such as the consistency of both $\\mathfrak{e}_{\\mathsf{ubd}}$ and its dual strictly larger than $\\mathfrak{u}$.",
-      "title": "Preserving Ramsey ultrafilters with tree forcings",
-      "url": "https://arxiv.org/abs/2611.23713",
+      "published": "2026-11-19T12:05:30Z",
+      "summary": "We exhibit two Knuth orbits of semifield planes of order 256 in which every coordinatizing semifield is nonprimitive on both the left and the right. Each orbit consists of two isotopy classes. The first orbit contains 168 isomorphism classes of unital semifields and the second contains 32. We give binary multiplication matrices for a representative of each orbit and an exhaustive computation that verifies nonprimitivity and the counts directly from these matrices.",
+      "title": "Two Knuth orbits of order 256 without primitive semifield coordinatizations",
+      "url": "https://arxiv.org/abs/2611.25982",
       "version": 1
     },
     {
-      "arxiv_id": "2611.22871",
+      "arxiv_id": "2611.25952",
+      "categories": [
+        "math.CA"
+      ],
+      "published": "2026-11-19T11:39:22Z",
+      "summary": "We answer the one-sided Liouville question of Buhovsky, Logunov, Malinnikova, and Sodin (Duke Math. J. 171 (2022), Remark 1.4). There is an absolute $\\varepsilon>0$ such that a real harmonic function on $\\mathbb{Z}^2$ is constant if it is nonnegative on at least a $1-\\varepsilon$ proportion of every sufficiently large centered square. More generally, for every nonconstant real harmonic function and every $a\\le b$, the sets $\\{u<a\\}$ and $\\{u>b\\}$ each occupy a fixed positive proportion of the same arbitrarily large centered squares. Turning from sign conditions to sparse supports, we prove in three dimensions a local inverse theorem at the critical quadratic support scale. Write $Q_R=[-R,R]^3\\cap\\mathbb{Z}^3$. If a complex-valued function is harmonic in $Q_{30R}$ and has at most $AR^2$ nonzero values there, its support in $Q_R$ lies in at most $K_A$ characteristic planes $x_i\\pm x_j=c$. The minimum number $m_3(N)$ of nonzero values in $Q_N$ among whole-lattice harmonic functions nonzero at the origin satisfies $m_3(N)=(1+o(1))(2N+1)^2$. More generally, if a fixed nonzero harmonic function on $\\mathbb{Z}^3$ has $O(N^2)$ nonzero values in $Q_N$ along a sequence $N\\to\\infty$, then its support has a unique irredundant cover by finitely many characteristic planes. If there are $k$ such planes, the support count in $Q_N$ is $k(2N+1)^2+O_u(N)$.",
+      "title": "A One-Sided Liouville Theorem and a Critical Sparse-Support Inverse Theorem for Discrete Harmonic Functions",
+      "url": "https://arxiv.org/abs/2611.25952",
+      "version": 1
+    },
+    {
+      "arxiv_id": "2611.25900",
+      "categories": [
+        "math.RA"
+      ],
+      "published": "2026-11-19T10:49:36Z",
+      "summary": "Auslander bounds measure uniformity in the eventual vanishing of extension groups and are closely related to homological conjectures, including the Auslander-Reiten conjecture and finitistic dimension conjecture. We study global and finitistic Auslander bounds of finite-dimensional algebras under recollements and arrow removal. For a recollement induced by an idempotent $e$ of an algebra $Λ$, we establish inequalities comparing the bounds of $Λ$ with those of the quotient algebra $Λ/ΛeΛ$ and the corner algebra $eΛe$. We also establish comparison results for cleft extensions and deduce that arrow removal preserves finiteness of both the global and finitistic Auslander bounds. Finally, we construct radical-square-zero algebras with $\\findim(Λ_n)=0$ and $\\mr{fab}(Λ_n)=\\mr{gb}(Λ_n)=n$ for every $n\\geq1$, yielding arbitrarily large gaps between finitistic Auslander bounds and finitistic dimensions.",
+      "title": "Auslander bounds under recollements and arrow removal",
+      "url": "https://arxiv.org/abs/2611.25900",
+      "version": 1
+    },
+    {
+      "arxiv_id": "2611.25799",
       "categories": [
         "math.LO"
       ],
-      "published": "2026-11-17T14:46:34Z",
-      "summary": "Classically, a set is computable from an oracle if both the set and its complement are computably enumerable (c.e.) relative to that oracle. We construct a countable nonstandard model of true arithmetic with sets A and X such that both A and its complement are c.e. relative to X, yet A is not pointwise Turing reducible to X. The Turing functionals used here are single-valued at every oracle. For regular oracles, we prove that the classical equivalence holds over ISigma_1. Two further phenomena, each known from earlier work, are realized with the same oracle X that witnesses our main separation. Strong and pointwise Turing reducibility differ for this X, and some Delta_1^X set is not X-c.e.",
-      "title": "Relative computability and definability for nonregular oracles",
-      "url": "https://arxiv.org/abs/2611.22871",
+      "published": "2026-11-19T09:24:55Z",
+      "summary": "In this paper, we will argue that the notion of computational trust can be understood as a form of fallible intuitionistic knowledge grounded in verification. This approach naturally captures a key aspect of trust: it involves vulnerability. Specifically, it validates the principle that verification leads to trust but does not validate the opposite principle that trust leads to verification. Thus, we can trust on good grounds that some program will perform according to its specification but the program might still fail. We present a simple logic for capturing this notion of computational trust based on constructive modal propositional logic extended with a trust modality, which will be specified in an inferential fashion and by utilizing the proofs-as-programs correspondence.",
+      "title": "Computational trust as intuitionistic knowledge",
+      "url": "https://arxiv.org/abs/2611.25799",
+      "version": 1
+    },
+    {
+      "arxiv_id": "2611.25698",
+      "categories": [
+        "math.LO"
+      ],
+      "published": "2026-11-19T08:14:47Z",
+      "summary": "A Hausdorff space $Y$ is called rigid if, for every positive integer $k$, every continuous open $k$-to-one map $p:X\\to Y$ from a Hausdorff space $X$ admits a partition of $X$ into $k$ open sets, each mapped homeomorphically onto $Y$. We show that the Sorgenfrey plane is not rigid, giving negative answers in $\\mathsf{ZFC}$ to Velichko's questions on finite products of rigid spaces and on strongly zero-dimensional spaces. For ordinal spaces, we prove in $\\mathsf{ZF}$ that every regular uncountable cardinal with the tree property is rigid. In $\\mathsf{ZFC}$, we obtain a characterization for arbitrary limit ordinals: a limit ordinal $α$ is rigid if and only if every coherent family $\\langle f_ξ:ξ<α\\rangle$, where $f_ξ:ξ\\to\\{0,1\\}$, admits a uniformization. As a consequence, a limit ordinal is rigid if and only if its cofinality is rigid. The characterization also implies that $ω_1$ is not rigid in $\\mathsf{ZFC}$, answering a question of Velichko.",
+      "title": "Rigidity of ordinal spaces",
+      "url": "https://arxiv.org/abs/2611.25698",
+      "version": 1
+    },
+    {
+      "arxiv_id": "2611.25303",
+      "categories": [
+        "math.LO"
+      ],
+      "published": "2026-11-18T23:57:46Z",
+      "summary": "This paper introduces a proof format and proof checker for certifying reachability computations of ordinary differential equations (ODEs) with polynomial vector fields. Establishing a proof checking framework for certifying ODE reachability is similar to the checking of UNSAT proofs for propositional satisfiability solving, but it is even more important due to the challenges inherent in dealing with ODEs, and even more challenging due to the numerical nature of ODE reachability algorithms. The proofs are expressed in differential dynamic logic (dL), and can be independently verified with symbolic theorem provers for dL (e.g. KeYmaeraX). Such proofs are naturally generated by reachability algorithms based on Taylor models, a popular technique to obtain rigorous bounds on approximations of ODEs. This paper proves the completeness of such proofs - if an approximation was correctly computed by some (possibly untrusted) reachability algorithm via Taylor models, then a corresponding proof in dL can be automatically generated and checked to be correct in dL's proof calculus. A dedicated proof checker is implemented in Lean4 for improved performance, which is capable of formally verifying benchmarks in the ARCH competition.",
+      "title": "Proof Checking Continuous Reachability",
+      "url": "https://arxiv.org/abs/2611.25303",
       "version": 1
     }
   ],
