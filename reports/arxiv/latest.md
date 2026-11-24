@@ -4,8 +4,8 @@ Automated research snapshot based on arXiv metadata.
 
 ## Research Coverage
 
-- Unique papers: **20**
-- Cross-category papers: **0**
+- Unique papers: **19**
+- Cross-category papers: **1**
 - Research categories: **4**
 
 ## Category Distribution
@@ -21,16 +21,16 @@ Automated research snapshot based on arXiv metadata.
 
 | Published | Paper | Categories |
 |---|---|---|
-| 2026-11-21 | [Interface-aware dynamic mode decomposition with control for partitioned multiphysics systems](https://arxiv.org/abs/2611.28668) | math.NA |
-| 2026-11-21 | [Quantitative Convergence of the Spherical Brownian Motion collisional particle system for the Maxwellian Landau Equation](https://arxiv.org/abs/2611.28663) | math.NA |
-| 2026-11-21 | [Numerical approximation of the Hilfer fractional derivative using orthogonal Quasi-Polynomials](https://arxiv.org/abs/2611.28643) | math.NA |
-| 2026-11-21 | [Finite-difference neural policy iteration for high-dimensional degenerate Hamilton--Jacobi equations](https://arxiv.org/abs/2611.28639) | math.NA |
-| 2026-11-21 | [Deterministic regularisation of the nonsymmetric eigenproblem](https://arxiv.org/abs/2611.28614) | math.NA |
-| 2026-11-21 | [Some attractive bases for the Onsager Lie algebra](https://arxiv.org/abs/2611.28581) | math.RA |
-| 2026-11-20 | [Perturbed Nevo--Thangavelu maximal functions on two-step nilpotent groups](https://arxiv.org/abs/2611.28400) | math.CA |
-| 2026-11-20 | [Computability of states and non-computability of traces](https://arxiv.org/abs/2611.28337) | math.LO |
-| 2026-11-20 | [Sharp Estimates for Jacobi Heat Kernels on a Ball and on a Simplex in the Full Range of Parameters](https://arxiv.org/abs/2611.28330) | math.CA |
-| 2026-11-20 | [Associative operators and their iterated lifts: classification and cocycle identities](https://arxiv.org/abs/2611.28273) | math.RA |
+| 2026-11-23 | [Diophantine sets over global function fields](https://arxiv.org/abs/2611.31218) | math.LO |
+| 2026-11-23 | [Verifying the Outputs of PDE Solvers: From Finite Elements to Neural Surrogates](https://arxiv.org/abs/2611.31211) | math.NA |
+| 2026-11-23 | [Weighted Bergman projection in radial trees](https://arxiv.org/abs/2611.31182) | math.CA |
+| 2026-11-23 | [Common tiles from fractional tiles for two lattices](https://arxiv.org/abs/2611.31136) | math.CA |
+| 2026-11-23 | [Quantales Arising From Rings](https://arxiv.org/abs/2611.31109) | math.RA |
+| 2026-11-23 | [Rational extensions of the Ornstein-Uhlenbeck process](https://arxiv.org/abs/2611.31075) | math.CA |
+| 2026-11-23 | [A locally conservative LDG method for the evolutionary Navier-Stokes-Darcy coupled problem](https://arxiv.org/abs/2611.31073) | math.NA |
+| 2026-11-23 | [When Positivity Matters: Maximal Distance Integrals on Curves and Surfaces](https://arxiv.org/abs/2611.31045) | math.CA, math.NA |
+| 2026-11-23 | [AI-Assisted Auto-formalization for Trustworthy Scientific Computing: Case Studies and Lessons Learned](https://arxiv.org/abs/2611.31033) | math.NA |
+| 2026-11-23 | [Accurate Products, Inaccurate Inverse: Emulated FP64 BLAS in Blocked Triangular Inversion](https://arxiv.org/abs/2611.31030) | math.NA |
 
 ## Methodology
 
