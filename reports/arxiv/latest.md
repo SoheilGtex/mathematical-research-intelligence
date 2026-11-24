@@ -21,16 +21,16 @@ Automated research snapshot based on arXiv metadata.
 
 | Published | Paper | Categories |
 |---|---|---|
-| 2026-11-19 | [Amplitude dependent wave envelope type estimates for moment curves and applications](https://arxiv.org/abs/2611.26581) | math.CA |
-| 2026-11-19 | [Stochastic counterpart of Nesterov's method for sampling and provable non-acceleration of samplers with heavy-ball structure](https://arxiv.org/abs/2611.26575) | math.NA |
-| 2026-11-19 | [A time-domain adversarial example demonstrating the failure of $H^1$ elements in $a$-$φ$ electromagnetic simulation](https://arxiv.org/abs/2611.26546) | math.NA |
-| 2026-11-19 | [Nonlinear Fourier series](https://arxiv.org/abs/2611.26477) | math.CA |
-| 2026-11-19 | [Spectral isometries and invertibility preservers on Banach algebras](https://arxiv.org/abs/2611.26462) | math.RA |
-| 2026-11-19 | [Signed QoI Gaps for Goal-Oriented Error Estimation: Reliability and Sharpness from the Same First-Order System Residuals](https://arxiv.org/abs/2611.26322) | math.NA |
-| 2026-11-19 | [Oscillatory integral operators of arbitrary signature: beyond the universal estimates](https://arxiv.org/abs/2611.26265) | math.CA |
-| 2026-11-19 | [Invariance and Expressiveness: Modal Variations](https://arxiv.org/abs/2611.26244) | math.LO |
-| 2026-11-19 | [Uninorm constructions on bounded trellises via closure and interior operators](https://arxiv.org/abs/2611.26204) | math.LO |
-| 2026-11-19 | [Perturbation Algorithm and Iterative Realization of a Four-Layer Semi-Discrete Scheme for an Evolutionary Problem with a Variable Operator](https://arxiv.org/abs/2611.26136) | math.NA |
+| 2026-11-21 | [Interface-aware dynamic mode decomposition with control for partitioned multiphysics systems](https://arxiv.org/abs/2611.28668) | math.NA |
+| 2026-11-21 | [Quantitative Convergence of the Spherical Brownian Motion collisional particle system for the Maxwellian Landau Equation](https://arxiv.org/abs/2611.28663) | math.NA |
+| 2026-11-21 | [Numerical approximation of the Hilfer fractional derivative using orthogonal Quasi-Polynomials](https://arxiv.org/abs/2611.28643) | math.NA |
+| 2026-11-21 | [Finite-difference neural policy iteration for high-dimensional degenerate Hamilton--Jacobi equations](https://arxiv.org/abs/2611.28639) | math.NA |
+| 2026-11-21 | [Deterministic regularisation of the nonsymmetric eigenproblem](https://arxiv.org/abs/2611.28614) | math.NA |
+| 2026-11-21 | [Some attractive bases for the Onsager Lie algebra](https://arxiv.org/abs/2611.28581) | math.RA |
+| 2026-11-20 | [Perturbed Nevo--Thangavelu maximal functions on two-step nilpotent groups](https://arxiv.org/abs/2611.28400) | math.CA |
+| 2026-11-20 | [Computability of states and non-computability of traces](https://arxiv.org/abs/2611.28337) | math.LO |
+| 2026-11-20 | [Sharp Estimates for Jacobi Heat Kernels on a Ball and on a Simplex in the Full Range of Parameters](https://arxiv.org/abs/2611.28330) | math.CA |
+| 2026-11-20 | [Associative operators and their iterated lifts: classification and cocycle identities](https://arxiv.org/abs/2611.28273) | math.RA |
 
 ## Methodology
 
