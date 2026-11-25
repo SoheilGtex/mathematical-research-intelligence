@@ -1,213 +1,223 @@
 {
   "papers": [
     {
-      "arxiv_id": "2611.31218",
+      "arxiv_id": "2611.33066",
       "categories": [
-        "math.LO"
+        "math.RA"
       ],
-      "published": "2026-11-23T18:56:18Z",
-      "summary": "Let $q\\equiv 3\\bmod 4$ be a prime power and let $K$ be a finite separable extension of the field of rational functions $\\mathbb F_q(t)$, with constant field $\\mathbb F_q$. We show that $\\mathbb F_q[t]$ is Diophantine in $\\mathbb F_q(t)$ and that the latter is Diophantine in $K$. We deduce from work of Demeyer that $K$ has the DPRM property: Diophantine sets over $K$ are the same as listable sets.",
-      "title": "Diophantine sets over global function fields",
-      "url": "https://arxiv.org/abs/2611.31218",
+      "published": "2026-11-24T18:05:56Z",
+      "summary": "We continue the investigation of $S$-preclones initiated in Part I, specializing to the case of Boolean $\\pm$-preclones where $S = \\{+,-\\}$ is the two-element group and the base set is $A = \\{0,1\\}$. The main results include the complete classification of maximal and minimal Boolean $\\pm$-preclones in the lattice ${}^{\\pm}\\mathcal{L}_2$ of all Boolean $\\pm$-preclones. We prove that there are exactly nine maximal Boolean $\\pm$-preclones. Hence we obtain a completeness theorem for $\\pm$-preclones: a set of $\\pm$-operations generates all $\\pm$-operations if and only if it contains an operation that fails to preserve each of the nine defining $\\pm$-relations of the maximal $\\pm$-preclones. Next we classify the twenty minimal Boolean $\\pm$-preclones (atoms of the lattice), each described via a generating $\\pm$-operation. We also investigate self-dual $\\pm$-preclones, characterizing the eight maximal and nine minimal self-dual $\\pm$-preclones and proving a corresponding completeness theorem. Additionally, we include the result, due to Vojtěch David, that the lattice ${}^{\\pm}\\mathcal{L}_2$ is uncountable, in contrast with the countability of the classical Post lattice of Boolean clones. This is established by embedding an uncountable poset of clonoids into ${}^{\\pm}\\mathcal{L}_2$. Finally, we study preimage classes of classical Boolean clones within ${}^{\\pm}\\mathcal{L}_2$, providing complete descriptions for the unary case and for several non-unary minimal clones. We also prove a Baker--Pixley type theorem for $\\pm$-preclones containing the majority operation, showing that such $\\pm$-preclones are determined by their binary $\\pm$-relations.",
+      "title": "$S$-preclones and the Galois connection ${}^S\\mathrm{Pol}$-${}^S\\mathrm{Inv}$, Part II: Boolean $\\pm$-preclones",
+      "url": "https://arxiv.org/abs/2611.33066",
       "version": 1
     },
     {
-      "arxiv_id": "2611.31211",
-      "categories": [
-        "math.NA"
-      ],
-      "published": "2026-11-23T18:55:06Z",
-      "summary": "Physics simulation outputs increasingly come from solvers that no expert inspects, such as third-party packages in automated pipelines, programs written by large language models (LLMs), and learned surrogates. In earlier work on cardiac pulsed field ablation, we proposed that solvers return a certificate with their answers. The certificate consists of an admissible potential and an exactly charge-conserving current, and a small independent checker turns it into guaranteed error bounds against a written specification of the physics. Here, the same checker verifies the outputs of other solvers on the same problem. Specifically, FEniCSx computes both fields and receives the same bounds as our own solver. Five plausible bugs in a correct solver, one of them about 0.2% from the true impedance, all converge and pass a grid convergence study, yet the certificate rejects or refutes all five. Of three solvers written by LLMs, one is correct and certified to 0.1%, and one never solves the equation but converges. Neural networks that predict the coefficients of a reduced basis emit admissible fields and receive valid per-prediction bounds, at most 0.0021% wide inside their training range and 0.3-25% wide outside it, where 90% conformal intervals cover none of 14 tests. Untuned Fourier neural operators with free nodal outputs receive valid but uninformative bounds. On a uniform grid, interpolation onto the certificate grid limits them, and on the certificate grid, thin cells turn small nodal errors into large energy errors. Energy-norm training narrows the certified interval tenfold, and projecting the nodal-loss outputs onto the reduced basis narrows it by two to four orders of magnitude, still uninformative. The guarantee concerns the stated model and holds for any output, wherever its input lies. It is informative only when the output is accurate in energy on a grid that resolves the problem.",
-      "title": "Verifying the Outputs of PDE Solvers: From Finite Elements to Neural Surrogates",
-      "url": "https://arxiv.org/abs/2611.31211",
-      "version": 1
-    },
-    {
-      "arxiv_id": "2611.31182",
+      "arxiv_id": "2611.33058",
       "categories": [
         "math.CA"
       ],
-      "published": "2026-11-23T18:36:59Z",
-      "summary": "We study the Bergman projection $P_ω$ on a radial tree with respect to weighted harmonic Bergman spaces $A^p_ω$, where $ω$ is a positive radial weight. We prove that for all such weights and $1<p<\\infty $, the Bergman projection $P_ω$ is bounded from $L^p(ω) $ to $A^p_ω$ and $L^\\infty \\to \\mathcal{B} $, where $\\mathcal{B} $ is the Bloch space of the tree. We also provide a characterization of the weights $ω$ for which the positive Bergman projection $P_ω^+ $ is bounded from $L^p(ω) $ to $L^p(ω) $. Finally, in the appendix, we provide an elementary proof of the characterization of the weights $Ω\\in L^1(\\mathbb{D}) $ for which the Bergman projection from $L^p(Ω) $ to the holomorphic Bergman space $A^p_Ω(\\mathbb{D}) $.",
-      "title": "Weighted Bergman projection in radial trees",
-      "url": "https://arxiv.org/abs/2611.31182",
+      "published": "2026-11-24T18:02:56Z",
+      "summary": "We characterize the boundedness of the Hardy-Littlewood maximal operator $M$ on weighted variable Lebesgue spaces for exponents satisfying $1<p_-\\le p_+<\\infty$. We show that $M$ is bounded on $L^{p(\\cdot)}_w$ if and only if the pair $(p(\\cdot),w)$ satisfies a variable Muckenhoupt condition and there exists $h\\in L^1$ such that $w^{-1}h^{1/p(\\cdot)}$ and $wh^{1/p'(\\cdot)}$ belong to $A_1$. This characterization is new even in the unweighted setting. To prove sufficiency, we use sparse domination together with a local modular averaging estimate whose error terms are summable over sparse families to $\\|h\\|_{L^1}$. Conversely, assuming $M$ is bounded, we construct $h$ using a simultaneous Rubio de Francia algorithm. To motivate this new characterization, we show that the strong Muckenhoupt condition, which characterizes the boundedness of $M$ in the unweighted case by a theorem of Diening, is not sufficient in the weighted setting. As applications, we give short proofs and extensions of known sufficient conditions.",
+      "title": "An $A_1$ characterization of the boundedness of the maximal function on weighted variable Lebesgue spaces",
+      "url": "https://arxiv.org/abs/2611.33058",
       "version": 1
     },
     {
-      "arxiv_id": "2611.31136",
+      "arxiv_id": "2611.32977",
+      "categories": [
+        "math.LO"
+      ],
+      "published": "2026-11-24T17:12:03Z",
+      "summary": "We prove unconditionally that the first-order theory of Presburger arithmetic expanded by a predicate for the primes is undecidable. Bateman, Jockusch and Woods proved this in 1993 assuming Dickson's conjecture. We use the counter-machine framework of Karimov, Nieuwveld and Ouaknine and their idea of using `arbitrary permutations', and the number-theoretic input comes from Hildebrand and Maier's 1988 proof that the limit points of $k$ consecutive normalised prime gaps have positive measure. We use a discrete version, which they obtain before limits are taken. The key lemma is that although Hildebrand and Maier's result does not seem to give arbitrary permutations of consecutive prime gaps, it gives arbitrary permutations for the differences $p_i - q_i$ for two finite blocks of consecutive primes $p_0 < \\cdots < p_k$ and $q_0 < \\cdots < q_k$. Moreover, with the same key lemma, we show that Presburger arithmetic expanded with the function that maps $n$ to the $n$th prime defines multiplication.",
+      "title": "On Presburger Arithmetic Expanded with Prime Numbers",
+      "url": "https://arxiv.org/abs/2611.32977",
+      "version": 1
+    },
+    {
+      "arxiv_id": "2611.32968",
+      "categories": [
+        "math.NA"
+      ],
+      "published": "2026-11-24T17:05:00Z",
+      "summary": "Tensor train (TT) methods enable high-resolution computational mechanics simulations by exploiting low-rank structure in discretized fields and operators. While the superfast Fourier transform (SFFT) has enabled efficient TT-based spectral solvers for periodic problems, corresponding representations for non-periodic boundary conditions remain underexplored. We introduce the superfast cosine and sine transforms (SFCT and SFST), extending the TT spectral framework to homogeneous Neumann and Dirichlet boundary conditions, respectively. Building on a quantum-circuit construction of the discrete cosine and sine transforms, we derive both transforms from a shared TT operator representation and prove that their TT ranks are bounded by $6r_S$, independently of the discretization order, where $r_S$ is the rank of the SFFT at the prescribed accuracy. The measured ranks plateau near 32 for grid sizes up to $2^{26}$ points. For Rayleigh-Bénard convection, spectral pressure projection achieves up to a 7-fold speedup in the Poisson solve relative to a preconditioned physical-space TT solver while maintaining comparable accuracy. Three-dimensional computational homogenization achieves a 2-6-fold speedup and a 4-7-fold reduction in memory consumption compared with the existing TT-based approach. The results establish an efficient TT framework for spectral PDE solvers with non-periodic boundary conditions.",
+      "title": "Quantum-Inspired Tensor Train Spectral Solver for High-Resolution PDEs with Non-Periodic Boundary Conditions",
+      "url": "https://arxiv.org/abs/2611.32968",
+      "version": 1
+    },
+    {
+      "arxiv_id": "2611.32949",
+      "categories": [
+        "math.NA"
+      ],
+      "published": "2026-11-24T16:52:14Z",
+      "summary": "In this work, we extend the Intrinsic Lagrangian-Eulerian Finite Volume method for the Intrinsic Shallow Water Equations (ISWE) to account for localized topographic discontinuities that influence flow patterns. The ISWE formulation is modified to incorporate these bottom perturbations without altering the global structure of the system. The numerical discretization is based on a Lagrangian-Eulerian Finite Volume scheme within an intrinsic geometric framework and consists of a Lagrangian evolution step followed by an Eulerian remapping onto a fixed reference grid. The combination of the intrinsic nature of the ISWE formulation and the dual Lagrangian-Eulerian structure of the proposed discretization yields a numerical method that naturally satisfies the three key properties essential for stability, accuracy, and robustness: well-balancing for preservation of the lake-at-rest equilibrium over irregular bathymetry; wetting-and-drying, enabling robust tracking of moving fluid boundaries; and hyperbolicity guaranteeing consistency with the system wave propagation and stability constraints. Numerical experiments on curved two-dimensional surfaces with localized bottom discontinuities demonstrate the accuracy and robustness of the method, including accurate long-time velocity computations in near-dry conditions and transitions between wet and dry states.",
+      "title": "A robust Lagrangian-Eulerian Finite Volume scheme for intrinsic shallow water equations with wetting-and-drying transitions on locally discontinuous beds",
+      "url": "https://arxiv.org/abs/2611.32949",
+      "version": 1
+    },
+    {
+      "arxiv_id": "2611.32929",
+      "categories": [
+        "math.NA"
+      ],
+      "published": "2026-11-24T16:37:12Z",
+      "summary": "Stochastic Galerkin methods reformulate a differential equation with uncertain parameters as a deterministic surrogate system by writing the solution as a series of polynomial basis functionals and projecting onto the parameter space. Given correlated Gaussian parameters, Rahman (2017) established solution convergence when the basis functionals are multivariate Hermite polynomials (MHPs), which is the setting considered here. Each term of the original equation contributes coefficients to the surrogate system, which we call the $N$th moments, that are expectations of products of the basis polynomials. Since the parameters are dependent, the $N$th moments do not factor into one-dimensional expectations via tensorization as they do in the independent case; consequently, their values are typically determined numerically at a nontrivial and compounding cost. Namely, the number of $N$th moments that emerge grows combinatorially with parameter dimension and truncation order. In this paper, we first relate MHPs and slowly growing functions --- which are smooth functions whose derivatives of all orders grow at most polynomially --- in correlated Gaussian parameters. In doing so, we derive an expression for the $N$th moment of an MHPs in terms of $(N-1)$th moments that can be evaluated exactly, along with sufficient conditions for the $N$th moment to vanish. Numerical examples illustrate the benefit of evaluating such moments directly without numerical approximation and confirm that formula-predicted values match sampling-based estimates.",
+      "title": "Higher-Order Moments of Correlated Multivariate Hermite Polynomials",
+      "url": "https://arxiv.org/abs/2611.32929",
+      "version": 1
+    },
+    {
+      "arxiv_id": "2611.32915",
+      "categories": [
+        "math.NA"
+      ],
+      "published": "2026-11-24T16:31:54Z",
+      "summary": "CholeskyQR is an orthogonalization algorithm particularly well suited to modern computing architectures, but it may fail to produce numerically orthonormal columns when applied to ill-conditioned matrices. A customary solution is to first reduce the condition number of the input matrix by means of a preconditioner, and then apply CholeskyQR to the preconditioned matrix. We propose three mixed-precision techniques for constructing such preconditioners: mpSCQR, based on a shifted Cholesky factorization; mpEVDQR, based on the eigendecomposition; and mpLUCQR, based on a pivoted LU factorization. We prove bounds on the condition number of the matrix after mpSCQR, mpLUCQR, or a shifted variant of mpEVDQR has been applied. Our experiments compare the proposed preconditioners with existing deterministic and randomized alternatives. The results suggest that mpEVDQR and mpLUCQR can be substantially faster than traditional shiftedCholeskyQR, with mpLUCQR attaining performance comparable to that of the most efficient randomized preconditioners.",
+      "title": "Three mixed-precision preconditioners for CholeskyQR",
+      "url": "https://arxiv.org/abs/2611.32915",
+      "version": 1
+    },
+    {
+      "arxiv_id": "2611.32874",
+      "categories": [
+        "math.NA"
+      ],
+      "published": "2026-11-24T16:07:44Z",
+      "summary": "Kinematic wave models, the simplest surface flow models, route overland flow by gravity alone and there is no pressure or inertial term to redistribute flow when the resulting velocities misroute it. Computed from piecewise-linear elevation data, this velocity jumps across the edges of the mesh: two neighboring cells can push water into each other, and the scheme can hold water in ponds that the terrain does not contain, or concentrate it where the data do not. We formulate the model intrinsically on the bed surface, with the depth normal to the bed as unknown, and obtain a single-valued edge velocity, in the unique edge frame of the intrinsic geometry, by correcting the raw cell field with the star-based conservative flux of Larson and Niklasson. Because the field is derived from data rather than from a Galerkin solution, the local problems are solvable only with a compatible load, the weak discrete divergence of the field being corrected, which for the slope is a discrete mean curvature of the terrain. With a Neumann boundary, every element is conservative, and the corrected field reproduces the cell average of the nodal divergence of the raw field, plus the divergence resolved inside the curved cells. Since any single-valued flux conserves mass, the correction is about consistency and robustness: the steady state of the upwind scheme solves an M-matrix system exactly when every cell drains to an outlet, and spurious ponds are closed classes of a transfer directed graph, computable before any simulation. Four rainfall tests, from a plane to a real catchment, are designed to verify the difference in storage and timing between the intrinsic and the classical form, the effect of the mesh on the consistency of the edge velocity, the robustness at a degenerate stationary point, and the application to terrain data.",
+      "title": "An intrinsic kinematic wave model with conservative fluxes for overland flow on curved terrain",
+      "url": "https://arxiv.org/abs/2611.32874",
+      "version": 1
+    },
+    {
+      "arxiv_id": "2611.32871",
+      "categories": [
+        "math.RA"
+      ],
+      "published": "2026-11-24T16:06:35Z",
+      "summary": "We construct a two-sided noetherian ring $A$ which has injective dimension $1$ as a left module over itself and infinite injective dimension as a right module over itself. This shows that Gorenstein symmetry can fail for two-sided noetherian rings. It is further shown that there is such an example over any field of characteristic different than $2$, that it has a dualizing complex, and that its derived category of right modules does not satisfy injective-generation in the sense of Rickard-Keller.",
+      "title": "Gorenstein symmetry can fail for noetherian rings",
+      "url": "https://arxiv.org/abs/2611.32871",
+      "version": 1
+    },
+    {
+      "arxiv_id": "2611.32834",
+      "categories": [
+        "math.LO"
+      ],
+      "published": "2026-11-24T15:48:57Z",
+      "summary": "Synthetic topology encompasses various alternatives to the classical definition of a topological space by Hausdorff. In particular, Abstract Stone Duality (ASD) develops the theory of locally compact spaces directly from logic. This study introduces a semi-formal theory of synthetic topology using a first-order version of the intuitionistic modal logic iS4, inspired by a nominalist, dynamic interpretation of the specialization order. The remarkable similarities to ASD include a constructive interpretation of the open-closed duality, overtness of the line, compactness of the unit interval and the nuclei that define closed and open subspaces.",
+      "title": "An approach to topology via lattices of names",
+      "url": "https://arxiv.org/abs/2611.32834",
+      "version": 1
+    },
+    {
+      "arxiv_id": "2611.32827",
       "categories": [
         "math.CA"
       ],
-      "published": "2026-11-23T18:06:47Z",
-      "summary": "Let $L_1, L_2\\subseteq{\\mathbb R}^d$ be lattices of the same volume and let $D_1, D_2$ be two bounded fundamental domains for $L_1, L_2$. We show that there is a measurable common tile for $L_1$ and $L_2$ contained in $D_1+D_2$. The main tool is a result of Bowen, Kun and Sabok (2021) which shows how to obtain a measurable perfect matching given a fractional perfect matching in hyperfinite graphings.",
-      "title": "Common tiles from fractional tiles for two lattices",
-      "url": "https://arxiv.org/abs/2611.31136",
+      "published": "2026-11-24T15:41:10Z",
+      "summary": "We study strong $r$-variation estimates for the free Schrödinger equation on $\\mathbb R^n$, $n\\geq3$. Combining fractal and weighted restriction estimates with mixed space--time estimates, we determine the sharp Sobolev regularity, up to endpoints, in several ranges of the spatial exponent $p$ and the variation exponent $r$. In particular, our results give a sharp $L^2(\\mathbb R^n)$ variational extension of the Schrödinger maximal estimate of Du and Zhang [\\emph{Ann. of Math.}, \\textbf{189}, 837--861 (2019)].",
+      "title": "Sharp variational estimates for Schrödinger equation in higher dimensions",
+      "url": "https://arxiv.org/abs/2611.32827",
       "version": 1
     },
     {
-      "arxiv_id": "2611.31109",
+      "arxiv_id": "2611.32666",
       "categories": [
         "math.RA"
       ],
-      "published": "2026-11-23T17:50:09Z",
-      "summary": "We study the quantale, or multiplicative lattice, of additive submonoids of an arbitrary ring, with particular focus on the question of which properties of the ring can be recovered from it. We show that this quantale, unlike the better-known quantale of ideals, captures significant information about the cardinality, characteristic, and center of the ring. Certain rings, such as non-prime finite fields, torsion-free rings, and those with characteristic 2, are completely determined by their submonoid quantales. We also discuss various other subobject quantales one can associate to a (semi)ring.",
-      "title": "Quantales Arising From Rings",
-      "url": "https://arxiv.org/abs/2611.31109",
+      "published": "2026-11-24T14:16:02Z",
+      "summary": "We form a hexagonal prism from two six-cycles and iterate a doubling construction with a fixed positive integer edge multiplicity, producing a family of indefinite Kac--Moody algebras. The prism's spectrum determines the exact corank of every algebra in the family. Along each nonvanishing parity class, the corank grows exponentially, while its ratio to the matrix size tends to zero. For the twelve-node algebra we identify the two central directions, describe the first two graded levels, and characterize the integral central charges of its unitary highest-weight modules.",
+      "title": "A Systematic Construction of High-Corank Kac--Moody Algebras",
+      "url": "https://arxiv.org/abs/2611.32666",
       "version": 1
     },
     {
-      "arxiv_id": "2611.31075",
+      "arxiv_id": "2611.32577",
       "categories": [
         "math.CA"
       ],
-      "published": "2026-11-23T17:28:14Z",
-      "summary": "We introduce and classify rational extensions of the Ornstein-Uhlenbeck process that are solvable by polynomials. These diffusions are closely related to exceptional Hermite polynomials and rational extensions of the quantum harmonic oscillator. We obtain explicit formulas for their transition densities, fundamental solutions and Green functions. We also show that each such diffusion can be constructed from killed Brownian motion by a finite sequence of Darboux transformations followed by a Doob $h$-transform. Finally, we derive an explicit formula for the connection polynomials in the generalized Mehler formula and use it to prove several conjectures concerning these polynomials.",
-      "title": "Rational extensions of the Ornstein-Uhlenbeck process",
-      "url": "https://arxiv.org/abs/2611.31075",
+      "published": "2026-11-24T13:19:44Z",
+      "summary": "We prove that every quasicircle $Γ\\subset\\mathbb{C}$ admits an optimal admissible polynomial mesh for univariate complex polynomials. More precisely, if $E$ denotes the closed Jordan domain bounded by $Γ$, then for every $Λ>1$ there are finite sets $A_n\\subsetΓ$ with $\\mathrm{card}(A_n)=O(n)$ and $\\|p\\|_E=\\|p\\|_Γ\\leqΛ\\|p\\|_{A_n}$ for every $p\\in\\mathcal{P}_n(\\mathbb{C})$. The nodes may be chosen as images of equally spaced points of the unit circle under the inverse exterior conformal map, equivalently as equal-mass points for harmonic measure at infinity. The proof combines the classical conformal level-curve scale with a discrete norming principle. If $ρ_n(z)$ denotes the distance from a boundary point to the exterior level curve $|Φ|=1+1/n$, Bernstein--Walsh and Cauchy's formula show that any sufficiently fine $ρ_n$-net is norming. A scale-comparison property then turns $O(n)$ equally spaced angular samples into such a net. Quasicircles satisfy this property by quasisymmetry. The argument requires no smoothness or rectifiability and applies in particular to the classical von Koch snowflake.",
+      "title": "Optimal polynomial meshes on quasicircles via conformal scale comparison",
+      "url": "https://arxiv.org/abs/2611.32577",
       "version": 1
     },
     {
-      "arxiv_id": "2611.31073",
-      "categories": [
-        "math.NA"
-      ],
-      "published": "2026-11-23T17:26:36Z",
-      "summary": "This paper proposes and investigates a local discontinuous Galerkin (LDG) method for the evolutionary Navier-Stokes-Darcy coupled problem representing the interaction between incompressible flows and porous media flows through the Beavers-Joseph-Saffman interface conditions. A fully discrete numerical scheme has been proposed and analyzed employing backward Euler temporal discretization and a locally conservative LDG scheme for the space discretization. The well-posedness of the numerical scheme has been obtained under a small data condition. Optimal a priori error estimates have been proven in the energy norm, as well as the L2-norm for t>0. Numerical experiments ensure the efficiency of the theoretical results",
-      "title": "A locally conservative LDG method for the evolutionary Navier-Stokes-Darcy coupled problem",
-      "url": "https://arxiv.org/abs/2611.31073",
-      "version": 1
-    },
-    {
-      "arxiv_id": "2611.31045",
-      "categories": [
-        "math.CA",
-        "math.NA"
-      ],
-      "published": "2026-11-23T17:13:43Z",
-      "summary": "How far apart, on average, can $n$ points in a set $A$ be? As $n\\to\\infty$ the answer is the $\\textit{maximal energy}$ $M^{+}(A)$, the largest possible value of $\\mathbb{E}|X-Y|$ when $X$ and $Y$ are independent random points of $A$ with a common distribution. If the distribution is allowed to carry negative mass, we obtain a second constant $M(A)\\ge M^{+}(A)$. It is often far easier to compute: when a signed equilibrium measure exists, it is characterized by a $\\textit{linear}$ potential equation, whereas the positive problem must also locate the support of the mass. This paper asks when positivity matters, that is, when $M^{+}(A)<M(A)$. For polygons and polyhedra the extremal mass sits on the vertices and closed forms abound. Even so, every hollow convex polygon has $M^{+}<M$, and a simple kite shows how a vertex can be forced out of the support. For smooth curves and surfaces the answer depends on the shape. Circles and spheres have $M^{+}=M$. The ellipse $x^2+4y^2=4$ has $M^{+}=M$ numerically, and we give its value to 50 digits. The ellipses $x^2+9y^2=9$ and $x^2+25y^2=25$ have $M^{+}<M$ numerically, with gaps in the support. For the ellipsoid $10x^2+15y^2+12z^2=15$, studied by Larcher, Schmid and Wolf, we compute 50 digits of $M$ and give strong numerical evidence that $M^{+}<M$. The extremal measure vanishes on two caps around the ends of the shortest axis. Proofs and numerical methods are collected in appendices.",
-      "title": "When Positivity Matters: Maximal Distance Integrals on Curves and Surfaces",
-      "url": "https://arxiv.org/abs/2611.31045",
-      "version": 1
-    },
-    {
-      "arxiv_id": "2611.31033",
-      "categories": [
-        "math.NA"
-      ],
-      "published": "2026-11-23T17:08:36Z",
-      "summary": "Agentic AI tools have recently had success in mathematical reasoning. Both general purpose coding agents such as Claude Code and Codex, and specialized mathematics agents such as Aristotle, have been used for formalizing mathematical problems such as Fermat's last theorem, Erdős problems and several IMO level math problems. However, much of these efforts are concentrated in the pure mathematics domain, which benefits from relatively self-contained theorem statements, fixed mathematical representation and extensive support in existing formal libraries. Applied mathematics, on the other hand, presents additional challenges because the source may describe a computational procedure or modeling transformation rather than a declarative theorem. In this work, we present a systematic study of AI-assisted auto-formalization for scientific computing (SC), a domain in applied mathematics central to U.S. Department of Energy applications. Through case studies spanning hierarchical abstraction layers in SC software stack, we evaluate not only whether AI agents can complete numerical proofs, but also where and why they fail across the stack. Our primary contribution is a cross-layer taxonomy of failure modes and an analysis of the form of expert feedback required at each layer to recover mathematical soundness. From these observations, we derive a workflow for recurring proof patterns and practical guidance for using AI agents while preserving mathematical soundness. Our results characterize both the practical value and the current limitations of AI-assisted formalization for trustworthy scientific computing.",
-      "title": "AI-Assisted Auto-formalization for Trustworthy Scientific Computing: Case Studies and Lessons Learned",
-      "url": "https://arxiv.org/abs/2611.31033",
-      "version": 1
-    },
-    {
-      "arxiv_id": "2611.31030",
-      "categories": [
-        "math.NA"
-      ],
-      "published": "2026-11-23T17:07:11Z",
-      "summary": "FP64 emulation on integer tensor units now ships in cuBLAS and GEMMul8, and each emulated matrix product can be checked against an accuracy grade. We ask if a routine built from such products inherits their accuracy, and show that blocked triangular inversion, the core of LAPACK's inverse of a symmetric positive definite matrix, does not. Under fixed-precision emulation every product passes the grade-B error bound of Demmel et al., yet the inverse errs at 7.1e-2, against 2.0e-15 natively. The matrices are well conditioned after diagonal scaling, but the scaling spans 64 binades. The cause is one product, T = X22 L21, whose summed index carries both the diagonal scaling and its inverse, which a grade-B bound does not absorb. Computing those products natively restores native accuracy; leaving any one of them emulated does not. The pattern holds on four GPUs, and on real covariance matrices the fixed-precision routes lose up to about four orders of accuracy. Equilibration, a solve-based association and cuBLAS's automatic dynamic precision avoid the loss, and an exact error recurrence audits a completed run. On an RTX 4090 the fastest accurate emulated inversion takes 0.40 of cuSOLVER's time. Where each product's scaling falls decides if per-product accuracy carries over to a composite routine, and that is what builders of emulated libraries need to check.",
-      "title": "Accurate Products, Inaccurate Inverse: Emulated FP64 BLAS in Blocked Triangular Inversion",
-      "url": "https://arxiv.org/abs/2611.31030",
-      "version": 1
-    },
-    {
-      "arxiv_id": "2611.30893",
-      "categories": [
-        "math.RA"
-      ],
-      "published": "2026-11-23T15:56:46Z",
-      "summary": "For a positive semidefinite matrix $X$, let $μ_k(X)$ be the minimum of the least eigenvalues of its principal submatrices of order $k$. For positive semidefinite $A,B$ of order $n$, we prove \\[ μ_{i+j-1}(A\\circ B)\\geqμ_i(A)μ_j(B), \\qquad i,j\\in\\{1,2,\\dots,n\\},\\quad i+j-1\\leq n, \\] and characterize equality when the right-hand side is positive. The resulting symmetric least-eigenvalue bound \\[ λ_{\\min}(A\\circ B)\\geq \\max_{1\\leq i\\leq n}μ_i(A)μ_{n-i+1}(B) \\] recovers the classical Schur lower bounds at endpoint choices and can be exact even when both factors are singular. It is incomparable with the projection bound from a recent companion paper, and combining the two bounds can improve on both. The proof combines a spectral minorant of $B$ whose diagonal entries are at least $μ_j(B)$ with the projection inequality underlying the companion bound. Multifactor and Khatri--Rao consequences are also given.",
-      "title": "A symmetric eigenvalue lower bound for Hadamard products",
-      "url": "https://arxiv.org/abs/2611.30893",
-      "version": 1
-    },
-    {
-      "arxiv_id": "2611.30870",
+      "arxiv_id": "2611.32492",
       "categories": [
         "math.CA"
       ],
-      "published": "2026-11-23T15:41:44Z",
-      "summary": "We prove the $T1$ theorem for Calderón-Zygmund operators under the classical Dini regularity condition on the kernel, solving a longstanding open problem in singular integral theory.",
-      "title": "The $T1$ theorem under Dini regularity",
-      "url": "https://arxiv.org/abs/2611.30870",
+      "published": "2026-11-24T12:18:14Z",
+      "summary": "We consider the heat-diffusion semigroup related to expansions with respect to an orthogonal system emerging by taking arbitrary finite tensor products of classical Hermite, Laguerre and Jacobi polynomials. Our main result is the weak type $(1,1)$ estimate for the associated maximal operator. This implies pointwise almost everywhere boundary convergence of the semigroup to initial values for all initial conditions that are integrable against the orthogonality measure.",
+      "title": "On the maximal operator of the hybrid Hermite-Laguerre-Jacobi semigroup",
+      "url": "https://arxiv.org/abs/2611.32492",
       "version": 1
     },
     {
-      "arxiv_id": "2611.30821",
-      "categories": [
-        "math.LO"
-      ],
-      "published": "2026-11-23T15:11:50Z",
-      "summary": "Let $κ$ be $λ$-supercompact for a regular $λ>κ$. We show that if $λ$ is not the successor of a singular of cofinality below $κ$, $\\diamondsuit(S^λ_{\\geqκ})$ implies that every ${<}κ$-strategically closed forcing of size at most $λ$ is a projection of the $λ$-supercompact Prikry forcing. We show that the situation for successors of singulars of small cofinality is independent. Finally, we provide more limitations about the class of $κ$-distributive projections of the $λ$-supercompact Prikry forcing and give examples of $κ$-distributive forcings of size $λ$ which cannot be projections of this forcing.",
-      "title": "On Cohen Generic Sets in Supercompact Prikry Extensions",
-      "url": "https://arxiv.org/abs/2611.30821",
-      "version": 1
-    },
-    {
-      "arxiv_id": "2611.30679",
-      "categories": [
-        "math.LO"
-      ],
-      "published": "2026-11-23T13:32:21Z",
-      "summary": "It is shown that the equivalence relation on Cohen generic reals over a countable model of set theory, where two are equivalent if they produce the same generic extension, is hyperfinite, answering a question of the author. The proof uses asymptotic separation and is a digestion of an argument originally produced by GPT-6.",
-      "title": "Equivalence of Cohen generics is hyperfinite",
-      "url": "https://arxiv.org/abs/2611.30679",
-      "version": 1
-    },
-    {
-      "arxiv_id": "2611.30652",
+      "arxiv_id": "2611.32486",
       "categories": [
         "math.RA"
       ],
-      "published": "2026-11-23T13:13:04Z",
-      "summary": "We investigate the relative geometry of annihilators of zero divisors in the real sedenion algebra. Each nonzero zero divisor has a four-dimensional annihilator, whose geometry is associated with an axis in the imaginary octonions. For two prescribed axes separated by an angle $θ$, we establish the exact range of principal angles between their annihilators. The four principal cosines are necessarily $(p,p,q,q)$, where $\\cos^2(θ/2)\\leq p\\leq\\cos(θ/2)$ and $0\\leq q\\leq p$, and every admissible pair is realizable. We further derive an explicit quadratic formula for the principal cosines of any specified pair using two invariants of the associated quaternionic frames. A continuous deformation demonstrates that neither the axis angle nor the underlying quaternion subalgebras together determine the annihilator angles. Finally, we relate these results to the least singular subspaces of sedenion left multiplication through Euclidean projection onto the zero-divisor cone.",
-      "title": "Principal angles between annihilators of real sedenion zero divisors",
-      "url": "https://arxiv.org/abs/2611.30652",
+      "published": "2026-11-24T12:13:26Z",
+      "summary": "Let $R$ be a Gorenstein ring with left and right self-injective dimensions $n$. We prove that the last term of a minimal injective resolution of $_RR$ has an essential socle. It answers an open question of Iwanaga and Sato. As a consequence, we get that for any left $R$-module $M$ with injective dimension $n$, the last term of a minimal injective resolution of $M$ also has an essential socle.",
+      "title": "The socle of the last term in a minimal injective resolution II",
+      "url": "https://arxiv.org/abs/2611.32486",
       "version": 1
     },
     {
-      "arxiv_id": "2611.30644",
+      "arxiv_id": "2611.32470",
       "categories": [
-        "math.LO"
+        "math.CA"
       ],
-      "published": "2026-11-23T13:09:57Z",
-      "summary": "Jacob Tsimerman was awarded a Fields Medal at the\\ ICM in Philadelphia on July 23, 2026 ``For his contribution in the recasting of o-minimality as a fundamental method of arithmetic and complex algebraic geometry, and his role in the proof of many central conjectures including Griffiths' conjecture on the algebraicity of images of the period maps, and the André-Oort conjecture for Siegel modular varieties.'' We describe this work.",
-      "title": "On the work of Jacob Tsimerman",
-      "url": "https://arxiv.org/abs/2611.30644",
+      "published": "2026-11-24T12:01:54Z",
+      "summary": "We study Hardy and BMO spaces associated with the Laplacian with drift. We define an atomic Hardy space $H^1$ whose atoms satisfy cancellation against constants and linear functions in directions perpendicular to the drift. We prove the John--Nirenberg inequality, Hardy--BMO duality, equivalence of finite and infinite atomic norms, and interpolation theorems. We show that the Riesz transforms and their adjoints are bounded from $H^1$ to $L^1$ and from $L^\\infty$ to BMO. Moreover, we prove that the cancellation conditions are optimal, but the Riesz transforms do not characterize $H^1$. We also characterize the $L^p$ boundedness of their commutators, $1<p<\\infty$, in terms of local BMO.",
+      "title": "Hardy and BMO spaces for the Laplacian with drift",
+      "url": "https://arxiv.org/abs/2611.32470",
       "version": 1
     },
     {
-      "arxiv_id": "2611.30476",
-      "categories": [
-        "math.RA"
-      ],
-      "published": "2026-11-23T11:03:18Z",
-      "summary": "Let A be a noetherian positively graded algebra. We investigate several weighted numerical homological regularities: weighted CM-regularity, weighted Tor-regularity (Ext-regularity), and weighted Ex-regularity, defined in terms of the weighted supremum or infimum degrees of canonical complexes associated with graded A-modules. Introduced by Kirkman, Won, and Zhang, weighted regularities provide finite invariants even when their unweighted counterparts are infinite. Through parametrized degree reweightings, they unify classical homological invariants, including unweighted numerical regularities, sup, inf, depth, projective dimension, and local cohomology dimension. This framework clarifies the behavior of homological regularities under degree shifts and reveals intrinsic relationships among these invariants, particularly those involving the a-invariant. We establish several inequalities and equalities relating these weighted regularities to the weighted supremum or infimum degrees of derived Hom and derived tensor complexes. These results recover their unweighted counterparts and yield new relations involving the a-invariant for a fixed weight. Some of these results generalize the inequalities of Kirkman-Won-Zhang between weighted CM-regularity and Tor-regularity by allowing the weight to range over the entire plane R^2. We also give conditions under which these inequalities become equalities, thereby answering a question posed by Kirkman-Won-Zhang. We use weighted AS-regularity to study the Artin-Schelter regularity of A. Under mild conditions, we prove that the weighted AS-regularity of A vanishes if and only if A is an N-graded AS-regular algebra. This generalizes an unweighted result of the present authors and a weighted result of Kirkman, Won, and Zhang.",
-      "title": "Weighted Numerical Homological Regularities over Positively Graded Algebras",
-      "url": "https://arxiv.org/abs/2611.30476",
-      "version": 1
-    },
-    {
-      "arxiv_id": "2611.30340",
+      "arxiv_id": "2611.32454",
       "categories": [
         "math.RA"
       ],
-      "published": "2026-11-23T09:15:41Z",
-      "summary": "AS-Gorenstein Hopf algebras, for which homological integrals are defined, form a broad class of (infinite-dimensional) Hopf algebras. We establish an $S^4$ formula for left AS-Gorenstein Hopf algebras, thereby generalizing Radford's $S^4$ formula for finite-dimensional Hopf algebras and refining the formula of Brown and Zhang by identifying a group-like conjugating element in the Hopf algebra $H$. Our approach is to endow the space of left homological integrals $\\int^{\\ell}_H$ with a canonical right $H^*$-module structure compatible with its natural right $H$-action. If the $H^*$-action is rational, then $\\int^{\\ell}_H$ carries a canonical $(\\mathrm{id}_H,S^4)$-twisted right-left Yetter--Drinfeld module structure. The right $H$-action and left $H$-coaction on this one-dimensional space determine a character and a group-like element in $H$, respectively; the twisted Yetter--Drinfeld compatibility condition then yields the $S^4$ formula. The $H^*$-action on $\\int^{\\ell}_H$ is rational if either the coradical of $H$ is coreflexive or the trivial left module $\\Bbbk$ admits a finitely generated projective resolution. In particular, the latter condition holds when $H$ is left noetherian. We also establish a corresponding result for right AS-co-Gorenstein Hopf algebras with coreflexive coradical. As applications, we use the $S^4$ formula to study the bijectivity of the antipode and derive explicit finite-order bounds when $H$ is module-finite and faithfully flat over a central right coideal subalgebra, or finitely cogenerated and faithfully coflat over a cocentral quotient.",
-      "title": "The Fourth-Power Formula for the Antipode in AS-Gorenstein Hopf Algebras",
-      "url": "https://arxiv.org/abs/2611.30340",
+      "published": "2026-11-24T11:48:43Z",
+      "summary": "We determine the even and odd derivations of the 91 entries in Gilg's classification list of complex filiform Lie superalgebras of superdimensions (2|2), (2|3), (2|4), (3|2), (3|3), (4|2), (5|2) and (6|2). A unified linear system yields explicit matrix parametrizations and the dimensions of both homogeneous components of the derivation superalgebra. The results are given in block-matrix form.",
+      "title": "Derivations of Low-Dimensional Filiform Lie Superalgebras",
+      "url": "https://arxiv.org/abs/2611.32454",
       "version": 1
     },
     {
-      "arxiv_id": "2611.30227",
+      "arxiv_id": "2611.32320",
       "categories": [
         "math.LO"
       ],
-      "published": "2026-11-23T07:58:45Z",
-      "summary": "Let $(E, P)$, $(E', P')$ be elliptic curves over $\\mathbb{C}$ with marked $p$-torsion points; a marked isogeny is an isogeny sending $P$ to $P'$. We show the marked isogeny relation is interpretable in $\\mathbb{C}(t)$ and has strict infinite chains. It follows that $\\mathbb{C}(t)$ has the strict order property, which confirms a special case of the stable fields conjecture.",
-      "title": "$\\mathbb{C}(t)$ has the strict order property",
-      "url": "https://arxiv.org/abs/2611.30227",
+      "published": "2026-11-24T10:14:04Z",
+      "summary": "Alpha-beta pruning is a fundamental technique in game-playing AI, enabling efficient minimax search by avoiding the exploration of branches that cannot affect the optimal decision. We present a monadic formulation of alpha-beta pruning based on the combination of the continuation monad and the reader monad. Unlike previous approaches that encode alpha-beta bounds into the types of available moves, our construction records these bounds within monadic outcomes, leaving the move types unchanged. We further show that the ordinary continuation monad suffices to compute not only optimal outcomes but also optimal plays, by extending the outcome type to include the corresponding sequences of moves. This provides an alternative to generalisations of the continuation monad proposed to address the inefficiencies associated with the selection monad in alpha-beta search. We illustrate our approach with an implementation of Tic-Tac-Toe, observing a 39-fold reduction in the number of plays evaluated, compared with exhaustive search, in computing an optimal play. Finally, we formally establish the correctness of our construction by proving that the monadic alpha-beta search computes the same optimal outcomes and plays as exhaustive minimax search. Our results demonstrate how a foundational algorithm in AI can be expressed and verified using standard monadic abstractions, providing a basis for further development of compositional approaches to adversarial search.",
+      "title": "Alpha-Beta Pruning via Monadic Continuations",
+      "url": "https://arxiv.org/abs/2611.32320",
+      "version": 1
+    },
+    {
+      "arxiv_id": "2611.32205",
+      "categories": [
+        "math.LO"
+      ],
+      "published": "2026-11-24T08:51:14Z",
+      "summary": "Recall that $\\mathsf{IOpen}$ denotes the theory of quantifier-free induction in the pure arithmetic language. In this paper, we consider an extension of $\\mathsf{IOpen}$ in the arithmetical language expanded by the unary function $\\exp: x \\mapsto 2^x$, obtained by adding certain simple universal axioms for $\\exp$, namely, $$\\exp(1) = 2, \\quad \\exp(x + y) = \\exp(x) \\exp(y), \\quad \\exp(x) > x.$$ We prove that this theory is $Π_1$-conservative over $\\mathsf{IOpen}$ and $\\forall$-conservative over the theory of discretely ordered $\\mathbb Z$-semirings. This result extends a result of A. Wilkie and provides a partial answer to a question of E. Jeřábek concerning the strength of the theory of exponential integer parts.",
+      "title": "Some conservativity results for weak arithmetic theories in a language with exponentiation",
+      "url": "https://arxiv.org/abs/2611.32205",
+      "version": 1
+    },
+    {
+      "arxiv_id": "2611.31809",
+      "categories": [
+        "math.LO"
+      ],
+      "published": "2026-11-24T01:59:36Z",
+      "summary": "We construct a topos for Borel mathematics: statements which are true in Borel mathemaics correspond in a precise way to statements which are true in the internal logic of this topos. We investigate several other properties of this topos, including proving that it satisfies a Borel analogue of the Church-Turing thesis: the statement that every function on a standard Borel space is Borel. We also show that an earlier construction of a similar \"Borel topos\" by van Osdol does not suit these purposes because of an error in that paper.",
+      "title": "The Borel Topos",
+      "url": "https://arxiv.org/abs/2611.31809",
       "version": 1
     }
   ],

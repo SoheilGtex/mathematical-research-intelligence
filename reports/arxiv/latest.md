@@ -4,8 +4,8 @@ Automated research snapshot based on arXiv metadata.
 
 ## Research Coverage
 
-- Unique papers: **19**
-- Cross-category papers: **1**
+- Unique papers: **20**
+- Cross-category papers: **0**
 - Research categories: **4**
 
 ## Category Distribution
@@ -21,16 +21,16 @@ Automated research snapshot based on arXiv metadata.
 
 | Published | Paper | Categories |
 |---|---|---|
-| 2026-11-23 | [Diophantine sets over global function fields](https://arxiv.org/abs/2611.31218) | math.LO |
-| 2026-11-23 | [Verifying the Outputs of PDE Solvers: From Finite Elements to Neural Surrogates](https://arxiv.org/abs/2611.31211) | math.NA |
-| 2026-11-23 | [Weighted Bergman projection in radial trees](https://arxiv.org/abs/2611.31182) | math.CA |
-| 2026-11-23 | [Common tiles from fractional tiles for two lattices](https://arxiv.org/abs/2611.31136) | math.CA |
-| 2026-11-23 | [Quantales Arising From Rings](https://arxiv.org/abs/2611.31109) | math.RA |
-| 2026-11-23 | [Rational extensions of the Ornstein-Uhlenbeck process](https://arxiv.org/abs/2611.31075) | math.CA |
-| 2026-11-23 | [A locally conservative LDG method for the evolutionary Navier-Stokes-Darcy coupled problem](https://arxiv.org/abs/2611.31073) | math.NA |
-| 2026-11-23 | [When Positivity Matters: Maximal Distance Integrals on Curves and Surfaces](https://arxiv.org/abs/2611.31045) | math.CA, math.NA |
-| 2026-11-23 | [AI-Assisted Auto-formalization for Trustworthy Scientific Computing: Case Studies and Lessons Learned](https://arxiv.org/abs/2611.31033) | math.NA |
-| 2026-11-23 | [Accurate Products, Inaccurate Inverse: Emulated FP64 BLAS in Blocked Triangular Inversion](https://arxiv.org/abs/2611.31030) | math.NA |
+| 2026-11-24 | [$S$-preclones and the Galois connection ${}^S\\mathrm{Pol}$-${}^S\\mathrm{Inv}$, Part II: Boolean $\\pm$-preclones](https://arxiv.org/abs/2611.33066) | math.RA |
+| 2026-11-24 | [An $A_1$ characterization of the boundedness of the maximal function on weighted variable Lebesgue spaces](https://arxiv.org/abs/2611.33058) | math.CA |
+| 2026-11-24 | [On Presburger Arithmetic Expanded with Prime Numbers](https://arxiv.org/abs/2611.32977) | math.LO |
+| 2026-11-24 | [Quantum-Inspired Tensor Train Spectral Solver for High-Resolution PDEs with Non-Periodic Boundary Conditions](https://arxiv.org/abs/2611.32968) | math.NA |
+| 2026-11-24 | [A robust Lagrangian-Eulerian Finite Volume scheme for intrinsic shallow water equations with wetting-and-drying transitions on locally discontinuous beds](https://arxiv.org/abs/2611.32949) | math.NA |
+| 2026-11-24 | [Higher-Order Moments of Correlated Multivariate Hermite Polynomials](https://arxiv.org/abs/2611.32929) | math.NA |
+| 2026-11-24 | [Three mixed-precision preconditioners for CholeskyQR](https://arxiv.org/abs/2611.32915) | math.NA |
+| 2026-11-24 | [An intrinsic kinematic wave model with conservative fluxes for overland flow on curved terrain](https://arxiv.org/abs/2611.32874) | math.NA |
+| 2026-11-24 | [Gorenstein symmetry can fail for noetherian rings](https://arxiv.org/abs/2611.32871) | math.RA |
+| 2026-11-24 | [An approach to topology via lattices of names](https://arxiv.org/abs/2611.32834) | math.LO |
 
 ## Methodology
 
