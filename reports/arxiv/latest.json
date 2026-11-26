@@ -1,223 +1,223 @@
 {
   "papers": [
     {
-      "arxiv_id": "2611.33066",
+      "arxiv_id": "2611.34851",
       "categories": [
         "math.RA"
       ],
-      "published": "2026-11-24T18:05:56Z",
-      "summary": "We continue the investigation of $S$-preclones initiated in Part I, specializing to the case of Boolean $\\pm$-preclones where $S = \\{+,-\\}$ is the two-element group and the base set is $A = \\{0,1\\}$. The main results include the complete classification of maximal and minimal Boolean $\\pm$-preclones in the lattice ${}^{\\pm}\\mathcal{L}_2$ of all Boolean $\\pm$-preclones. We prove that there are exactly nine maximal Boolean $\\pm$-preclones. Hence we obtain a completeness theorem for $\\pm$-preclones: a set of $\\pm$-operations generates all $\\pm$-operations if and only if it contains an operation that fails to preserve each of the nine defining $\\pm$-relations of the maximal $\\pm$-preclones. Next we classify the twenty minimal Boolean $\\pm$-preclones (atoms of the lattice), each described via a generating $\\pm$-operation. We also investigate self-dual $\\pm$-preclones, characterizing the eight maximal and nine minimal self-dual $\\pm$-preclones and proving a corresponding completeness theorem. Additionally, we include the result, due to Vojtěch David, that the lattice ${}^{\\pm}\\mathcal{L}_2$ is uncountable, in contrast with the countability of the classical Post lattice of Boolean clones. This is established by embedding an uncountable poset of clonoids into ${}^{\\pm}\\mathcal{L}_2$. Finally, we study preimage classes of classical Boolean clones within ${}^{\\pm}\\mathcal{L}_2$, providing complete descriptions for the unary case and for several non-unary minimal clones. We also prove a Baker--Pixley type theorem for $\\pm$-preclones containing the majority operation, showing that such $\\pm$-preclones are determined by their binary $\\pm$-relations.",
-      "title": "$S$-preclones and the Galois connection ${}^S\\mathrm{Pol}$-${}^S\\mathrm{Inv}$, Part II: Boolean $\\pm$-preclones",
-      "url": "https://arxiv.org/abs/2611.33066",
+      "published": "2026-11-25T18:25:03Z",
+      "summary": "We study Zappa--Szép products of multiplicative racks, namely monoids equipped with compatible rack operations. We characterize multiplicative rack structures on Zappa--Szép products of monoids and prove that every exact factorization of multiplicative racks induces a canonical exact factorization of their universal groups. We also establish exact factorizations of groups of units and cancellative quotients, show that reduction modulo units yields a direct product, and obtain consequences for Ore localization. We then generalize Bianchi's construction using augmentations from partially multiplicative racks into arbitrary multiplicative racks and establish a reconstruction theorem for multiplicative racks with suitable unital ideals. We investigate the interaction between unital ideals and exact factorizations, and characterize Zappa--Szép factorizations of generalized Bianchi-type multiplicative racks. Finally, we use a layered central-quotient construction to obtain finite and infinite non-cancellative multiplicative quandles with non-group factors and nontrivial Zappa--Szép actions, all directly indecomposable as monoids.",
+      "title": "On Zappa--Szép products of multiplicative racks",
+      "url": "https://arxiv.org/abs/2611.34851",
       "version": 1
     },
     {
-      "arxiv_id": "2611.33058",
-      "categories": [
-        "math.CA"
-      ],
-      "published": "2026-11-24T18:02:56Z",
-      "summary": "We characterize the boundedness of the Hardy-Littlewood maximal operator $M$ on weighted variable Lebesgue spaces for exponents satisfying $1<p_-\\le p_+<\\infty$. We show that $M$ is bounded on $L^{p(\\cdot)}_w$ if and only if the pair $(p(\\cdot),w)$ satisfies a variable Muckenhoupt condition and there exists $h\\in L^1$ such that $w^{-1}h^{1/p(\\cdot)}$ and $wh^{1/p'(\\cdot)}$ belong to $A_1$. This characterization is new even in the unweighted setting. To prove sufficiency, we use sparse domination together with a local modular averaging estimate whose error terms are summable over sparse families to $\\|h\\|_{L^1}$. Conversely, assuming $M$ is bounded, we construct $h$ using a simultaneous Rubio de Francia algorithm. To motivate this new characterization, we show that the strong Muckenhoupt condition, which characterizes the boundedness of $M$ in the unweighted case by a theorem of Diening, is not sufficient in the weighted setting. As applications, we give short proofs and extensions of known sufficient conditions.",
-      "title": "An $A_1$ characterization of the boundedness of the maximal function on weighted variable Lebesgue spaces",
-      "url": "https://arxiv.org/abs/2611.33058",
-      "version": 1
-    },
-    {
-      "arxiv_id": "2611.32977",
+      "arxiv_id": "2611.34850",
       "categories": [
         "math.LO"
       ],
-      "published": "2026-11-24T17:12:03Z",
-      "summary": "We prove unconditionally that the first-order theory of Presburger arithmetic expanded by a predicate for the primes is undecidable. Bateman, Jockusch and Woods proved this in 1993 assuming Dickson's conjecture. We use the counter-machine framework of Karimov, Nieuwveld and Ouaknine and their idea of using `arbitrary permutations', and the number-theoretic input comes from Hildebrand and Maier's 1988 proof that the limit points of $k$ consecutive normalised prime gaps have positive measure. We use a discrete version, which they obtain before limits are taken. The key lemma is that although Hildebrand and Maier's result does not seem to give arbitrary permutations of consecutive prime gaps, it gives arbitrary permutations for the differences $p_i - q_i$ for two finite blocks of consecutive primes $p_0 < \\cdots < p_k$ and $q_0 < \\cdots < q_k$. Moreover, with the same key lemma, we show that Presburger arithmetic expanded with the function that maps $n$ to the $n$th prime defines multiplication.",
-      "title": "On Presburger Arithmetic Expanded with Prime Numbers",
-      "url": "https://arxiv.org/abs/2611.32977",
+      "published": "2026-11-25T18:24:40Z",
+      "summary": "In $\\mathsf{ZF}+\\mathsf{DC}$, the strict Lipschitz order on proper countably complete filters on any fixed ordinal is well-founded. The proof uses transfinite recursion and closure under countable intersections to derive a contradiction from a descending chain. Restricting each filter to the least ordinal it contains yields a set-like well-founded order that compares filters on different ordinals. In $\\mathsf{ZF}$, two ultrafilters on the same ordinal are equal if each is nonexpansively reducible to the other. These results answer both parts of Question 9.2.11 in The Ultrapower Axiom.",
+      "title": "Well-foundedness of the strict Lipschitz order on countably complete filters",
+      "url": "https://arxiv.org/abs/2611.34850",
       "version": 1
     },
     {
-      "arxiv_id": "2611.32968",
+      "arxiv_id": "2611.34805",
       "categories": [
         "math.NA"
       ],
-      "published": "2026-11-24T17:05:00Z",
-      "summary": "Tensor train (TT) methods enable high-resolution computational mechanics simulations by exploiting low-rank structure in discretized fields and operators. While the superfast Fourier transform (SFFT) has enabled efficient TT-based spectral solvers for periodic problems, corresponding representations for non-periodic boundary conditions remain underexplored. We introduce the superfast cosine and sine transforms (SFCT and SFST), extending the TT spectral framework to homogeneous Neumann and Dirichlet boundary conditions, respectively. Building on a quantum-circuit construction of the discrete cosine and sine transforms, we derive both transforms from a shared TT operator representation and prove that their TT ranks are bounded by $6r_S$, independently of the discretization order, where $r_S$ is the rank of the SFFT at the prescribed accuracy. The measured ranks plateau near 32 for grid sizes up to $2^{26}$ points. For Rayleigh-Bénard convection, spectral pressure projection achieves up to a 7-fold speedup in the Poisson solve relative to a preconditioned physical-space TT solver while maintaining comparable accuracy. Three-dimensional computational homogenization achieves a 2-6-fold speedup and a 4-7-fold reduction in memory consumption compared with the existing TT-based approach. The results establish an efficient TT framework for spectral PDE solvers with non-periodic boundary conditions.",
-      "title": "Quantum-Inspired Tensor Train Spectral Solver for High-Resolution PDEs with Non-Periodic Boundary Conditions",
-      "url": "https://arxiv.org/abs/2611.32968",
+      "published": "2026-11-25T17:56:02Z",
+      "summary": "In order to bound approximation errors for deep neural networks, we split the problem into two steps: First the selection of optimal infinite width limits for each layer and second an optimal discretization of all layers to obtain finite sized networks. We show that in expectation, the latter problem is equivalently characterized by a layer wise generalization of Barron norms. Moreover, we provide an analysis of the optimization landscape and show that local minima are characterized by an equidistribution principle akin to similar ideas in adaptive spline and finite element approximation.",
+      "title": "Barron Smoothness for Layers in Deep Neural Networks",
+      "url": "https://arxiv.org/abs/2611.34805",
       "version": 1
     },
     {
-      "arxiv_id": "2611.32949",
+      "arxiv_id": "2611.34685",
       "categories": [
         "math.NA"
       ],
-      "published": "2026-11-24T16:52:14Z",
-      "summary": "In this work, we extend the Intrinsic Lagrangian-Eulerian Finite Volume method for the Intrinsic Shallow Water Equations (ISWE) to account for localized topographic discontinuities that influence flow patterns. The ISWE formulation is modified to incorporate these bottom perturbations without altering the global structure of the system. The numerical discretization is based on a Lagrangian-Eulerian Finite Volume scheme within an intrinsic geometric framework and consists of a Lagrangian evolution step followed by an Eulerian remapping onto a fixed reference grid. The combination of the intrinsic nature of the ISWE formulation and the dual Lagrangian-Eulerian structure of the proposed discretization yields a numerical method that naturally satisfies the three key properties essential for stability, accuracy, and robustness: well-balancing for preservation of the lake-at-rest equilibrium over irregular bathymetry; wetting-and-drying, enabling robust tracking of moving fluid boundaries; and hyperbolicity guaranteeing consistency with the system wave propagation and stability constraints. Numerical experiments on curved two-dimensional surfaces with localized bottom discontinuities demonstrate the accuracy and robustness of the method, including accurate long-time velocity computations in near-dry conditions and transitions between wet and dry states.",
-      "title": "A robust Lagrangian-Eulerian Finite Volume scheme for intrinsic shallow water equations with wetting-and-drying transitions on locally discontinuous beds",
-      "url": "https://arxiv.org/abs/2611.32949",
+      "published": "2026-11-25T16:46:53Z",
+      "summary": "We propose and analyze a fully discrete Crank-Nicolson finite-difference scheme for one-dimensional quasilinear Hamiltonian Gross-Pitaevskii equations with homogeneous Neumann boundary conditions. We establish the existence and uniqueness of numerical solutions and an $H^1$-stability estimate. For sufficiently regular exact solutions, we obtain second-order convergence in both time and space in the discrete $H^1$-norm. The analysis covers the focusing and defocusing cubic nonlinearities and both signs of the quasilinear coefficient $κ$, under a uniform discrete ellipticity condition when $κ<0$. The main difficulty in the error analysis comes from the derivatives introduced by the quasilinear interaction. To overcome this problem, we introduce a discrete action combining the discrete energy and mass, and establish a coercivity inequality in the discrete $H^1$-norm that allows us to control the numerical error. Together with consistency estimates and a discrete Gronwall inequality, this yields second-order convergence. Numerical experiments with bright solitons corroborate the predicted convergence rates.",
+      "title": "Numerical analysis of a conservative Crank-Nicolson scheme for quasilinear Gross-Pitaevskii equations",
+      "url": "https://arxiv.org/abs/2611.34685",
       "version": 1
     },
     {
-      "arxiv_id": "2611.32929",
+      "arxiv_id": "2611.34621",
       "categories": [
         "math.NA"
       ],
-      "published": "2026-11-24T16:37:12Z",
-      "summary": "Stochastic Galerkin methods reformulate a differential equation with uncertain parameters as a deterministic surrogate system by writing the solution as a series of polynomial basis functionals and projecting onto the parameter space. Given correlated Gaussian parameters, Rahman (2017) established solution convergence when the basis functionals are multivariate Hermite polynomials (MHPs), which is the setting considered here. Each term of the original equation contributes coefficients to the surrogate system, which we call the $N$th moments, that are expectations of products of the basis polynomials. Since the parameters are dependent, the $N$th moments do not factor into one-dimensional expectations via tensorization as they do in the independent case; consequently, their values are typically determined numerically at a nontrivial and compounding cost. Namely, the number of $N$th moments that emerge grows combinatorially with parameter dimension and truncation order. In this paper, we first relate MHPs and slowly growing functions --- which are smooth functions whose derivatives of all orders grow at most polynomially --- in correlated Gaussian parameters. In doing so, we derive an expression for the $N$th moment of an MHPs in terms of $(N-1)$th moments that can be evaluated exactly, along with sufficient conditions for the $N$th moment to vanish. Numerical examples illustrate the benefit of evaluating such moments directly without numerical approximation and confirm that formula-predicted values match sampling-based estimates.",
-      "title": "Higher-Order Moments of Correlated Multivariate Hermite Polynomials",
-      "url": "https://arxiv.org/abs/2611.32929",
+      "published": "2026-11-25T16:08:57Z",
+      "summary": "In this work, we consider a parameterized version of the classical wave equation that models wave propagation in damaged material. We apply model order reduction to the wave equation using a reduced basis method with the POD-Greedy algorithm. The success of the model order reduction highly depends on the parameter set used in the POD-Greedy algorithm. While a larger parameter set leads to more insight on the behavior of the full order model, it also prolongs the reduction process in the offline phase for constructing the reduced basis. Therefore, subsampling strategies based on Discrete Empirical Interpolation Method, pivoted QR decomposition and Polytope Division Method are applied.",
+      "title": "Parameter selection procedures for model reduction of a parameterized wave propagation in damaged material",
+      "url": "https://arxiv.org/abs/2611.34621",
       "version": 1
     },
     {
-      "arxiv_id": "2611.32915",
+      "arxiv_id": "2611.34530",
       "categories": [
         "math.NA"
       ],
-      "published": "2026-11-24T16:31:54Z",
-      "summary": "CholeskyQR is an orthogonalization algorithm particularly well suited to modern computing architectures, but it may fail to produce numerically orthonormal columns when applied to ill-conditioned matrices. A customary solution is to first reduce the condition number of the input matrix by means of a preconditioner, and then apply CholeskyQR to the preconditioned matrix. We propose three mixed-precision techniques for constructing such preconditioners: mpSCQR, based on a shifted Cholesky factorization; mpEVDQR, based on the eigendecomposition; and mpLUCQR, based on a pivoted LU factorization. We prove bounds on the condition number of the matrix after mpSCQR, mpLUCQR, or a shifted variant of mpEVDQR has been applied. Our experiments compare the proposed preconditioners with existing deterministic and randomized alternatives. The results suggest that mpEVDQR and mpLUCQR can be substantially faster than traditional shiftedCholeskyQR, with mpLUCQR attaining performance comparable to that of the most efficient randomized preconditioners.",
-      "title": "Three mixed-precision preconditioners for CholeskyQR",
-      "url": "https://arxiv.org/abs/2611.32915",
+      "published": "2026-11-25T15:15:20Z",
+      "summary": "Kernel-based multilevel methods combine compactly supported radial basis functions with a residual correction scheme and are known to converge linearly in the number of levels. In this paper we study an adaptive version of the multilevel method, in which the interpolation on each level only uses those sites at which the residual of the preceding level exceeds a given threshold. Although this method has been proposed some time ago and converges in all numerical tests, a convergence proof has been missing so far. We close this gap. We derive an a priori error bound, an a posteriori error bound valid for arbitrary point selections, and extend the analysis to penalized least-squares approximation and to target functions outside the native space of the kernel. For a variant with an additional check-loop per level, we show convergence with the rate of the classical multilevel method. We illustrate our findings with three numerical examples.",
+      "title": "Convergence of Residual-driven Adaptive Kernel-based Multilevel Approximation",
+      "url": "https://arxiv.org/abs/2611.34530",
       "version": 1
     },
     {
-      "arxiv_id": "2611.32874",
+      "arxiv_id": "2611.34506",
       "categories": [
         "math.NA"
       ],
-      "published": "2026-11-24T16:07:44Z",
-      "summary": "Kinematic wave models, the simplest surface flow models, route overland flow by gravity alone and there is no pressure or inertial term to redistribute flow when the resulting velocities misroute it. Computed from piecewise-linear elevation data, this velocity jumps across the edges of the mesh: two neighboring cells can push water into each other, and the scheme can hold water in ponds that the terrain does not contain, or concentrate it where the data do not. We formulate the model intrinsically on the bed surface, with the depth normal to the bed as unknown, and obtain a single-valued edge velocity, in the unique edge frame of the intrinsic geometry, by correcting the raw cell field with the star-based conservative flux of Larson and Niklasson. Because the field is derived from data rather than from a Galerkin solution, the local problems are solvable only with a compatible load, the weak discrete divergence of the field being corrected, which for the slope is a discrete mean curvature of the terrain. With a Neumann boundary, every element is conservative, and the corrected field reproduces the cell average of the nodal divergence of the raw field, plus the divergence resolved inside the curved cells. Since any single-valued flux conserves mass, the correction is about consistency and robustness: the steady state of the upwind scheme solves an M-matrix system exactly when every cell drains to an outlet, and spurious ponds are closed classes of a transfer directed graph, computable before any simulation. Four rainfall tests, from a plane to a real catchment, are designed to verify the difference in storage and timing between the intrinsic and the classical form, the effect of the mesh on the consistency of the edge velocity, the robustness at a degenerate stationary point, and the application to terrain data.",
-      "title": "An intrinsic kinematic wave model with conservative fluxes for overland flow on curved terrain",
-      "url": "https://arxiv.org/abs/2611.32874",
+      "published": "2026-11-25T14:57:22Z",
+      "summary": "For a matrix $U \\in \\mathbb{R}^{n \\times k}$ ($n \\ge k$) with orthonormal columns, the Goreinov--Tyrtyshnikov--Zamarashkin (GTZ) conjecture asserts that there exists a $k \\times k$ submatrix $U_I$ with $\\|U_I^{-1}\\|_2 \\le \\sqrt{n}$. The conjecture remains open for $3 \\le k \\le n - 3$. The existence of such a submatrix in the case $k = 2$ was proved for $n=4$ by Nesterenko (2023) and recently for general $n$ by Sengupta and Pautov (2026). In this paper, we give a short, elementary, constructive proof of a weighted strengthening of this result, which yields a single-pass streaming algorithm that selects a row pair satisfying the $\\sqrt{n}$ bound in $\\mathcal O(n)$ operations and $\\mathcal O(1)$ auxiliary memory. We further give an explicit matrix representation of all equality cases for $k = 2$ characterized by Nesterenko (2026) and use it to construct a single matrix family on which standard selection strategies (including global and local maximum-volume selection, Bischof--Stewart pivoted QR, column-pivoted QR, and LU with partial pivoting) simultaneously fail to attain the $\\sqrt{n}$ bound.",
+      "title": "Selecting $2 \\times 2$ submatrices with optimally bounded inverses",
+      "url": "https://arxiv.org/abs/2611.34506",
       "version": 1
     },
     {
-      "arxiv_id": "2611.32871",
+      "arxiv_id": "2611.34409",
       "categories": [
         "math.RA"
       ],
-      "published": "2026-11-24T16:06:35Z",
-      "summary": "We construct a two-sided noetherian ring $A$ which has injective dimension $1$ as a left module over itself and infinite injective dimension as a right module over itself. This shows that Gorenstein symmetry can fail for two-sided noetherian rings. It is further shown that there is such an example over any field of characteristic different than $2$, that it has a dualizing complex, and that its derived category of right modules does not satisfy injective-generation in the sense of Rickard-Keller.",
-      "title": "Gorenstein symmetry can fail for noetherian rings",
-      "url": "https://arxiv.org/abs/2611.32871",
+      "published": "2026-11-25T14:04:41Z",
+      "summary": "We investigate the behaviour of simple finite-dimensional Lie algebras under finite Galois field extensions. Given a simple Lie algebra $L$ over a field $\\mathbb{F}$ and a finite Galois extension $\\mathbb{K}/\\mathbb{F}$ of degree $n = [\\mathbb{K}:\\mathbb{F}]$, we prove that if $L$ is isomorphic to a $\\mathbb{K}$-Lie algebra $S$ viewed as an $\\mathbb{F}$-algebra, then the scalar extension $L \\otimes_{\\mathbb{F}} \\mathbb{K}$ is isomorphic to the direct sum of $n$ copies of $S$. Furthermore, for cyclic extensions of order a prime number, we show that if no such $\\mathbb{K}$-Lie algebra $S$ exists, the extended algebra $L \\otimes_{\\mathbb{F}} \\mathbb{K}$ remains simple. This framework provides a general mechanism to transfer structural and classification results across different ground fields. In addition, we examine the centroids of simple Lie algebras, proving that the dimension of the space of centroids is invariant under finite field extensions. As an application, we explicitly determine the structure of the spaces of centroids for simple Lie algebras over finite fields.",
+      "title": "Galois scalar extension of simple Lie algebras",
+      "url": "https://arxiv.org/abs/2611.34409",
       "version": 1
     },
     {
-      "arxiv_id": "2611.32834",
-      "categories": [
-        "math.LO"
-      ],
-      "published": "2026-11-24T15:48:57Z",
-      "summary": "Synthetic topology encompasses various alternatives to the classical definition of a topological space by Hausdorff. In particular, Abstract Stone Duality (ASD) develops the theory of locally compact spaces directly from logic. This study introduces a semi-formal theory of synthetic topology using a first-order version of the intuitionistic modal logic iS4, inspired by a nominalist, dynamic interpretation of the specialization order. The remarkable similarities to ASD include a constructive interpretation of the open-closed duality, overtness of the line, compactness of the unit interval and the nuclei that define closed and open subspaces.",
-      "title": "An approach to topology via lattices of names",
-      "url": "https://arxiv.org/abs/2611.32834",
-      "version": 1
-    },
-    {
-      "arxiv_id": "2611.32827",
-      "categories": [
-        "math.CA"
-      ],
-      "published": "2026-11-24T15:41:10Z",
-      "summary": "We study strong $r$-variation estimates for the free Schrödinger equation on $\\mathbb R^n$, $n\\geq3$. Combining fractal and weighted restriction estimates with mixed space--time estimates, we determine the sharp Sobolev regularity, up to endpoints, in several ranges of the spatial exponent $p$ and the variation exponent $r$. In particular, our results give a sharp $L^2(\\mathbb R^n)$ variational extension of the Schrödinger maximal estimate of Du and Zhang [\\emph{Ann. of Math.}, \\textbf{189}, 837--861 (2019)].",
-      "title": "Sharp variational estimates for Schrödinger equation in higher dimensions",
-      "url": "https://arxiv.org/abs/2611.32827",
-      "version": 1
-    },
-    {
-      "arxiv_id": "2611.32666",
+      "arxiv_id": "2611.34374",
       "categories": [
         "math.RA"
       ],
-      "published": "2026-11-24T14:16:02Z",
-      "summary": "We form a hexagonal prism from two six-cycles and iterate a doubling construction with a fixed positive integer edge multiplicity, producing a family of indefinite Kac--Moody algebras. The prism's spectrum determines the exact corank of every algebra in the family. Along each nonvanishing parity class, the corank grows exponentially, while its ratio to the matrix size tends to zero. For the twelve-node algebra we identify the two central directions, describe the first two graded levels, and characterize the integral central charges of its unitary highest-weight modules.",
-      "title": "A Systematic Construction of High-Corank Kac--Moody Algebras",
-      "url": "https://arxiv.org/abs/2611.32666",
+      "published": "2026-11-25T13:37:16Z",
+      "summary": "We determine which members of the twenty-six families of double extension regular algebras of type $(14641)$ in the Zhang--Zhang classification satisfy a polynomial identity. Retaining the scalar twist parameter, we compute the PI degree for twenty-one of the twenty-two families with PI members and give three possibilities for the remaining family. We establish exact primitivity criteria for the nondegenerate members of eight families and show that sixteen families have no primitive members. The proofs use monomial data, normal subalgebras and crossed products of quantum tori. Twisting by a root of unity preserves the PI property, whereas finite order of the double-extension determinant is necessary but not sufficient for an algebra in the list to be PI.",
+      "title": "Polynomial identities and primitivity in double extension regular algebras of type (14641)",
+      "url": "https://arxiv.org/abs/2611.34374",
       "version": 1
     },
     {
-      "arxiv_id": "2611.32577",
-      "categories": [
-        "math.CA"
-      ],
-      "published": "2026-11-24T13:19:44Z",
-      "summary": "We prove that every quasicircle $Γ\\subset\\mathbb{C}$ admits an optimal admissible polynomial mesh for univariate complex polynomials. More precisely, if $E$ denotes the closed Jordan domain bounded by $Γ$, then for every $Λ>1$ there are finite sets $A_n\\subsetΓ$ with $\\mathrm{card}(A_n)=O(n)$ and $\\|p\\|_E=\\|p\\|_Γ\\leqΛ\\|p\\|_{A_n}$ for every $p\\in\\mathcal{P}_n(\\mathbb{C})$. The nodes may be chosen as images of equally spaced points of the unit circle under the inverse exterior conformal map, equivalently as equal-mass points for harmonic measure at infinity. The proof combines the classical conformal level-curve scale with a discrete norming principle. If $ρ_n(z)$ denotes the distance from a boundary point to the exterior level curve $|Φ|=1+1/n$, Bernstein--Walsh and Cauchy's formula show that any sufficiently fine $ρ_n$-net is norming. A scale-comparison property then turns $O(n)$ equally spaced angular samples into such a net. Quasicircles satisfy this property by quasisymmetry. The argument requires no smoothness or rectifiability and applies in particular to the classical von Koch snowflake.",
-      "title": "Optimal polynomial meshes on quasicircles via conformal scale comparison",
-      "url": "https://arxiv.org/abs/2611.32577",
-      "version": 1
-    },
-    {
-      "arxiv_id": "2611.32492",
-      "categories": [
-        "math.CA"
-      ],
-      "published": "2026-11-24T12:18:14Z",
-      "summary": "We consider the heat-diffusion semigroup related to expansions with respect to an orthogonal system emerging by taking arbitrary finite tensor products of classical Hermite, Laguerre and Jacobi polynomials. Our main result is the weak type $(1,1)$ estimate for the associated maximal operator. This implies pointwise almost everywhere boundary convergence of the semigroup to initial values for all initial conditions that are integrable against the orthogonality measure.",
-      "title": "On the maximal operator of the hybrid Hermite-Laguerre-Jacobi semigroup",
-      "url": "https://arxiv.org/abs/2611.32492",
-      "version": 1
-    },
-    {
-      "arxiv_id": "2611.32486",
+      "arxiv_id": "2611.34294",
       "categories": [
         "math.RA"
       ],
-      "published": "2026-11-24T12:13:26Z",
-      "summary": "Let $R$ be a Gorenstein ring with left and right self-injective dimensions $n$. We prove that the last term of a minimal injective resolution of $_RR$ has an essential socle. It answers an open question of Iwanaga and Sato. As a consequence, we get that for any left $R$-module $M$ with injective dimension $n$, the last term of a minimal injective resolution of $M$ also has an essential socle.",
-      "title": "The socle of the last term in a minimal injective resolution II",
-      "url": "https://arxiv.org/abs/2611.32486",
+      "published": "2026-11-25T12:48:05Z",
+      "summary": "We study a class of not necessarily normalized generalized cluster patterns which are uniquely determined by the initial seed and mutations. For such generalized cluster patterns, we provide the separation formulas for cluster variables and coefficients.",
+      "title": "Separation formulas for non-normalized generalized cluster algebras",
+      "url": "https://arxiv.org/abs/2611.34294",
       "version": 1
     },
     {
-      "arxiv_id": "2611.32470",
-      "categories": [
-        "math.CA"
-      ],
-      "published": "2026-11-24T12:01:54Z",
-      "summary": "We study Hardy and BMO spaces associated with the Laplacian with drift. We define an atomic Hardy space $H^1$ whose atoms satisfy cancellation against constants and linear functions in directions perpendicular to the drift. We prove the John--Nirenberg inequality, Hardy--BMO duality, equivalence of finite and infinite atomic norms, and interpolation theorems. We show that the Riesz transforms and their adjoints are bounded from $H^1$ to $L^1$ and from $L^\\infty$ to BMO. Moreover, we prove that the cancellation conditions are optimal, but the Riesz transforms do not characterize $H^1$. We also characterize the $L^p$ boundedness of their commutators, $1<p<\\infty$, in terms of local BMO.",
-      "title": "Hardy and BMO spaces for the Laplacian with drift",
-      "url": "https://arxiv.org/abs/2611.32470",
-      "version": 1
-    },
-    {
-      "arxiv_id": "2611.32454",
+      "arxiv_id": "2611.34245",
       "categories": [
         "math.RA"
       ],
-      "published": "2026-11-24T11:48:43Z",
-      "summary": "We determine the even and odd derivations of the 91 entries in Gilg's classification list of complex filiform Lie superalgebras of superdimensions (2|2), (2|3), (2|4), (3|2), (3|3), (4|2), (5|2) and (6|2). A unified linear system yields explicit matrix parametrizations and the dimensions of both homogeneous components of the derivation superalgebra. The results are given in block-matrix form.",
-      "title": "Derivations of Low-Dimensional Filiform Lie Superalgebras",
-      "url": "https://arxiv.org/abs/2611.32454",
+      "published": "2026-11-25T12:08:59Z",
+      "summary": "We introduce the square order $\\le^\\square$ on group invertible matrices, defined by $A^3=ABA$ and $A\\le^s B$, where $\\le^s$ is the space pre-order. It is the group inverse analogue of the diamond order: $A\\le^\\square B$ if and only if $A^\\#\\le^- B^\\#$. Using its block representation, we characterize the reverse order law $(AB)^\\#=B^\\#A^\\#$ for $A\\le^\\square B$. In contrast to the Moore--Penrose case, the conditions $A\\le^- B$ and $(B-A)^\\#=B^\\#-A^\\#$ do not characterize the sharp order; instead, they lead to new partial orders between the sharp and square orders. We also develop a framework where the plus order replaces the minus order in Mitra's unified theory. For a map $\\mathcal G$ assigning to each matrix $A$ a subset of its inner inverses, we define $A\\le^{\\mathcal G}_{+}B$ if $A\\le^s B$ and $A=PBQ$ for some pair $(P,Q)=(AA^-,A^-A)$, $A^-\\in\\mathcal G(A)$, whereas Mitra's relation requires $A=PB=BQ$, and $A\\preceq^{\\mathcal G}_{+}B$ if $A\\le^s B$ and $A^-\\le^-B^-$ for some reflexive $A^-\\in\\mathcal G(A)$ and $B^-\\in\\mathcal G(B)$. When $\\mathcal G(A)$ consists of a single reflexive inverse, we characterize the transitivity of $\\le^{\\mathcal G}_{+}$ in terms of $\\preceq^{\\mathcal G}_{+}$, and in general we give a sufficient condition for both to be partial orders. For maps defined by the equations of the Moore--Penrose, group, core and dual core inverses, both relations coincide and only nine arise: the plus, diamond and square orders, two new orders based on core inverses, and four further relations. In Mitra's theory, they yield exactly the minus, star, sharp, core and dual core orders and the one-sided star and sharp orders.",
+      "title": "A square analogue of the diamond order and a unified approach to the plus order",
+      "url": "https://arxiv.org/abs/2611.34245",
       "version": 1
     },
     {
-      "arxiv_id": "2611.32320",
+      "arxiv_id": "2611.34109",
       "categories": [
         "math.LO"
       ],
-      "published": "2026-11-24T10:14:04Z",
-      "summary": "Alpha-beta pruning is a fundamental technique in game-playing AI, enabling efficient minimax search by avoiding the exploration of branches that cannot affect the optimal decision. We present a monadic formulation of alpha-beta pruning based on the combination of the continuation monad and the reader monad. Unlike previous approaches that encode alpha-beta bounds into the types of available moves, our construction records these bounds within monadic outcomes, leaving the move types unchanged. We further show that the ordinary continuation monad suffices to compute not only optimal outcomes but also optimal plays, by extending the outcome type to include the corresponding sequences of moves. This provides an alternative to generalisations of the continuation monad proposed to address the inefficiencies associated with the selection monad in alpha-beta search. We illustrate our approach with an implementation of Tic-Tac-Toe, observing a 39-fold reduction in the number of plays evaluated, compared with exhaustive search, in computing an optimal play. Finally, we formally establish the correctness of our construction by proving that the monadic alpha-beta search computes the same optimal outcomes and plays as exhaustive minimax search. Our results demonstrate how a foundational algorithm in AI can be expressed and verified using standard monadic abstractions, providing a basis for further development of compositional approaches to adversarial search.",
-      "title": "Alpha-Beta Pruning via Monadic Continuations",
-      "url": "https://arxiv.org/abs/2611.32320",
+      "published": "2026-11-25T10:12:49Z",
+      "summary": "We identify a class of forcings that includes several classical forcings and prove that for all forcings $\\mathbb{P}$ in this class the associated equivalence of generics relation $\\equiv^{\\mathbb{P}}_M$, as defined by Smythe, is a hyperfinite CBER.",
+      "title": "A family of forcings with hyperfinite equivalence of generics",
+      "url": "https://arxiv.org/abs/2611.34109",
       "version": 1
     },
     {
-      "arxiv_id": "2611.32205",
+      "arxiv_id": "2611.33980",
       "categories": [
-        "math.LO"
+        "math.CA"
       ],
-      "published": "2026-11-24T08:51:14Z",
-      "summary": "Recall that $\\mathsf{IOpen}$ denotes the theory of quantifier-free induction in the pure arithmetic language. In this paper, we consider an extension of $\\mathsf{IOpen}$ in the arithmetical language expanded by the unary function $\\exp: x \\mapsto 2^x$, obtained by adding certain simple universal axioms for $\\exp$, namely, $$\\exp(1) = 2, \\quad \\exp(x + y) = \\exp(x) \\exp(y), \\quad \\exp(x) > x.$$ We prove that this theory is $Π_1$-conservative over $\\mathsf{IOpen}$ and $\\forall$-conservative over the theory of discretely ordered $\\mathbb Z$-semirings. This result extends a result of A. Wilkie and provides a partial answer to a question of E. Jeřábek concerning the strength of the theory of exponential integer parts.",
-      "title": "Some conservativity results for weak arithmetic theories in a language with exponentiation",
-      "url": "https://arxiv.org/abs/2611.32205",
+      "published": "2026-11-25T08:40:37Z",
+      "summary": "Given a set of directions $Ω$, we investigate whether the associated directional maximal operator $M\\_Ω$ is bounded on $L^p(\\RR^2)$, for $p>1$. One can associate to $Ω$ a numerical quantity called its \\textit{Perron capacity}. If the latter is finite, then $M\\_Ω$ is unbounded on $L^p(\\RR^2)$ for $p \\geq 1$. In this paper, we generalize a method introduced by D'Aniello, Gauvan and Moonens to compute the Perron capacity of oscillatory sets of directions such as \\[ Ω\\_{\\mathrm{cos}} = \\left \\{\\frac{\\cos (n)}{n}\\,: n \\in \\NN^*\\right \\}. \\] In a second part, using geometric arguments, we show that if the Minkowski dimension of $Ω$ is positive, then $M\\_Ω$ is unbounded on $L^p(\\RR^2)$ for a small range of $p>1$.",
+      "title": "Necessary conditions for the boundedness of directional maximal operators",
+      "url": "https://arxiv.org/abs/2611.33980",
       "version": 1
     },
     {
-      "arxiv_id": "2611.31809",
+      "arxiv_id": "2611.33907",
+      "categories": [
+        "math.CA"
+      ],
+      "published": "2026-11-25T07:27:27Z",
+      "summary": "Petermichl's theorem represents the Hilbert transform by averaging a single dyadic shift over dilations and random dyadic lattices. We study how the deformation stability of the lattice-averaged shift, and of a parameter-free feature map $Φ$ built from it in the spirit of Mallat's wavelet scattering, depends on the number $J+1$ of scales. For the Haar generator as well as compactly supported $C^1$ orthonormal wavelets, the covariance error under a deformation $f\\mapsto f(\\cdot-τ(\\cdot))$ is $O((J+1)\\norm{τ'}_\\infty\\norm f)$ without a $\\normτ_\\infty$ term, because lattice averaging absorbs the translation part of $τ$ exactly. The deformation defect splits into a first-order Calderón commutator, bounded uniformly in $J$ by the $T(1)$ theorem, and a second-order remainder. On a single lattice, affine warps and $C^{1,δ}$ generators give a lower bound $c\\,σ_\\eps\\sqrt{J+1}-C\\eps$ for the defect, with an explicit constant $σ_\\eps\\ge0$ computed to be positive for sym4 and db4 at three values of $\\eps$. Averaging over lattices turns the defect into a Fourier-multiplier quadratic form, yielding $J$-uniform bounds both for affine warps, with a logarithmic loss in the Haar case, and for $C^2$ warps with $C^{1,δ}$ generators, and hence a scale-uniform Mallat-type stability estimate for $Φ$. With the standard child pair, the Hilbert component of the averaged shift nearly cancels for smooth Daubechies-type generators; re-indexing the children by integers restores this component. For Haar and general warps, numerical computations agree with a conjectured $J$-uniform bound.",
+      "title": "Random dyadic shift scattering: scale-uniform deformation stability and phase-aligned Hilbert multipliers",
+      "url": "https://arxiv.org/abs/2611.33907",
+      "version": 1
+    },
+    {
+      "arxiv_id": "2611.33838",
       "categories": [
         "math.LO"
       ],
-      "published": "2026-11-24T01:59:36Z",
-      "summary": "We construct a topos for Borel mathematics: statements which are true in Borel mathemaics correspond in a precise way to statements which are true in the internal logic of this topos. We investigate several other properties of this topos, including proving that it satisfies a Borel analogue of the Church-Turing thesis: the statement that every function on a standard Borel space is Borel. We also show that an earlier construction of a similar \"Borel topos\" by van Osdol does not suit these purposes because of an error in that paper.",
-      "title": "The Borel Topos",
-      "url": "https://arxiv.org/abs/2611.31809",
+      "published": "2026-11-25T06:07:06Z",
+      "summary": "What does the topos of a higher-dimensional automaton know about its infinite behaviour that its language does not? We write partial HDAs with an infinite run as models of a geometric theory over an intuitionistic metatheory with no choice. The topos of a machine is that of sheaves on its prefixes. The label word of a prefix records the shape and acceptance bit of each cell with the ipomset of each step. Under unique choice these words give a geometric morphism to the label topos of sheaves on label words, which thus records the shapes and acceptance bits that the Büchi language forgets. Machines sharing their Büchi language and their frames can differ over the label topos. The bouquet of two squares shares its frame and its Büchi language with the interleaved square; each accepted run of either reads the two events in parallel forever. Only the interleaved square has runs through cells of shape a, and the geometric sequent excluding such runs separates the two over the label topos. Over alphabets with decidable equality, finite rigid machines are unambiguous exactly when their label maps are inclusions of locales, and their equivalence over the label topos is decided whenever either is unambiguous. Equivalences of frames over the label topos transport points with their labels, and the invariants of fibres and of the language of points follow from this transport. On finite partial HDAs over alphabets with decidable equality, Muller and Büchi acceptance coincide exactly under a weak form of excluded middle.",
+      "title": "Higher-Dimensional Automata in Geometric Logic",
+      "url": "https://arxiv.org/abs/2611.33838",
+      "version": 1
+    },
+    {
+      "arxiv_id": "2611.33783",
+      "categories": [
+        "math.CA"
+      ],
+      "published": "2026-11-25T05:09:51Z",
+      "summary": "In this article, we establish an oscillatory sparse domination for the bilinear forms associated with Calderón-Zygmund operators. We further characterize this oscillatory sparse domination in terms of either the boundedness of $T1$ or local endpoint Orlicz norm estimates. Our method also applies to recover Lerner's Sobolev-type inequality in \\cite{L2026}.",
+      "title": "A sparse bilinear form with mean oscillations",
+      "url": "https://arxiv.org/abs/2611.33783",
+      "version": 1
+    },
+    {
+      "arxiv_id": "2611.33608",
+      "categories": [
+        "math.CA"
+      ],
+      "published": "2026-11-25T01:29:05Z",
+      "summary": "The martingale averaged Fourier extension theorem holds for the paraboloid in n dimensions on the Knapp line. Using embedding and interpolation, this gives the complete range of possible exponents (the diagonal case p=q was obtained in [Saw7] using smooth Alpert wavelets instead). OpenAI has recently announced proofs of the deterministic analogue on the diagonal p=q [Ope] and of the local smoothing conjecture [OpeLS], in all dimensions. Since a deterministic estimate at a point on the Knapp line implies the probabilistic one there, the point of the present paper is a short, elementary and self-contained proof of the probabilistic estimate, which uses no Kakeya-type input. We give an application of the probabilistic Knapp theorem to the global initial value problem for the Schrödinger equation, in which we obtain sharp regularity results averaged over martingale transforms of the initial data f.",
+      "title": "Martingale averages, Fourier extension and the Schrödinger equation",
+      "url": "https://arxiv.org/abs/2611.33608",
+      "version": 1
+    },
+    {
+      "arxiv_id": "2611.33530",
+      "categories": [
+        "math.LO"
+      ],
+      "published": "2026-11-24T23:16:05Z",
+      "summary": "We prove that all abstract classes equipped with an independence relation satisfying a mild local character condition are stable. We obtain the result by using methods from model theory and set theory. We have several applications in the context of abstract classes of modules. In particular, we prove that if $K$ is a class of $R$-modules closed under isomorphisms and pure submodules and $λ^{\\operatorname{card}(R) + \\aleph_0} = λ$, then $K$ equipped with pure embeddings is stable in $λ$.",
+      "title": "Stability in abstract classes via set theoretic techniques",
+      "url": "https://arxiv.org/abs/2611.33530",
+      "version": 1
+    },
+    {
+      "arxiv_id": "2611.33401",
+      "categories": [
+        "math.CA"
+      ],
+      "published": "2026-11-24T20:20:48Z",
+      "summary": "We prove that, for every fixed s\\in (0,\\infty), the set of area s maximizing the weighted sum of the first two eigenvalues of the associated Toeplitz operators on the Fock space must be a disc, up to translations and sets of measure zero. To do so, we first prove the existence of maximizer sets. Then we show that every maximizer set must be a perturbation of a disc when the weight is sufficiently small. Finally, we use the vector-valued version of the analytic implicit function theorem and the inverse function theorem to conclude that the perturbation must vanish when the weight tends to zero.",
+      "title": "A Perturbative Two-Eigenvalue Faber-Krahn Problem for the Gaussian Short-Time Fourier Transform",
+      "url": "https://arxiv.org/abs/2611.33401",
+      "version": 1
+    },
+    {
+      "arxiv_id": "2611.33345",
+      "categories": [
+        "math.LO"
+      ],
+      "published": "2026-11-24T19:30:39Z",
+      "summary": "We introduce $\\mathrm{G3QRC}_1$, the first Gentzen-style sequent calculus for Borges and Joosten's Quantified Reflection Calculus ($\\mathrm{QRC}_1$). As a strictly positive, first-order modal logic, $\\mathrm{QRC}_1$ crucially escapes Vardanyan's $Π^0_2$-completeness theorem for quantified provability logic, while remaining arithmetically complete with respect to Peano and Heyting Arithmetic. The central innovation of $\\mathrm{G3QRC}_1$ is a pair of context-erasing modal rules that simultaneously account for the monotonicity and transitivity axioms by deliberately discarding parametric context across modal boundaries. This structural bottleneck allows for a clean proof of cut-admissibility via a standard lexicographic induction, circumventing the complex loop-checking typically required for provability logics. Cut admissibility yields an instantiated subformula property and supports a direct canonical proof of the finite model property. We streamline the adequate Kripke semantics by interpreting constants globally. We also establish a split-context Craig interpolation theorem and a contextual form of left uniform interpolation, uniformly eliminating private predicate symbols, constants, and free parameters. Finally, by leveraging the rigid structural constraints of the context-erasing rules and the absence of left-branching connectives, we prove that, over the standard fixed countable signatures specified in the paper, the decision problem for $\\mathrm{QRC}_1$ is $\\mathbf{NP}$-complete, situating this quantified modal logic in a comparatively low nondeterministic complexity class.",
+      "title": "A Sequent Calculus for the Quantified Reflection Calculus $\\mathrm{QRC}_1$: Cut-Elimination, Interpolation, and NP-Completeness",
+      "url": "https://arxiv.org/abs/2611.33345",
       "version": 1
     }
   ],
